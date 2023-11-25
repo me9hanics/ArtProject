@@ -1,0 +1,5 @@
+For the Art500k dataset:
+
+
+For the WikiArt dataset:
+-Add years for each artist
