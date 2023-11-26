@@ -87,19 +87,17 @@ wa_paintings.head() #Consider dropping style: "Unknown"
 
 <div class="output execute_result" execution_count="3">
 
-              artist                           style               genre  \
-    0  Andrei Rublev  Moscow school of icon painting  religious painting   
-    1  Andrei Rublev  Moscow school of icon painting  religious painting   
-    2  Andrei Rublev  Moscow school of icon painting           miniature   
-    3  Andrei Rublev  Moscow school of icon painting  religious painting   
-    4  Andrei Rublev  Moscow school of icon painting           miniature   
+              artist                           style               genre            movement                                               tags  
+   
+    0  Andrei Rublev  Moscow school of icon painting  religious painting       0  Byzantine Art  ['Christianity', 'saints-and-apostles', 'angel...  
 
-            movement                                               tags  
-    0  Byzantine Art  ['Christianity', 'saints-and-apostles', 'angel...  
-    1  Byzantine Art  ['Christianity', 'Old-Testament', 'Daniel', 'p...  
-    2  Byzantine Art  ['Christianity', 'saints-and-apostles', 'Khitr...  
-    3  Byzantine Art  ['Christianity', 'saints-and-apostles', 'St.-L...  
-    4  Byzantine Art  ['Christianity', 'arts-and-crafts', 'saints-an...  
+    1  Andrei Rublev  Moscow school of icon painting  religious painting       1  Byzantine Art  ['Christianity', 'Old-Testament', 'Daniel', 'p...  
+
+    2  Andrei Rublev  Moscow school of icon painting           miniature       2  Byzantine Art  ['Christianity', 'saints-and-apostles', 'Khitr...  
+
+    3  Andrei Rublev  Moscow school of icon painting  religious painting       3  Byzantine Art  ['Christianity', 'saints-and-apostles', 'St.-L...  
+
+    4  Andrei Rublev  Moscow school of icon painting           miniature       4  Byzantine Art  ['Christianity', 'arts-and-crafts', 'saints-an... 
 
 </div>
 
@@ -167,37 +165,14 @@ art500k[0:6]
 
 <div class="output execute_result" execution_count="23">
 
-           author_name                                      painting_name Genre  \
-    0  Gustave Courbet                Woman With A Parrot##AAHozJAL0gqXcA   NaN   
-    1    Auguste Rodin         La Tentation Saint Antoine##WAGC82imJTDyIg   NaN   
-    2      Frida Kahlo   Retrato De Alejandro Gómez Arias##0QFuguLe4xyN_A   NaN   
-    3           Banksy           The Wall Banksy Balloons##FgHoVE-hmt6DBQ   NaN   
-    4         El Greco                     The Visitation##HQEQ_qXDtRrzkA   NaN   
-    5         El Greco  Madonna And Child With Saint Martina And Saint...   NaN   
+           author_name                                      painting_name Genre      Style Nationality PaintingSchool ArtMovement           Date Influencedby        Influencedon  Tag Pupils                                         Location        Teachers FriendsandCoworkers      Teachers FriendsandCoworkers 
+    0  Gustave Courbet                Woman With A Parrot##AAHozJAL0gqXcA   NaN      NaN         NaN            NaN         NaN            NaN          NaN           
+    1    Auguste Rodin         La Tentation Saint Antoine##WAGC82imJTDyIg   NaN      NaN         NaN            NaN         NaN            NaN          NaN      
+    2      Frida Kahlo   Retrato De Alejandro Gómez Arias##0QFuguLe4xyN_A   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
+    3           Banksy           The Wall Banksy Balloons##FgHoVE-hmt6DBQ   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
+    4         El Greco                     The Visitation##HQEQ_qXDtRrzkA   NaN      NaN         NaN            NaN         NaN  ca. 1610-1614          NaN 
+    5         El Greco  Madonna And Child With Saint Martina And Saint...   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
 
-      Style Nationality PaintingSchool ArtMovement           Date Influencedby  \
-    0   NaN         NaN            NaN         NaN            NaN          NaN   
-    1   NaN         NaN            NaN         NaN            NaN          NaN   
-    2   NaN         NaN            NaN         NaN            NaN          NaN   
-    3   NaN         NaN            NaN         NaN            NaN          NaN   
-    4   NaN         NaN            NaN         NaN  ca. 1610-1614          NaN   
-    5   NaN         NaN            NaN         NaN            NaN          NaN   
-
-      Influencedon  Tag Pupils                                         Location  \
-    0          NaN  NaN    NaN                                              NaN   
-    1          NaN  NaN    NaN                                              NaN   
-    2          NaN  NaN    NaN                                              NaN   
-    3          NaN  NaN    NaN  in a settlement in Palestine in the middle east   
-    4          NaN  NaN    NaN                                              NaN   
-    5          NaN  NaN    NaN                                              NaN   
-
-      Teachers FriendsandCoworkers  
-    0      NaN                 NaN  
-    1      NaN                 NaN  
-    2      NaN                 NaN  
-    3      NaN                 NaN  
-    4      NaN                 NaN  
-    5      NaN                 NaN  
 
 </div>
 
