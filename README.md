@@ -45,7 +45,14 @@ FURTHER STEPS: <br> -Define connections between painters<br> -Create a
 network of painters<br> -Analyze the network<br>
 
 
+# The main datasets used (paintings datasets):
+
 </div>
+
+<div class="cell markdown">
+
+## WikiArt data
+
 
 <div class="cell code" execution_count="21">
 
@@ -55,27 +62,6 @@ import numpy as np
 ```
 
 </div>
-
-<div class="cell markdown">
-
-<details><summary><u>National Gallery of Art  (US) dataset (unused) </u></summary>
-<p>
-    
-```python
-
-df1 = pd.read_csv('datasets/originals/nga_constituents.csv') # From their website
-df1.head()
-
-```
-    
-</p>
-</details>
-
-</div>
-
-<div class="cell markdown">
-
-## WikiArt data
 
 </div>
 
