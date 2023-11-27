@@ -1,22 +1,3 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.12.0
-  nbformat: 4
-  nbformat_minor: 4
----
 
 <div class="cell markdown">
 
@@ -30,7 +11,7 @@ geographical and social interaction.
 
 Note: One long-term goal would be to create a JSON file that contains
 all combined hierarchically. For example, a level in the structure could
-be art movement, inside it are artists with some base data like
+be art movement, inside it, are artists with some base data like
 birthplace, year of birth and death and other geographical data, inside
 it are paintings with all contained data (even better would be including
 eras of painters in their substructure, and inside them the paintings).
@@ -88,15 +69,10 @@ wa_paintings.head() #Consider dropping style: "Unknown"
 <div class="output execute_result" execution_count="3">
 
               artist                           style               genre            movement                                               tags  
-   
     0  Andrei Rublev  Moscow school of icon painting  religious painting       0  Byzantine Art  ['Christianity', 'saints-and-apostles', 'angel...  
-
     1  Andrei Rublev  Moscow school of icon painting  religious painting       1  Byzantine Art  ['Christianity', 'Old-Testament', 'Daniel', 'p...  
-
     2  Andrei Rublev  Moscow school of icon painting           miniature       2  Byzantine Art  ['Christianity', 'saints-and-apostles', 'Khitr...  
-
     3  Andrei Rublev  Moscow school of icon painting  religious painting       3  Byzantine Art  ['Christianity', 'saints-and-apostles', 'St.-L...  
-
     4  Andrei Rublev  Moscow school of icon painting           miniature       4  Byzantine Art  ['Christianity', 'arts-and-crafts', 'saints-an... 
 
 </div>
@@ -166,7 +142,7 @@ art500k[0:6]
 <div class="output execute_result" execution_count="23">
 
            author_name                                      painting_name Genre      Style Nationality PaintingSchool ArtMovement           Date Influencedby        Influencedon  Tag Pupils                                         Location        Teachers FriendsandCoworkers      Teachers FriendsandCoworkers 
-    0  Gustave Courbet                Woman With A Parrot##AAHozJAL0gqXcA   NaN      NaN         NaN            NaN         NaN            NaN          NaN           
+    0  Gustave Courbet                Woman With A Parrot##AAHozJAL0gqXcA   NaN      NaN         NaN            NaN         NaN            NaN          NaN                   NaN  NaN    NaN                    in a settlement in Palestine in the middle east                     NaN              NaN            NaN
     1    Auguste Rodin         La Tentation Saint Antoine##WAGC82imJTDyIg   NaN      NaN         NaN            NaN         NaN            NaN          NaN      
     2      Frida Kahlo   Retrato De Alejandro Gómez Arias##0QFuguLe4xyN_A   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
     3           Banksy           The Wall Banksy Balloons##FgHoVE-hmt6DBQ   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
@@ -187,89 +163,18 @@ art500k_artists[0:10]
 
 <div class="output execute_result" execution_count="30">
 
-                artist    Nationality                      PaintingSchool  \
-    0  Gustave Courbet         French                                 NaN   
-    1    Auguste Rodin         French                                 NaN   
-    2      Frida Kahlo        Mexican                                 NaN   
-    3           Banksy            NaN                                 NaN   
-    4         El Greco  Spanish,Greek                       Cretan School   
-    5     Diego Rivera        Mexican  Mexican Mural Renaissance,La Ruche   
-    6     Claude Monet         French                                 NaN   
-    7   Francisco Goya        Spanish                                 NaN   
-    8     Edvard Munch      Norwegian     Berlin Secession,Degenerate art   
-    9    Édouard Manet            NaN                                 NaN   
+                artist    Nationality                      PaintingSchool                                               ArtMovement                                              Influencedby                                              Influencedon                Pupils                                Teachers                                       FriendsandCoworkers  FirstYear  LastYear         Places  
+    0  Gustave Courbet         French                                 NaN                                            {Realism:272},         Rembrandt,Caravaggio,Diego Velazquez,Peter Pau...         Edouard Manet,Claude Monet,Pierre-Auguste Reno...                   NaN                                     NaN                                                       NaN     1830.0    1877.0            NaN  
+    1    Auguste Rodin         French                                 NaN                        {Modern art:3},{Impressionism:91},                                   Michelangelo,Donatello,         Georgia O'Keeffe,Man Ray,Aristide Maillol,Olex...  Constantin Brancusi,                                     NaN                                                       NaN     1865.0    1985.0            NaN  
+    2      Frida Kahlo        Mexican                                 NaN                  {Naïve Art (Primitivism),Surrealism:99},         Amedeo Modigliani,Diego Rivera,Jose Clemente O...               Judy Chicago,Georgia O'Keeffe,Feminist Art,                   NaN                                     NaN                                                       NaN     1922.0    1954.0            NaN  
+    3           Banksy            NaN                                 NaN                                                       NaN                                                       NaN                                                       NaN                   NaN                                     NaN                                                       NaN     2011.0    2011.0            NaN  
+    4         El Greco  Spanish,Greek                       Cretan School         {Spanish Renaissance:1},{Renaissance:2},{Manne...                                            Byzantine Art,         Expressionism,Cubism,Eugene Delacroix,Edouard ...                   NaN                                 Titian,                                            Giulio Clovio,     1568.0    1614.0            NaN  
+    5     Diego Rivera        Mexican  Mexican Mural Renaissance,La Ruche                            {Social Realism,Muralism:146},                             Marc Chagall,Robert Delaunay,                          Frida Kahlo,Pedro Coronel,Vlady,                   NaN                                     NaN         Amedeo Modigliani,Saturnino Herran,Roberto Mon...     1904.0    1956.0            NaN  
+    6     Claude Monet         French                                 NaN                      {Modern art:3},{Impressionism:1340},         Gustave Courbet,Charles-Francois Daubigny,John...         Childe Hassam,Robert Delaunay,Wassily Kandinsk...                   NaN           Eugene Boudin,Charles Gleyre,         Alfred Sisley,Pierre-Auguste Renoir,Camille Pi...     1858.0    1926.0            NaN  
+    7   Francisco Goya        Spanish                                 NaN                                        {Romanticism:391},                           Albrecht Durer,Diego Velazquez,         Pablo Picasso,Chaim Soutine,Roberto Montenegro...                   NaN         José Luzán,Anton Raphael Mengs,                                                       NaN     1760.0    1828.0            NaN  
+    8     Edvard Munch      Norwegian     Berlin Secession,Degenerate art                            {Symbolism,Expressionism:188},         Paul Gauguin,Vincent van Gogh,Henri de Toulous...         Egon Schiele,Wassily Kandinsky,Ernst Ludwig Ki...                   NaN                            Leon Bonnat,                                               Franz Marc,     1881.0    1944.0            NaN  
+    9    Édouard Manet            NaN                                 NaN                                                       NaN                                                       NaN                                                       NaN                   NaN                                     NaN                                                       NaN     1858.0    1882.0            NaN  
 
-                                             ArtMovement  \
-    0                                     {Realism:272},   
-    1                 {Modern art:3},{Impressionism:91},   
-    2           {Naïve Art (Primitivism),Surrealism:99},   
-    3                                                NaN   
-    4  {Spanish Renaissance:1},{Renaissance:2},{Manne...   
-    5                     {Social Realism,Muralism:146},   
-    6               {Modern art:3},{Impressionism:1340},   
-    7                                 {Romanticism:391},   
-    8                     {Symbolism,Expressionism:188},   
-    9                                                NaN   
-
-                                            Influencedby  \
-    0  Rembrandt,Caravaggio,Diego Velazquez,Peter Pau...   
-    1                            Michelangelo,Donatello,   
-    2  Amedeo Modigliani,Diego Rivera,Jose Clemente O...   
-    3                                                NaN   
-    4                                     Byzantine Art,   
-    5                      Marc Chagall,Robert Delaunay,   
-    6  Gustave Courbet,Charles-Francois Daubigny,John...   
-    7                    Albrecht Durer,Diego Velazquez,   
-    8  Paul Gauguin,Vincent van Gogh,Henri de Toulous...   
-    9                                                NaN   
-
-                                            Influencedon                Pupils  \
-    0  Edouard Manet,Claude Monet,Pierre-Auguste Reno...                   NaN   
-    1  Georgia O'Keeffe,Man Ray,Aristide Maillol,Olex...  Constantin Brancusi,   
-    2        Judy Chicago,Georgia O'Keeffe,Feminist Art,                   NaN   
-    3                                                NaN                   NaN   
-    4  Expressionism,Cubism,Eugene Delacroix,Edouard ...                   NaN   
-    5                   Frida Kahlo,Pedro Coronel,Vlady,                   NaN   
-    6  Childe Hassam,Robert Delaunay,Wassily Kandinsk...                   NaN   
-    7  Pablo Picasso,Chaim Soutine,Roberto Montenegro...                   NaN   
-    8  Egon Schiele,Wassily Kandinsky,Ernst Ludwig Ki...                   NaN   
-    9                                                NaN                   NaN   
-
-                              Teachers  \
-    0                              NaN   
-    1                              NaN   
-    2                              NaN   
-    3                              NaN   
-    4                          Titian,   
-    5                              NaN   
-    6    Eugene Boudin,Charles Gleyre,   
-    7  José Luzán,Anton Raphael Mengs,   
-    8                     Leon Bonnat,   
-    9                              NaN   
-
-                                     FriendsandCoworkers  FirstYear  LastYear  \
-    0                                                NaN     1830.0    1877.0   
-    1                                                NaN     1865.0    1985.0   
-    2                                                NaN     1922.0    1954.0   
-    3                                                NaN     2011.0    2011.0   
-    4                                     Giulio Clovio,     1568.0    1614.0   
-    5  Amedeo Modigliani,Saturnino Herran,Roberto Mon...     1904.0    1956.0   
-    6  Alfred Sisley,Pierre-Auguste Renoir,Camille Pi...     1858.0    1926.0   
-    7                                                NaN     1760.0    1828.0   
-    8                                        Franz Marc,     1881.0    1944.0   
-    9                                                NaN     1858.0    1882.0   
-
-       Places  
-    0     NaN  
-    1     NaN  
-    2     NaN  
-    3     NaN  
-    4     NaN  
-    5     NaN  
-    6     NaN  
-    7     NaN  
-    8     NaN  
-    9     NaN  
 
 </div>
 
@@ -304,51 +209,11 @@ rasta[0:5]
 
 </div>
 
-<div class="output execute_result" execution_count="31">
-
-       img_id img_name        img_path  \
-    0       1    1.jpg  data_img/1.jpg   
-    1       2    2.jpg  data_img/2.jpg   
-    2       3    3.jpg  data_img/3.jpg   
-    3       4    4.jpg  data_img/4.jpg   
-    4       5    5.jpg  data_img/5.jpg   
-
-                                               img_title  \
-    0  Portraits of Giuliano and Francesco Giamberti ...   
-    1  Militia Company of District II under the Comma...   
-    2  Portrait of a Couple as Isaac and Rebecca, kno...   
-    3                 The Windmill at Wijk bij Duurstede   
-    4                        Portrait of Don Ramón Satué   
-
-                                   artist origin  art_movement genre  \
-    0                     Piero di Cosimo   West           NaN   NaN   
-    1        Rembrandt Harmensz. van Rijn   West           NaN   NaN   
-    2        Rembrandt Harmensz. van Rijn   West           NaN   NaN   
-    3        Jacob Isaacksz. van Ruisdael   West           NaN   NaN   
-    4  Francisco José de Goya y Lucientes   West           NaN   NaN   
-
-               media style location technique school  date time  object  color  \
-    0   oil on panel   NaN      NaN       NaN    NaN  1482   15     NaN    NaN   
-    1  oil on canvas   NaN      NaN       NaN    NaN  1642   17     NaN    NaN   
-    2  oil on canvas   NaN      NaN       NaN    NaN  1665   17     NaN    NaN   
-    3  oil on canvas   NaN      NaN       NaN    NaN  1668   17     NaN    NaN   
-    4  oil on canvas   NaN      NaN       NaN    NaN  1823   19     NaN    NaN   
-
-                                                     url  
-    0  http://lh4.ggpht.com/NwCWmjro4h__Ord5RqicIJsJb...  
-    1  http://lh6.ggpht.com/ZYWwML8mVFonXzbmg2rQBulNu...  
-    2  http://lh5.ggpht.com/H-KfOaNgW2an_g0kODWKua5BE...  
-    3  http://lh6.ggpht.com/1gH99j2GD85SW4r3CA18uwTDu...  
-    4  http://lh4.ggpht.com/wyy5JOPbVx1wQ9ax57OmfOz4k...  
-
-</div>
-
 </div>
 
 <div class="cell markdown">
 
-Every painting either has East or West origin (or not given), may just
-filter to one of them
+Every painting either has East or West origin (or not given).
 
 </div>
 
@@ -361,29 +226,17 @@ rasta_artists[0:10]
 
 <div class="output execute_result" execution_count="32">
 
-                                   artist origin school  art_movement  FirstYear  \
-    0                     Piero di Cosimo   West    NaN           NaN        NaN   
-    1        Rembrandt Harmensz. van Rijn   West    NaN           NaN        NaN   
-    2        Jacob Isaacksz. van Ruisdael   West    NaN           NaN        NaN   
-    3  Francisco José de Goya y Lucientes   West    NaN           NaN        NaN   
-    4                    Lucas van Leyden   West    NaN           NaN        NaN   
-    5                    Abraham Roentgen   West    NaN           NaN        NaN   
-    6                   Hendrick Avercamp   West    NaN           NaN        NaN   
-    7                     Hans Bollongier   West    NaN           NaN        NaN   
-    8                   Adriaen van Wesel   West    NaN           NaN        NaN   
-    9       Jacob Cornelisz van Oostsanen   West    NaN           NaN        NaN   
-
-       LastYear  Places  
-    0       NaN     NaN  
-    1       NaN     NaN  
-    2       NaN     NaN  
-    3       NaN     NaN  
-    4       NaN     NaN  
-    5       NaN     NaN  
-    6       NaN     NaN  
-    7       NaN     NaN  
-    8       NaN     NaN  
-    9       NaN     NaN  
+                                   artist origin school  art_movement  FirstYear         LastYear  Places  
+    0                     Piero di Cosimo   West    NaN           NaN        NaN              NaN     NaN  
+    1        Rembrandt Harmensz. van Rijn   West    NaN           NaN        NaN              NaN     NaN  
+    2        Jacob Isaacksz. van Ruisdael   West    NaN           NaN        NaN              NaN     NaN  
+    3  Francisco José de Goya y Lucientes   West    NaN           NaN        NaN              NaN     NaN  
+    4                    Lucas van Leyden   West    NaN           NaN        NaN              NaN     NaN  
+    5                    Abraham Roentgen   West    NaN           NaN        NaN              NaN     NaN  
+    6                   Hendrick Avercamp   West    NaN           NaN        NaN              NaN     NaN  
+    7                     Hans Bollongier   West    NaN           NaN        NaN              NaN     NaN  
+    8                   Adriaen van Wesel   West    NaN           NaN        NaN              NaN     NaN  
+    9       Jacob Cornelisz van Oostsanen   West    NaN           NaN        NaN              NaN     NaN  
 
 </div>
 
@@ -408,8 +261,7 @@ https://en.wikipedia.org/wiki/Periods_in_Western_art_history
 
 ### PageRank / Wiki Connections:
 
-The Python Class 6 original_networkx_SP_06.ipynb file had a good example
-for PageRank
+Pagerank and WikiLinks are good examples
 
 Wiki Connections: full dataset
 <http://www.iesl.cs.umass.edu/data/data-wiki-links>
@@ -439,7 +291,7 @@ Downloaded, but not used yet, as I see it is NLP data
 
 <div class="cell markdown">
 
-## Network connection: Six Degrees of Francis Bacon
+## Network connection example: Six Degrees of Francis Bacon
 
 Network of the people connected to Francis Bacon, sadly the people in
 the set are mostly all born in the 16th century and are English so most
