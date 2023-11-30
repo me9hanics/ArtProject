@@ -40,6 +40,7 @@ def get_birthplace(artist_name, artist_birthplaces, endpoint_url="https://query.
     # Store None if we failed to get the birth place
     artist_birthplaces[artist_name] = None
     return None
+
 if __name__ == '__main__':
     art_data = pd.read_csv("originals/wikiart_art_pieces.csv")
     non_artists = ['Byzantine Mosaics', 'Orthodox Icons', 'Romanesque Architecture']
