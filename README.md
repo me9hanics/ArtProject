@@ -28,7 +28,7 @@ network of painters<br> -Analyze the network<br>
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b)
 
 
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/eedee446-a5c8-4937-9049-5644661026fd)
+![image](https://github.com/me9hanics/ArtProject/assets/82604073/e7187f0d-3b82-4c1f-9811-c296fee45680)
 
 
 # The main datasets used (paintings datasets):
