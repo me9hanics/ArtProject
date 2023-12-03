@@ -1,0 +1,1819 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-01">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Abstract Expressionism" label="Abstract Expressionism" />
+      <node id="Abstract Art" label="Abstract Art" />
+      <node id="Social Realism" label="Social Realism" />
+      <node id="Kinetic art" label="Kinetic art" />
+      <node id="Avant-garde" label="Avant-garde" />
+      <node id="Expressionism" label="Expressionism" />
+      <node id="New Ink Art" label="New Ink Art" />
+      <node id="Socialist Realism" label="Socialist Realism" />
+      <node id="Incoherents" label="Incoherents" />
+      <node id="Contemporary" label="Contemporary" />
+      <node id="Constructivism" label="Constructivism" />
+      <node id="New Generation Sculpture" label="New Generation Sculpture" />
+      <node id="Post-Impressionism" label="Post-Impressionism" />
+      <node id="Neo-Pop Art" label="Neo-Pop Art" />
+      <node id="Modernism" label="Modernism" />
+      <node id="Cubism" label="Cubism" />
+      <node id="Art Informel" label="Art Informel" />
+      <node id="Harlem Renaissance (New Negro Movement)" label="Harlem Renaissance (New Negro Movement)" />
+      <node id="New European Painting" label="New European Painting" />
+      <node id="Realism" label="Realism" />
+      <node id="Neo-Expressionism" label="Neo-Expressionism" />
+      <node id="Vorticism" label="Vorticism" />
+      <node id="Surrealism" label="Surrealism" />
+      <node id="Futurism" label="Futurism" />
+      <node id="Sots Art" label="Sots Art" />
+      <node id="Precisionism" label="Precisionism" />
+      <node id="Dada" label="Dada" />
+      <node id="Impressionism" label="Impressionism" />
+      <node id="Magic Realism" label="Magic Realism" />
+      <node id="Existential Art" label="Existential Art" />
+      <node id="Art Deco" label="Art Deco" />
+      <node id="Modernismo" label="Modernismo" />
+      <node id="Minimalism" label="Minimalism" />
+      <node id="Pop Art" label="Pop Art" />
+      <node id="Art Nouveau" label="Art Nouveau" />
+      <node id="Excessivism" label="Excessivism" />
+      <node id="Conceptual Art" label="Conceptual Art" />
+      <node id="Contemporary Realism" label="Contemporary Realism" />
+      <node id="Post-Painterly Abstraction" label="Post-Painterly Abstraction" />
+      <node id="New media art" label="New media art" />
+      <node id="Symbolism" label="Symbolism" />
+      <node id="Op Art" label="Op Art" />
+      <node id="Soviet Nonconformist Art" label="Soviet Nonconformist Art" />
+      <node id="Performance Art" label="Performance Art" />
+      <node id="Neo-Dada" label="Neo-Dada" />
+      <node id="Light and Space" label="Light and Space" />
+      <node id="Abstract Illusionism" label="Abstract Illusionism" />
+      <node id="Outsider art (Art brut)" label="Outsider art (Art brut)" />
+      <node id="Arte Povera" label="Arte Povera" />
+      <node id="Neo-Orthodoxism" label="Neo-Orthodoxism" />
+      <node id="Republic of China (1912–1949)" label="Republic of China (1912–1949)" />
+      <node id="Muralism" label="Muralism" />
+      <node id="Street art" label="Street art" />
+      <node id="CyberArt" label="CyberArt" />
+      <node id="Feminist Art" label="Feminist Art" />
+      <node id="Academic Art" label="Academic Art" />
+      <node id="Romanticism" label="Romanticism" />
+      <node id="Naturalism" label="Naturalism" />
+      <node id="Orientalism" label="Orientalism" />
+      <node id="Rococo" label="Rococo" />
+      <node id="Neoclassicism" label="Neoclassicism" />
+      <node id="Viennese Actionism" label="Viennese Actionism" />
+      <node id="Transavantgarde" label="Transavantgarde" />
+      <node id="Suprematism" label="Suprematism" />
+      <node id="Arts and Crafts" label="Arts and Crafts" />
+      <node id="Kitsch" label="Kitsch" />
+      <node id="Spatialism" label="Spatialism" />
+      <node id="Post-Minimalism" label="Post-Minimalism" />
+      <node id="Tachisme" label="Tachisme" />
+      <node id="Neo-Concretism" label="Neo-Concretism" />
+      <node id="Korean Informel" label="Korean Informel" />
+      <node id="Neo-Impressionism" label="Neo-Impressionism" />
+      <node id="Regionalism" label="Regionalism" />
+      <node id="Metaphysical art" label="Metaphysical art" />
+      <node id="Young Poland" label="Young Poland" />
+      <node id="Neo-Romanticism" label="Neo-Romanticism" />
+      <node id="Synchromism" label="Synchromism" />
+      <node id="Art Singulier" label="Art Singulier" />
+      <node id="Baroque" label="Baroque" />
+      <node id="Dutch Golden Age" label="Dutch Golden Age" />
+      <node id="Byzantine Art" label="Byzantine Art" />
+      <node id="Northern Renaissance" label="Northern Renaissance" />
+      <node id="Proto Renaissance" label="Proto Renaissance" />
+      <node id="Classical Realism" label="Classical Realism" />
+      <node id="Relational Art" label="Relational Art" />
+      <node id="Lettrism" label="Lettrism" />
+      <node id="Confessional Art" label="Confessional Art" />
+      <node id="Mail Art" label="Mail Art" />
+      <node id="Postcolonial art" label="Postcolonial art" />
+      <node id="New Image Painting" label="New Image Painting" />
+      <node id="Neo-Figurative Art" label="Neo-Figurative Art" />
+      <node id="Digital Art" label="Digital Art" />
+      <node id="Early Renaissance" label="Early Renaissance" />
+      <node id="High Renaissance" label="High Renaissance" />
+      <node id="Gothic Art" label="Gothic Art" />
+      <node id="Environmental Art (Land art)" label="Environmental Art (Land art)" />
+      <node id="Ero guro" label="Ero guro" />
+      <node id="Stuckism" label="Stuckism" />
+      <node id="Fantasy Art" label="Fantasy Art" />
+      <node id="Fiber Art" label="Fiber Art" />
+      <node id="Northern Song Dynasty (960–1126)" label="Northern Song Dynasty (960–1126)" />
+      <node id="Ming Dynasty (1368–1644)" label="Ming Dynasty (1368–1644)" />
+      <node id="Pittura Colta" label="Pittura Colta" />
+      <node id="Tonalism" label="Tonalism" />
+      <node id="Indian Space Painting" label="Indian Space Painting" />
+      <node id="Qing Dynasty (1644–1912)" label="Qing Dynasty (1644–1912)" />
+      <node id="Tang Dynasty (618–907)" label="Tang Dynasty (618–907)" />
+      <node id="New Culture Movement (1915-1926)" label="New Culture Movement (1915-1926)" />
+      <node id="Yuan Dynasty (1271–1368)" label="Yuan Dynasty (1271–1368)" />
+      <node id="Five Dynasties and Ten Kingdoms (907–960)" label="Five Dynasties and Ten Kingdoms (907–960)" />
+      <node id="Maximalism" label="Maximalism" />
+      <node id="Southern Song Dynasty (1127–1279)" label="Southern Song Dynasty (1127–1279)" />
+      <node id="Joseon Dynasty" label="Joseon Dynasty" />
+      <node id="Junk Art" label="Junk Art" />
+      <node id="Lowbrow Art" label="Lowbrow Art" />
+      <node id="Medieval Art" label="Medieval Art" />
+      <node id="Romanesque Art" label="Romanesque Art" />
+      <node id="Pre-Romanesque Art" label="Pre-Romanesque Art" />
+      <node id="Native Art" label="Native Art" />
+      <node id="Pictorialism" label="Pictorialism" />
+      <node id="Poster Art Realism" label="Poster Art Realism" />
+      <node id="Purism" label="Purism" />
+      <node id="Black Arts Movement" label="Black Arts Movement" />
+    </nodes>
+    <edges>
+      <edge source="Abstract Expressionism" target="Abstract Art" id="0" weight="55905" />
+      <edge source="Abstract Expressionism" target="Social Realism" id="1" weight="3755" />
+      <edge source="Abstract Expressionism" target="Kinetic art" id="2" weight="1893" />
+      <edge source="Abstract Expressionism" target="Avant-garde" id="3" weight="617" />
+      <edge source="Abstract Expressionism" target="Expressionism" id="4" weight="25479" />
+      <edge source="Abstract Expressionism" target="New Ink Art" id="5" weight="462" />
+      <edge source="Abstract Expressionism" target="Socialist Realism" id="6" weight="967" />
+      <edge source="Abstract Expressionism" target="Contemporary" id="7" weight="10594" />
+      <edge source="Abstract Expressionism" target="Constructivism" id="8" weight="341" />
+      <edge source="Abstract Expressionism" target="New Generation Sculpture" id="9" weight="585" />
+      <edge source="Abstract Expressionism" target="Post-Impressionism" id="10" weight="4609" />
+      <edge source="Abstract Expressionism" target="Neo-Pop Art" id="11" weight="179" />
+      <edge source="Abstract Expressionism" target="Modernism" id="12" weight="2684" />
+      <edge source="Abstract Expressionism" target="Cubism" id="13" weight="4329" />
+      <edge source="Abstract Expressionism" target="Art Informel" id="14" weight="5142" />
+      <edge source="Abstract Expressionism" target="Harlem Renaissance (New Negro Movement)" id="15" weight="2478" />
+      <edge source="Abstract Expressionism" target="Realism" id="16" weight="1707" />
+      <edge source="Abstract Expressionism" target="Neo-Expressionism" id="17" weight="4061" />
+      <edge source="Abstract Expressionism" target="Vorticism" id="18" weight="161" />
+      <edge source="Abstract Expressionism" target="Surrealism" id="19" weight="10821" />
+      <edge source="Abstract Expressionism" target="Futurism" id="20" weight="495" />
+      <edge source="Abstract Expressionism" target="Precisionism" id="21" weight="508" />
+      <edge source="Abstract Expressionism" target="Dada" id="22" weight="682" />
+      <edge source="Abstract Expressionism" target="Impressionism" id="23" weight="2814" />
+      <edge source="Abstract Expressionism" target="Magic Realism" id="24" weight="3072" />
+      <edge source="Abstract Expressionism" target="Existential Art" id="25" weight="305" />
+      <edge source="Abstract Expressionism" target="Art Deco" id="26" weight="114" />
+      <edge source="Abstract Expressionism" target="Modernismo" id="27" weight="868" />
+      <edge source="Abstract Expressionism" target="Minimalism" id="28" weight="8289" />
+      <edge source="Abstract Expressionism" target="Pop Art" id="29" weight="8148" />
+      <edge source="Abstract Expressionism" target="Art Nouveau" id="30" weight="646" />
+      <edge source="Abstract Expressionism" target="Conceptual Art" id="31" weight="2710" />
+      <edge source="Abstract Expressionism" target="Contemporary Realism" id="32" weight="1292" />
+      <edge source="Abstract Expressionism" target="Post-Painterly Abstraction" id="33" weight="14435" />
+      <edge source="Abstract Expressionism" target="Symbolism" id="34" weight="2715" />
+      <edge source="Abstract Expressionism" target="Op Art" id="35" weight="779" />
+      <edge source="Abstract Expressionism" target="Soviet Nonconformist Art" id="36" weight="1571" />
+      <edge source="Abstract Expressionism" target="Performance Art" id="37" weight="468" />
+      <edge source="Abstract Expressionism" target="Neo-Dada" id="38" weight="2310" />
+      <edge source="Abstract Expressionism" target="Light and Space" id="39" weight="434" />
+      <edge source="Abstract Expressionism" target="Abstract Illusionism" id="40" weight="438" />
+      <edge source="Abstract Expressionism" target="Outsider art (Art brut)" id="41" weight="1291" />
+      <edge source="Abstract Expressionism" target="Arte Povera" id="42" weight="720" />
+      <edge source="Abstract Expressionism" target="Neo-Orthodoxism" id="43" weight="809" />
+      <edge source="Abstract Expressionism" target="Republic of China (1912–1949)" id="44" weight="673" />
+      <edge source="Abstract Expressionism" target="Muralism" id="45" weight="753" />
+      <edge source="Abstract Expressionism" target="Street art" id="46" weight="710" />
+      <edge source="Abstract Expressionism" target="Feminist Art" id="47" weight="672" />
+      <edge source="Abstract Expressionism" target="Viennese Actionism" id="48" weight="122" />
+      <edge source="Abstract Expressionism" target="Post-Minimalism" id="49" weight="655" />
+      <edge source="Abstract Expressionism" target="Transavantgarde" id="50" weight="104" />
+      <edge source="Abstract Expressionism" target="Tachisme" id="51" weight="221" />
+      <edge source="Abstract Expressionism" target="Metaphysical art" id="52" weight="324" />
+      <edge source="Abstract Expressionism" target="Kitsch" id="53" weight="145" />
+      <edge source="Abstract Expressionism" target="Neo-Impressionism" id="54" weight="108" />
+      <edge source="Abstract Expressionism" target="Romanticism" id="55" weight="961" />
+      <edge source="Abstract Expressionism" target="Regionalism" id="56" weight="132" />
+      <edge source="Abstract Expressionism" target="Academic Art" id="57" weight="244" />
+      <edge source="Abstract Expressionism" target="Neoclassicism" id="58" weight="386" />
+      <edge source="Abstract Expressionism" target="Stuckism" id="59" weight="101" />
+      <edge source="Abstract Expressionism" target="Orientalism" id="60" weight="151" />
+      <edge source="Abstract Expressionism" target="Korean Informel" id="61" weight="111" />
+      <edge source="Abstract Expressionism" target="New Image Painting" id="62" weight="128" />
+      <edge source="Abstract Expressionism" target="Baroque" id="63" weight="546" />
+      <edge source="Abstract Expressionism" target="Northern Renaissance" id="64" weight="222" />
+      <edge source="Abstract Expressionism" target="Early Renaissance" id="65" weight="170" />
+      <edge source="Abstract Expressionism" target="High Renaissance" id="66" weight="220" />
+      <edge source="Abstract Expressionism" target="Rococo" id="67" weight="177" />
+      <edge source="Abstract Art" target="Social Realism" id="68" weight="6251" />
+      <edge source="Abstract Art" target="Kinetic art" id="69" weight="3530" />
+      <edge source="Abstract Art" target="Avant-garde" id="70" weight="3374" />
+      <edge source="Abstract Art" target="Expressionism" id="71" weight="66227" />
+      <edge source="Abstract Art" target="New Ink Art" id="72" weight="1102" />
+      <edge source="Abstract Art" target="Socialist Realism" id="73" weight="2880" />
+      <edge source="Abstract Art" target="Incoherents" id="74" weight="372" />
+      <edge source="Abstract Art" target="Contemporary" id="75" weight="12226" />
+      <edge source="Abstract Art" target="Constructivism" id="76" weight="4192" />
+      <edge source="Abstract Art" target="New Generation Sculpture" id="77" weight="1039" />
+      <edge source="Abstract Art" target="Post-Impressionism" id="78" weight="16370" />
+      <edge source="Abstract Art" target="Neo-Pop Art" id="79" weight="171" />
+      <edge source="Abstract Art" target="Modernism" id="80" weight="4596" />
+      <edge source="Abstract Art" target="Cubism" id="81" weight="17180" />
+      <edge source="Abstract Art" target="Art Informel" id="82" weight="12270" />
+      <edge source="Abstract Art" target="Harlem Renaissance (New Negro Movement)" id="83" weight="3374" />
+      <edge source="Abstract Art" target="New European Painting" id="84" weight="433" />
+      <edge source="Abstract Art" target="Realism" id="85" weight="11318" />
+      <edge source="Abstract Art" target="Neo-Expressionism" id="86" weight="4018" />
+      <edge source="Abstract Art" target="Vorticism" id="87" weight="885" />
+      <edge source="Abstract Art" target="Surrealism" id="88" weight="32707" />
+      <edge source="Abstract Art" target="Futurism" id="89" weight="2799" />
+      <edge source="Abstract Art" target="Sots Art" id="90" weight="249" />
+      <edge source="Abstract Art" target="Precisionism" id="91" weight="1496" />
+      <edge source="Abstract Art" target="Dada" id="92" weight="4752" />
+      <edge source="Abstract Art" target="Impressionism" id="93" weight="16012" />
+      <edge source="Abstract Art" target="Magic Realism" id="94" weight="4556" />
+      <edge source="Abstract Art" target="Existential Art" id="95" weight="853" />
+      <edge source="Abstract Art" target="Art Deco" id="96" weight="536" />
+      <edge source="Abstract Art" target="Modernismo" id="97" weight="2895" />
+      <edge source="Abstract Art" target="Minimalism" id="98" weight="10013" />
+      <edge source="Abstract Art" target="Pop Art" id="99" weight="5769" />
+      <edge source="Abstract Art" target="Art Nouveau" id="100" weight="4068" />
+      <edge source="Abstract Art" target="Excessivism" id="101" weight="132" />
+      <edge source="Abstract Art" target="Conceptual Art" id="102" weight="5269" />
+      <edge source="Abstract Art" target="Contemporary Realism" id="103" weight="2398" />
+      <edge source="Abstract Art" target="Post-Painterly Abstraction" id="104" weight="11244" />
+      <edge source="Abstract Art" target="New media art" id="105" weight="168" />
+      <edge source="Abstract Art" target="Symbolism" id="106" weight="9610" />
+      <edge source="Abstract Art" target="Op Art" id="107" weight="2612" />
+      <edge source="Abstract Art" target="Soviet Nonconformist Art" id="108" weight="1961" />
+      <edge source="Abstract Art" target="Performance Art" id="109" weight="780" />
+      <edge source="Abstract Art" target="Neo-Dada" id="110" weight="1409" />
+      <edge source="Abstract Art" target="Light and Space" id="111" weight="343" />
+      <edge source="Abstract Art" target="Abstract Illusionism" id="112" weight="330" />
+      <edge source="Abstract Art" target="Outsider art (Art brut)" id="113" weight="2044" />
+      <edge source="Abstract Art" target="Arte Povera" id="114" weight="1094" />
+      <edge source="Abstract Art" target="Neo-Orthodoxism" id="115" weight="1193" />
+      <edge source="Abstract Art" target="Republic of China (1912–1949)" id="116" weight="1380" />
+      <edge source="Abstract Art" target="Muralism" id="117" weight="952" />
+      <edge source="Abstract Art" target="Street art" id="118" weight="593" />
+      <edge source="Abstract Art" target="Feminist Art" id="119" weight="665" />
+      <edge source="Abstract Art" target="Academic Art" id="120" weight="1495" />
+      <edge source="Abstract Art" target="Romanticism" id="121" weight="5000" />
+      <edge source="Abstract Art" target="Naturalism" id="122" weight="238" />
+      <edge source="Abstract Art" target="Orientalism" id="123" weight="718" />
+      <edge source="Abstract Art" target="Rococo" id="124" weight="735" />
+      <edge source="Abstract Art" target="Neoclassicism" id="125" weight="1797" />
+      <edge source="Abstract Art" target="Viennese Actionism" id="126" weight="241" />
+      <edge source="Abstract Art" target="Transavantgarde" id="127" weight="239" />
+      <edge source="Abstract Art" target="Spatialism" id="128" weight="246" />
+      <edge source="Abstract Art" target="Post-Minimalism" id="129" weight="1116" />
+      <edge source="Abstract Art" target="Tachisme" id="130" weight="1265" />
+      <edge source="Abstract Art" target="Neo-Concretism" id="131" weight="385" />
+      <edge source="Abstract Art" target="Korean Informel" id="132" weight="370" />
+      <edge source="Abstract Art" target="Suprematism" id="133" weight="335" />
+      <edge source="Abstract Art" target="Neo-Impressionism" id="134" weight="1267" />
+      <edge source="Abstract Art" target="Arts and Crafts" id="135" weight="111" />
+      <edge source="Abstract Art" target="Regionalism" id="136" weight="547" />
+      <edge source="Abstract Art" target="Metaphysical art" id="137" weight="1034" />
+      <edge source="Abstract Art" target="Young Poland" id="138" weight="127" />
+      <edge source="Abstract Art" target="Kitsch" id="139" weight="839" />
+      <edge source="Abstract Art" target="Neo-Romanticism" id="140" weight="147" />
+      <edge source="Abstract Art" target="Relational Art" id="141" weight="283" />
+      <edge source="Abstract Art" target="Lettrism" id="142" weight="150" />
+      <edge source="Abstract Art" target="Confessional Art" id="143" weight="330" />
+      <edge source="Abstract Art" target="New Image Painting" id="144" weight="190" />
+      <edge source="Abstract Art" target="Neo-Figurative Art" id="145" weight="190" />
+      <edge source="Abstract Art" target="Stuckism" id="146" weight="255" />
+      <edge source="Abstract Art" target="Tonalism" id="147" weight="135" />
+      <edge source="Abstract Art" target="Baroque" id="148" weight="2469" />
+      <edge source="Abstract Art" target="Lowbrow Art" id="149" weight="185" />
+      <edge source="Abstract Art" target="Northern Renaissance" id="150" weight="1020" />
+      <edge source="Abstract Art" target="Pictorialism" id="151" weight="104" />
+      <edge source="Abstract Art" target="Gothic Art" id="152" weight="194" />
+      <edge source="Abstract Art" target="Early Renaissance" id="153" weight="779" />
+      <edge source="Abstract Art" target="High Renaissance" id="154" weight="1160" />
+      <edge source="Abstract Art" target="Yuan Dynasty (1271–1368)" id="155" weight="102" />
+      <edge source="Social Realism" target="Kinetic art" id="156" weight="289" />
+      <edge source="Social Realism" target="Avant-garde" id="157" weight="935" />
+      <edge source="Social Realism" target="Expressionism" id="158" weight="26905" />
+      <edge source="Social Realism" target="New Ink Art" id="159" weight="285" />
+      <edge source="Social Realism" target="Socialist Realism" id="160" weight="912" />
+      <edge source="Social Realism" target="Contemporary" id="161" weight="1438" />
+      <edge source="Social Realism" target="Constructivism" id="162" weight="385" />
+      <edge source="Social Realism" target="Post-Impressionism" id="163" weight="5145" />
+      <edge source="Social Realism" target="Neo-Pop Art" id="164" weight="156" />
+      <edge source="Social Realism" target="Modernism" id="165" weight="1335" />
+      <edge source="Social Realism" target="Cubism" id="166" weight="4910" />
+      <edge source="Social Realism" target="Art Informel" id="167" weight="877" />
+      <edge source="Social Realism" target="Harlem Renaissance (New Negro Movement)" id="168" weight="1602" />
+      <edge source="Social Realism" target="Realism" id="169" weight="9816" />
+      <edge source="Social Realism" target="Neo-Expressionism" id="170" weight="1167" />
+      <edge source="Social Realism" target="Vorticism" id="171" weight="309" />
+      <edge source="Social Realism" target="Surrealism" id="172" weight="8172" />
+      <edge source="Social Realism" target="Futurism" id="173" weight="587" />
+      <edge source="Social Realism" target="Precisionism" id="174" weight="443" />
+      <edge source="Social Realism" target="Dada" id="175" weight="1045" />
+      <edge source="Social Realism" target="Impressionism" id="176" weight="3325" />
+      <edge source="Social Realism" target="Magic Realism" id="177" weight="1805" />
+      <edge source="Social Realism" target="Existential Art" id="178" weight="243" />
+      <edge source="Social Realism" target="Art Deco" id="179" weight="373" />
+      <edge source="Social Realism" target="Modernismo" id="180" weight="1459" />
+      <edge source="Social Realism" target="Minimalism" id="181" weight="322" />
+      <edge source="Social Realism" target="Pop Art" id="182" weight="1529" />
+      <edge source="Social Realism" target="Art Nouveau" id="183" weight="1469" />
+      <edge source="Social Realism" target="Conceptual Art" id="184" weight="227" />
+      <edge source="Social Realism" target="Contemporary Realism" id="185" weight="606" />
+      <edge source="Social Realism" target="Post-Painterly Abstraction" id="186" weight="618" />
+      <edge source="Social Realism" target="Symbolism" id="187" weight="3161" />
+      <edge source="Social Realism" target="Op Art" id="188" weight="156" />
+      <edge source="Social Realism" target="Soviet Nonconformist Art" id="189" weight="306" />
+      <edge source="Social Realism" target="Neo-Dada" id="190" weight="111" />
+      <edge source="Social Realism" target="Outsider art (Art brut)" id="191" weight="623" />
+      <edge source="Social Realism" target="Neo-Orthodoxism" id="192" weight="372" />
+      <edge source="Social Realism" target="Republic of China (1912–1949)" id="193" weight="601" />
+      <edge source="Social Realism" target="Muralism" id="194" weight="324" />
+      <edge source="Social Realism" target="Academic Art" id="195" weight="1844" />
+      <edge source="Social Realism" target="Romanticism" id="196" weight="2077" />
+      <edge source="Social Realism" target="Orientalism" id="197" weight="502" />
+      <edge source="Social Realism" target="Rococo" id="198" weight="110" />
+      <edge source="Social Realism" target="Neoclassicism" id="199" weight="513" />
+      <edge source="Social Realism" target="Kitsch" id="200" weight="493" />
+      <edge source="Social Realism" target="Neo-Impressionism" id="201" weight="444" />
+      <edge source="Social Realism" target="Regionalism" id="202" weight="454" />
+      <edge source="Social Realism" target="Metaphysical art" id="203" weight="480" />
+      <edge source="Social Realism" target="Tachisme" id="204" weight="113" />
+      <edge source="Social Realism" target="Stuckism" id="205" weight="133" />
+      <edge source="Social Realism" target="Viennese Actionism" id="206" weight="110" />
+      <edge source="Social Realism" target="Baroque" id="207" weight="287" />
+      <edge source="Social Realism" target="Northern Renaissance" id="208" weight="116" />
+      <edge source="Social Realism" target="High Renaissance" id="209" weight="112" />
+      <edge source="Kinetic art" target="Avant-garde" id="210" weight="109" />
+      <edge source="Kinetic art" target="Expressionism" id="211" weight="5869" />
+      <edge source="Kinetic art" target="Socialist Realism" id="212" weight="245" />
+      <edge source="Kinetic art" target="Contemporary" id="213" weight="805" />
+      <edge source="Kinetic art" target="Constructivism" id="214" weight="520" />
+      <edge source="Kinetic art" target="Post-Impressionism" id="215" weight="738" />
+      <edge source="Kinetic art" target="Modernism" id="216" weight="262" />
+      <edge source="Kinetic art" target="Cubism" id="217" weight="699" />
+      <edge source="Kinetic art" target="Art Informel" id="218" weight="225" />
+      <edge source="Kinetic art" target="Harlem Renaissance (New Negro Movement)" id="219" weight="122" />
+      <edge source="Kinetic art" target="Realism" id="220" weight="456" />
+      <edge source="Kinetic art" target="Neo-Expressionism" id="221" weight="116" />
+      <edge source="Kinetic art" target="Surrealism" id="222" weight="3062" />
+      <edge source="Kinetic art" target="Futurism" id="223" weight="193" />
+      <edge source="Kinetic art" target="Dada" id="224" weight="306" />
+      <edge source="Kinetic art" target="Impressionism" id="225" weight="348" />
+      <edge source="Kinetic art" target="Magic Realism" id="226" weight="298" />
+      <edge source="Kinetic art" target="Modernismo" id="227" weight="134" />
+      <edge source="Kinetic art" target="Minimalism" id="228" weight="702" />
+      <edge source="Kinetic art" target="Pop Art" id="229" weight="208" />
+      <edge source="Kinetic art" target="Art Nouveau" id="230" weight="122" />
+      <edge source="Kinetic art" target="Conceptual Art" id="231" weight="460" />
+      <edge source="Kinetic art" target="Post-Painterly Abstraction" id="232" weight="1419" />
+      <edge source="Kinetic art" target="Symbolism" id="233" weight="490" />
+      <edge source="Kinetic art" target="Op Art" id="234" weight="4602" />
+      <edge source="Kinetic art" target="Neo-Dada" id="235" weight="463" />
+      <edge source="Kinetic art" target="Abstract Illusionism" id="236" weight="239" />
+      <edge source="Kinetic art" target="Outsider art (Art brut)" id="237" weight="105" />
+      <edge source="Kinetic art" target="Romanticism" id="238" weight="303" />
+      <edge source="Kinetic art" target="Neo-Concretism" id="239" weight="152" />
+      <edge source="Kinetic art" target="Post-Minimalism" id="240" weight="170" />
+      <edge source="Kinetic art" target="Neoclassicism" id="241" weight="124" />
+      <edge source="Kinetic art" target="Spatialism" id="242" weight="191" />
+      <edge source="Kinetic art" target="Baroque" id="243" weight="196" />
+      <edge source="Avant-garde" target="Expressionism" id="244" weight="9823" />
+      <edge source="Avant-garde" target="New Ink Art" id="245" weight="141" />
+      <edge source="Avant-garde" target="Socialist Realism" id="246" weight="728" />
+      <edge source="Avant-garde" target="Contemporary" id="247" weight="994" />
+      <edge source="Avant-garde" target="Constructivism" id="248" weight="735" />
+      <edge source="Avant-garde" target="Post-Impressionism" id="249" weight="8780" />
+      <edge source="Avant-garde" target="Modernism" id="250" weight="781" />
+      <edge source="Avant-garde" target="Cubism" id="251" weight="3453" />
+      <edge source="Avant-garde" target="Art Informel" id="252" weight="423" />
+      <edge source="Avant-garde" target="Harlem Renaissance (New Negro Movement)" id="253" weight="755" />
+      <edge source="Avant-garde" target="Realism" id="254" weight="6961" />
+      <edge source="Avant-garde" target="Neo-Expressionism" id="255" weight="479" />
+      <edge source="Avant-garde" target="Vorticism" id="256" weight="132" />
+      <edge source="Avant-garde" target="Surrealism" id="257" weight="3066" />
+      <edge source="Avant-garde" target="Futurism" id="258" weight="678" />
+      <edge source="Avant-garde" target="Precisionism" id="259" weight="125" />
+      <edge source="Avant-garde" target="Dada" id="260" weight="737" />
+      <edge source="Avant-garde" target="Impressionism" id="261" weight="3734" />
+      <edge source="Avant-garde" target="Magic Realism" id="262" weight="615" />
+      <edge source="Avant-garde" target="Art Deco" id="263" weight="194" />
+      <edge source="Avant-garde" target="Modernismo" id="264" weight="1107" />
+      <edge source="Avant-garde" target="Minimalism" id="265" weight="112" />
+      <edge source="Avant-garde" target="Pop Art" id="266" weight="386" />
+      <edge source="Avant-garde" target="Art Nouveau" id="267" weight="1999" />
+      <edge source="Avant-garde" target="Conceptual Art" id="268" weight="112" />
+      <edge source="Avant-garde" target="Contemporary Realism" id="269" weight="318" />
+      <edge source="Avant-garde" target="Symbolism" id="270" weight="2787" />
+      <edge source="Avant-garde" target="Soviet Nonconformist Art" id="271" weight="244" />
+      <edge source="Avant-garde" target="Suprematism" id="272" weight="209" />
+      <edge source="Avant-garde" target="Kitsch" id="273" weight="100" />
+      <edge source="Avant-garde" target="Romanticism" id="274" weight="1893" />
+      <edge source="Avant-garde" target="Academic Art" id="275" weight="650" />
+      <edge source="Avant-garde" target="Neo-Impressionism" id="276" weight="554" />
+      <edge source="Avant-garde" target="Regionalism" id="277" weight="116" />
+      <edge source="Avant-garde" target="Metaphysical art" id="278" weight="290" />
+      <edge source="Avant-garde" target="Orientalism" id="279" weight="264" />
+      <edge source="Avant-garde" target="Outsider art (Art brut)" id="280" weight="488" />
+      <edge source="Avant-garde" target="Muralism" id="281" weight="100" />
+      <edge source="Avant-garde" target="Republic of China (1912–1949)" id="282" weight="337" />
+      <edge source="Avant-garde" target="Neoclassicism" id="283" weight="288" />
+      <edge source="Avant-garde" target="Neo-Orthodoxism" id="284" weight="138" />
+      <edge source="Avant-garde" target="Neo-Figurative Art" id="285" weight="367" />
+      <edge source="Avant-garde" target="Native Art" id="286" weight="244" />
+      <edge source="Avant-garde" target="Baroque" id="287" weight="577" />
+      <edge source="Avant-garde" target="Northern Renaissance" id="288" weight="269" />
+      <edge source="Avant-garde" target="Early Renaissance" id="289" weight="189" />
+      <edge source="Avant-garde" target="High Renaissance" id="290" weight="288" />
+      <edge source="Avant-garde" target="Rococo" id="291" weight="131" />
+      <edge source="Expressionism" target="New Ink Art" id="292" weight="4471" />
+      <edge source="Expressionism" target="Socialist Realism" id="293" weight="12071" />
+      <edge source="Expressionism" target="Contemporary" id="294" weight="18271" />
+      <edge source="Expressionism" target="Constructivism" id="295" weight="2982" />
+      <edge source="Expressionism" target="New Generation Sculpture" id="296" weight="172" />
+      <edge source="Expressionism" target="Post-Impressionism" id="297" weight="81170" />
+      <edge source="Expressionism" target="Neo-Pop Art" id="298" weight="404" />
+      <edge source="Expressionism" target="Modernism" id="299" weight="19060" />
+      <edge source="Expressionism" target="Cubism" id="300" weight="59356" />
+      <edge source="Expressionism" target="Art Informel" id="301" weight="10704" />
+      <edge source="Expressionism" target="Harlem Renaissance (New Negro Movement)" id="302" weight="10927" />
+      <edge source="Expressionism" target="New European Painting" id="303" weight="157" />
+      <edge source="Expressionism" target="Realism" id="304" weight="50090" />
+      <edge source="Expressionism" target="Neo-Expressionism" id="305" weight="9230" />
+      <edge source="Expressionism" target="Vorticism" id="306" weight="3497" />
+      <edge source="Expressionism" target="Surrealism" id="307" weight="64177" />
+      <edge source="Expressionism" target="Futurism" id="308" weight="6513" />
+      <edge source="Expressionism" target="Sots Art" id="309" weight="139" />
+      <edge source="Expressionism" target="Precisionism" id="310" weight="4210" />
+      <edge source="Expressionism" target="Dada" id="311" weight="10581" />
+      <edge source="Expressionism" target="Impressionism" id="312" weight="43000" />
+      <edge source="Expressionism" target="Magic Realism" id="313" weight="11629" />
+      <edge source="Expressionism" target="Existential Art" id="314" weight="3398" />
+      <edge source="Expressionism" target="Art Deco" id="315" weight="1830" />
+      <edge source="Expressionism" target="Modernismo" id="316" weight="15489" />
+      <edge source="Expressionism" target="Minimalism" id="317" weight="2543" />
+      <edge source="Expressionism" target="Pop Art" id="318" weight="9552" />
+      <edge source="Expressionism" target="Art Nouveau" id="319" weight="16659" />
+      <edge source="Expressionism" target="Conceptual Art" id="320" weight="2200" />
+      <edge source="Expressionism" target="Contemporary Realism" id="321" weight="6494" />
+      <edge source="Expressionism" target="Post-Painterly Abstraction" id="322" weight="2046" />
+      <edge source="Expressionism" target="New media art" id="323" weight="165" />
+      <edge source="Expressionism" target="Symbolism" id="324" weight="47659" />
+      <edge source="Expressionism" target="Op Art" id="325" weight="1624" />
+      <edge source="Expressionism" target="Soviet Nonconformist Art" id="326" weight="3679" />
+      <edge source="Expressionism" target="Performance Art" id="327" weight="1306" />
+      <edge source="Expressionism" target="Neo-Dada" id="328" weight="371" />
+      <edge source="Expressionism" target="Light and Space" id="329" weight="141" />
+      <edge source="Expressionism" target="Outsider art (Art brut)" id="330" weight="7705" />
+      <edge source="Expressionism" target="Arte Povera" id="331" weight="105" />
+      <edge source="Expressionism" target="Neo-Orthodoxism" id="332" weight="6235" />
+      <edge source="Expressionism" target="Republic of China (1912–1949)" id="333" weight="10622" />
+      <edge source="Expressionism" target="Muralism" id="334" weight="1736" />
+      <edge source="Expressionism" target="Street art" id="335" weight="568" />
+      <edge source="Expressionism" target="Feminist Art" id="336" weight="497" />
+      <edge source="Expressionism" target="Suprematism" id="337" weight="406" />
+      <edge source="Expressionism" target="Arts and Crafts" id="338" weight="611" />
+      <edge source="Expressionism" target="Kitsch" id="339" weight="2027" />
+      <edge source="Expressionism" target="Tachisme" id="340" weight="1091" />
+      <edge source="Expressionism" target="Neo-Concretism" id="341" weight="116" />
+      <edge source="Expressionism" target="Romanticism" id="342" weight="13007" />
+      <edge source="Expressionism" target="Academic Art" id="343" weight="5282" />
+      <edge source="Expressionism" target="Neo-Impressionism" id="344" weight="3011" />
+      <edge source="Expressionism" target="Regionalism" id="345" weight="1478" />
+      <edge source="Expressionism" target="Metaphysical art" id="346" weight="6535" />
+      <edge source="Expressionism" target="Orientalism" id="347" weight="4793" />
+      <edge source="Expressionism" target="Young Poland" id="348" weight="363" />
+      <edge source="Expressionism" target="Neo-Romanticism" id="349" weight="341" />
+      <edge source="Expressionism" target="Synchromism" id="350" weight="142" />
+      <edge source="Expressionism" target="Classical Realism" id="351" weight="223" />
+      <edge source="Expressionism" target="Lettrism" id="352" weight="410" />
+      <edge source="Expressionism" target="Confessional Art" id="353" weight="212" />
+      <edge source="Expressionism" target="Transavantgarde" id="354" weight="732" />
+      <edge source="Expressionism" target="New Image Painting" id="355" weight="374" />
+      <edge source="Expressionism" target="Neo-Figurative Art" id="356" weight="341" />
+      <edge source="Expressionism" target="Neoclassicism" id="357" weight="7129" />
+      <edge source="Expressionism" target="Stuckism" id="358" weight="2122" />
+      <edge source="Expressionism" target="Viennese Actionism" id="359" weight="1089" />
+      <edge source="Expressionism" target="Tonalism" id="360" weight="256" />
+      <edge source="Expressionism" target="Naturalism" id="361" weight="478" />
+      <edge source="Expressionism" target="Tang Dynasty (618–907)" id="362" weight="161" />
+      <edge source="Expressionism" target="Ming Dynasty (1368–1644)" id="363" weight="166" />
+      <edge source="Expressionism" target="Yuan Dynasty (1271–1368)" id="364" weight="275" />
+      <edge source="Expressionism" target="Native Art" id="365" weight="157" />
+      <edge source="Expressionism" target="Rococo" id="366" weight="1506" />
+      <edge source="Expressionism" target="Baroque" id="367" weight="5651" />
+      <edge source="Expressionism" target="Early Renaissance" id="368" weight="1823" />
+      <edge source="Expressionism" target="High Renaissance" id="369" weight="2741" />
+      <edge source="Expressionism" target="Lowbrow Art" id="370" weight="209" />
+      <edge source="Expressionism" target="Northern Renaissance" id="371" weight="2409" />
+      <edge source="Expressionism" target="Pictorialism" id="372" weight="267" />
+      <edge source="Expressionism" target="Gothic Art" id="373" weight="412" />
+      <edge source="Expressionism" target="Black Arts Movement" id="374" weight="211" />
+      <edge source="New Ink Art" target="Socialist Realism" id="375" weight="170" />
+      <edge source="New Ink Art" target="Contemporary" id="376" weight="1081" />
+      <edge source="New Ink Art" target="Post-Impressionism" id="377" weight="1860" />
+      <edge source="New Ink Art" target="Modernism" id="378" weight="216" />
+      <edge source="New Ink Art" target="Cubism" id="379" weight="574" />
+      <edge source="New Ink Art" target="Art Informel" id="380" weight="667" />
+      <edge source="New Ink Art" target="Harlem Renaissance (New Negro Movement)" id="381" weight="120" />
+      <edge source="New Ink Art" target="New European Painting" id="382" weight="188" />
+      <edge source="New Ink Art" target="Realism" id="383" weight="2330" />
+      <edge source="New Ink Art" target="Neo-Expressionism" id="384" weight="1128" />
+      <edge source="New Ink Art" target="Surrealism" id="385" weight="2813" />
+      <edge source="New Ink Art" target="Precisionism" id="386" weight="165" />
+      <edge source="New Ink Art" target="Dada" id="387" weight="215" />
+      <edge source="New Ink Art" target="Impressionism" id="388" weight="1660" />
+      <edge source="New Ink Art" target="Magic Realism" id="389" weight="285" />
+      <edge source="New Ink Art" target="Modernismo" id="390" weight="188" />
+      <edge source="New Ink Art" target="Minimalism" id="391" weight="748" />
+      <edge source="New Ink Art" target="Pop Art" id="392" weight="487" />
+      <edge source="New Ink Art" target="Art Nouveau" id="393" weight="318" />
+      <edge source="New Ink Art" target="Conceptual Art" id="394" weight="488" />
+      <edge source="New Ink Art" target="Contemporary Realism" id="395" weight="798" />
+      <edge source="New Ink Art" target="Post-Painterly Abstraction" id="396" weight="187" />
+      <edge source="New Ink Art" target="Symbolism" id="397" weight="1765" />
+      <edge source="New Ink Art" target="Soviet Nonconformist Art" id="398" weight="106" />
+      <edge source="New Ink Art" target="Outsider art (Art brut)" id="399" weight="119" />
+      <edge source="New Ink Art" target="Arte Povera" id="400" weight="115" />
+      <edge source="New Ink Art" target="Republic of China (1912–1949)" id="401" weight="316" />
+      <edge source="New Ink Art" target="Feminist Art" id="402" weight="149" />
+      <edge source="New Ink Art" target="Academic Art" id="403" weight="429" />
+      <edge source="New Ink Art" target="Romanticism" id="404" weight="990" />
+      <edge source="New Ink Art" target="Orientalism" id="405" weight="101" />
+      <edge source="New Ink Art" target="Neoclassicism" id="406" weight="173" />
+      <edge source="New Ink Art" target="Post-Minimalism" id="407" weight="414" />
+      <edge source="New Ink Art" target="Regionalism" id="408" weight="144" />
+      <edge source="New Ink Art" target="Neo-Figurative Art" id="409" weight="164" />
+      <edge source="New Ink Art" target="Neo-Impressionism" id="410" weight="193" />
+      <edge source="New Ink Art" target="Qing Dynasty (1644–1912)" id="411" weight="150" />
+      <edge source="New Ink Art" target="Ming Dynasty (1368–1644)" id="412" weight="124" />
+      <edge source="New Ink Art" target="Baroque" id="413" weight="340" />
+      <edge source="New Ink Art" target="Northern Renaissance" id="414" weight="157" />
+      <edge source="New Ink Art" target="Early Renaissance" id="415" weight="121" />
+      <edge source="New Ink Art" target="High Renaissance" id="416" weight="183" />
+      <edge source="Socialist Realism" target="Contemporary" id="417" weight="710" />
+      <edge source="Socialist Realism" target="Constructivism" id="418" weight="244" />
+      <edge source="Socialist Realism" target="Post-Impressionism" id="419" weight="6152" />
+      <edge source="Socialist Realism" target="Modernism" id="420" weight="735" />
+      <edge source="Socialist Realism" target="Cubism" id="421" weight="2381" />
+      <edge source="Socialist Realism" target="Art Informel" id="422" weight="325" />
+      <edge source="Socialist Realism" target="Harlem Renaissance (New Negro Movement)" id="423" weight="471" />
+      <edge source="Socialist Realism" target="Realism" id="424" weight="12636" />
+      <edge source="Socialist Realism" target="Neo-Expressionism" id="425" weight="515" />
+      <edge source="Socialist Realism" target="Vorticism" id="426" weight="102" />
+      <edge source="Socialist Realism" target="Surrealism" id="427" weight="2298" />
+      <edge source="Socialist Realism" target="Futurism" id="428" weight="314" />
+      <edge source="Socialist Realism" target="Precisionism" id="429" weight="172" />
+      <edge source="Socialist Realism" target="Dada" id="430" weight="395" />
+      <edge source="Socialist Realism" target="Impressionism" id="431" weight="10317" />
+      <edge source="Socialist Realism" target="Magic Realism" id="432" weight="452" />
+      <edge source="Socialist Realism" target="Modernismo" id="433" weight="656" />
+      <edge source="Socialist Realism" target="Minimalism" id="434" weight="196" />
+      <edge source="Socialist Realism" target="Pop Art" id="435" weight="1085" />
+      <edge source="Socialist Realism" target="Art Nouveau" id="436" weight="3666" />
+      <edge source="Socialist Realism" target="Conceptual Art" id="437" weight="1095" />
+      <edge source="Socialist Realism" target="Contemporary Realism" id="438" weight="847" />
+      <edge source="Socialist Realism" target="Post-Painterly Abstraction" id="439" weight="205" />
+      <edge source="Socialist Realism" target="Symbolism" id="440" weight="4140" />
+      <edge source="Socialist Realism" target="Op Art" id="441" weight="323" />
+      <edge source="Socialist Realism" target="Soviet Nonconformist Art" id="442" weight="268" />
+      <edge source="Socialist Realism" target="Neo-Dada" id="443" weight="127" />
+      <edge source="Socialist Realism" target="Outsider art (Art brut)" id="444" weight="277" />
+      <edge source="Socialist Realism" target="Neo-Orthodoxism" id="445" weight="148" />
+      <edge source="Socialist Realism" target="Republic of China (1912–1949)" id="446" weight="324" />
+      <edge source="Socialist Realism" target="Arts and Crafts" id="447" weight="227" />
+      <edge source="Socialist Realism" target="Kitsch" id="448" weight="139" />
+      <edge source="Socialist Realism" target="Romanticism" id="449" weight="2173" />
+      <edge source="Socialist Realism" target="Academic Art" id="450" weight="1057" />
+      <edge source="Socialist Realism" target="Neo-Impressionism" id="451" weight="656" />
+      <edge source="Socialist Realism" target="Regionalism" id="452" weight="117" />
+      <edge source="Socialist Realism" target="Metaphysical art" id="453" weight="208" />
+      <edge source="Socialist Realism" target="Orientalism" id="454" weight="483" />
+      <edge source="Socialist Realism" target="Neo-Romanticism" id="455" weight="106" />
+      <edge source="Socialist Realism" target="Classical Realism" id="456" weight="100" />
+      <edge source="Socialist Realism" target="Neoclassicism" id="457" weight="628" />
+      <edge source="Socialist Realism" target="Naturalism" id="458" weight="153" />
+      <edge source="Socialist Realism" target="Rococo" id="459" weight="131" />
+      <edge source="Socialist Realism" target="Baroque" id="460" weight="189" />
+      <edge source="Contemporary" target="Constructivism" id="461" weight="646" />
+      <edge source="Contemporary" target="New Generation Sculpture" id="462" weight="116" />
+      <edge source="Contemporary" target="Post-Impressionism" id="463" weight="4323" />
+      <edge source="Contemporary" target="Neo-Pop Art" id="464" weight="432" />
+      <edge source="Contemporary" target="Modernism" id="465" weight="1382" />
+      <edge source="Contemporary" target="Cubism" id="466" weight="3189" />
+      <edge source="Contemporary" target="Art Informel" id="467" weight="5129" />
+      <edge source="Contemporary" target="Harlem Renaissance (New Negro Movement)" id="468" weight="684" />
+      <edge source="Contemporary" target="New European Painting" id="469" weight="159" />
+      <edge source="Contemporary" target="Realism" id="470" weight="6588" />
+      <edge source="Contemporary" target="Neo-Expressionism" id="471" weight="4863" />
+      <edge source="Contemporary" target="Vorticism" id="472" weight="156" />
+      <edge source="Contemporary" target="Surrealism" id="473" weight="12311" />
+      <edge source="Contemporary" target="Futurism" id="474" weight="792" />
+      <edge source="Contemporary" target="Sots Art" id="475" weight="141" />
+      <edge source="Contemporary" target="Precisionism" id="476" weight="538" />
+      <edge source="Contemporary" target="Dada" id="477" weight="1484" />
+      <edge source="Contemporary" target="Impressionism" id="478" weight="6492" />
+      <edge source="Contemporary" target="Magic Realism" id="479" weight="3034" />
+      <edge source="Contemporary" target="Existential Art" id="480" weight="249" />
+      <edge source="Contemporary" target="Art Deco" id="481" weight="121" />
+      <edge source="Contemporary" target="Modernismo" id="482" weight="841" />
+      <edge source="Contemporary" target="Minimalism" id="483" weight="2891" />
+      <edge source="Contemporary" target="Pop Art" id="484" weight="5045" />
+      <edge source="Contemporary" target="Art Nouveau" id="485" weight="1439" />
+      <edge source="Contemporary" target="Conceptual Art" id="486" weight="4359" />
+      <edge source="Contemporary" target="Contemporary Realism" id="487" weight="2294" />
+      <edge source="Contemporary" target="Post-Painterly Abstraction" id="488" weight="2214" />
+      <edge source="Contemporary" target="Symbolism" id="489" weight="2982" />
+      <edge source="Contemporary" target="Op Art" id="490" weight="776" />
+      <edge source="Contemporary" target="Soviet Nonconformist Art" id="491" weight="1605" />
+      <edge source="Contemporary" target="Performance Art" id="492" weight="833" />
+      <edge source="Contemporary" target="Neo-Dada" id="493" weight="877" />
+      <edge source="Contemporary" target="Light and Space" id="494" weight="258" />
+      <edge source="Contemporary" target="Outsider art (Art brut)" id="495" weight="840" />
+      <edge source="Contemporary" target="Arte Povera" id="496" weight="479" />
+      <edge source="Contemporary" target="Neo-Orthodoxism" id="497" weight="294" />
+      <edge source="Contemporary" target="Republic of China (1912–1949)" id="498" weight="318" />
+      <edge source="Contemporary" target="Muralism" id="499" weight="467" />
+      <edge source="Contemporary" target="Street art" id="500" weight="337" />
+      <edge source="Contemporary" target="Feminist Art" id="501" weight="1699" />
+      <edge source="Contemporary" target="Suprematism" id="502" weight="147" />
+      <edge source="Contemporary" target="Kitsch" id="503" weight="488" />
+      <edge source="Contemporary" target="Spatialism" id="504" weight="101" />
+      <edge source="Contemporary" target="Post-Minimalism" id="505" weight="429" />
+      <edge source="Contemporary" target="Tachisme" id="506" weight="154" />
+      <edge source="Contemporary" target="Neo-Concretism" id="507" weight="196" />
+      <edge source="Contemporary" target="Korean Informel" id="508" weight="127" />
+      <edge source="Contemporary" target="Relational Art" id="509" weight="366" />
+      <edge source="Contemporary" target="Lettrism" id="510" weight="114" />
+      <edge source="Contemporary" target="Confessional Art" id="511" weight="160" />
+      <edge source="Contemporary" target="Transavantgarde" id="512" weight="441" />
+      <edge source="Contemporary" target="Postcolonial art" id="513" weight="486" />
+      <edge source="Contemporary" target="Regionalism" id="514" weight="686" />
+      <edge source="Contemporary" target="Classical Realism" id="515" weight="155" />
+      <edge source="Contemporary" target="New Image Painting" id="516" weight="575" />
+      <edge source="Contemporary" target="Neo-Figurative Art" id="517" weight="193" />
+      <edge source="Contemporary" target="Metaphysical art" id="518" weight="632" />
+      <edge source="Contemporary" target="Neo-Impressionism" id="519" weight="565" />
+      <edge source="Contemporary" target="Romanticism" id="520" weight="8833" />
+      <edge source="Contemporary" target="Academic Art" id="521" weight="1212" />
+      <edge source="Contemporary" target="Neoclassicism" id="522" weight="2186" />
+      <edge source="Contemporary" target="Orientalism" id="523" weight="217" />
+      <edge source="Contemporary" target="Naturalism" id="524" weight="136" />
+      <edge source="Contemporary" target="Native Art" id="525" weight="258" />
+      <edge source="Contemporary" target="Baroque" id="526" weight="6475" />
+      <edge source="Contemporary" target="Northern Renaissance" id="527" weight="2980" />
+      <edge source="Contemporary" target="Pictorialism" id="528" weight="376" />
+      <edge source="Contemporary" target="Gothic Art" id="529" weight="356" />
+      <edge source="Contemporary" target="Early Renaissance" id="530" weight="2282" />
+      <edge source="Contemporary" target="High Renaissance" id="531" weight="3545" />
+      <edge source="Contemporary" target="Rococo" id="532" weight="1358" />
+      <edge source="Contemporary" target="Ming Dynasty (1368–1644)" id="533" weight="201" />
+      <edge source="Contemporary" target="Black Arts Movement" id="534" weight="331" />
+      <edge source="Contemporary" target="Yuan Dynasty (1271–1368)" id="535" weight="370" />
+      <edge source="Contemporary" target="Tang Dynasty (618–907)" id="536" weight="201" />
+      <edge source="Constructivism" target="Post-Impressionism" id="537" weight="1102" />
+      <edge source="Constructivism" target="Modernism" id="538" weight="219" />
+      <edge source="Constructivism" target="Cubism" id="539" weight="1770" />
+      <edge source="Constructivism" target="Art Informel" id="540" weight="261" />
+      <edge source="Constructivism" target="Harlem Renaissance (New Negro Movement)" id="541" weight="124" />
+      <edge source="Constructivism" target="Realism" id="542" weight="653" />
+      <edge source="Constructivism" target="Neo-Expressionism" id="543" weight="195" />
+      <edge source="Constructivism" target="Surrealism" id="544" weight="957" />
+      <edge source="Constructivism" target="Futurism" id="545" weight="326" />
+      <edge source="Constructivism" target="Dada" id="546" weight="859" />
+      <edge source="Constructivism" target="Impressionism" id="547" weight="728" />
+      <edge source="Constructivism" target="Magic Realism" id="548" weight="199" />
+      <edge source="Constructivism" target="Modernismo" id="549" weight="141" />
+      <edge source="Constructivism" target="Minimalism" id="550" weight="324" />
+      <edge source="Constructivism" target="Pop Art" id="551" weight="268" />
+      <edge source="Constructivism" target="Art Nouveau" id="552" weight="294" />
+      <edge source="Constructivism" target="Conceptual Art" id="553" weight="199" />
+      <edge source="Constructivism" target="Contemporary Realism" id="554" weight="117" />
+      <edge source="Constructivism" target="Post-Painterly Abstraction" id="555" weight="185" />
+      <edge source="Constructivism" target="Symbolism" id="556" weight="317" />
+      <edge source="Constructivism" target="Op Art" id="557" weight="387" />
+      <edge source="Constructivism" target="Soviet Nonconformist Art" id="558" weight="198" />
+      <edge source="Constructivism" target="Performance Art" id="559" weight="121" />
+      <edge source="Constructivism" target="Metaphysical art" id="560" weight="144" />
+      <edge source="Constructivism" target="Romanticism" id="561" weight="678" />
+      <edge source="Constructivism" target="Neoclassicism" id="562" weight="194" />
+      <edge source="Constructivism" target="Baroque" id="563" weight="607" />
+      <edge source="Constructivism" target="Northern Renaissance" id="564" weight="232" />
+      <edge source="Constructivism" target="Early Renaissance" id="565" weight="162" />
+      <edge source="Constructivism" target="High Renaissance" id="566" weight="308" />
+      <edge source="Constructivism" target="Rococo" id="567" weight="102" />
+      <edge source="New Generation Sculpture" target="Minimalism" id="568" weight="542" />
+      <edge source="New Generation Sculpture" target="Conceptual Art" id="569" weight="370" />
+      <edge source="New Generation Sculpture" target="Post-Painterly Abstraction" id="570" weight="262" />
+      <edge source="New Generation Sculpture" target="Neo-Dada" id="571" weight="110" />
+      <edge source="New Generation Sculpture" target="Arte Povera" id="572" weight="219" />
+      <edge source="New Generation Sculpture" target="Feminist Art" id="573" weight="131" />
+      <edge source="New Generation Sculpture" target="Post-Minimalism" id="574" weight="1337" />
+      <edge source="New Generation Sculpture" target="Relational Art" id="575" weight="146" />
+      <edge source="Post-Impressionism" target="Modernism" id="576" weight="8698" />
+      <edge source="Post-Impressionism" target="Cubism" id="577" weight="20030" />
+      <edge source="Post-Impressionism" target="Art Informel" id="578" weight="2258" />
+      <edge source="Post-Impressionism" target="Harlem Renaissance (New Negro Movement)" id="579" weight="2958" />
+      <edge source="Post-Impressionism" target="Realism" id="580" weight="64169" />
+      <edge source="Post-Impressionism" target="Neo-Expressionism" id="581" weight="1727" />
+      <edge source="Post-Impressionism" target="Vorticism" id="582" weight="751" />
+      <edge source="Post-Impressionism" target="Surrealism" id="583" weight="19062" />
+      <edge source="Post-Impressionism" target="Futurism" id="584" weight="2783" />
+      <edge source="Post-Impressionism" target="Precisionism" id="585" weight="637" />
+      <edge source="Post-Impressionism" target="Dada" id="586" weight="3678" />
+      <edge source="Post-Impressionism" target="Impressionism" id="587" weight="91577" />
+      <edge source="Post-Impressionism" target="Magic Realism" id="588" weight="3081" />
+      <edge source="Post-Impressionism" target="Existential Art" id="589" weight="443" />
+      <edge source="Post-Impressionism" target="Art Deco" id="590" weight="535" />
+      <edge source="Post-Impressionism" target="Modernismo" id="591" weight="9015" />
+      <edge source="Post-Impressionism" target="Minimalism" id="592" weight="531" />
+      <edge source="Post-Impressionism" target="Pop Art" id="593" weight="1636" />
+      <edge source="Post-Impressionism" target="Art Nouveau" id="594" weight="24456" />
+      <edge source="Post-Impressionism" target="Conceptual Art" id="595" weight="505" />
+      <edge source="Post-Impressionism" target="Contemporary Realism" id="596" weight="2532" />
+      <edge source="Post-Impressionism" target="Post-Painterly Abstraction" id="597" weight="453" />
+      <edge source="Post-Impressionism" target="Symbolism" id="598" weight="49158" />
+      <edge source="Post-Impressionism" target="Op Art" id="599" weight="281" />
+      <edge source="Post-Impressionism" target="Soviet Nonconformist Art" id="600" weight="2981" />
+      <edge source="Post-Impressionism" target="Performance Art" id="601" weight="437" />
+      <edge source="Post-Impressionism" target="Neo-Dada" id="602" weight="108" />
+      <edge source="Post-Impressionism" target="Outsider art (Art brut)" id="603" weight="1297" />
+      <edge source="Post-Impressionism" target="Neo-Orthodoxism" id="604" weight="1556" />
+      <edge source="Post-Impressionism" target="Republic of China (1912–1949)" id="605" weight="4504" />
+      <edge source="Post-Impressionism" target="Muralism" id="606" weight="447" />
+      <edge source="Post-Impressionism" target="Street art" id="607" weight="113" />
+      <edge source="Post-Impressionism" target="Feminist Art" id="608" weight="163" />
+      <edge source="Post-Impressionism" target="Academic Art" id="609" weight="5630" />
+      <edge source="Post-Impressionism" target="Romanticism" id="610" weight="24218" />
+      <edge source="Post-Impressionism" target="Naturalism" id="611" weight="861" />
+      <edge source="Post-Impressionism" target="Orientalism" id="612" weight="3027" />
+      <edge source="Post-Impressionism" target="Rococo" id="613" weight="1335" />
+      <edge source="Post-Impressionism" target="Neoclassicism" id="614" weight="5267" />
+      <edge source="Post-Impressionism" target="Suprematism" id="615" weight="261" />
+      <edge source="Post-Impressionism" target="Arts and Crafts" id="616" weight="1121" />
+      <edge source="Post-Impressionism" target="Kitsch" id="617" weight="592" />
+      <edge source="Post-Impressionism" target="Neo-Impressionism" id="618" weight="13712" />
+      <edge source="Post-Impressionism" target="Regionalism" id="619" weight="1744" />
+      <edge source="Post-Impressionism" target="Metaphysical art" id="620" weight="1987" />
+      <edge source="Post-Impressionism" target="Young Poland" id="621" weight="420" />
+      <edge source="Post-Impressionism" target="Neo-Romanticism" id="622" weight="541" />
+      <edge source="Post-Impressionism" target="Synchromism" id="623" weight="332" />
+      <edge source="Post-Impressionism" target="Transavantgarde" id="624" weight="180" />
+      <edge source="Post-Impressionism" target="Tachisme" id="625" weight="1089" />
+      <edge source="Post-Impressionism" target="Stuckism" id="626" weight="247" />
+      <edge source="Post-Impressionism" target="Viennese Actionism" id="627" weight="133" />
+      <edge source="Post-Impressionism" target="Tonalism" id="628" weight="538" />
+      <edge source="Post-Impressionism" target="Neo-Figurative Art" id="629" weight="237" />
+      <edge source="Post-Impressionism" target="Native Art" id="630" weight="188" />
+      <edge source="Post-Impressionism" target="Baroque" id="631" weight="2809" />
+      <edge source="Post-Impressionism" target="Early Renaissance" id="632" weight="825" />
+      <edge source="Post-Impressionism" target="High Renaissance" id="633" weight="1223" />
+      <edge source="Post-Impressionism" target="Northern Renaissance" id="634" weight="1084" />
+      <edge source="Post-Impressionism" target="Pictorialism" id="635" weight="118" />
+      <edge source="Post-Impressionism" target="Gothic Art" id="636" weight="199" />
+      <edge source="Post-Impressionism" target="New Image Painting" id="637" weight="116" />
+      <edge source="Post-Impressionism" target="Yuan Dynasty (1271–1368)" id="638" weight="116" />
+      <edge source="Neo-Pop Art" target="New European Painting" id="639" weight="162" />
+      <edge source="Neo-Pop Art" target="Realism" id="640" weight="176" />
+      <edge source="Neo-Pop Art" target="Neo-Expressionism" id="641" weight="1106" />
+      <edge source="Neo-Pop Art" target="Surrealism" id="642" weight="159" />
+      <edge source="Neo-Pop Art" target="Impressionism" id="643" weight="150" />
+      <edge source="Neo-Pop Art" target="Minimalism" id="644" weight="337" />
+      <edge source="Neo-Pop Art" target="Pop Art" id="645" weight="1588" />
+      <edge source="Neo-Pop Art" target="Conceptual Art" id="646" weight="461" />
+      <edge source="Neo-Pop Art" target="Neo-Dada" id="647" weight="147" />
+      <edge source="Neo-Pop Art" target="Transavantgarde" id="648" weight="254" />
+      <edge source="Neo-Pop Art" target="Baroque" id="649" weight="190" />
+      <edge source="Neo-Pop Art" target="Romanticism" id="650" weight="280" />
+      <edge source="Neo-Pop Art" target="High Renaissance" id="651" weight="104" />
+      <edge source="Modernism" target="Cubism" id="652" weight="3344" />
+      <edge source="Modernism" target="Art Informel" id="653" weight="721" />
+      <edge source="Modernism" target="Harlem Renaissance (New Negro Movement)" id="654" weight="592" />
+      <edge source="Modernism" target="Realism" id="655" weight="2055" />
+      <edge source="Modernism" target="Neo-Expressionism" id="656" weight="494" />
+      <edge source="Modernism" target="Vorticism" id="657" weight="177" />
+      <edge source="Modernism" target="Surrealism" id="658" weight="4768" />
+      <edge source="Modernism" target="Futurism" id="659" weight="459" />
+      <edge source="Modernism" target="Precisionism" id="660" weight="297" />
+      <edge source="Modernism" target="Dada" id="661" weight="733" />
+      <edge source="Modernism" target="Impressionism" id="662" weight="2811" />
+      <edge source="Modernism" target="Magic Realism" id="663" weight="746" />
+      <edge source="Modernism" target="Existential Art" id="664" weight="152" />
+      <edge source="Modernism" target="Art Deco" id="665" weight="260" />
+      <edge source="Modernism" target="Modernismo" id="666" weight="1014" />
+      <edge source="Modernism" target="Minimalism" id="667" weight="296" />
+      <edge source="Modernism" target="Pop Art" id="668" weight="1276" />
+      <edge source="Modernism" target="Art Nouveau" id="669" weight="4790" />
+      <edge source="Modernism" target="Conceptual Art" id="670" weight="162" />
+      <edge source="Modernism" target="Contemporary Realism" id="671" weight="307" />
+      <edge source="Modernism" target="Post-Painterly Abstraction" id="672" weight="354" />
+      <edge source="Modernism" target="Symbolism" id="673" weight="3807" />
+      <edge source="Modernism" target="Op Art" id="674" weight="145" />
+      <edge source="Modernism" target="Soviet Nonconformist Art" id="675" weight="297" />
+      <edge source="Modernism" target="Neo-Dada" id="676" weight="111" />
+      <edge source="Modernism" target="Outsider art (Art brut)" id="677" weight="374" />
+      <edge source="Modernism" target="Neo-Orthodoxism" id="678" weight="282" />
+      <edge source="Modernism" target="Republic of China (1912–1949)" id="679" weight="509" />
+      <edge source="Modernism" target="Muralism" id="680" weight="145" />
+      <edge source="Modernism" target="Academic Art" id="681" weight="507" />
+      <edge source="Modernism" target="Romanticism" id="682" weight="4132" />
+      <edge source="Modernism" target="Orientalism" id="683" weight="283" />
+      <edge source="Modernism" target="Rococo" id="684" weight="164" />
+      <edge source="Modernism" target="Neoclassicism" id="685" weight="464" />
+      <edge source="Modernism" target="Arts and Crafts" id="686" weight="354" />
+      <edge source="Modernism" target="Kitsch" id="687" weight="137" />
+      <edge source="Modernism" target="Tachisme" id="688" weight="122" />
+      <edge source="Modernism" target="Neo-Impressionism" id="689" weight="504" />
+      <edge source="Modernism" target="Regionalism" id="690" weight="398" />
+      <edge source="Modernism" target="Metaphysical art" id="691" weight="343" />
+      <edge source="Modernism" target="Baroque" id="692" weight="511" />
+      <edge source="Modernism" target="Northern Renaissance" id="693" weight="235" />
+      <edge source="Modernism" target="Early Renaissance" id="694" weight="184" />
+      <edge source="Modernism" target="High Renaissance" id="695" weight="279" />
+      <edge source="Cubism" target="Art Informel" id="696" weight="2428" />
+      <edge source="Cubism" target="Harlem Renaissance (New Negro Movement)" id="697" weight="2231" />
+      <edge source="Cubism" target="Realism" id="698" weight="7620" />
+      <edge source="Cubism" target="Neo-Expressionism" id="699" weight="1830" />
+      <edge source="Cubism" target="Vorticism" id="700" weight="943" />
+      <edge source="Cubism" target="Surrealism" id="701" weight="22246" />
+      <edge source="Cubism" target="Futurism" id="702" weight="2738" />
+      <edge source="Cubism" target="Precisionism" id="703" weight="567" />
+      <edge source="Cubism" target="Dada" id="704" weight="4197" />
+      <edge source="Cubism" target="Impressionism" id="705" weight="10415" />
+      <edge source="Cubism" target="Magic Realism" id="706" weight="2178" />
+      <edge source="Cubism" target="Existential Art" id="707" weight="403" />
+      <edge source="Cubism" target="Art Deco" id="708" weight="593" />
+      <edge source="Cubism" target="Modernismo" id="709" weight="2775" />
+      <edge source="Cubism" target="Minimalism" id="710" weight="570" />
+      <edge source="Cubism" target="Pop Art" id="711" weight="3081" />
+      <edge source="Cubism" target="Art Nouveau" id="712" weight="2895" />
+      <edge source="Cubism" target="Conceptual Art" id="713" weight="395" />
+      <edge source="Cubism" target="Contemporary Realism" id="714" weight="818" />
+      <edge source="Cubism" target="Post-Painterly Abstraction" id="715" weight="559" />
+      <edge source="Cubism" target="Symbolism" id="716" weight="7063" />
+      <edge source="Cubism" target="Op Art" id="717" weight="367" />
+      <edge source="Cubism" target="Soviet Nonconformist Art" id="718" weight="779" />
+      <edge source="Cubism" target="Performance Art" id="719" weight="361" />
+      <edge source="Cubism" target="Neo-Dada" id="720" weight="168" />
+      <edge source="Cubism" target="Outsider art (Art brut)" id="721" weight="1224" />
+      <edge source="Cubism" target="Neo-Orthodoxism" id="722" weight="704" />
+      <edge source="Cubism" target="Republic of China (1912–1949)" id="723" weight="1178" />
+      <edge source="Cubism" target="Muralism" id="724" weight="1129" />
+      <edge source="Cubism" target="Feminist Art" id="725" weight="128" />
+      <edge source="Cubism" target="Academic Art" id="726" weight="889" />
+      <edge source="Cubism" target="Romanticism" id="727" weight="2873" />
+      <edge source="Cubism" target="Suprematism" id="728" weight="945" />
+      <edge source="Cubism" target="Kitsch" id="729" weight="403" />
+      <edge source="Cubism" target="Tachisme" id="730" weight="472" />
+      <edge source="Cubism" target="Neo-Impressionism" id="731" weight="1315" />
+      <edge source="Cubism" target="Regionalism" id="732" weight="288" />
+      <edge source="Cubism" target="Metaphysical art" id="733" weight="1227" />
+      <edge source="Cubism" target="Orientalism" id="734" weight="552" />
+      <edge source="Cubism" target="Neo-Figurative Art" id="735" weight="178" />
+      <edge source="Cubism" target="Transavantgarde" id="736" weight="167" />
+      <edge source="Cubism" target="Early Renaissance" id="737" weight="464" />
+      <edge source="Cubism" target="High Renaissance" id="738" weight="712" />
+      <edge source="Cubism" target="Neoclassicism" id="739" weight="2003" />
+      <edge source="Cubism" target="Stuckism" id="740" weight="211" />
+      <edge source="Cubism" target="Viennese Actionism" id="741" weight="154" />
+      <edge source="Cubism" target="Naturalism" id="742" weight="129" />
+      <edge source="Cubism" target="Baroque" id="743" weight="1527" />
+      <edge source="Cubism" target="Native Art" id="744" weight="110" />
+      <edge source="Cubism" target="Rococo" id="745" weight="520" />
+      <edge source="Cubism" target="Confessional Art" id="746" weight="108" />
+      <edge source="Cubism" target="Lowbrow Art" id="747" weight="109" />
+      <edge source="Cubism" target="Northern Renaissance" id="748" weight="602" />
+      <edge source="Art Informel" target="Harlem Renaissance (New Negro Movement)" id="749" weight="374" />
+      <edge source="Art Informel" target="Realism" id="750" weight="1352" />
+      <edge source="Art Informel" target="Neo-Expressionism" id="751" weight="2509" />
+      <edge source="Art Informel" target="Vorticism" id="752" weight="146" />
+      <edge source="Art Informel" target="Surrealism" id="753" weight="12172" />
+      <edge source="Art Informel" target="Futurism" id="754" weight="328" />
+      <edge source="Art Informel" target="Precisionism" id="755" weight="163" />
+      <edge source="Art Informel" target="Dada" id="756" weight="1431" />
+      <edge source="Art Informel" target="Impressionism" id="757" weight="1328" />
+      <edge source="Art Informel" target="Magic Realism" id="758" weight="1141" />
+      <edge source="Art Informel" target="Existential Art" id="759" weight="908" />
+      <edge source="Art Informel" target="Modernismo" id="760" weight="462" />
+      <edge source="Art Informel" target="Minimalism" id="761" weight="4920" />
+      <edge source="Art Informel" target="Pop Art" id="762" weight="3450" />
+      <edge source="Art Informel" target="Art Nouveau" id="763" weight="473" />
+      <edge source="Art Informel" target="Conceptual Art" id="764" weight="1615" />
+      <edge source="Art Informel" target="Contemporary Realism" id="765" weight="280" />
+      <edge source="Art Informel" target="Post-Painterly Abstraction" id="766" weight="1630" />
+      <edge source="Art Informel" target="Symbolism" id="767" weight="1370" />
+      <edge source="Art Informel" target="Op Art" id="768" weight="836" />
+      <edge source="Art Informel" target="Soviet Nonconformist Art" id="769" weight="279" />
+      <edge source="Art Informel" target="Arte Povera" id="770" weight="2147" />
+      <edge source="Art Informel" target="Spatialism" id="771" weight="905" />
+      <edge source="Art Informel" target="Post-Minimalism" id="772" weight="539" />
+      <edge source="Art Informel" target="Tachisme" id="773" weight="1694" />
+      <edge source="Art Informel" target="Neo-Concretism" id="774" weight="706" />
+      <edge source="Art Informel" target="Korean Informel" id="775" weight="1556" />
+      <edge source="Art Informel" target="Feminist Art" id="776" weight="233" />
+      <edge source="Art Informel" target="Performance Art" id="777" weight="167" />
+      <edge source="Art Informel" target="Neo-Orthodoxism" id="778" weight="146" />
+      <edge source="Art Informel" target="Outsider art (Art brut)" id="779" weight="384" />
+      <edge source="Art Informel" target="Neo-Dada" id="780" weight="252" />
+      <edge source="Art Informel" target="Confessional Art" id="781" weight="107" />
+      <edge source="Art Informel" target="Transavantgarde" id="782" weight="114" />
+      <edge source="Art Informel" target="Muralism" id="783" weight="144" />
+      <edge source="Art Informel" target="Metaphysical art" id="784" weight="217" />
+      <edge source="Art Informel" target="Kitsch" id="785" weight="115" />
+      <edge source="Art Informel" target="Republic of China (1912–1949)" id="786" weight="211" />
+      <edge source="Art Informel" target="Neo-Impressionism" id="787" weight="146" />
+      <edge source="Art Informel" target="Romanticism" id="788" weight="1274" />
+      <edge source="Art Informel" target="Regionalism" id="789" weight="111" />
+      <edge source="Art Informel" target="Academic Art" id="790" weight="203" />
+      <edge source="Art Informel" target="Neoclassicism" id="791" weight="391" />
+      <edge source="Art Informel" target="New Image Painting" id="792" weight="188" />
+      <edge source="Art Informel" target="Baroque" id="793" weight="902" />
+      <edge source="Art Informel" target="Northern Renaissance" id="794" weight="419" />
+      <edge source="Art Informel" target="Early Renaissance" id="795" weight="306" />
+      <edge source="Art Informel" target="High Renaissance" id="796" weight="461" />
+      <edge source="Art Informel" target="Rococo" id="797" weight="208" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Realism" id="798" weight="2951" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Neo-Expressionism" id="799" weight="719" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Vorticism" id="800" weight="113" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Surrealism" id="801" weight="1488" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Futurism" id="802" weight="300" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Precisionism" id="803" weight="142" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Dada" id="804" weight="370" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Impressionism" id="805" weight="3753" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Magic Realism" id="806" weight="472" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Existential Art" id="807" weight="107" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Modernismo" id="808" weight="719" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Minimalism" id="809" weight="234" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Pop Art" id="810" weight="679" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Art Nouveau" id="811" weight="654" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Conceptual Art" id="812" weight="107" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Contemporary Realism" id="813" weight="249" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Post-Painterly Abstraction" id="814" weight="546" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Symbolism" id="815" weight="1535" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Soviet Nonconformist Art" id="816" weight="138" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Outsider art (Art brut)" id="817" weight="577" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Neo-Orthodoxism" id="818" weight="156" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Republic of China (1912–1949)" id="819" weight="278" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Feminist Art" id="820" weight="144" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Romanticism" id="821" weight="602" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Academic Art" id="822" weight="319" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Neo-Impressionism" id="823" weight="400" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Regionalism" id="824" weight="128" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Metaphysical art" id="825" weight="200" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Orientalism" id="826" weight="176" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Neoclassicism" id="827" weight="133" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Neo-Figurative Art" id="828" weight="137" />
+      <edge source="Harlem Renaissance (New Negro Movement)" target="Native Art" id="829" weight="159" />
+      <edge source="New European Painting" target="Neo-Expressionism" id="830" weight="306" />
+      <edge source="New European Painting" target="Surrealism" id="831" weight="358" />
+      <edge source="New European Painting" target="Pop Art" id="832" weight="697" />
+      <edge source="New European Painting" target="Conceptual Art" id="833" weight="411" />
+      <edge source="New European Painting" target="Feminist Art" id="834" weight="111" />
+      <edge source="Realism" target="Neo-Expressionism" id="835" weight="1802" />
+      <edge source="Realism" target="Vorticism" id="836" weight="297" />
+      <edge source="Realism" target="Surrealism" id="837" weight="16906" />
+      <edge source="Realism" target="Futurism" id="838" weight="2059" />
+      <edge source="Realism" target="Sots Art" id="839" weight="109" />
+      <edge source="Realism" target="Precisionism" id="840" weight="1296" />
+      <edge source="Realism" target="Dada" id="841" weight="1244" />
+      <edge source="Realism" target="Impressionism" id="842" weight="223910" />
+      <edge source="Realism" target="Magic Realism" id="843" weight="3990" />
+      <edge source="Realism" target="Existential Art" id="844" weight="228" />
+      <edge source="Realism" target="Art Deco" id="845" weight="421" />
+      <edge source="Realism" target="Modernismo" id="846" weight="2351" />
+      <edge source="Realism" target="Minimalism" id="847" weight="708" />
+      <edge source="Realism" target="Pop Art" id="848" weight="1797" />
+      <edge source="Realism" target="Art Nouveau" id="849" weight="27873" />
+      <edge source="Realism" target="Conceptual Art" id="850" weight="896" />
+      <edge source="Realism" target="Contemporary Realism" id="851" weight="14208" />
+      <edge source="Realism" target="Post-Painterly Abstraction" id="852" weight="701" />
+      <edge source="Realism" target="Symbolism" id="853" weight="81067" />
+      <edge source="Realism" target="Op Art" id="854" weight="189" />
+      <edge source="Realism" target="Soviet Nonconformist Art" id="855" weight="1224" />
+      <edge source="Realism" target="Performance Art" id="856" weight="509" />
+      <edge source="Realism" target="Neo-Dada" id="857" weight="212" />
+      <edge source="Realism" target="Outsider art (Art brut)" id="858" weight="711" />
+      <edge source="Realism" target="Neo-Orthodoxism" id="859" weight="493" />
+      <edge source="Realism" target="Republic of China (1912–1949)" id="860" weight="2379" />
+      <edge source="Realism" target="Muralism" id="861" weight="391" />
+      <edge source="Realism" target="Street art" id="862" weight="161" />
+      <edge source="Realism" target="Feminist Art" id="863" weight="415" />
+      <edge source="Realism" target="Academic Art" id="864" weight="56252" />
+      <edge source="Realism" target="Romanticism" id="865" weight="130226" />
+      <edge source="Realism" target="Naturalism" id="866" weight="6273" />
+      <edge source="Realism" target="Orientalism" id="867" weight="26374" />
+      <edge source="Realism" target="Rococo" id="868" weight="2604" />
+      <edge source="Realism" target="Neoclassicism" id="869" weight="9069" />
+      <edge source="Realism" target="Suprematism" id="870" weight="191" />
+      <edge source="Realism" target="Neo-Impressionism" id="871" weight="11992" />
+      <edge source="Realism" target="Arts and Crafts" id="872" weight="1068" />
+      <edge source="Realism" target="Regionalism" id="873" weight="1790" />
+      <edge source="Realism" target="Metaphysical art" id="874" weight="770" />
+      <edge source="Realism" target="Young Poland" id="875" weight="3454" />
+      <edge source="Realism" target="Kitsch" id="876" weight="1938" />
+      <edge source="Realism" target="Neo-Romanticism" id="877" weight="6231" />
+      <edge source="Realism" target="Baroque" id="878" weight="6706" />
+      <edge source="Realism" target="Northern Renaissance" id="879" weight="2765" />
+      <edge source="Realism" target="Transavantgarde" id="880" weight="278" />
+      <edge source="Realism" target="Tachisme" id="881" weight="116" />
+      <edge source="Realism" target="Neo-Figurative Art" id="882" weight="210" />
+      <edge source="Realism" target="Tonalism" id="883" weight="1476" />
+      <edge source="Realism" target="Classical Realism" id="884" weight="1287" />
+      <edge source="Realism" target="Native Art" id="885" weight="103" />
+      <edge source="Realism" target="Early Renaissance" id="886" weight="2127" />
+      <edge source="Realism" target="High Renaissance" id="887" weight="3084" />
+      <edge source="Realism" target="Pictorialism" id="888" weight="303" />
+      <edge source="Realism" target="Gothic Art" id="889" weight="468" />
+      <edge source="Realism" target="Ming Dynasty (1368–1644)" id="890" weight="175" />
+      <edge source="Realism" target="New Image Painting" id="891" weight="297" />
+      <edge source="Realism" target="Neo-Concretism" id="892" weight="104" />
+      <edge source="Realism" target="Black Arts Movement" id="893" weight="239" />
+      <edge source="Realism" target="Yuan Dynasty (1271–1368)" id="894" weight="297" />
+      <edge source="Realism" target="Tang Dynasty (618–907)" id="895" weight="175" />
+      <edge source="Neo-Expressionism" target="Surrealism" id="896" weight="4120" />
+      <edge source="Neo-Expressionism" target="Futurism" id="897" weight="237" />
+      <edge source="Neo-Expressionism" target="Precisionism" id="898" weight="264" />
+      <edge source="Neo-Expressionism" target="Dada" id="899" weight="512" />
+      <edge source="Neo-Expressionism" target="Impressionism" id="900" weight="3205" />
+      <edge source="Neo-Expressionism" target="Magic Realism" id="901" weight="889" />
+      <edge source="Neo-Expressionism" target="Modernismo" id="902" weight="572" />
+      <edge source="Neo-Expressionism" target="Minimalism" id="903" weight="597" />
+      <edge source="Neo-Expressionism" target="Pop Art" id="904" weight="5712" />
+      <edge source="Neo-Expressionism" target="Art Nouveau" id="905" weight="418" />
+      <edge source="Neo-Expressionism" target="Conceptual Art" id="906" weight="2671" />
+      <edge source="Neo-Expressionism" target="Contemporary Realism" id="907" weight="1859" />
+      <edge source="Neo-Expressionism" target="Post-Painterly Abstraction" id="908" weight="778" />
+      <edge source="Neo-Expressionism" target="Symbolism" id="909" weight="1035" />
+      <edge source="Neo-Expressionism" target="Op Art" id="910" weight="109" />
+      <edge source="Neo-Expressionism" target="Soviet Nonconformist Art" id="911" weight="964" />
+      <edge source="Neo-Expressionism" target="Performance Art" id="912" weight="343" />
+      <edge source="Neo-Expressionism" target="Neo-Dada" id="913" weight="614" />
+      <edge source="Neo-Expressionism" target="Light and Space" id="914" weight="575" />
+      <edge source="Neo-Expressionism" target="Outsider art (Art brut)" id="915" weight="1075" />
+      <edge source="Neo-Expressionism" target="Arte Povera" id="916" weight="175" />
+      <edge source="Neo-Expressionism" target="Neo-Orthodoxism" id="917" weight="119" />
+      <edge source="Neo-Expressionism" target="Republic of China (1912–1949)" id="918" weight="158" />
+      <edge source="Neo-Expressionism" target="Muralism" id="919" weight="141" />
+      <edge source="Neo-Expressionism" target="Street art" id="920" weight="915" />
+      <edge source="Neo-Expressionism" target="Feminist Art" id="921" weight="476" />
+      <edge source="Neo-Expressionism" target="Academic Art" id="922" weight="326" />
+      <edge source="Neo-Expressionism" target="Romanticism" id="923" weight="1467" />
+      <edge source="Neo-Expressionism" target="Orientalism" id="924" weight="108" />
+      <edge source="Neo-Expressionism" target="Rococo" id="925" weight="218" />
+      <edge source="Neo-Expressionism" target="Neoclassicism" id="926" weight="515" />
+      <edge source="Neo-Expressionism" target="Transavantgarde" id="927" weight="885" />
+      <edge source="Neo-Expressionism" target="Post-Minimalism" id="928" weight="292" />
+      <edge source="Neo-Expressionism" target="Viennese Actionism" id="929" weight="389" />
+      <edge source="Neo-Expressionism" target="Relational Art" id="930" weight="258" />
+      <edge source="Neo-Expressionism" target="Postcolonial art" id="931" weight="150" />
+      <edge source="Neo-Expressionism" target="Regionalism" id="932" weight="191" />
+      <edge source="Neo-Expressionism" target="New Image Painting" id="933" weight="1555" />
+      <edge source="Neo-Expressionism" target="Kitsch" id="934" weight="143" />
+      <edge source="Neo-Expressionism" target="Neo-Figurative Art" id="935" weight="329" />
+      <edge source="Neo-Expressionism" target="Metaphysical art" id="936" weight="237" />
+      <edge source="Neo-Expressionism" target="Neo-Impressionism" id="937" weight="177" />
+      <edge source="Neo-Expressionism" target="Baroque" id="938" weight="1102" />
+      <edge source="Neo-Expressionism" target="Northern Renaissance" id="939" weight="471" />
+      <edge source="Neo-Expressionism" target="Early Renaissance" id="940" weight="343" />
+      <edge source="Neo-Expressionism" target="High Renaissance" id="941" weight="598" />
+      <edge source="Vorticism" target="Surrealism" id="942" weight="3001" />
+      <edge source="Vorticism" target="Futurism" id="943" weight="155" />
+      <edge source="Vorticism" target="Dada" id="944" weight="283" />
+      <edge source="Vorticism" target="Impressionism" id="945" weight="507" />
+      <edge source="Vorticism" target="Magic Realism" id="946" weight="206" />
+      <edge source="Vorticism" target="Modernismo" id="947" weight="141" />
+      <edge source="Vorticism" target="Art Nouveau" id="948" weight="111" />
+      <edge source="Vorticism" target="Symbolism" id="949" weight="322" />
+      <edge source="Surrealism" target="Futurism" id="950" weight="2346" />
+      <edge source="Surrealism" target="Precisionism" id="951" weight="1246" />
+      <edge source="Surrealism" target="Dada" id="952" weight="14348" />
+      <edge source="Surrealism" target="Impressionism" id="953" weight="11333" />
+      <edge source="Surrealism" target="Magic Realism" id="954" weight="16982" />
+      <edge source="Surrealism" target="Existential Art" id="955" weight="425" />
+      <edge source="Surrealism" target="Art Deco" id="956" weight="798" />
+      <edge source="Surrealism" target="Modernismo" id="957" weight="2512" />
+      <edge source="Surrealism" target="Minimalism" id="958" weight="2278" />
+      <edge source="Surrealism" target="Pop Art" id="959" weight="6594" />
+      <edge source="Surrealism" target="Art Nouveau" id="960" weight="2372" />
+      <edge source="Surrealism" target="Conceptual Art" id="961" weight="1291" />
+      <edge source="Surrealism" target="Contemporary Realism" id="962" weight="2414" />
+      <edge source="Surrealism" target="Post-Painterly Abstraction" id="963" weight="2191" />
+      <edge source="Surrealism" target="New media art" id="964" weight="897" />
+      <edge source="Surrealism" target="Symbolism" id="965" weight="10104" />
+      <edge source="Surrealism" target="Op Art" id="966" weight="964" />
+      <edge source="Surrealism" target="Soviet Nonconformist Art" id="967" weight="1230" />
+      <edge source="Surrealism" target="Performance Art" id="968" weight="508" />
+      <edge source="Surrealism" target="Neo-Dada" id="969" weight="1114" />
+      <edge source="Surrealism" target="Outsider art (Art brut)" id="970" weight="3261" />
+      <edge source="Surrealism" target="Arte Povera" id="971" weight="338" />
+      <edge source="Surrealism" target="Neo-Orthodoxism" id="972" weight="2533" />
+      <edge source="Surrealism" target="Republic of China (1912–1949)" id="973" weight="1029" />
+      <edge source="Surrealism" target="Muralism" id="974" weight="1371" />
+      <edge source="Surrealism" target="Street art" id="975" weight="194" />
+      <edge source="Surrealism" target="Feminist Art" id="976" weight="383" />
+      <edge source="Surrealism" target="Viennese Actionism" id="977" weight="497" />
+      <edge source="Surrealism" target="Suprematism" id="978" weight="225" />
+      <edge source="Surrealism" target="Arts and Crafts" id="979" weight="105" />
+      <edge source="Surrealism" target="Kitsch" id="980" weight="2233" />
+      <edge source="Surrealism" target="Spatialism" id="981" weight="123" />
+      <edge source="Surrealism" target="Tachisme" id="982" weight="571" />
+      <edge source="Surrealism" target="Neo-Concretism" id="983" weight="183" />
+      <edge source="Surrealism" target="Korean Informel" id="984" weight="185" />
+      <edge source="Surrealism" target="Romanticism" id="985" weight="6968" />
+      <edge source="Surrealism" target="Academic Art" id="986" weight="1694" />
+      <edge source="Surrealism" target="Neo-Impressionism" id="987" weight="1069" />
+      <edge source="Surrealism" target="Regionalism" id="988" weight="468" />
+      <edge source="Surrealism" target="Metaphysical art" id="989" weight="1085" />
+      <edge source="Surrealism" target="Orientalism" id="990" weight="718" />
+      <edge source="Surrealism" target="Young Poland" id="991" weight="105" />
+      <edge source="Surrealism" target="Neo-Romanticism" id="992" weight="346" />
+      <edge source="Surrealism" target="Lettrism" id="993" weight="114" />
+      <edge source="Surrealism" target="Confessional Art" id="994" weight="1990" />
+      <edge source="Surrealism" target="Transavantgarde" id="995" weight="218" />
+      <edge source="Surrealism" target="Classical Realism" id="996" weight="123" />
+      <edge source="Surrealism" target="New Image Painting" id="997" weight="157" />
+      <edge source="Surrealism" target="Neo-Figurative Art" id="998" weight="248" />
+      <edge source="Surrealism" target="Neoclassicism" id="999" weight="1779" />
+      <edge source="Surrealism" target="Stuckism" id="1000" weight="164" />
+      <edge source="Surrealism" target="Naturalism" id="1001" weight="174" />
+      <edge source="Surrealism" target="Rococo" id="1002" weight="748" />
+      <edge source="Surrealism" target="Baroque" id="1003" weight="2809" />
+      <edge source="Surrealism" target="Northern Renaissance" id="1004" weight="1244" />
+      <edge source="Surrealism" target="Gothic Art" id="1005" weight="184" />
+      <edge source="Surrealism" target="Early Renaissance" id="1006" weight="935" />
+      <edge source="Surrealism" target="Lowbrow Art" id="1007" weight="2035" />
+      <edge source="Surrealism" target="Fantasy Art" id="1008" weight="130" />
+      <edge source="Surrealism" target="Pictorialism" id="1009" weight="136" />
+      <edge source="Surrealism" target="High Renaissance" id="1010" weight="1440" />
+      <edge source="Surrealism" target="Black Arts Movement" id="1011" weight="113" />
+      <edge source="Surrealism" target="Yuan Dynasty (1271–1368)" id="1012" weight="134" />
+      <edge source="Futurism" target="Precisionism" id="1013" weight="183" />
+      <edge source="Futurism" target="Dada" id="1014" weight="693" />
+      <edge source="Futurism" target="Impressionism" id="1015" weight="3117" />
+      <edge source="Futurism" target="Magic Realism" id="1016" weight="316" />
+      <edge source="Futurism" target="Modernismo" id="1017" weight="386" />
+      <edge source="Futurism" target="Pop Art" id="1018" weight="511" />
+      <edge source="Futurism" target="Art Nouveau" id="1019" weight="552" />
+      <edge source="Futurism" target="Conceptual Art" id="1020" weight="138" />
+      <edge source="Futurism" target="Contemporary Realism" id="1021" weight="194" />
+      <edge source="Futurism" target="Symbolism" id="1022" weight="1189" />
+      <edge source="Futurism" target="Op Art" id="1023" weight="123" />
+      <edge source="Futurism" target="Soviet Nonconformist Art" id="1024" weight="132" />
+      <edge source="Futurism" target="Romanticism" id="1025" weight="900" />
+      <edge source="Futurism" target="Academic Art" id="1026" weight="300" />
+      <edge source="Futurism" target="Neo-Impressionism" id="1027" weight="377" />
+      <edge source="Futurism" target="Metaphysical art" id="1028" weight="211" />
+      <edge source="Futurism" target="Orientalism" id="1029" weight="111" />
+      <edge source="Futurism" target="Outsider art (Art brut)" id="1030" weight="160" />
+      <edge source="Futurism" target="Performance Art" id="1031" weight="103" />
+      <edge source="Futurism" target="Republic of China (1912–1949)" id="1032" weight="158" />
+      <edge source="Futurism" target="Neoclassicism" id="1033" weight="1393" />
+      <edge source="Futurism" target="Rococo" id="1034" weight="327" />
+      <edge source="Futurism" target="Baroque" id="1035" weight="487" />
+      <edge source="Futurism" target="Northern Renaissance" id="1036" weight="182" />
+      <edge source="Futurism" target="Early Renaissance" id="1037" weight="144" />
+      <edge source="Futurism" target="High Renaissance" id="1038" weight="202" />
+      <edge source="Sots Art" target="Conceptual Art" id="1039" weight="678" />
+      <edge source="Sots Art" target="Baroque" id="1040" weight="114" />
+      <edge source="Sots Art" target="Romanticism" id="1041" weight="167" />
+      <edge source="Precisionism" target="Dada" id="1042" weight="225" />
+      <edge source="Precisionism" target="Impressionism" id="1043" weight="575" />
+      <edge source="Precisionism" target="Magic Realism" id="1044" weight="570" />
+      <edge source="Precisionism" target="Modernismo" id="1045" weight="156" />
+      <edge source="Precisionism" target="Pop Art" id="1046" weight="192" />
+      <edge source="Precisionism" target="Art Nouveau" id="1047" weight="180" />
+      <edge source="Precisionism" target="Contemporary Realism" id="1048" weight="1359" />
+      <edge source="Precisionism" target="Symbolism" id="1049" weight="478" />
+      <edge source="Precisionism" target="Outsider art (Art brut)" id="1050" weight="116" />
+      <edge source="Precisionism" target="Regionalism" id="1051" weight="235" />
+      <edge source="Precisionism" target="Romanticism" id="1052" weight="498" />
+      <edge source="Precisionism" target="Academic Art" id="1053" weight="146" />
+      <edge source="Precisionism" target="Neoclassicism" id="1054" weight="136" />
+      <edge source="Precisionism" target="Metaphysical art" id="1055" weight="106" />
+      <edge source="Precisionism" target="Baroque" id="1056" weight="222" />
+      <edge source="Dada" target="Impressionism" id="1057" weight="1523" />
+      <edge source="Dada" target="Magic Realism" id="1058" weight="1868" />
+      <edge source="Dada" target="Existential Art" id="1059" weight="105" />
+      <edge source="Dada" target="Art Deco" id="1060" weight="196" />
+      <edge source="Dada" target="Modernismo" id="1061" weight="541" />
+      <edge source="Dada" target="Minimalism" id="1062" weight="229" />
+      <edge source="Dada" target="Pop Art" id="1063" weight="565" />
+      <edge source="Dada" target="Art Nouveau" id="1064" weight="591" />
+      <edge source="Dada" target="Conceptual Art" id="1065" weight="350" />
+      <edge source="Dada" target="Contemporary Realism" id="1066" weight="201" />
+      <edge source="Dada" target="Symbolism" id="1067" weight="1236" />
+      <edge source="Dada" target="Op Art" id="1068" weight="153" />
+      <edge source="Dada" target="Soviet Nonconformist Art" id="1069" weight="327" />
+      <edge source="Dada" target="Kitsch" id="1070" weight="150" />
+      <edge source="Dada" target="Tachisme" id="1071" weight="100" />
+      <edge source="Dada" target="Performance Art" id="1072" weight="178" />
+      <edge source="Dada" target="Neo-Orthodoxism" id="1073" weight="195" />
+      <edge source="Dada" target="Outsider art (Art brut)" id="1074" weight="331" />
+      <edge source="Dada" target="Neo-Impressionism" id="1075" weight="185" />
+      <edge source="Dada" target="Muralism" id="1076" weight="162" />
+      <edge source="Dada" target="Metaphysical art" id="1077" weight="376" />
+      <edge source="Dada" target="Republic of China (1912–1949)" id="1078" weight="222" />
+      <edge source="Dada" target="Romanticism" id="1079" weight="1084" />
+      <edge source="Dada" target="Academic Art" id="1080" weight="183" />
+      <edge source="Dada" target="Neoclassicism" id="1081" weight="329" />
+      <edge source="Dada" target="Rococo" id="1082" weight="138" />
+      <edge source="Dada" target="Early Renaissance" id="1083" weight="245" />
+      <edge source="Dada" target="High Renaissance" id="1084" weight="444" />
+      <edge source="Dada" target="Baroque" id="1085" weight="821" />
+      <edge source="Dada" target="Northern Renaissance" id="1086" weight="341" />
+      <edge source="Impressionism" target="Magic Realism" id="1087" weight="3276" />
+      <edge source="Impressionism" target="Existential Art" id="1088" weight="199" />
+      <edge source="Impressionism" target="Art Deco" id="1089" weight="985" />
+      <edge source="Impressionism" target="Modernismo" id="1090" weight="4755" />
+      <edge source="Impressionism" target="Minimalism" id="1091" weight="719" />
+      <edge source="Impressionism" target="Pop Art" id="1092" weight="1963" />
+      <edge source="Impressionism" target="Art Nouveau" id="1093" weight="20902" />
+      <edge source="Impressionism" target="Conceptual Art" id="1094" weight="751" />
+      <edge source="Impressionism" target="Contemporary Realism" id="1095" weight="8858" />
+      <edge source="Impressionism" target="Post-Painterly Abstraction" id="1096" weight="556" />
+      <edge source="Impressionism" target="Symbolism" id="1097" weight="70209" />
+      <edge source="Impressionism" target="Op Art" id="1098" weight="162" />
+      <edge source="Impressionism" target="Soviet Nonconformist Art" id="1099" weight="1712" />
+      <edge source="Impressionism" target="Performance Art" id="1100" weight="675" />
+      <edge source="Impressionism" target="Neo-Dada" id="1101" weight="194" />
+      <edge source="Impressionism" target="Outsider art (Art brut)" id="1102" weight="611" />
+      <edge source="Impressionism" target="Neo-Orthodoxism" id="1103" weight="879" />
+      <edge source="Impressionism" target="Republic of China (1912–1949)" id="1104" weight="1615" />
+      <edge source="Impressionism" target="Muralism" id="1105" weight="326" />
+      <edge source="Impressionism" target="Street art" id="1106" weight="145" />
+      <edge source="Impressionism" target="Feminist Art" id="1107" weight="374" />
+      <edge source="Impressionism" target="Academic Art" id="1108" weight="25090" />
+      <edge source="Impressionism" target="Romanticism" id="1109" weight="37532" />
+      <edge source="Impressionism" target="Naturalism" id="1110" weight="6862" />
+      <edge source="Impressionism" target="Orientalism" id="1111" weight="12487" />
+      <edge source="Impressionism" target="Rococo" id="1112" weight="1409" />
+      <edge source="Impressionism" target="Neoclassicism" id="1113" weight="4772" />
+      <edge source="Impressionism" target="Transavantgarde" id="1114" weight="226" />
+      <edge source="Impressionism" target="Suprematism" id="1115" weight="178" />
+      <edge source="Impressionism" target="Arts and Crafts" id="1116" weight="1768" />
+      <edge source="Impressionism" target="Kitsch" id="1117" weight="1581" />
+      <edge source="Impressionism" target="Neo-Impressionism" id="1118" weight="22912" />
+      <edge source="Impressionism" target="Regionalism" id="1119" weight="4377" />
+      <edge source="Impressionism" target="Metaphysical art" id="1120" weight="938" />
+      <edge source="Impressionism" target="Young Poland" id="1121" weight="2385" />
+      <edge source="Impressionism" target="Neo-Romanticism" id="1122" weight="834" />
+      <edge source="Impressionism" target="Synchromism" id="1123" weight="153" />
+      <edge source="Impressionism" target="Classical Realism" id="1124" weight="300" />
+      <edge source="Impressionism" target="New Image Painting" id="1125" weight="285" />
+      <edge source="Impressionism" target="Neo-Figurative Art" id="1126" weight="131" />
+      <edge source="Impressionism" target="Tachisme" id="1127" weight="263" />
+      <edge source="Impressionism" target="Tonalism" id="1128" weight="5959" />
+      <edge source="Impressionism" target="Tang Dynasty (618–907)" id="1129" weight="169" />
+      <edge source="Impressionism" target="Ming Dynasty (1368–1644)" id="1130" weight="199" />
+      <edge source="Impressionism" target="Yuan Dynasty (1271–1368)" id="1131" weight="289" />
+      <edge source="Impressionism" target="Baroque" id="1132" weight="5719" />
+      <edge source="Impressionism" target="Early Renaissance" id="1133" weight="1806" />
+      <edge source="Impressionism" target="High Renaissance" id="1134" weight="2854" />
+      <edge source="Impressionism" target="Pictorialism" id="1135" weight="483" />
+      <edge source="Impressionism" target="Northern Renaissance" id="1136" weight="2390" />
+      <edge source="Impressionism" target="Gothic Art" id="1137" weight="365" />
+      <edge source="Impressionism" target="Black Arts Movement" id="1138" weight="221" />
+      <edge source="Magic Realism" target="Existential Art" id="1139" weight="104" />
+      <edge source="Magic Realism" target="Art Deco" id="1140" weight="101" />
+      <edge source="Magic Realism" target="Modernismo" id="1141" weight="499" />
+      <edge source="Magic Realism" target="Minimalism" id="1142" weight="389" />
+      <edge source="Magic Realism" target="Pop Art" id="1143" weight="715" />
+      <edge source="Magic Realism" target="Art Nouveau" id="1144" weight="516" />
+      <edge source="Magic Realism" target="Conceptual Art" id="1145" weight="272" />
+      <edge source="Magic Realism" target="Contemporary Realism" id="1146" weight="863" />
+      <edge source="Magic Realism" target="Post-Painterly Abstraction" id="1147" weight="441" />
+      <edge source="Magic Realism" target="Symbolism" id="1148" weight="1455" />
+      <edge source="Magic Realism" target="Op Art" id="1149" weight="141" />
+      <edge source="Magic Realism" target="Soviet Nonconformist Art" id="1150" weight="311" />
+      <edge source="Magic Realism" target="Performance Art" id="1151" weight="210" />
+      <edge source="Magic Realism" target="Outsider art (Art brut)" id="1152" weight="695" />
+      <edge source="Magic Realism" target="Neo-Orthodoxism" id="1153" weight="254" />
+      <edge source="Magic Realism" target="Republic of China (1912–1949)" id="1154" weight="213" />
+      <edge source="Magic Realism" target="Muralism" id="1155" weight="168" />
+      <edge source="Magic Realism" target="Feminist Art" id="1156" weight="331" />
+      <edge source="Magic Realism" target="Kitsch" id="1157" weight="443" />
+      <edge source="Magic Realism" target="Regionalism" id="1158" weight="126" />
+      <edge source="Magic Realism" target="Classical Realism" id="1159" weight="108" />
+      <edge source="Magic Realism" target="Neo-Figurative Art" id="1160" weight="123" />
+      <edge source="Magic Realism" target="Metaphysical art" id="1161" weight="1418" />
+      <edge source="Magic Realism" target="Neo-Impressionism" id="1162" weight="201" />
+      <edge source="Magic Realism" target="Romanticism" id="1163" weight="1508" />
+      <edge source="Magic Realism" target="Academic Art" id="1164" weight="458" />
+      <edge source="Magic Realism" target="Neoclassicism" id="1165" weight="937" />
+      <edge source="Magic Realism" target="Orientalism" id="1166" weight="165" />
+      <edge source="Magic Realism" target="Confessional Art" id="1167" weight="130" />
+      <edge source="Magic Realism" target="Rococo" id="1168" weight="208" />
+      <edge source="Magic Realism" target="Baroque" id="1169" weight="826" />
+      <edge source="Magic Realism" target="Lowbrow Art" id="1170" weight="124" />
+      <edge source="Magic Realism" target="Northern Renaissance" id="1171" weight="322" />
+      <edge source="Magic Realism" target="Early Renaissance" id="1172" weight="230" />
+      <edge source="Magic Realism" target="High Renaissance" id="1173" weight="396" />
+      <edge source="Existential Art" target="Modernismo" id="1174" weight="124" />
+      <edge source="Existential Art" target="Pop Art" id="1175" weight="149" />
+      <edge source="Existential Art" target="Symbolism" id="1176" weight="267" />
+      <edge source="Existential Art" target="Outsider art (Art brut)" id="1177" weight="216" />
+      <edge source="Existential Art" target="Romanticism" id="1178" weight="145" />
+      <edge source="Art Deco" target="Art Nouveau" id="1179" weight="697" />
+      <edge source="Art Deco" target="Symbolism" id="1180" weight="630" />
+      <edge source="Art Deco" target="Arts and Crafts" id="1181" weight="360" />
+      <edge source="Art Deco" target="Romanticism" id="1182" weight="127" />
+      <edge source="Modernismo" target="Minimalism" id="1183" weight="102" />
+      <edge source="Modernismo" target="Pop Art" id="1184" weight="964" />
+      <edge source="Modernismo" target="Art Nouveau" id="1185" weight="1660" />
+      <edge source="Modernismo" target="Conceptual Art" id="1186" weight="122" />
+      <edge source="Modernismo" target="Contemporary Realism" id="1187" weight="249" />
+      <edge source="Modernismo" target="Symbolism" id="1188" weight="2847" />
+      <edge source="Modernismo" target="Soviet Nonconformist Art" id="1189" weight="228" />
+      <edge source="Modernismo" target="Romanticism" id="1190" weight="1027" />
+      <edge source="Modernismo" target="Academic Art" id="1191" weight="293" />
+      <edge source="Modernismo" target="Neo-Impressionism" id="1192" weight="667" />
+      <edge source="Modernismo" target="Regionalism" id="1193" weight="166" />
+      <edge source="Modernismo" target="Metaphysical art" id="1194" weight="330" />
+      <edge source="Modernismo" target="Orientalism" id="1195" weight="191" />
+      <edge source="Modernismo" target="Republic of China (1912–1949)" id="1196" weight="531" />
+      <edge source="Modernismo" target="Outsider art (Art brut)" id="1197" weight="477" />
+      <edge source="Modernismo" target="Neoclassicism" id="1198" weight="285" />
+      <edge source="Modernismo" target="Neo-Orthodoxism" id="1199" weight="231" />
+      <edge source="Modernismo" target="Neo-Figurative Art" id="1200" weight="124" />
+      <edge source="Modernismo" target="Native Art" id="1201" weight="112" />
+      <edge source="Modernismo" target="Rococo" id="1202" weight="133" />
+      <edge source="Modernismo" target="Early Renaissance" id="1203" weight="126" />
+      <edge source="Modernismo" target="High Renaissance" id="1204" weight="164" />
+      <edge source="Modernismo" target="Baroque" id="1205" weight="399" />
+      <edge source="Modernismo" target="Northern Renaissance" id="1206" weight="166" />
+      <edge source="Minimalism" target="Pop Art" id="1207" weight="2504" />
+      <edge source="Minimalism" target="Art Nouveau" id="1208" weight="187" />
+      <edge source="Minimalism" target="Conceptual Art" id="1209" weight="12835" />
+      <edge source="Minimalism" target="Contemporary Realism" id="1210" weight="210" />
+      <edge source="Minimalism" target="Post-Painterly Abstraction" id="1211" weight="8325" />
+      <edge source="Minimalism" target="Symbolism" id="1212" weight="394" />
+      <edge source="Minimalism" target="Op Art" id="1213" weight="2364" />
+      <edge source="Minimalism" target="Soviet Nonconformist Art" id="1214" weight="261" />
+      <edge source="Minimalism" target="Performance Art" id="1215" weight="783" />
+      <edge source="Minimalism" target="Neo-Dada" id="1216" weight="570" />
+      <edge source="Minimalism" target="Light and Space" id="1217" weight="637" />
+      <edge source="Minimalism" target="Outsider art (Art brut)" id="1218" weight="139" />
+      <edge source="Minimalism" target="Arte Povera" id="1219" weight="2817" />
+      <edge source="Minimalism" target="Neo-Orthodoxism" id="1220" weight="112" />
+      <edge source="Minimalism" target="Street art" id="1221" weight="137" />
+      <edge source="Minimalism" target="Feminist Art" id="1222" weight="1436" />
+      <edge source="Minimalism" target="Spatialism" id="1223" weight="633" />
+      <edge source="Minimalism" target="Post-Minimalism" id="1224" weight="5045" />
+      <edge source="Minimalism" target="Neo-Concretism" id="1225" weight="225" />
+      <edge source="Minimalism" target="Korean Informel" id="1226" weight="1334" />
+      <edge source="Minimalism" target="Relational Art" id="1227" weight="473" />
+      <edge source="Minimalism" target="Lettrism" id="1228" weight="111" />
+      <edge source="Minimalism" target="Confessional Art" id="1229" weight="937" />
+      <edge source="Minimalism" target="Environmental Art (Land art)" id="1230" weight="284" />
+      <edge source="Minimalism" target="Romanticism" id="1231" weight="962" />
+      <edge source="Minimalism" target="Academic Art" id="1232" weight="143" />
+      <edge source="Minimalism" target="Neoclassicism" id="1233" weight="268" />
+      <edge source="Minimalism" target="Baroque" id="1234" weight="743" />
+      <edge source="Minimalism" target="Northern Renaissance" id="1235" weight="311" />
+      <edge source="Minimalism" target="Early Renaissance" id="1236" weight="222" />
+      <edge source="Minimalism" target="High Renaissance" id="1237" weight="341" />
+      <edge source="Minimalism" target="Rococo" id="1238" weight="167" />
+      <edge source="Pop Art" target="Art Nouveau" id="1239" weight="506" />
+      <edge source="Pop Art" target="Conceptual Art" id="1240" weight="5357" />
+      <edge source="Pop Art" target="Contemporary Realism" id="1241" weight="472" />
+      <edge source="Pop Art" target="Post-Painterly Abstraction" id="1242" weight="2668" />
+      <edge source="Pop Art" target="Symbolism" id="1243" weight="1081" />
+      <edge source="Pop Art" target="Op Art" id="1244" weight="608" />
+      <edge source="Pop Art" target="Soviet Nonconformist Art" id="1245" weight="421" />
+      <edge source="Pop Art" target="Performance Art" id="1246" weight="349" />
+      <edge source="Pop Art" target="Neo-Dada" id="1247" weight="4003" />
+      <edge source="Pop Art" target="Outsider art (Art brut)" id="1248" weight="812" />
+      <edge source="Pop Art" target="Arte Povera" id="1249" weight="513" />
+      <edge source="Pop Art" target="Neo-Orthodoxism" id="1250" weight="132" />
+      <edge source="Pop Art" target="Republic of China (1912–1949)" id="1251" weight="181" />
+      <edge source="Pop Art" target="Muralism" id="1252" weight="154" />
+      <edge source="Pop Art" target="Street art" id="1253" weight="751" />
+      <edge source="Pop Art" target="Feminist Art" id="1254" weight="1688" />
+      <edge source="Pop Art" target="Post-Minimalism" id="1255" weight="474" />
+      <edge source="Pop Art" target="Tachisme" id="1256" weight="658" />
+      <edge source="Pop Art" target="Neo-Concretism" id="1257" weight="166" />
+      <edge source="Pop Art" target="Korean Informel" id="1258" weight="117" />
+      <edge source="Pop Art" target="Relational Art" id="1259" weight="483" />
+      <edge source="Pop Art" target="Lettrism" id="1260" weight="155" />
+      <edge source="Pop Art" target="Confessional Art" id="1261" weight="125" />
+      <edge source="Pop Art" target="Transavantgarde" id="1262" weight="141" />
+      <edge source="Pop Art" target="Regionalism" id="1263" weight="159" />
+      <edge source="Pop Art" target="New Image Painting" id="1264" weight="230" />
+      <edge source="Pop Art" target="Kitsch" id="1265" weight="143" />
+      <edge source="Pop Art" target="Metaphysical art" id="1266" weight="198" />
+      <edge source="Pop Art" target="Neo-Impressionism" id="1267" weight="151" />
+      <edge source="Pop Art" target="Romanticism" id="1268" weight="1935" />
+      <edge source="Pop Art" target="Academic Art" id="1269" weight="338" />
+      <edge source="Pop Art" target="Neoclassicism" id="1270" weight="545" />
+      <edge source="Pop Art" target="Baroque" id="1271" weight="1366" />
+      <edge source="Pop Art" target="Northern Renaissance" id="1272" weight="619" />
+      <edge source="Pop Art" target="Gothic Art" id="1273" weight="101" />
+      <edge source="Pop Art" target="Early Renaissance" id="1274" weight="447" />
+      <edge source="Pop Art" target="High Renaissance" id="1275" weight="660" />
+      <edge source="Pop Art" target="Rococo" id="1276" weight="338" />
+      <edge source="Art Nouveau" target="Conceptual Art" id="1277" weight="226" />
+      <edge source="Art Nouveau" target="Contemporary Realism" id="1278" weight="583" />
+      <edge source="Art Nouveau" target="Post-Painterly Abstraction" id="1279" weight="106" />
+      <edge source="Art Nouveau" target="Symbolism" id="1280" weight="44043" />
+      <edge source="Art Nouveau" target="Soviet Nonconformist Art" id="1281" weight="449" />
+      <edge source="Art Nouveau" target="Academic Art" id="1282" weight="6029" />
+      <edge source="Art Nouveau" target="Romanticism" id="1283" weight="20299" />
+      <edge source="Art Nouveau" target="Naturalism" id="1284" weight="259" />
+      <edge source="Art Nouveau" target="Orientalism" id="1285" weight="3323" />
+      <edge source="Art Nouveau" target="Rococo" id="1286" weight="462" />
+      <edge source="Art Nouveau" target="Neoclassicism" id="1287" weight="1065" />
+      <edge source="Art Nouveau" target="Suprematism" id="1288" weight="302" />
+      <edge source="Art Nouveau" target="Arts and Crafts" id="1289" weight="8643" />
+      <edge source="Art Nouveau" target="Kitsch" id="1290" weight="836" />
+      <edge source="Art Nouveau" target="Neo-Impressionism" id="1291" weight="2527" />
+      <edge source="Art Nouveau" target="Regionalism" id="1292" weight="383" />
+      <edge source="Art Nouveau" target="Metaphysical art" id="1293" weight="639" />
+      <edge source="Art Nouveau" target="Young Poland" id="1294" weight="210" />
+      <edge source="Art Nouveau" target="Neo-Romanticism" id="1295" weight="1426" />
+      <edge source="Art Nouveau" target="Synchromism" id="1296" weight="108" />
+      <edge source="Art Nouveau" target="Performance Art" id="1297" weight="196" />
+      <edge source="Art Nouveau" target="Muralism" id="1298" weight="104" />
+      <edge source="Art Nouveau" target="Republic of China (1912–1949)" id="1299" weight="467" />
+      <edge source="Art Nouveau" target="Outsider art (Art brut)" id="1300" weight="374" />
+      <edge source="Art Nouveau" target="Neo-Orthodoxism" id="1301" weight="180" />
+      <edge source="Art Nouveau" target="Tonalism" id="1302" weight="108" />
+      <edge source="Art Nouveau" target="Early Renaissance" id="1303" weight="432" />
+      <edge source="Art Nouveau" target="High Renaissance" id="1304" weight="672" />
+      <edge source="Art Nouveau" target="Baroque" id="1305" weight="1418" />
+      <edge source="Art Nouveau" target="Northern Renaissance" id="1306" weight="575" />
+      <edge source="Art Nouveau" target="Gothic Art" id="1307" weight="101" />
+      <edge source="Excessivism" target="Conceptual Art" id="1308" weight="154" />
+      <edge source="Excessivism" target="Light and Space" id="1309" weight="162" />
+      <edge source="Conceptual Art" target="Contemporary Realism" id="1310" weight="814" />
+      <edge source="Conceptual Art" target="Post-Painterly Abstraction" id="1311" weight="2224" />
+      <edge source="Conceptual Art" target="Symbolism" id="1312" weight="444" />
+      <edge source="Conceptual Art" target="Op Art" id="1313" weight="1741" />
+      <edge source="Conceptual Art" target="Soviet Nonconformist Art" id="1314" weight="916" />
+      <edge source="Conceptual Art" target="Performance Art" id="1315" weight="1900" />
+      <edge source="Conceptual Art" target="Neo-Dada" id="1316" weight="1959" />
+      <edge source="Conceptual Art" target="Light and Space" id="1317" weight="155" />
+      <edge source="Conceptual Art" target="Outsider art (Art brut)" id="1318" weight="294" />
+      <edge source="Conceptual Art" target="Arte Povera" id="1319" weight="3969" />
+      <edge source="Conceptual Art" target="Neo-Orthodoxism" id="1320" weight="220" />
+      <edge source="Conceptual Art" target="Street art" id="1321" weight="734" />
+      <edge source="Conceptual Art" target="CyberArt" id="1322" weight="146" />
+      <edge source="Conceptual Art" target="Feminist Art" id="1323" weight="3081" />
+      <edge source="Conceptual Art" target="Spatialism" id="1324" weight="178" />
+      <edge source="Conceptual Art" target="Post-Minimalism" id="1325" weight="2842" />
+      <edge source="Conceptual Art" target="Neo-Concretism" id="1326" weight="1363" />
+      <edge source="Conceptual Art" target="Korean Informel" id="1327" weight="330" />
+      <edge source="Conceptual Art" target="Relational Art" id="1328" weight="5297" />
+      <edge source="Conceptual Art" target="Lettrism" id="1329" weight="1126" />
+      <edge source="Conceptual Art" target="Confessional Art" id="1330" weight="1140" />
+      <edge source="Conceptual Art" target="Transavantgarde" id="1331" weight="284" />
+      <edge source="Conceptual Art" target="Mail Art" id="1332" weight="793" />
+      <edge source="Conceptual Art" target="Regionalism" id="1333" weight="109" />
+      <edge source="Conceptual Art" target="Kitsch" id="1334" weight="112" />
+      <edge source="Conceptual Art" target="Environmental Art (Land art)" id="1335" weight="164" />
+      <edge source="Conceptual Art" target="Romanticism" id="1336" weight="1313" />
+      <edge source="Conceptual Art" target="Academic Art" id="1337" weight="214" />
+      <edge source="Conceptual Art" target="Neoclassicism" id="1338" weight="336" />
+      <edge source="Conceptual Art" target="Fiber Art" id="1339" weight="113" />
+      <edge source="Conceptual Art" target="Baroque" id="1340" weight="880" />
+      <edge source="Conceptual Art" target="Northern Renaissance" id="1341" weight="366" />
+      <edge source="Conceptual Art" target="Early Renaissance" id="1342" weight="283" />
+      <edge source="Conceptual Art" target="High Renaissance" id="1343" weight="381" />
+      <edge source="Conceptual Art" target="Rococo" id="1344" weight="268" />
+      <edge source="Contemporary Realism" target="Post-Painterly Abstraction" id="1345" weight="213" />
+      <edge source="Contemporary Realism" target="Symbolism" id="1346" weight="2303" />
+      <edge source="Contemporary Realism" target="Soviet Nonconformist Art" id="1347" weight="213" />
+      <edge source="Contemporary Realism" target="Outsider art (Art brut)" id="1348" weight="356" />
+      <edge source="Contemporary Realism" target="Republic of China (1912–1949)" id="1349" weight="148" />
+      <edge source="Contemporary Realism" target="Feminist Art" id="1350" weight="143" />
+      <edge source="Contemporary Realism" target="Post-Minimalism" id="1351" weight="289" />
+      <edge source="Contemporary Realism" target="Regionalism" id="1352" weight="863" />
+      <edge source="Contemporary Realism" target="Classical Realism" id="1353" weight="994" />
+      <edge source="Contemporary Realism" target="New Image Painting" id="1354" weight="123" />
+      <edge source="Contemporary Realism" target="Kitsch" id="1355" weight="746" />
+      <edge source="Contemporary Realism" target="Romanticism" id="1356" weight="2513" />
+      <edge source="Contemporary Realism" target="Academic Art" id="1357" weight="1284" />
+      <edge source="Contemporary Realism" target="Neoclassicism" id="1358" weight="289" />
+      <edge source="Contemporary Realism" target="Young Poland" id="1359" weight="101" />
+      <edge source="Contemporary Realism" target="Orientalism" id="1360" weight="486" />
+      <edge source="Contemporary Realism" target="Neo-Impressionism" id="1361" weight="497" />
+      <edge source="Contemporary Realism" target="Naturalism" id="1362" weight="233" />
+      <edge source="Contemporary Realism" target="Baroque" id="1363" weight="514" />
+      <edge source="Contemporary Realism" target="Neo-Romanticism" id="1364" weight="103" />
+      <edge source="Contemporary Realism" target="Northern Renaissance" id="1365" weight="227" />
+      <edge source="Contemporary Realism" target="Early Renaissance" id="1366" weight="181" />
+      <edge source="Contemporary Realism" target="High Renaissance" id="1367" weight="267" />
+      <edge source="Contemporary Realism" target="Rococo" id="1368" weight="129" />
+      <edge source="Post-Painterly Abstraction" target="Symbolism" id="1369" weight="352" />
+      <edge source="Post-Painterly Abstraction" target="Op Art" id="1370" weight="2638" />
+      <edge source="Post-Painterly Abstraction" target="Soviet Nonconformist Art" id="1371" weight="201" />
+      <edge source="Post-Painterly Abstraction" target="Performance Art" id="1372" weight="183" />
+      <edge source="Post-Painterly Abstraction" target="Neo-Dada" id="1373" weight="726" />
+      <edge source="Post-Painterly Abstraction" target="Light and Space" id="1374" weight="185" />
+      <edge source="Post-Painterly Abstraction" target="Abstract Illusionism" id="1375" weight="156" />
+      <edge source="Post-Painterly Abstraction" target="Outsider art (Art brut)" id="1376" weight="201" />
+      <edge source="Post-Painterly Abstraction" target="Arte Povera" id="1377" weight="612" />
+      <edge source="Post-Painterly Abstraction" target="Neo-Orthodoxism" id="1378" weight="110" />
+      <edge source="Post-Painterly Abstraction" target="Muralism" id="1379" weight="111" />
+      <edge source="Post-Painterly Abstraction" target="Feminist Art" id="1380" weight="403" />
+      <edge source="Post-Painterly Abstraction" target="Post-Minimalism" id="1381" weight="1591" />
+      <edge source="Post-Painterly Abstraction" target="Romanticism" id="1382" weight="500" />
+      <edge source="Post-Painterly Abstraction" target="Neoclassicism" id="1383" weight="123" />
+      <edge source="Post-Painterly Abstraction" target="Spatialism" id="1384" weight="227" />
+      <edge source="Post-Painterly Abstraction" target="Korean Informel" id="1385" weight="222" />
+      <edge source="Post-Painterly Abstraction" target="Confessional Art" id="1386" weight="156" />
+      <edge source="Post-Painterly Abstraction" target="New Image Painting" id="1387" weight="130" />
+      <edge source="Post-Painterly Abstraction" target="Baroque" id="1388" weight="290" />
+      <edge source="Post-Painterly Abstraction" target="Northern Renaissance" id="1389" weight="124" />
+      <edge source="Post-Painterly Abstraction" target="High Renaissance" id="1390" weight="123" />
+      <edge source="Symbolism" target="Op Art" id="1391" weight="157" />
+      <edge source="Symbolism" target="Soviet Nonconformist Art" id="1392" weight="726" />
+      <edge source="Symbolism" target="Performance Art" id="1393" weight="216" />
+      <edge source="Symbolism" target="Outsider art (Art brut)" id="1394" weight="654" />
+      <edge source="Symbolism" target="Neo-Orthodoxism" id="1395" weight="642" />
+      <edge source="Symbolism" target="Republic of China (1912–1949)" id="1396" weight="1522" />
+      <edge source="Symbolism" target="Muralism" id="1397" weight="223" />
+      <edge source="Symbolism" target="Feminist Art" id="1398" weight="144" />
+      <edge source="Symbolism" target="Academic Art" id="1399" weight="11615" />
+      <edge source="Symbolism" target="Romanticism" id="1400" weight="54150" />
+      <edge source="Symbolism" target="Naturalism" id="1401" weight="1168" />
+      <edge source="Symbolism" target="Orientalism" id="1402" weight="4259" />
+      <edge source="Symbolism" target="Rococo" id="1403" weight="1135" />
+      <edge source="Symbolism" target="Neoclassicism" id="1404" weight="3259" />
+      <edge source="Symbolism" target="Suprematism" id="1405" weight="178" />
+      <edge source="Symbolism" target="Arts and Crafts" id="1406" weight="3058" />
+      <edge source="Symbolism" target="Kitsch" id="1407" weight="1147" />
+      <edge source="Symbolism" target="Neo-Impressionism" id="1408" weight="5937" />
+      <edge source="Symbolism" target="Regionalism" id="1409" weight="1099" />
+      <edge source="Symbolism" target="Metaphysical art" id="1410" weight="1036" />
+      <edge source="Symbolism" target="Young Poland" id="1411" weight="1115" />
+      <edge source="Symbolism" target="Neo-Romanticism" id="1412" weight="1937" />
+      <edge source="Symbolism" target="Synchromism" id="1413" weight="125" />
+      <edge source="Symbolism" target="Transavantgarde" id="1414" weight="108" />
+      <edge source="Symbolism" target="Tachisme" id="1415" weight="202" />
+      <edge source="Symbolism" target="Early Renaissance" id="1416" weight="784" />
+      <edge source="Symbolism" target="High Renaissance" id="1417" weight="1026" />
+      <edge source="Symbolism" target="Gothic Art" id="1418" weight="213" />
+      <edge source="Symbolism" target="Stuckism" id="1419" weight="150" />
+      <edge source="Symbolism" target="Tonalism" id="1420" weight="679" />
+      <edge source="Symbolism" target="Yuan Dynasty (1271–1368)" id="1421" weight="110" />
+      <edge source="Symbolism" target="Classical Realism" id="1422" weight="144" />
+      <edge source="Symbolism" target="Baroque" id="1423" weight="2320" />
+      <edge source="Symbolism" target="Northern Renaissance" id="1424" weight="969" />
+      <edge source="Op Art" target="Arte Povera" id="1425" weight="248" />
+      <edge source="Op Art" target="Spatialism" id="1426" weight="372" />
+      <edge source="Op Art" target="Post-Minimalism" id="1427" weight="439" />
+      <edge source="Op Art" target="Neo-Concretism" id="1428" weight="290" />
+      <edge source="Op Art" target="Korean Informel" id="1429" weight="102" />
+      <edge source="Op Art" target="Feminist Art" id="1430" weight="161" />
+      <edge source="Op Art" target="Performance Art" id="1431" weight="103" />
+      <edge source="Op Art" target="Abstract Illusionism" id="1432" weight="395" />
+      <edge source="Op Art" target="Neo-Dada" id="1433" weight="795" />
+      <edge source="Op Art" target="Romanticism" id="1434" weight="175" />
+      <edge source="Op Art" target="Light and Space" id="1435" weight="176" />
+      <edge source="Op Art" target="Baroque" id="1436" weight="108" />
+      <edge source="Soviet Nonconformist Art" target="Performance Art" id="1437" weight="282" />
+      <edge source="Soviet Nonconformist Art" target="Outsider art (Art brut)" id="1438" weight="366" />
+      <edge source="Soviet Nonconformist Art" target="Republic of China (1912–1949)" id="1439" weight="100" />
+      <edge source="Soviet Nonconformist Art" target="Feminist Art" id="1440" weight="135" />
+      <edge source="Soviet Nonconformist Art" target="Regionalism" id="1441" weight="102" />
+      <edge source="Soviet Nonconformist Art" target="New Image Painting" id="1442" weight="107" />
+      <edge source="Soviet Nonconformist Art" target="Metaphysical art" id="1443" weight="188" />
+      <edge source="Soviet Nonconformist Art" target="Neo-Impressionism" id="1444" weight="182" />
+      <edge source="Soviet Nonconformist Art" target="Romanticism" id="1445" weight="1520" />
+      <edge source="Soviet Nonconformist Art" target="Academic Art" id="1446" weight="175" />
+      <edge source="Soviet Nonconformist Art" target="Neoclassicism" id="1447" weight="388" />
+      <edge source="Soviet Nonconformist Art" target="Baroque" id="1448" weight="1316" />
+      <edge source="Soviet Nonconformist Art" target="Northern Renaissance" id="1449" weight="548" />
+      <edge source="Soviet Nonconformist Art" target="Early Renaissance" id="1450" weight="396" />
+      <edge source="Soviet Nonconformist Art" target="High Renaissance" id="1451" weight="731" />
+      <edge source="Soviet Nonconformist Art" target="Rococo" id="1452" weight="192" />
+      <edge source="Performance Art" target="Neo-Dada" id="1453" weight="119" />
+      <edge source="Performance Art" target="Arte Povera" id="1454" weight="215" />
+      <edge source="Performance Art" target="Feminist Art" id="1455" weight="925" />
+      <edge source="Performance Art" target="Relational Art" id="1456" weight="223" />
+      <edge source="Performance Art" target="Post-Minimalism" id="1457" weight="287" />
+      <edge source="Performance Art" target="Romanticism" id="1458" weight="721" />
+      <edge source="Performance Art" target="Neoclassicism" id="1459" weight="198" />
+      <edge source="Performance Art" target="Baroque" id="1460" weight="641" />
+      <edge source="Performance Art" target="Northern Renaissance" id="1461" weight="248" />
+      <edge source="Performance Art" target="Early Renaissance" id="1462" weight="174" />
+      <edge source="Performance Art" target="High Renaissance" id="1463" weight="324" />
+      <edge source="Performance Art" target="Rococo" id="1464" weight="113" />
+      <edge source="Neo-Dada" target="Arte Povera" id="1465" weight="226" />
+      <edge source="Neo-Dada" target="Feminist Art" id="1466" weight="446" />
+      <edge source="Neo-Dada" target="Relational Art" id="1467" weight="255" />
+      <edge source="Neo-Dada" target="Mail Art" id="1468" weight="277" />
+      <edge source="Neo-Dada" target="Post-Minimalism" id="1469" weight="586" />
+      <edge source="Neo-Dada" target="Baroque" id="1470" weight="222" />
+      <edge source="Neo-Dada" target="Romanticism" id="1471" weight="329" />
+      <edge source="Neo-Dada" target="High Renaissance" id="1472" weight="100" />
+      <edge source="Light and Space" target="Post-Minimalism" id="1473" weight="355" />
+      <edge source="Outsider art (Art brut)" target="Neo-Orthodoxism" id="1474" weight="113" />
+      <edge source="Outsider art (Art brut)" target="Republic of China (1912–1949)" id="1475" weight="166" />
+      <edge source="Outsider art (Art brut)" target="Transavantgarde" id="1476" weight="176" />
+      <edge source="Outsider art (Art brut)" target="Metaphysical art" id="1477" weight="168" />
+      <edge source="Outsider art (Art brut)" target="Romanticism" id="1478" weight="495" />
+      <edge source="Outsider art (Art brut)" target="Neoclassicism" id="1479" weight="161" />
+      <edge source="Outsider art (Art brut)" target="Baroque" id="1480" weight="275" />
+      <edge source="Outsider art (Art brut)" target="Northern Renaissance" id="1481" weight="121" />
+      <edge source="Outsider art (Art brut)" target="High Renaissance" id="1482" weight="145" />
+      <edge source="Arte Povera" target="Feminist Art" id="1483" weight="466" />
+      <edge source="Arte Povera" target="Spatialism" id="1484" weight="163" />
+      <edge source="Arte Povera" target="Post-Minimalism" id="1485" weight="1371" />
+      <edge source="Arte Povera" target="Neo-Concretism" id="1486" weight="127" />
+      <edge source="Arte Povera" target="Korean Informel" id="1487" weight="162" />
+      <edge source="Arte Povera" target="Relational Art" id="1488" weight="475" />
+      <edge source="Arte Povera" target="Confessional Art" id="1489" weight="111" />
+      <edge source="Neo-Orthodoxism" target="Republic of China (1912–1949)" id="1490" weight="156" />
+      <edge source="Neo-Orthodoxism" target="Post-Minimalism" id="1491" weight="279" />
+      <edge source="Republic of China (1912–1949)" target="Metaphysical art" id="1492" weight="165" />
+      <edge source="Republic of China (1912–1949)" target="Neo-Impressionism" id="1493" weight="290" />
+      <edge source="Republic of China (1912–1949)" target="Romanticism" id="1494" weight="1632" />
+      <edge source="Republic of China (1912–1949)" target="Academic Art" id="1495" weight="228" />
+      <edge source="Republic of China (1912–1949)" target="Neoclassicism" id="1496" weight="209" />
+      <edge source="Republic of China (1912–1949)" target="Orientalism" id="1497" weight="139" />
+      <edge source="Republic of China (1912–1949)" target="Qing Dynasty (1644–1912)" id="1498" weight="486" />
+      <edge source="Republic of China (1912–1949)" target="Tang Dynasty (618–907)" id="1499" weight="109" />
+      <edge source="Republic of China (1912–1949)" target="Ming Dynasty (1368–1644)" id="1500" weight="229" />
+      <edge source="Muralism" target="Romanticism" id="1501" weight="479" />
+      <edge source="Muralism" target="Neoclassicism" id="1502" weight="117" />
+      <edge source="Muralism" target="Baroque" id="1503" weight="326" />
+      <edge source="Muralism" target="Northern Renaissance" id="1504" weight="145" />
+      <edge source="Muralism" target="Early Renaissance" id="1505" weight="115" />
+      <edge source="Muralism" target="High Renaissance" id="1506" weight="169" />
+      <edge source="Street art" target="Romanticism" id="1507" weight="226" />
+      <edge source="Street art" target="Baroque" id="1508" weight="149" />
+      <edge source="Feminist Art" target="Post-Minimalism" id="1509" weight="902" />
+      <edge source="Feminist Art" target="Relational Art" id="1510" weight="388" />
+      <edge source="Feminist Art" target="Confessional Art" id="1511" weight="183" />
+      <edge source="Feminist Art" target="Postcolonial art" id="1512" weight="222" />
+      <edge source="Feminist Art" target="Baroque" id="1513" weight="473" />
+      <edge source="Feminist Art" target="Romanticism" id="1514" weight="640" />
+      <edge source="Feminist Art" target="Northern Renaissance" id="1515" weight="223" />
+      <edge source="Feminist Art" target="Early Renaissance" id="1516" weight="164" />
+      <edge source="Feminist Art" target="High Renaissance" id="1517" weight="251" />
+      <edge source="Feminist Art" target="Rococo" id="1518" weight="106" />
+      <edge source="Feminist Art" target="Neoclassicism" id="1519" weight="157" />
+      <edge source="Academic Art" target="Romanticism" id="1520" weight="55862" />
+      <edge source="Academic Art" target="Naturalism" id="1521" weight="1306" />
+      <edge source="Academic Art" target="Orientalism" id="1522" weight="5359" />
+      <edge source="Academic Art" target="Rococo" id="1523" weight="1583" />
+      <edge source="Academic Art" target="Neoclassicism" id="1524" weight="5803" />
+      <edge source="Academic Art" target="Neo-Impressionism" id="1525" weight="1390" />
+      <edge source="Academic Art" target="Arts and Crafts" id="1526" weight="473" />
+      <edge source="Academic Art" target="Regionalism" id="1527" weight="346" />
+      <edge source="Academic Art" target="Metaphysical art" id="1528" weight="110" />
+      <edge source="Academic Art" target="Young Poland" id="1529" weight="324" />
+      <edge source="Academic Art" target="Kitsch" id="1530" weight="884" />
+      <edge source="Academic Art" target="Neo-Romanticism" id="1531" weight="521" />
+      <edge source="Academic Art" target="Baroque" id="1532" weight="1491" />
+      <edge source="Academic Art" target="Tonalism" id="1533" weight="212" />
+      <edge source="Academic Art" target="Classical Realism" id="1534" weight="109" />
+      <edge source="Academic Art" target="High Renaissance" id="1535" weight="635" />
+      <edge source="Academic Art" target="Northern Renaissance" id="1536" weight="560" />
+      <edge source="Academic Art" target="Early Renaissance" id="1537" weight="486" />
+      <edge source="Academic Art" target="Gothic Art" id="1538" weight="117" />
+      <edge source="Romanticism" target="Naturalism" id="1539" weight="5898" />
+      <edge source="Romanticism" target="Orientalism" id="1540" weight="28125" />
+      <edge source="Romanticism" target="Rococo" id="1541" weight="28221" />
+      <edge source="Romanticism" target="Neoclassicism" id="1542" weight="76573" />
+      <edge source="Romanticism" target="Suprematism" id="1543" weight="270" />
+      <edge source="Romanticism" target="Neo-Impressionism" id="1544" weight="2757" />
+      <edge source="Romanticism" target="Arts and Crafts" id="1545" weight="5073" />
+      <edge source="Romanticism" target="Regionalism" id="1546" weight="1126" />
+      <edge source="Romanticism" target="Metaphysical art" id="1547" weight="643" />
+      <edge source="Romanticism" target="Young Poland" id="1548" weight="574" />
+      <edge source="Romanticism" target="Kitsch" id="1549" weight="6639" />
+      <edge source="Romanticism" target="Neo-Romanticism" id="1550" weight="1094" />
+      <edge source="Romanticism" target="Baroque" id="1551" weight="11992" />
+      <edge source="Romanticism" target="Byzantine Art" id="1552" weight="140" />
+      <edge source="Romanticism" target="Northern Renaissance" id="1553" weight="4272" />
+      <edge source="Romanticism" target="Transavantgarde" id="1554" weight="356" />
+      <edge source="Romanticism" target="Tonalism" id="1555" weight="427" />
+      <edge source="Romanticism" target="Tang Dynasty (618–907)" id="1556" weight="284" />
+      <edge source="Romanticism" target="Ming Dynasty (1368–1644)" id="1557" weight="285" />
+      <edge source="Romanticism" target="Yuan Dynasty (1271–1368)" id="1558" weight="451" />
+      <edge source="Romanticism" target="Neo-Figurative Art" id="1559" weight="291" />
+      <edge source="Romanticism" target="Native Art" id="1560" weight="127" />
+      <edge source="Romanticism" target="Early Renaissance" id="1561" weight="3411" />
+      <edge source="Romanticism" target="High Renaissance" id="1562" weight="4815" />
+      <edge source="Romanticism" target="Classical Realism" id="1563" weight="204" />
+      <edge source="Romanticism" target="Pictorialism" id="1564" weight="454" />
+      <edge source="Romanticism" target="Gothic Art" id="1565" weight="742" />
+      <edge source="Romanticism" target="New Image Painting" id="1566" weight="448" />
+      <edge source="Romanticism" target="Neo-Concretism" id="1567" weight="164" />
+      <edge source="Romanticism" target="Black Arts Movement" id="1568" weight="360" />
+      <edge source="Naturalism" target="Orientalism" id="1569" weight="320" />
+      <edge source="Naturalism" target="Rococo" id="1570" weight="135" />
+      <edge source="Naturalism" target="Neoclassicism" id="1571" weight="499" />
+      <edge source="Naturalism" target="Neo-Impressionism" id="1572" weight="342" />
+      <edge source="Naturalism" target="Kitsch" id="1573" weight="259" />
+      <edge source="Naturalism" target="Baroque" id="1574" weight="442" />
+      <edge source="Orientalism" target="Rococo" id="1575" weight="635" />
+      <edge source="Orientalism" target="Neoclassicism" id="1576" weight="1636" />
+      <edge source="Orientalism" target="Neo-Impressionism" id="1577" weight="608" />
+      <edge source="Orientalism" target="Arts and Crafts" id="1578" weight="301" />
+      <edge source="Orientalism" target="Regionalism" id="1579" weight="128" />
+      <edge source="Orientalism" target="Young Poland" id="1580" weight="120" />
+      <edge source="Orientalism" target="Kitsch" id="1581" weight="214" />
+      <edge source="Orientalism" target="Neo-Romanticism" id="1582" weight="255" />
+      <edge source="Orientalism" target="Tonalism" id="1583" weight="104" />
+      <edge source="Orientalism" target="Baroque" id="1584" weight="525" />
+      <edge source="Orientalism" target="Early Renaissance" id="1585" weight="118" />
+      <edge source="Rococo" target="Neoclassicism" id="1586" weight="12972" />
+      <edge source="Rococo" target="Baroque" id="1587" weight="18703" />
+      <edge source="Rococo" target="Northern Renaissance" id="1588" weight="751" />
+      <edge source="Rococo" target="Neo-Impressionism" id="1589" weight="206" />
+      <edge source="Rococo" target="Early Renaissance" id="1590" weight="584" />
+      <edge source="Rococo" target="High Renaissance" id="1591" weight="778" />
+      <edge source="Rococo" target="Regionalism" id="1592" weight="185" />
+      <edge source="Rococo" target="Kitsch" id="1593" weight="203" />
+      <edge source="Rococo" target="Gothic Art" id="1594" weight="159" />
+      <edge source="Neoclassicism" target="Baroque" id="1595" weight="10345" />
+      <edge source="Neoclassicism" target="Northern Renaissance" id="1596" weight="1084" />
+      <edge source="Neoclassicism" target="Regionalism" id="1597" weight="269" />
+      <edge source="Neoclassicism" target="Metaphysical art" id="1598" weight="217" />
+      <edge source="Neoclassicism" target="Kitsch" id="1599" weight="743" />
+      <edge source="Neoclassicism" target="Neo-Impressionism" id="1600" weight="497" />
+      <edge source="Neoclassicism" target="Arts and Crafts" id="1601" weight="247" />
+      <edge source="Neoclassicism" target="Early Renaissance" id="1602" weight="806" />
+      <edge source="Neoclassicism" target="High Renaissance" id="1603" weight="1157" />
+      <edge source="Neoclassicism" target="Pictorialism" id="1604" weight="119" />
+      <edge source="Neoclassicism" target="Gothic Art" id="1605" weight="187" />
+      <edge source="Neoclassicism" target="New Image Painting" id="1606" weight="115" />
+      <edge source="Neoclassicism" target="Yuan Dynasty (1271–1368)" id="1607" weight="115" />
+      <edge source="Transavantgarde" target="Baroque" id="1608" weight="259" />
+      <edge source="Transavantgarde" target="Northern Renaissance" id="1609" weight="125" />
+      <edge source="Transavantgarde" target="High Renaissance" id="1610" weight="151" />
+      <edge source="Suprematism" target="Baroque" id="1611" weight="149" />
+      <edge source="Arts and Crafts" target="Neo-Impressionism" id="1612" weight="149" />
+      <edge source="Arts and Crafts" target="Neo-Romanticism" id="1613" weight="408" />
+      <edge source="Kitsch" target="Neo-Impressionism" id="1614" weight="127" />
+      <edge source="Kitsch" target="Regionalism" id="1615" weight="507" />
+      <edge source="Kitsch" target="Metaphysical art" id="1616" weight="130" />
+      <edge source="Kitsch" target="Classical Realism" id="1617" weight="228" />
+      <edge source="Kitsch" target="Early Renaissance" id="1618" weight="104" />
+      <edge source="Kitsch" target="High Renaissance" id="1619" weight="136" />
+      <edge source="Kitsch" target="Baroque" id="1620" weight="316" />
+      <edge source="Kitsch" target="Northern Renaissance" id="1621" weight="129" />
+      <edge source="Post-Minimalism" target="Korean Informel" id="1622" weight="165" />
+      <edge source="Post-Minimalism" target="Relational Art" id="1623" weight="908" />
+      <edge source="Post-Minimalism" target="Environmental Art (Land art)" id="1624" weight="277" />
+      <edge source="Post-Minimalism" target="Fiber Art" id="1625" weight="557" />
+      <edge source="Neo-Concretism" target="Relational Art" id="1626" weight="128" />
+      <edge source="Neo-Concretism" target="Baroque" id="1627" weight="108" />
+      <edge source="Neo-Impressionism" target="Regionalism" id="1628" weight="325" />
+      <edge source="Neo-Impressionism" target="Metaphysical art" id="1629" weight="115" />
+      <edge source="Neo-Impressionism" target="Young Poland" id="1630" weight="131" />
+      <edge source="Neo-Impressionism" target="Tonalism" id="1631" weight="212" />
+      <edge source="Neo-Impressionism" target="Baroque" id="1632" weight="603" />
+      <edge source="Neo-Impressionism" target="Northern Renaissance" id="1633" weight="249" />
+      <edge source="Neo-Impressionism" target="Early Renaissance" id="1634" weight="199" />
+      <edge source="Neo-Impressionism" target="High Renaissance" id="1635" weight="270" />
+      <edge source="Regionalism" target="Synchromism" id="1636" weight="227" />
+      <edge source="Regionalism" target="Early Renaissance" id="1637" weight="217" />
+      <edge source="Regionalism" target="High Renaissance" id="1638" weight="303" />
+      <edge source="Regionalism" target="Baroque" id="1639" weight="625" />
+      <edge source="Regionalism" target="Northern Renaissance" id="1640" weight="271" />
+      <edge source="Metaphysical art" target="Baroque" id="1641" weight="498" />
+      <edge source="Metaphysical art" target="Northern Renaissance" id="1642" weight="190" />
+      <edge source="Metaphysical art" target="Early Renaissance" id="1643" weight="130" />
+      <edge source="Metaphysical art" target="High Renaissance" id="1644" weight="266" />
+      <edge source="Baroque" target="Dutch Golden Age" id="1645" weight="2328" />
+      <edge source="Baroque" target="Byzantine Art" id="1646" weight="2184" />
+      <edge source="Baroque" target="Northern Renaissance" id="1647" weight="4314" />
+      <edge source="Baroque" target="High Renaissance" id="1648" weight="4181" />
+      <edge source="Baroque" target="Gothic Art" id="1649" weight="509" />
+      <edge source="Baroque" target="Early Renaissance" id="1650" weight="2375" />
+      <edge source="Baroque" target="Classical Realism" id="1651" weight="133" />
+      <edge source="Baroque" target="Pictorialism" id="1652" weight="363" />
+      <edge source="Baroque" target="Neo-Figurative Art" id="1653" weight="162" />
+      <edge source="Baroque" target="Ming Dynasty (1368–1644)" id="1654" weight="190" />
+      <edge source="Baroque" target="Tonalism" id="1655" weight="108" />
+      <edge source="Baroque" target="New Image Painting" id="1656" weight="351" />
+      <edge source="Baroque" target="Black Arts Movement" id="1657" weight="285" />
+      <edge source="Baroque" target="Yuan Dynasty (1271–1368)" id="1658" weight="351" />
+      <edge source="Baroque" target="Tang Dynasty (618–907)" id="1659" weight="190" />
+      <edge source="Northern Renaissance" target="High Renaissance" id="1660" weight="1975" />
+      <edge source="Northern Renaissance" target="Gothic Art" id="1661" weight="1859" />
+      <edge source="Northern Renaissance" target="Early Renaissance" id="1662" weight="1076" />
+      <edge source="Northern Renaissance" target="Pictorialism" id="1663" weight="177" />
+      <edge source="Northern Renaissance" target="New Image Painting" id="1664" weight="171" />
+      <edge source="Northern Renaissance" target="Black Arts Movement" id="1665" weight="143" />
+      <edge source="Northern Renaissance" target="Yuan Dynasty (1271–1368)" id="1666" weight="171" />
+      <edge source="Proto Renaissance" target="Gothic Art" id="1667" weight="134" />
+      <edge source="Relational Art" target="Lettrism" id="1668" weight="111" />
+      <edge source="New Image Painting" target="Early Renaissance" id="1669" weight="120" />
+      <edge source="New Image Painting" target="High Renaissance" id="1670" weight="193" />
+      <edge source="Early Renaissance" target="High Renaissance" id="1671" weight="8087" />
+      <edge source="Early Renaissance" target="Gothic Art" id="1672" weight="818" />
+      <edge source="Early Renaissance" target="Pictorialism" id="1673" weight="122" />
+      <edge source="Early Renaissance" target="Black Arts Movement" id="1674" weight="102" />
+      <edge source="Early Renaissance" target="Yuan Dynasty (1271–1368)" id="1675" weight="120" />
+      <edge source="High Renaissance" target="Gothic Art" id="1676" weight="309" />
+      <edge source="High Renaissance" target="Pictorialism" id="1677" weight="197" />
+      <edge source="High Renaissance" target="Ming Dynasty (1368–1644)" id="1678" weight="104" />
+      <edge source="High Renaissance" target="Black Arts Movement" id="1679" weight="167" />
+      <edge source="High Renaissance" target="Yuan Dynasty (1271–1368)" id="1680" weight="193" />
+      <edge source="High Renaissance" target="Tang Dynasty (618–907)" id="1681" weight="104" />
+      <edge source="Ming Dynasty (1368–1644)" target="Qing Dynasty (1644–1912)" id="1682" weight="196" />
+      <edge source="Ming Dynasty (1368–1644)" target="Tang Dynasty (618–907)" id="1683" weight="120" />
+    </edges>
+  </graph>
+</gexf>

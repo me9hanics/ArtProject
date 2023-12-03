@@ -1,0 +1,2710 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-03">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Ad Reinhardt" label="Ad Reinhardt" />
+      <node id="Adnan Coker" label="Adnan Coker" />
+      <node id="Akkitham Narayanan" label="Akkitham Narayanan" />
+      <node id="Alberto Magnelli" label="Alberto Magnelli" />
+      <node id="Alekos Kontopoulos" label="Alekos Kontopoulos" />
+      <node id="Alexander Calder" label="Alexander Calder" />
+      <node id="Alexander Rodchenko" label="Alexander Rodchenko" />
+      <node id="Alexej von Jawlensky" label="Alexej von Jawlensky" />
+      <node id="Alla Horska" label="Alla Horska" />
+      <node id="Alphonse Allais" label="Alphonse Allais" />
+      <node id="Amadeo de Souza-Cardoso" label="Amadeo de Souza-Cardoso" />
+      <node id="Andrzej Nowacki" label="Andrzej Nowacki" />
+      <node id="Anni Albers" label="Anni Albers" />
+      <node id="Anthony Caro" label="Anthony Caro" />
+      <node id="Arthur Beecher Carles" label="Arthur Beecher Carles" />
+      <node id="Arthur Dove" label="Arthur Dove" />
+      <node id="Arthur Segal" label="Arthur Segal" />
+      <node id="Auguste Herbin" label="Auguste Herbin" />
+      <node id="Balcomb Greene" label="Balcomb Greene" />
+      <node id="Beauford Delaney" label="Beauford Delaney" />
+      <node id="Ben Nicholson" label="Ben Nicholson" />
+      <node id="Bice Lazzari" label="Bice Lazzari" />
+      <node id="Bruno Cassinari" label="Bruno Cassinari" />
+      <node id="Charles Alston" label="Charles Alston" />
+      <node id="Clyfford Still" label="Clyfford Still" />
+      <node id="Constantin Blendea" label="Constantin Blendea" />
+      <node id="Constantin Brâncuși" label="Constantin Brâncuși" />
+      <node id="Constantin Flondor" label="Constantin Flondor" />
+      <node id="David Bomberg" label="David Bomberg" />
+      <node id="David Burliuk" label="David Burliuk" />
+      <node id="David Kakabadze" label="David Kakabadze" />
+      <node id="David Smith" label="David Smith" />
+      <node id="Dimitris Mytaras" label="Dimitris Mytaras" />
+      <node id="Dusan Dzamonja" label="Dusan Dzamonja" />
+      <node id="Eduardo Chillida" label="Eduardo Chillida" />
+      <node id="Edward Wadsworth" label="Edward Wadsworth" />
+      <node id="Emilio Pettoruti" label="Emilio Pettoruti" />
+      <node id="Enrico Prampolini" label="Enrico Prampolini" />
+      <node id="Erik Bulatov" label="Erik Bulatov" />
+      <node id="Etienne Hajdu" label="Etienne Hajdu" />
+      <node id="Fernand Leger" label="Fernand Leger" />
+      <node id="Fernando Lanhas" label="Fernando Lanhas" />
+      <node id="Fernando de Szyszlo" label="Fernando de Szyszlo" />
+      <node id="Francis Picabia" label="Francis Picabia" />
+      <node id="Frantisek Kupka" label="Frantisek Kupka" />
+      <node id="Franz Marc" label="Franz Marc" />
+      <node id="Gabriele Munter" label="Gabriele Munter" />
+      <node id="George Saru" label="George Saru" />
+      <node id="Georgia O'Keeffe" label="Georgia O'Keeffe" />
+      <node id="Gerardo Dottori" label="Gerardo Dottori" />
+      <node id="Giacomo Balla" label="Giacomo Balla" />
+      <node id="Gio Pomodoro" label="Gio Pomodoro" />
+      <node id="Gregorio Vardanega" label="Gregorio Vardanega" />
+      <node id="Hale Woodruff" label="Hale Woodruff" />
+      <node id="Hans Richter" label="Hans Richter" />
+      <node id="Henri Matisse" label="Henri Matisse" />
+      <node id="Henry Moore" label="Henry Moore" />
+      <node id="Hilma af Klint" label="Hilma af Klint" />
+      <node id="Hossein Zenderoudi" label="Hossein Zenderoudi" />
+      <node id="Ion Alin Gheorghiu" label="Ion Alin Gheorghiu" />
+      <node id="Ion Pacea" label="Ion Pacea" />
+      <node id="Jacoba van Heemskerck" label="Jacoba van Heemskerck" />
+      <node id="Jacques Villon" label="Jacques Villon" />
+      <node id="Javad Hamidi" label="Javad Hamidi" />
+      <node id="Jean Arp" label="Jean Arp" />
+      <node id="Jean David" label="Jean David" />
+      <node id="Jean Fautrier" label="Jean Fautrier" />
+      <node id="Jean Helion" label="Jean Helion" />
+      <node id="Jean Hugo" label="Jean Hugo" />
+      <node id="Joaquim Rodrigo" label="Joaquim Rodrigo" />
+      <node id="Joaquin Torres Garcia" label="Joaquin Torres Garcia" />
+      <node id="Johannes Itten" label="Johannes Itten" />
+      <node id="John Altoon" label="John Altoon" />
+      <node id="John Ferren" label="John Ferren" />
+      <node id="John Marin" label="John Marin" />
+      <node id="Jorge Martins" label="Jorge Martins" />
+      <node id="Josef Albers" label="Josef Albers" />
+      <node id="Josef Sima" label="Josef Sima" />
+      <node id="Julius Evola" label="Julius Evola" />
+      <node id="Karlo Zvirynsky" label="Karlo Zvirynsky" />
+      <node id="Lajos Kassak" label="Lajos Kassak" />
+      <node id="Lawren Harris" label="Lawren Harris" />
+      <node id="Lee Krasner" label="Lee Krasner" />
+      <node id="Lino Tagliapietra" label="Lino Tagliapietra" />
+      <node id="Lois Mailou Jones" label="Lois Mailou Jones" />
+      <node id="Louis Schanker" label="Louis Schanker" />
+      <node id="Lyubov Popova" label="Lyubov Popova" />
+      <node id="Man Ray" label="Man Ray" />
+      <node id="Marcel Janco" label="Marcel Janco" />
+      <node id="Mark Rothko" label="Mark Rothko" />
+      <node id="Marsden Hartley" label="Marsden Hartley" />
+      <node id="Martha Boto" label="Martha Boto" />
+      <node id="Mathias Goeritz" label="Mathias Goeritz" />
+      <node id="Michel Seuphor" label="Michel Seuphor" />
+      <node id="Milton Avery" label="Milton Avery" />
+      <node id="Mordecai Ardon" label="Mordecai Ardon" />
+      <node id="Natalia Goncharova" label="Natalia Goncharova" />
+      <node id="Ossip Zadkine" label="Ossip Zadkine" />
+      <node id="Otto Freundlich" label="Otto Freundlich" />
+      <node id="Paul Klee" label="Paul Klee" />
+      <node id="Paul Nash" label="Paul Nash" />
+      <node id="Perle Fine" label="Perle Fine" />
+      <node id="Pierre Daura" label="Pierre Daura" />
+      <node id="Princess Fahrelnissa Zeid" label="Princess Fahrelnissa Zeid" />
+      <node id="Requena Nozal" label="Requena Nozal" />
+      <node id="Rochelle Blumenfeld" label="Rochelle Blumenfeld" />
+      <node id="Roger Weik" label="Roger Weik" />
+      <node id="Roman Selsky" label="Roman Selsky" />
+      <node id="Roy Lichtenstein" label="Roy Lichtenstein" />
+      <node id="Rudolf Bauer" label="Rudolf Bauer" />
+      <node id="S. H. Raza" label="S. H. Raza" />
+      <node id="Salvador Dali" label="Salvador Dali" />
+      <node id="Serge Charchoune" label="Serge Charchoune" />
+      <node id="Sonia Delaunay" label="Sonia Delaunay" />
+      <node id="Sophie Taeuber-Arp" label="Sophie Taeuber-Arp" />
+      <node id="Stanisław Ignacy Witkiewicz" label="Stanisław Ignacy Witkiewicz" />
+      <node id="Stig Brøgger" label="Stig Brøgger" />
+      <node id="Theo van Doesburg" label="Theo van Doesburg" />
+      <node id="Theodore Roszak" label="Theodore Roszak" />
+      <node id="Tiberiy Szilvashi" label="Tiberiy Szilvashi" />
+      <node id="Tihamer Gyarmathy" label="Tihamer Gyarmathy" />
+      <node id="Toyen" label="Toyen" />
+      <node id="Valentin Khrushch" label="Valentin Khrushch" />
+      <node id="Vanessa Bell" label="Vanessa Bell" />
+      <node id="Vera Nedkova" label="Vera Nedkova" />
+      <node id="Victor Hugo" label="Victor Hugo" />
+      <node id="Victor Pasmore" label="Victor Pasmore" />
+      <node id="Victor Servranckx" label="Victor Servranckx" />
+      <node id="Victor Vasarely" label="Victor Vasarely" />
+      <node id="Vladimir Tatlin" label="Vladimir Tatlin" />
+      <node id="Walter Battiss" label="Walter Battiss" />
+      <node id="Wassily Kandinsky" label="Wassily Kandinsky" />
+      <node id="Willi Baumeister" label="Willi Baumeister" />
+      <node id="Winifred Nicholson" label="Winifred Nicholson" />
+      <node id="Wladyslaw Strzeminski" label="Wladyslaw Strzeminski" />
+      <node id="Wolfgang Paalen" label="Wolfgang Paalen" />
+      <node id="Yiannis Moralis" label="Yiannis Moralis" />
+      <node id="Aaron Siskind" label="Aaron Siskind" />
+      <node id="Abidin Dino" label="Abidin Dino" />
+      <node id="Adja Yunkers" label="Adja Yunkers" />
+      <node id="Adolph Gottlieb" label="Adolph Gottlieb" />
+      <node id="Aki Kuroda" label="Aki Kuroda" />
+      <node id="Al Held" label="Al Held" />
+      <node id="Albert Irvin" label="Albert Irvin" />
+      <node id="Alexander Liberman" label="Alexander Liberman" />
+      <node id="Alfred Jensen" label="Alfred Jensen" />
+      <node id="Alice Baber" label="Alice Baber" />
+      <node id="Allan Kaprow" label="Allan Kaprow" />
+      <node id="Alma Woodsey Thomas" label="Alma Woodsey Thomas" />
+      <node id="Alvaro Lapa" label="Alvaro Lapa" />
+      <node id="Andy Warhol" label="Andy Warhol" />
+      <node id="Anne Ryan" label="Anne Ryan" />
+      <node id="Antonio Corpora" label="Antonio Corpora" />
+      <node id="Armand Vaillancourt" label="Armand Vaillancourt" />
+      <node id="Arshile Gorky" label="Arshile Gorky" />
+      <node id="Arthur Pinajian" label="Arthur Pinajian" />
+      <node id="Atsuko Tanaka" label="Atsuko Tanaka" />
+      <node id="Audrey Flack" label="Audrey Flack" />
+      <node id="Avigdor Arikha" label="Avigdor Arikha" />
+      <node id="Barnett Newman" label="Barnett Newman" />
+      <node id="Basil Beattie" label="Basil Beattie" />
+      <node id="Basuki Abdullah" label="Basuki Abdullah" />
+      <node id="Bernard Cohen" label="Bernard Cohen" />
+      <node id="Betty Parsons" label="Betty Parsons" />
+      <node id="Blinky Palermo" label="Blinky Palermo" />
+      <node id="Bradley Walker Tomlin" label="Bradley Walker Tomlin" />
+      <node id="Brett Whiteley" label="Brett Whiteley" />
+      <node id="Brice Marden" label="Brice Marden" />
+      <node id="Bui Xuan Phai" label="Bui Xuan Phai" />
+      <node id="Burhan Dogancay" label="Burhan Dogancay" />
+      <node id="Charles Garabedian" label="Charles Garabedian" />
+      <node id="Clarence Holbrook Carter" label="Clarence Holbrook Carter" />
+      <node id="Craig Kauffman" label="Craig Kauffman" />
+      <node id="Cy Twombly" label="Cy Twombly" />
+      <node id="Daan Lemaire" label="Daan Lemaire" />
+      <node id="Dan Christensen" label="Dan Christensen" />
+      <node id="Dan Flavin" label="Dan Flavin" />
+      <node id="David Hare" label="David Hare" />
+      <node id="Donald Judd" label="Donald Judd" />
+      <node id="Douglas Huebler" label="Douglas Huebler" />
+      <node id="Eduardo Nery" label="Eduardo Nery" />
+      <node id="Edward Corbett" label="Edward Corbett" />
+      <node id="Edward Ruscha" label="Edward Ruscha" />
+      <node id="Elaine de Kooning" label="Elaine de Kooning" />
+      <node id="Elmer Bischoff" label="Elmer Bischoff" />
+      <node id="Endre Balint" label="Endre Balint" />
+      <node id="Esteban Vicente" label="Esteban Vicente" />
+      <node id="Etel Adnan" label="Etel Adnan" />
+      <node id="Eva Hesse" label="Eva Hesse" />
+      <node id="Frank Bowling" label="Frank Bowling" />
+      <node id="Frank Lobdell" label="Frank Lobdell" />
+      <node id="Frank Stella" label="Frank Stella" />
+      <node id="Frederic Matys Thursz" label="Frederic Matys Thursz" />
+      <node id="Frederick Hammersley" label="Frederick Hammersley" />
+      <node id="Friedel Dzubas" label="Friedel Dzubas" />
+      <node id="Gandy Brodie" label="Gandy Brodie" />
+      <node id="Gary Wragg" label="Gary Wragg" />
+      <node id="Gebre Kristos Desta" label="Gebre Kristos Desta" />
+      <node id="Gene Davis" label="Gene Davis" />
+      <node id="George Stefanescu" label="George Stefanescu" />
+      <node id="Gerhard Richter" label="Gerhard Richter" />
+      <node id="Giorgio Cavallon" label="Giorgio Cavallon" />
+      <node id="Gotthard Graubner" label="Gotthard Graubner" />
+      <node id="Guido Molinari" label="Guido Molinari" />
+      <node id="Gunther Forg" label="Gunther Forg" />
+      <node id="Hannelore Baron" label="Hannelore Baron" />
+      <node id="Hans Hofmann" label="Hans Hofmann" />
+      <node id="Hassan Massoudy" label="Hassan Massoudy" />
+      <node id="Hassel Smith" label="Hassel Smith" />
+      <node id="Hedda Sterne" label="Hedda Sterne" />
+      <node id="Helen Frankenthaler" label="Helen Frankenthaler" />
+      <node id="Horia Bernea" label="Horia Bernea" />
+      <node id="Howard Hodgkin" label="Howard Hodgkin" />
+      <node id="Howard Mehring" label="Howard Mehring" />
+      <node id="Huang Yongyu" label="Huang Yongyu" />
+      <node id="Irma Blank" label="Irma Blank" />
+      <node id="Ivan Eyre" label="Ivan Eyre" />
+      <node id="Jack Tworkov" label="Jack Tworkov" />
+      <node id="Jackson Pollock" label="Jackson Pollock" />
+      <node id="James Brooks" label="James Brooks" />
+      <node id="Jane Frank" label="Jane Frank" />
+      <node id="Jean-Paul Riopelle" label="Jean-Paul Riopelle" />
+      <node id="Jimmy Ernst" label="Jimmy Ernst" />
+      <node id="Joan Miro" label="Joan Miro" />
+      <node id="Joan Mitchell" label="Joan Mitchell" />
+      <node id="Joan Snyder" label="Joan Snyder" />
+      <node id="Jock Macdonald" label="Jock Macdonald" />
+      <node id="Joe Goode" label="Joe Goode" />
+      <node id="John Cage" label="John Cage" />
+      <node id="John Hoyland" label="John Hoyland" />
+      <node id="John McCracken" label="John McCracken" />
+      <node id="Jose Guerrero" label="Jose Guerrero" />
+      <node id="Julio Pomar" label="Julio Pomar" />
+      <node id="Jurgen Partenheimer" label="Jurgen Partenheimer" />
+      <node id="Kazuo Nakamura" label="Kazuo Nakamura" />
+      <node id="Kazuo Shiraga" label="Kazuo Shiraga" />
+      <node id="Kenzo Okada" label="Kenzo Okada" />
+      <node id="Larry Bell" label="Larry Bell" />
+      <node id="Larry Zox" label="Larry Zox" />
+      <node id="Lech Twardowski" label="Lech Twardowski" />
+      <node id="Lee Bontecou" label="Lee Bontecou" />
+      <node id="Leiko Ikemura" label="Leiko Ikemura" />
+      <node id="Leo Valledor" label="Leo Valledor" />
+      <node id="Louise Nevelson" label="Louise Nevelson" />
+      <node id="Manabu Mabe" label="Manabu Mabe" />
+      <node id="Manoucher Yektai" label="Manoucher Yektai" />
+      <node id="Manuel Cargaleiro" label="Manuel Cargaleiro" />
+      <node id="Manuel Neri" label="Manuel Neri" />
+      <node id="Marcel Barbeau" label="Marcel Barbeau" />
+      <node id="Marcia Hafif" label="Marcia Hafif" />
+      <node id="Mario Cesariny" label="Mario Cesariny" />
+      <node id="Mark Lancaster" label="Mark Lancaster" />
+      <node id="Mark Tobey" label="Mark Tobey" />
+      <node id="Mark di Suvero" label="Mark di Suvero" />
+      <node id="Martin Chirino" label="Martin Chirino" />
+      <node id="Milton Resnick" label="Milton Resnick" />
+      <node id="Morris Graves" label="Morris Graves" />
+      <node id="Morris Louis" label="Morris Louis" />
+      <node id="Moshe Kupferman" label="Moshe Kupferman" />
+      <node id="Myron Stout" label="Myron Stout" />
+      <node id="Nasreen Mohamedi" label="Nasreen Mohamedi" />
+      <node id="Neil Welliver" label="Neil Welliver" />
+      <node id="Nicolas Carone" label="Nicolas Carone" />
+      <node id="Noguchi Isamu" label="Noguchi Isamu" />
+      <node id="Norman Bluhm" label="Norman Bluhm" />
+      <node id="Norman Lewis" label="Norman Lewis" />
+      <node id="Oswaldo Vigas" label="Oswaldo Vigas" />
+      <node id="Oyvind Fahlstrom" label="Oyvind Fahlstrom" />
+      <node id="Pat Lipsky" label="Pat Lipsky" />
+      <node id="Paul Guiragossian" label="Paul Guiragossian" />
+      <node id="Paul Jenkins" label="Paul Jenkins" />
+      <node id="Paul Reed" label="Paul Reed" />
+      <node id="Paul Wonner" label="Paul Wonner" />
+      <node id="Pedro Coronel" label="Pedro Coronel" />
+      <node id="Peter Busa" label="Peter Busa" />
+      <node id="Philip Guston" label="Philip Guston" />
+      <node id="Phillip King" label="Phillip King" />
+      <node id="Pol Bury" label="Pol Bury" />
+      <node id="Rafa Nasiri" label="Rafa Nasiri" />
+      <node id="Ralph Hotere" label="Ralph Hotere" />
+      <node id="Ralph Rosenborg" label="Ralph Rosenborg" />
+      <node id="Raoul Ubac" label="Raoul Ubac" />
+      <node id="Reuben Nakian" label="Reuben Nakian" />
+      <node id="Richard Diebenkorn" label="Richard Diebenkorn" />
+      <node id="Richard Hambleton" label="Richard Hambleton" />
+      <node id="Richard Smith" label="Richard Smith" />
+      <node id="Richard Tuttle" label="Richard Tuttle" />
+      <node id="Richards Ruben" label="Richards Ruben" />
+      <node id="Robert Goodnough" label="Robert Goodnough" />
+      <node id="Robert Huot" label="Robert Huot" />
+      <node id="Robert Motherwell" label="Robert Motherwell" />
+      <node id="Robert Nickle" label="Robert Nickle" />
+      <node id="Robert Rauschenberg" label="Robert Rauschenberg" />
+      <node id="Roberto Matta" label="Roberto Matta" />
+      <node id="Rodolfo Arico" label="Rodolfo Arico" />
+      <node id="Romare Bearden" label="Romare Bearden" />
+      <node id="Ronald Davis" label="Ronald Davis" />
+      <node id="Ronnie Landfield" label="Ronnie Landfield" />
+      <node id="Sam Gilliam" label="Sam Gilliam" />
+      <node id="Samia Halaby" label="Samia Halaby" />
+      <node id="Sherrie Levine" label="Sherrie Levine" />
+      <node id="Sohrab Sepehri" label="Sohrab Sepehri" />
+      <node id="Sonya Rapoport" label="Sonya Rapoport" />
+      <node id="Stephen Mueller" label="Stephen Mueller" />
+      <node id="Taro Yamamoto" label="Taro Yamamoto" />
+      <node id="Terry Frost" label="Terry Frost" />
+      <node id="Theodoros Stamos" label="Theodoros Stamos" />
+      <node id="Toko Shinoda" label="Toko Shinoda" />
+      <node id="Tsuruko Yamazaki" label="Tsuruko Yamazaki" />
+      <node id="Ulfert Wilke" label="Ulfert Wilke" />
+      <node id="Vasile Dobrian" label="Vasile Dobrian" />
+      <node id="Victor Zaretsky" label="Victor Zaretsky" />
+      <node id="Walasse Ting" label="Walasse Ting" />
+      <node id="Warren Rohrer" label="Warren Rohrer" />
+      <node id="William Baziotes" label="William Baziotes" />
+      <node id="William Congdon" label="William Congdon" />
+      <node id="William Scott" label="William Scott" />
+      <node id="William Tucker" label="William Tucker" />
+      <node id="William Turnbull" label="William Turnbull" />
+      <node id="Yayoi Kusama" label="Yayoi Kusama" />
+      <node id="Albert Aublet" label="Albert Aublet" />
+      <node id="Albert Edelfelt" label="Albert Edelfelt" />
+      <node id="Albert Joseph Moore" label="Albert Joseph Moore" />
+      <node id="Alexander Ivanov" label="Alexander Ivanov" />
+      <node id="Alexandre Cabanel" label="Alexandre Cabanel" />
+      <node id="Anders Zorn" label="Anders Zorn" />
+      <node id="Antonio Cabral Bejarano" label="Antonio Cabral Bejarano" />
+      <node id="Arturo Michelena" label="Arturo Michelena" />
+      <node id="Auguste Toulmouche" label="Auguste Toulmouche" />
+      <node id="Bertalan Szekely" label="Bertalan Szekely" />
+      <node id="Briton Riviere" label="Briton Riviere" />
+      <node id="Carl Bloch" label="Carl Bloch" />
+      <node id="Charles Gleyre" label="Charles Gleyre" />
+      <node id="Charles Martin Powell" label="Charles Martin Powell" />
+      <node id="Charles Sprague Pearce" label="Charles Sprague Pearce" />
+      <node id="Christian Wilhelm Allers" label="Christian Wilhelm Allers" />
+      <node id="Christina Robertson" label="Christina Robertson" />
+      <node id="Claude Monet" label="Claude Monet" />
+      <node id="Domenico Induno" label="Domenico Induno" />
+      <node id="Edward Poynter" label="Edward Poynter" />
+      <node id="Emmanuel Zairis" label="Emmanuel Zairis" />
+      <node id="Ernest Meissonier" label="Ernest Meissonier" />
+      <node id="Francesc Masriera" label="Francesc Masriera" />
+      <node id="Francesco Hayez" label="Francesco Hayez" />
+      <node id="Frederic Leighton" label="Frederic Leighton" />
+      <node id="Frederick McCubbin" label="Frederick McCubbin" />
+      <node id="Fyodor Bronnikov" label="Fyodor Bronnikov" />
+      <node id="Gabriel Ferrier" label="Gabriel Ferrier" />
+      <node id="Georg Pauli" label="Georg Pauli" />
+      <node id="George Demetrescu Mirea" label="George Demetrescu Mirea" />
+      <node id="George Frederick Watts" label="George Frederick Watts" />
+      <node id="Guillaume Seignac" label="Guillaume Seignac" />
+      <node id="Gustave Boulanger" label="Gustave Boulanger" />
+      <node id="Henryk Siemiradzki" label="Henryk Siemiradzki" />
+      <node id="Herbert James Draper" label="Herbert James Draper" />
+      <node id="Hermann David Salomon Corrodi" label="Hermann David Salomon Corrodi" />
+      <node id="Jan Sluyters" label="Jan Sluyters" />
+      <node id="Jean-Paul Laurens" label="Jean-Paul Laurens" />
+      <node id="Jehan Georges Vibert" label="Jehan Georges Vibert" />
+      <node id="Joseph Ducreux" label="Joseph Ducreux" />
+      <node id="Jules Bastien-Lepage" label="Jules Bastien-Lepage" />
+      <node id="Jules Breton" label="Jules Breton" />
+      <node id="Jules Joseph Lefebvre" label="Jules Joseph Lefebvre" />
+      <node id="Konstantin Bogaevsky" label="Konstantin Bogaevsky" />
+      <node id="Konstantin Makovsky" label="Konstantin Makovsky" />
+      <node id="Konstantin Vasilyev" label="Konstantin Vasilyev" />
+      <node id="Károly Lotz" label="Károly Lotz" />
+      <node id="Leon Bonnat" label="Leon Bonnat" />
+      <node id="Ludwig Knaus" label="Ludwig Knaus" />
+      <node id="Ludwig Passini" label="Ludwig Passini" />
+      <node id="Luke Fildes" label="Luke Fildes" />
+      <node id="Léon Cogniet" label="Léon Cogniet" />
+      <node id="Marie Bracquemond" label="Marie Bracquemond" />
+      <node id="Marià Fortuny" label="Marià Fortuny" />
+      <node id="Mihaly Munkacsy" label="Mihaly Munkacsy" />
+      <node id="Mikhail Vrubel" label="Mikhail Vrubel" />
+      <node id="Miklos Barabas" label="Miklos Barabas" />
+      <node id="Mohammad Hadi Tajvidi" label="Mohammad Hadi Tajvidi" />
+      <node id="Nikola Martinoski" label="Nikola Martinoski" />
+      <node id="Nikolai Ge" label="Nikolai Ge" />
+      <node id="Nikolaos Gyzis" label="Nikolaos Gyzis" />
+      <node id="Pablo Picasso" label="Pablo Picasso" />
+      <node id="Paul Delaroche" label="Paul Delaroche" />
+      <node id="Paul Peel" label="Paul Peel" />
+      <node id="Paul-Albert Besnard" label="Paul-Albert Besnard" />
+      <node id="Pedro Américo" label="Pedro Américo" />
+      <node id="Petrus van Schendel" label="Petrus van Schendel" />
+      <node id="Raja Ravi Varma" label="Raja Ravi Varma" />
+      <node id="Rodolfo Amoedo" label="Rodolfo Amoedo" />
+      <node id="Rubens Santoro" label="Rubens Santoro" />
+      <node id="Sir Lawrence Alma-Tadema" label="Sir Lawrence Alma-Tadema" />
+      <node id="Solomon Joseph Solomon" label="Solomon Joseph Solomon" />
+      <node id="Theodor Aman" label="Theodor Aman" />
+      <node id="Thomas Couture" label="Thomas Couture" />
+      <node id="Thomas Francis Dicksee" label="Thomas Francis Dicksee" />
+      <node id="Vasily Surikov" label="Vasily Surikov" />
+      <node id="Victor Meirelles" label="Victor Meirelles" />
+      <node id="Vincenzo Camuccini" label="Vincenzo Camuccini" />
+      <node id="Wilhelm Kotarbinski" label="Wilhelm Kotarbinski" />
+      <node id="William-Adolphe Bouguereau" label="William-Adolphe Bouguereau" />
+      <node id="Wojciech Weiss" label="Wojciech Weiss" />
+      <node id="Arnulf Rainer" label="Arnulf Rainer" />
+      <node id="Brion Gysin" label="Brion Gysin" />
+      <node id="Franz Kline" label="Franz Kline" />
+      <node id="N.C. Wyeth" label="N.C. Wyeth" />
+      <node id="Rockwell Kent" label="Rockwell Kent" />
+      <node id="Stuart Davis" label="Stuart Davis" />
+      <node id="Albert Gleizes" label="Albert Gleizes" />
+      <node id="Georges Braque" label="Georges Braque" />
+      <node id="Jean Metzinger" label="Jean Metzinger" />
+      <node id="Juan Gris" label="Juan Gris" />
+      <node id="Pavel Filonov" label="Pavel Filonov" />
+      <node id="Yervand Kochar" label="Yervand Kochar" />
+      <node id="August Natterer" label="August Natterer" />
+      <node id="Bill Traylor" label="Bill Traylor" />
+      <node id="David Lynch" label="David Lynch" />
+      <node id="Gaston Chaissac" label="Gaston Chaissac" />
+      <node id="Henry Darger" label="Henry Darger" />
+      <node id="Howard Finster" label="Howard Finster" />
+      <node id="Jean Dubuffet" label="Jean Dubuffet" />
+      <node id="Louis Pons" label="Louis Pons" />
+      <node id="Louis Soutter" label="Louis Soutter" />
+      <node id="Aleksandra Ekster" label="Aleksandra Ekster" />
+      <node id="Archibald Motley" label="Archibald Motley" />
+      <node id="Bernardo Marques" label="Bernardo Marques" />
+      <node id="Cassandre" label="Cassandre" />
+      <node id="David Alfaro Siqueiros" label="David Alfaro Siqueiros" />
+      <node id="Diego Rivera" label="Diego Rivera" />
+      <node id="Eric Gill" label="Eric Gill" />
+      <node id="Eugeniusz Zak" label="Eugeniusz Zak" />
+      <node id="François Pompon" label="François Pompon" />
+      <node id="Gerda Wegener" label="Gerda Wegener" />
+      <node id="Gregorio Sciltian" label="Gregorio Sciltian" />
+      <node id="Ivan Mestrovic" label="Ivan Mestrovic" />
+      <node id="Jean Dupas" label="Jean Dupas" />
+      <node id="John Austen" label="John Austen" />
+      <node id="John Vassos" label="John Vassos" />
+      <node id="Petre Otskheli" label="Petre Otskheli" />
+      <node id="Raphael Delorme" label="Raphael Delorme" />
+      <node id="Rene Magritte" label="Rene Magritte" />
+      <node id="Tahir Salahov" label="Tahir Salahov" />
+      <node id="Tamara de Lempicka" label="Tamara de Lempicka" />
+      <node id="Zinaida Serebriakova" label="Zinaida Serebriakova" />
+      <node id="Adrien Dax" label="Adrien Dax" />
+      <node id="Afro" label="Afro" />
+      <node id="Akira Kanayama" label="Akira Kanayama" />
+      <node id="Alberto Burri" label="Alberto Burri" />
+      <node id="Alfred Manessier" label="Alfred Manessier" />
+      <node id="Alighiero Boetti" label="Alighiero Boetti" />
+      <node id="Andre Lanskoy" label="Andre Lanskoy" />
+      <node id="Antoni Tapies" label="Antoni Tapies" />
+      <node id="Antonio Areal" label="Antonio Areal" />
+      <node id="Antonio Palolo" label="Antonio Palolo" />
+      <node id="Antonio Sanfilippo" label="Antonio Sanfilippo" />
+      <node id="Asger Jorn" label="Asger Jorn" />
+      <node id="Aurel Cojan" label="Aurel Cojan" />
+      <node id="Bernard Schultze" label="Bernard Schultze" />
+      <node id="Carl Buchheister" label="Carl Buchheister" />
+      <node id="Carla Accardi" label="Carla Accardi" />
+      <node id="Charlotte Posenenske" label="Charlotte Posenenske" />
+      <node id="Christo Coetzee" label="Christo Coetzee" />
+      <node id="Claude Georges" label="Claude Georges" />
+      <node id="Corneille" label="Corneille" />
+      <node id="Daniel Dezeuze" label="Daniel Dezeuze" />
+      <node id="Eileen Agar" label="Eileen Agar" />
+      <node id="Emilio Scanavino" label="Emilio Scanavino" />
+      <node id="Endre Bartos" label="Endre Bartos" />
+      <node id="Enrico Baj" label="Enrico Baj" />
+      <node id="Enrico Castellani" label="Enrico Castellani" />
+      <node id="Ernst Wilhelm Nay" label="Ernst Wilhelm Nay" />
+      <node id="Eugene Brands" label="Eugene Brands" />
+      <node id="Eugene Leroy" label="Eugene Leroy" />
+      <node id="Fausto Melotti" label="Fausto Melotti" />
+      <node id="Florin Maxa" label="Florin Maxa" />
+      <node id="Francis Bott" label="Francis Bott" />
+      <node id="Francois Arnal" label="Francois Arnal" />
+      <node id="Fritz Winter" label="Fritz Winter" />
+      <node id="Gil Teixeira Lopes" label="Gil Teixeira Lopes" />
+      <node id="Giulio Turcato" label="Giulio Turcato" />
+      <node id="Giuseppe Penone" label="Giuseppe Penone" />
+      <node id="Giuseppe Santomaso" label="Giuseppe Santomaso" />
+      <node id="Greta Freist" label="Greta Freist" />
+      <node id="Helmut Sturm" label="Helmut Sturm" />
+      <node id="Henri Michaux" label="Henri Michaux" />
+      <node id="Herbert Zangs" label="Herbert Zangs" />
+      <node id="Horia Damian" label="Horia Damian" />
+      <node id="Huguette Arthur Bertrand" label="Huguette Arthur Bertrand" />
+      <node id="Ion Bitzan" label="Ion Bitzan" />
+      <node id="Ivan Serpa" label="Ivan Serpa" />
+      <node id="Jacques Busse" label="Jacques Busse" />
+      <node id="Jaroslav Serpan" label="Jaroslav Serpan" />
+      <node id="Jean Degottex" label="Jean Degottex" />
+      <node id="Jean Le Moal" label="Jean Le Moal" />
+      <node id="Jean Messagier" label="Jean Messagier" />
+      <node id="Jean Miotte" label="Jean Miotte" />
+      <node id="Jean Rene Bazaine" label="Jean Rene Bazaine" />
+      <node id="Jiro Yoshihara" label="Jiro Yoshihara" />
+      <node id="Joan Hernandez Pijuan" label="Joan Hernandez Pijuan" />
+      <node id="Joan Ponc" label="Joan Ponc" />
+      <node id="Julius Bissier" label="Julius Bissier" />
+      <node id="Karel Appel" label="Karel Appel" />
+      <node id="Karl Otto Gotz" label="Karl Otto Gotz" />
+      <node id="Kim Tschang-yeul" label="Kim Tschang-yeul" />
+      <node id="Leo Leuppi" label="Leo Leuppi" />
+      <node id="Lilia Carrillo" label="Lilia Carrillo" />
+      <node id="Luciano Bartolini" label="Luciano Bartolini" />
+      <node id="Luigi Guardigli" label="Luigi Guardigli" />
+      <node id="Luis Feito" label="Luis Feito" />
+      <node id="Manuel Rivera" label="Manuel Rivera" />
+      <node id="Marcelle Loubchansky" label="Marcelle Loubchansky" />
+      <node id="Mario Ballocco" label="Mario Ballocco" />
+      <node id="Mario Prassinos" label="Mario Prassinos" />
+      <node id="Mario Schifano" label="Mario Schifano" />
+      <node id="Matsutani" label="Matsutani" />
+      <node id="Maurice Esteve" label="Maurice Esteve" />
+      <node id="Modest Cuixart" label="Modest Cuixart" />
+      <node id="Monique Orsini" label="Monique Orsini" />
+      <node id="Natalia Dumitresco" label="Natalia Dumitresco" />
+      <node id="Nicolas de Staël" label="Nicolas de Staël" />
+      <node id="Olivier Debre" label="Olivier Debre" />
+      <node id="Omer Uluc" label="Omer Uluc" />
+      <node id="Ozdemir Atlan" label="Ozdemir Atlan" />
+      <node id="Paolo Scheggi" label="Paolo Scheggi" />
+      <node id="Paritosh Sen" label="Paritosh Sen" />
+      <node id="Patrick Heron" label="Patrick Heron" />
+      <node id="Piero Manzoni" label="Piero Manzoni" />
+      <node id="Rene Duvillier" label="Rene Duvillier" />
+      <node id="Romul Nutiu" label="Romul Nutiu" />
+      <node id="Rune Jansson" label="Rune Jansson" />
+      <node id="Sadamasa Motonaga" label="Sadamasa Motonaga" />
+      <node id="Samuel Buri" label="Samuel Buri" />
+      <node id="Shozo Shimamoto" label="Shozo Shimamoto" />
+      <node id="Simon Hantai" label="Simon Hantai" />
+      <node id="Tano Festa" label="Tano Festa" />
+      <node id="Theo Gerber" label="Theo Gerber" />
+      <node id="Wols" label="Wols" />
+      <node id="Akseli Gallen-Kallela" label="Akseli Gallen-Kallela" />
+      <node id="Albin Egger-Lienz" label="Albin Egger-Lienz" />
+      <node id="Alexandre Benois" label="Alexandre Benois" />
+      <node id="Alfred William Finch" label="Alfred William Finch" />
+      <node id="Alphonse Mucha" label="Alphonse Mucha" />
+      <node id="Andrei Ryabushkin" label="Andrei Ryabushkin" />
+      <node id="Anna Katarina Boberg" label="Anna Katarina Boberg" />
+      <node id="Anne Brigman" label="Anne Brigman" />
+      <node id="Arthur Rackham" label="Arthur Rackham" />
+      <node id="Aubrey Beardsley" label="Aubrey Beardsley" />
+      <node id="Austin Osman Spare" label="Austin Osman Spare" />
+      <node id="Beatrix Potter" label="Beatrix Potter" />
+      <node id="Boris Kustodiev" label="Boris Kustodiev" />
+      <node id="Byam Shaw" label="Byam Shaw" />
+      <node id="Carl Larsson" label="Carl Larsson" />
+      <node id="Carlos Schwabe" label="Carlos Schwabe" />
+      <node id="Charles Rennie Mackintosh" label="Charles Rennie Mackintosh" />
+      <node id="Charles Robinson" label="Charles Robinson" />
+      <node id="Clarence Gagnon" label="Clarence Gagnon" />
+      <node id="Cuno Amiet" label="Cuno Amiet" />
+      <node id="Dorothy Lathrop" label="Dorothy Lathrop" />
+      <node id="Edmund Dulac" label="Edmund Dulac" />
+      <node id="Eero Järnefelt" label="Eero Järnefelt" />
+      <node id="Egon Schiele" label="Egon Schiele" />
+      <node id="Eliseu Visconti" label="Eliseu Visconti" />
+      <node id="Emile Galle" label="Emile Galle" />
+      <node id="Emily Carr" label="Emily Carr" />
+      <node id="Emmerico Nunes" label="Emmerico Nunes" />
+      <node id="Ethel Reed" label="Ethel Reed" />
+      <node id="Eugène Grasset" label="Eugène Grasset" />
+      <node id="Fedir Krychevsky" label="Fedir Krychevsky" />
+      <node id="Felice Casorati" label="Felice Casorati" />
+      <node id="Felix Vallotton" label="Felix Vallotton" />
+      <node id="Ferdinand Hodler" label="Ferdinand Hodler" />
+      <node id="Fernand Khnopff" label="Fernand Khnopff" />
+      <node id="Filipp Malyavin" label="Filipp Malyavin" />
+      <node id="Frank Cadogan Cowper" label="Frank Cadogan Cowper" />
+      <node id="Frank Johnston" label="Frank Johnston" />
+      <node id="Frank Xavier Leyendecker" label="Frank Xavier Leyendecker" />
+      <node id="Franklin Carmichael" label="Franklin Carmichael" />
+      <node id="Franz Stuck" label="Franz Stuck" />
+      <node id="Frederick Carl Frieseke" label="Frederick Carl Frieseke" />
+      <node id="Fritz Rehm" label="Fritz Rehm" />
+      <node id="Fujishima Takeji" label="Fujishima Takeji" />
+      <node id="Gabriel von Max" label="Gabriel von Max" />
+      <node id="Galileo Chini" label="Galileo Chini" />
+      <node id="George Barbier" label="George Barbier" />
+      <node id="Georges Lemmen" label="Georges Lemmen" />
+      <node id="Gustav Klimt" label="Gustav Klimt" />
+      <node id="Harry Clarke" label="Harry Clarke" />
+      <node id="Henri de Toulouse-Lautrec" label="Henri de Toulouse-Lautrec" />
+      <node id="Henry van de Velde" label="Henry van de Velde" />
+      <node id="Heorhiy Narbut" label="Heorhiy Narbut" />
+      <node id="Hossein Behzad" label="Hossein Behzad" />
+      <node id="Ivan Bilibin" label="Ivan Bilibin" />
+      <node id="Ivan Milev" label="Ivan Milev" />
+      <node id="J. E. H. MacDonald" label="J. E. H. MacDonald" />
+      <node id="Jacek Malczewski" label="Jacek Malczewski" />
+      <node id="Jan Mankes" label="Jan Mankes" />
+      <node id="Jan Toorop" label="Jan Toorop" />
+      <node id="Joan Brull" label="Joan Brull" />
+      <node id="John Bauer" label="John Bauer" />
+      <node id="John Duncan" label="John Duncan" />
+      <node id="Jules Cheret" label="Jules Cheret" />
+      <node id="Julio Romero de Torres" label="Julio Romero de Torres" />
+      <node id="Jury Annenkov" label="Jury Annenkov" />
+      <node id="Józef Mehoffer" label="Józef Mehoffer" />
+      <node id="Kay Nielsen" label="Kay Nielsen" />
+      <node id="Kazimir Malevich" label="Kazimir Malevich" />
+      <node id="Koloman Moser" label="Koloman Moser" />
+      <node id="Konstantin Korovin" label="Konstantin Korovin" />
+      <node id="Konstantin Somov" label="Konstantin Somov" />
+      <node id="Konstantin Yuon" label="Konstantin Yuon" />
+      <node id="Konstantinos Parthenis" label="Konstantinos Parthenis" />
+      <node id="Leon Bakst" label="Leon Bakst" />
+      <node id="Leon Wyczółkowski" label="Leon Wyczółkowski" />
+      <node id="Leonetto Cappiello" label="Leonetto Cappiello" />
+      <node id="Louis Comfort Tiffany" label="Louis Comfort Tiffany" />
+      <node id="Louis Wain" label="Louis Wain" />
+      <node id="Lucien Pissarro" label="Lucien Pissarro" />
+      <node id="Margaret Macdonald" label="Margaret Macdonald" />
+      <node id="Martiros Sarian" label="Martiros Sarian" />
+      <node id="Max Kurzweil" label="Max Kurzweil" />
+      <node id="Max Slevogt" label="Max Slevogt" />
+      <node id="Maxfield Parrish" label="Maxfield Parrish" />
+      <node id="Meta Vaux Warrick Fuller" label="Meta Vaux Warrick Fuller" />
+      <node id="Michel Simonidy" label="Michel Simonidy" />
+      <node id="Mikhail Nesterov" label="Mikhail Nesterov" />
+      <node id="Mstislav Dobuzhinsky" label="Mstislav Dobuzhinsky" />
+      <node id="Nicholas Roerich" label="Nicholas Roerich" />
+      <node id="Odilon Redon" label="Odilon Redon" />
+      <node id="Otto Eckmann" label="Otto Eckmann" />
+      <node id="Owen Jones" label="Owen Jones" />
+      <node id="Paul Mathiopoulos" label="Paul Mathiopoulos" />
+      <node id="Paul Ranson" label="Paul Ranson" />
+      <node id="Pyotr Konchalovsky" label="Pyotr Konchalovsky" />
+      <node id="Ramon Casas" label="Ramon Casas" />
+      <node id="Raphael Kirchner" label="Raphael Kirchner" />
+      <node id="Richard Gerstl" label="Richard Gerstl" />
+      <node id="Rupert Bunny" label="Rupert Bunny" />
+      <node id="Saturnino Herran" label="Saturnino Herran" />
+      <node id="Serge Sudeikin" label="Serge Sudeikin" />
+      <node id="Sergey Solomko" label="Sergey Solomko" />
+      <node id="Stanisław Wyspiański" label="Stanisław Wyspiański" />
+      <node id="Stefan Luchian" label="Stefan Luchian" />
+      <node id="Teodor Axentowicz" label="Teodor Axentowicz" />
+      <node id="Theodor Severin Kittelsen" label="Theodor Severin Kittelsen" />
+      <node id="Theophile Steinlen" label="Theophile Steinlen" />
+      <node id="Thomas Hart Benton" label="Thomas Hart Benton" />
+      <node id="Thomas Theodor Heine" label="Thomas Theodor Heine" />
+      <node id="Tom Thomson" label="Tom Thomson" />
+      <node id="Valentin Serov" label="Valentin Serov" />
+      <node id="Vasily Polenov" label="Vasily Polenov" />
+      <node id="Vasyl Hryhorovych Krychevsky" label="Vasyl Hryhorovych Krychevsky" />
+      <node id="Victor Borisov-Musatov" label="Victor Borisov-Musatov" />
+      <node id="Virginia Frances Sterrett" label="Virginia Frances Sterrett" />
+      <node id="Vsevolod Maksymovych" label="Vsevolod Maksymovych" />
+      <node id="Wilhelm Trübner" label="Wilhelm Trübner" />
+      <node id="Andre Masson" label="Andre Masson" />
+      <node id="Dolfi Trost" label="Dolfi Trost" />
+      <node id="Paul Paun" label="Paul Paun" />
+      <node id="Abraham Storck" label="Abraham Storck" />
+      <node id="Adam Elsheimer" label="Adam Elsheimer" />
+      <node id="Adam van Noort" label="Adam van Noort" />
+      <node id="Adriaen Brouwer" label="Adriaen Brouwer" />
+      <node id="Adriaen van Ostade" label="Adriaen van Ostade" />
+      <node id="Adriaen van de Velde" label="Adriaen van de Velde" />
+      <node id="Adriaen van de Venne" label="Adriaen van de Venne" />
+      <node id="Aelbert Cuyp" label="Aelbert Cuyp" />
+      <node id="Agostino Carracci" label="Agostino Carracci" />
+      <node id="Agostino Tassi" label="Agostino Tassi" />
+      <node id="Albert Bierstadt" label="Albert Bierstadt" />
+      <node id="Aleksey Antropov" label="Aleksey Antropov" />
+      <node id="Alexey Zubov" label="Alexey Zubov" />
+      <node id="Alonzo Cano" label="Alonzo Cano" />
+      <node id="Annibale Carracci" label="Annibale Carracci" />
+      <node id="Anthony van Dyck" label="Anthony van Dyck" />
+      <node id="Antoine Pesne" label="Antoine Pesne" />
+      <node id="Anton Raphael Mengs" label="Anton Raphael Mengs" />
+      <node id="Artemisia Gentileschi" label="Artemisia Gentileschi" />
+      <node id="Bartolome Esteban Murillo" label="Bartolome Esteban Murillo" />
+      <node id="Bernardo Strozzi" label="Bernardo Strozzi" />
+      <node id="Canaletto" label="Canaletto" />
+      <node id="Caravaggio" label="Caravaggio" />
+      <node id="Carel Fabritius" label="Carel Fabritius" />
+      <node id="Charles Le Brun" label="Charles Le Brun" />
+      <node id="Clara Peeters" label="Clara Peeters" />
+      <node id="Claude Deruet" label="Claude Deruet" />
+      <node id="Claude Lorrain" label="Claude Lorrain" />
+      <node id="Claudio Coello" label="Claudio Coello" />
+      <node id="Cornelis Norbertus Gysbrechts" label="Cornelis Norbertus Gysbrechts" />
+      <node id="Cornelis de Vos" label="Cornelis de Vos" />
+      <node id="Cornelis van Noorde" label="Cornelis van Noorde" />
+      <node id="David Bailly" label="David Bailly" />
+      <node id="David Teniers the Younger" label="David Teniers the Younger" />
+      <node id="Diego Velazquez" label="Diego Velazquez" />
+      <node id="Dirck van Baburen" label="Dirck van Baburen" />
+      <node id="Domenico Fiasella" label="Domenico Fiasella" />
+      <node id="Esaias van de Velde" label="Esaias van de Velde" />
+      <node id="Eustache Le Sueur" label="Eustache Le Sueur" />
+      <node id="Ferdinand Bol" label="Ferdinand Bol" />
+      <node id="Francesco Guardi" label="Francesco Guardi" />
+      <node id="Francesco Solimena" label="Francesco Solimena" />
+      <node id="Francisco Herrera" label="Francisco Herrera" />
+      <node id="Francisco Pacheco" label="Francisco Pacheco" />
+      <node id="Frans Hals" label="Frans Hals" />
+      <node id="Frans Snyders" label="Frans Snyders" />
+      <node id="Frans van Mieris the Elder" label="Frans van Mieris the Elder" />
+      <node id="Gabriel Metsu" label="Gabriel Metsu" />
+      <node id="Georges Lallemand" label="Georges Lallemand" />
+      <node id="Gerard Terborch" label="Gerard Terborch" />
+      <node id="Gerard van Honthorst" label="Gerard van Honthorst" />
+      <node id="Gerrit Dou" label="Gerrit Dou" />
+      <node id="Giambattista Pittoni" label="Giambattista Pittoni" />
+      <node id="Gian Lorenzo Bernini" label="Gian Lorenzo Bernini" />
+      <node id="Giovanni Battista Gaulli" label="Giovanni Battista Gaulli" />
+      <node id="Giovanni Paolo Panini" label="Giovanni Paolo Panini" />
+      <node id="Giulia Lama" label="Giulia Lama" />
+      <node id="Giulio Cesare Procaccini" label="Giulio Cesare Procaccini" />
+      <node id="Giuseppe Maria Crespi" label="Giuseppe Maria Crespi" />
+      <node id="Guercino" label="Guercino" />
+      <node id="Guido Reni" label="Guido Reni" />
+      <node id="Gustave Courbet" label="Gustave Courbet" />
+      <node id="Heinrich Schonfeld" label="Heinrich Schonfeld" />
+      <node id="Hendrick Avercamp" label="Hendrick Avercamp" />
+      <node id="Hendrick Cornelisz Vroom" label="Hendrick Cornelisz Vroom" />
+      <node id="Hendrick Goltzius" label="Hendrick Goltzius" />
+      <node id="Hendrick Terbrugghen" label="Hendrick Terbrugghen" />
+      <node id="Hercules Seghers" label="Hercules Seghers" />
+      <node id="Hyacinthe Rigaud" label="Hyacinthe Rigaud" />
+      <node id="Isaac Fuller" label="Isaac Fuller" />
+      <node id="Isaac van Ostade" label="Isaac van Ostade" />
+      <node id="Ivan Nikitin" label="Ivan Nikitin" />
+      <node id="Ivan Rutkovych" label="Ivan Rutkovych" />
+      <node id="Jacob Jordaens" label="Jacob Jordaens" />
+      <node id="Jacob Ochtervelt" label="Jacob Ochtervelt" />
+      <node id="Jacob van Ruisdael" label="Jacob van Ruisdael" />
+      <node id="Jacques Stella" label="Jacques Stella" />
+      <node id="James Barry" label="James Barry" />
+      <node id="Jan Brueghel the Elder" label="Jan Brueghel the Elder" />
+      <node id="Jan Cossiers" label="Jan Cossiers" />
+      <node id="Jan Dirksz Both" label="Jan Dirksz Both" />
+      <node id="Jan Lievens" label="Jan Lievens" />
+      <node id="Jan Luyken" label="Jan Luyken" />
+      <node id="Jan Miense Molenaer" label="Jan Miense Molenaer" />
+      <node id="Jan Siberechts" label="Jan Siberechts" />
+      <node id="Jan Steen" label="Jan Steen" />
+      <node id="Jan van Goyen" label="Jan van Goyen" />
+      <node id="Jean Baptiste Vanmour" label="Jean Baptiste Vanmour" />
+      <node id="Joachim Wtewael" label="Joachim Wtewael" />
+      <node id="Johannes Moreelse" label="Johannes Moreelse" />
+      <node id="Johannes Vermeer" label="Johannes Vermeer" />
+      <node id="John Riley" label="John Riley" />
+      <node id="Joseph Wright" label="Joseph Wright" />
+      <node id="Joseph-Marie Vien" label="Joseph-Marie Vien" />
+      <node id="Joshua Reynolds" label="Joshua Reynolds" />
+      <node id="Juan Bautista Maíno" label="Juan Bautista Maíno" />
+      <node id="Juan van der Hamen" label="Juan van der Hamen" />
+      <node id="Judith Leyster" label="Judith Leyster" />
+      <node id="Juriaen Pool" label="Juriaen Pool" />
+      <node id="Jusepe de Ribera" label="Jusepe de Ribera" />
+      <node id="Karel Škréta" label="Karel Škréta" />
+      <node id="Louise Moillon" label="Louise Moillon" />
+      <node id="Luca Giordano" label="Luca Giordano" />
+      <node id="Maarten de Vos" label="Maarten de Vos" />
+      <node id="Marcello Bacciarelli" label="Marcello Bacciarelli" />
+      <node id="Marcos Zapata" label="Marcos Zapata" />
+      <node id="Mario Nuzzi" label="Mario Nuzzi" />
+      <node id="Mary Beale" label="Mary Beale" />
+      <node id="Matthias Stom" label="Matthias Stom" />
+      <node id="Mattia Preti" label="Mattia Preti" />
+      <node id="Melchior d'Hondecoeter" label="Melchior d'Hondecoeter" />
+      <node id="Michiel van Musscher" label="Michiel van Musscher" />
+      <node id="Miguel Cabrera" label="Miguel Cabrera" />
+      <node id="Nicolaes Maes" label="Nicolaes Maes" />
+      <node id="Nicolas Poussin" label="Nicolas Poussin" />
+      <node id="Nicolas Tournier" label="Nicolas Tournier" />
+      <node id="Nikolaus Knüpfer" label="Nikolaus Knüpfer" />
+      <node id="Osias Beert" label="Osias Beert" />
+      <node id="Otto Marseus van Schrieck" label="Otto Marseus van Schrieck" />
+      <node id="Otto van Veen" label="Otto van Veen" />
+      <node id="Paul Bril" label="Paul Bril" />
+      <node id="Peter Paul Rubens" label="Peter Paul Rubens" />
+      <node id="Pieter Claesz" label="Pieter Claesz" />
+      <node id="Pieter Codde" label="Pieter Codde" />
+      <node id="Pieter de Hooch" label="Pieter de Hooch" />
+      <node id="Pietro da Cortona" label="Pietro da Cortona" />
+      <node id="Placido Costanzi" label="Placido Costanzi" />
+      <node id="Rachel Ruysch" label="Rachel Ruysch" />
+      <node id="Rembrandt" label="Rembrandt" />
+      <node id="Rosa Bonheur" label="Rosa Bonheur" />
+      <node id="Salomon Koninck" label="Salomon Koninck" />
+      <node id="Salomon van Ruysdael" label="Salomon van Ruysdael" />
+      <node id="Salvator Rosa" label="Salvator Rosa" />
+      <node id="Samuel Dirksz van Hoogstraten" label="Samuel Dirksz van Hoogstraten" />
+      <node id="Sassoferrato" label="Sassoferrato" />
+      <node id="Sebastiano Conca" label="Sebastiano Conca" />
+      <node id="Sebastien Bourdon" label="Sebastien Bourdon" />
+      <node id="Simon Ushakov" label="Simon Ushakov" />
+      <node id="Simon Vouet" label="Simon Vouet" />
+      <node id="Simon de Vlieger" label="Simon de Vlieger" />
+      <node id="Theodoor van Thulden" label="Theodoor van Thulden" />
+      <node id="Thomas Hardy" label="Thomas Hardy" />
+      <node id="Thomas Smith" label="Thomas Smith" />
+      <node id="Tobias Stranover" label="Tobias Stranover" />
+      <node id="Wenceslaus Hollar" label="Wenceslaus Hollar" />
+      <node id="Willem Cornelisz Duyster" label="Willem Cornelisz Duyster" />
+      <node id="Willem Kalf" label="Willem Kalf" />
+      <node id="Willem van Aelst" label="Willem van Aelst" />
+      <node id="William Dobson" label="William Dobson" />
+      <node id="William Hogarth" label="William Hogarth" />
+      <node id="Yov Kondzelevych" label="Yov Kondzelevych" />
+      <node id="Adolph Menzel" label="Adolph Menzel" />
+      <node id="Anton Romako" label="Anton Romako" />
+      <node id="Carl Spitzweg" label="Carl Spitzweg" />
+      <node id="Ferdinand Georg Waldmüller" label="Ferdinand Georg Waldmüller" />
+      <node id="Josef Kriehuber" label="Josef Kriehuber" />
+      <node id="Cimabue" label="Cimabue" />
+      <node id="Jerzy Nowosielski" label="Jerzy Nowosielski" />
+      <node id="Yiannis Tsaroychis" label="Yiannis Tsaroychis" />
+      <node id="Joyce Kozloff" label="Joyce Kozloff" />
+      <node id="Roni Horn" label="Roni Horn" />
+      <node id="Franz Xaver Winterhalter" label="Franz Xaver Winterhalter" />
+      <node id="Pierre-Henri de Valenciennes" label="Pierre-Henri de Valenciennes" />
+      <node id="Edouard Vuillard" label="Edouard Vuillard" />
+      <node id="Emile Bernard" label="Emile Bernard" />
+      <node id="Georges Lacombe" label="Georges Lacombe" />
+      <node id="Meijer de Haan" label="Meijer de Haan" />
+      <node id="Paul Gauguin" label="Paul Gauguin" />
+      <node id="Paul Serusier" label="Paul Serusier" />
+      <node id="Vincent van Gogh" label="Vincent van Gogh" />
+      <node id="Agnes Martin" label="Agnes Martin" />
+      <node id="Anne Truitt" label="Anne Truitt" />
+      <node id="Bob Law" label="Bob Law" />
+      <node id="Bridget Riley" label="Bridget Riley" />
+      <node id="Claude Tousignant" label="Claude Tousignant" />
+      <node id="Claude Viallat" label="Claude Viallat" />
+      <node id="Daniel Buren" label="Daniel Buren" />
+      <node id="Doug Ohlson" label="Doug Ohlson" />
+      <node id="Edward Avedisian" label="Edward Avedisian" />
+      <node id="Ellsworth Kelly" label="Ellsworth Kelly" />
+      <node id="Fernand Leduc" label="Fernand Leduc" />
+      <node id="Ian Burn" label="Ian Burn" />
+      <node id="Imi Knoebel" label="Imi Knoebel" />
+      <node id="Joseph Marioni" label="Joseph Marioni" />
+      <node id="Leon Berkowitz" label="Leon Berkowitz" />
+      <node id="Lorser Feitelson" label="Lorser Feitelson" />
+      <node id="Michel Carrade" label="Michel Carrade" />
+      <node id="Paul Feeley" label="Paul Feeley" />
+      <node id="Pedro Calapez" label="Pedro Calapez" />
+      <node id="Peter Joseph" label="Peter Joseph" />
+      <node id="Piero Dorazio" label="Piero Dorazio" />
+      <node id="Ray Parker" label="Ray Parker" />
+      <node id="Ron Gorchov" label="Ron Gorchov" />
+      <node id="Rupprecht Geiger" label="Rupprecht Geiger" />
+      <node id="Sean Scully" label="Sean Scully" />
+      <node id="Sven Lukin" label="Sven Lukin" />
+      <node id="Thomas Downing" label="Thomas Downing" />
+      <node id="Walter Darby Bannard" label="Walter Darby Bannard" />
+      <node id="Yves Gaucher" label="Yves Gaucher" />
+      <node id="Abbas Kiarostami" label="Abbas Kiarostami" />
+      <node id="Adrian Piper" label="Adrian Piper" />
+      <node id="Ai Weiwei" label="Ai Weiwei" />
+      <node id="Alberto Gironella" label="Alberto Gironella" />
+      <node id="Alfredo Jaar" label="Alfredo Jaar" />
+      <node id="Allan McCollum" label="Allan McCollum" />
+      <node id="Allen Ruppersberg" label="Allen Ruppersberg" />
+      <node id="Anselm Kiefer" label="Anselm Kiefer" />
+      <node id="Banksy" label="Banksy" />
+      <node id="Barbara Kruger" label="Barbara Kruger" />
+      <node id="Barton Lidice Benes" label="Barton Lidice Benes" />
+      <node id="Bas Jan Ader" label="Bas Jan Ader" />
+      <node id="Ben" label="Ben" />
+      <node id="Bernd and Hilla Becher" label="Bernd and Hilla Becher" />
+      <node id="Billy Apple" label="Billy Apple" />
+      <node id="Christian Boltanski" label="Christian Boltanski" />
+      <node id="Cildo Meireles" label="Cildo Meireles" />
+      <node id="Claude Rutault" label="Claude Rutault" />
+      <node id="Damien Hirst" label="Damien Hirst" />
+      <node id="Danh Vō" label="Danh Vō" />
+      <node id="Dennis Oppenheim" label="Dennis Oppenheim" />
+      <node id="Do Ho Suh" label="Do Ho Suh" />
+      <node id="Eduardo Paolozzi" label="Eduardo Paolozzi" />
+      <node id="Fernando Calhau" label="Fernando Calhau" />
+      <node id="Fusun Onur" label="Fusun Onur" />
+      <node id="Gerard Fromanger" label="Gerard Fromanger" />
+      <node id="Giovanni Anselmo" label="Giovanni Anselmo" />
+      <node id="Giulio Paolini" label="Giulio Paolini" />
+      <node id="Hanne Darboven" label="Hanne Darboven" />
+      <node id="Hans Haacke" label="Hans Haacke" />
+      <node id="Helena Almeida" label="Helena Almeida" />
+      <node id="Helio Oiticica" label="Helio Oiticica" />
+      <node id="Herman de Vries" label="Herman de Vries" />
+      <node id="Hiroshi Sugimoto" label="Hiroshi Sugimoto" />
+      <node id="Hito Steyerl" label="Hito Steyerl" />
+      <node id="Hubertine Heijermans" label="Hubertine Heijermans" />
+      <node id="Ilya Kabakov" label="Ilya Kabakov" />
+      <node id="Ion Grigorescu" label="Ion Grigorescu" />
+      <node id="Isa Genzken" label="Isa Genzken" />
+      <node id="James Lee Byars" label="James Lee Byars" />
+      <node id="Jan Dibbets" label="Jan Dibbets" />
+      <node id="Joao Vieira" label="Joao Vieira" />
+      <node id="John Baldessari" label="John Baldessari" />
+      <node id="John Hilliard" label="John Hilliard" />
+      <node id="Joseph Beuys" label="Joseph Beuys" />
+      <node id="Joseph Kosuth" label="Joseph Kosuth" />
+      <node id="Juliao Sarmento" label="Juliao Sarmento" />
+      <node id="Lawrence Weiner" label="Lawrence Weiner" />
+      <node id="Leon Ferrari" label="Leon Ferrari" />
+      <node id="Leon Tarasewicz" label="Leon Tarasewicz" />
+      <node id="Liam Gillick" label="Liam Gillick" />
+      <node id="Lorna Simpson" label="Lorna Simpson" />
+      <node id="Lothar Baumgarten" label="Lothar Baumgarten" />
+      <node id="Louise Bourgeois" label="Louise Bourgeois" />
+      <node id="Lourdes Castro" label="Lourdes Castro" />
+      <node id="Luis Camnitzer" label="Luis Camnitzer" />
+      <node id="Lygia Clark" label="Lygia Clark" />
+      <node id="Lygia Pape" label="Lygia Pape" />
+      <node id="Marcel Broodthaers" label="Marcel Broodthaers" />
+      <node id="Marcel Duchamp" label="Marcel Duchamp" />
+      <node id="Maria Lai" label="Maria Lai" />
+      <node id="Marko Pogacnik" label="Marko Pogacnik" />
+      <node id="Markus Raetz" label="Markus Raetz" />
+      <node id="Martin Creed" label="Martin Creed" />
+      <node id="Martin Kippenberger" label="Martin Kippenberger" />
+      <node id="Matthew Barney" label="Matthew Barney" />
+      <node id="Maurizio Cattelan" label="Maurizio Cattelan" />
+      <node id="Mel Bochner" label="Mel Bochner" />
+      <node id="Mel Ramsden" label="Mel Ramsden" />
+      <node id="Michelangelo Pistoletto" label="Michelangelo Pistoletto" />
+      <node id="Mihai Olos" label="Mihai Olos" />
+      <node id="Mira Schendel" label="Mira Schendel" />
+      <node id="Mircea Cantor" label="Mircea Cantor" />
+      <node id="Mona Hatoum" label="Mona Hatoum" />
+      <node id="Navjot Altaf" label="Navjot Altaf" />
+      <node id="Olivier Mosset" label="Olivier Mosset" />
+      <node id="On Kawara" label="On Kawara" />
+      <node id="Paul Thek" label="Paul Thek" />
+      <node id="Pierre Huyghe" label="Pierre Huyghe" />
+      <node id="Rebecca Horn" label="Rebecca Horn" />
+      <node id="Richard Artschwager" label="Richard Artschwager" />
+      <node id="Richard Prince" label="Richard Prince" />
+      <node id="Rirkrit Tiravanija" label="Rirkrit Tiravanija" />
+      <node id="Robert Barry" label="Robert Barry" />
+      <node id="Robert Filliou" label="Robert Filliou" />
+      <node id="Robert Gober" label="Robert Gober" />
+      <node id="Robert Heinecken" label="Robert Heinecken" />
+      <node id="Robert Morris" label="Robert Morris" />
+      <node id="Roberto Chabet" label="Roberto Chabet" />
+      <node id="Roman Opalka" label="Roman Opalka" />
+      <node id="Siah Armajani" label="Siah Armajani" />
+      <node id="Sigmar Polke" label="Sigmar Polke" />
+      <node id="Sol LeWitt" label="Sol LeWitt" />
+      <node id="Stanley Brouwn" label="Stanley Brouwn" />
+      <node id="Stephen Prina" label="Stephen Prina" />
+      <node id="Takamatsu Jiro" label="Takamatsu Jiro" />
+      <node id="Thomas Hirschhorn" label="Thomas Hirschhorn" />
+      <node id="Tracey Emin" label="Tracey Emin" />
+      <node id="Vasiliy Ryabchenko" label="Vasiliy Ryabchenko" />
+      <node id="Vik Muniz" label="Vik Muniz" />
+      <node id="Vito Acconci" label="Vito Acconci" />
+      <node id="Wade Guyton" label="Wade Guyton" />
+      <node id="Walter De Maria" label="Walter De Maria" />
+      <node id="Wanda Koop" label="Wanda Koop" />
+      <node id="Wolfgang Laib" label="Wolfgang Laib" />
+      <node id="Yoko Ono" label="Yoko Ono" />
+      <node id="Adolf Fleischmann" label="Adolf Fleischmann" />
+      <node id="Bruno Munari" label="Bruno Munari" />
+      <node id="Cesar Domela" label="Cesar Domela" />
+      <node id="Dieter Roth" label="Dieter Roth" />
+      <node id="Francois Morellet" label="Francois Morellet" />
+      <node id="Georges Vantongerloo" label="Georges Vantongerloo" />
+      <node id="Gyula Kosice" label="Gyula Kosice" />
+      <node id="Henryk Stazewski" label="Henryk Stazewski" />
+      <node id="Leon Arthur Tutundjian" label="Leon Arthur Tutundjian" />
+      <node id="Lothar Charoux" label="Lothar Charoux" />
+      <node id="Ludwig Wilding" label="Ludwig Wilding" />
+      <node id="Luis Sacilotto" label="Luis Sacilotto" />
+      <node id="Richard Paul Lohse" label="Richard Paul Lohse" />
+      <node id="Roberto Sambonet" label="Roberto Sambonet" />
+      <node id="Rubem Ludolf" label="Rubem Ludolf" />
+      <node id="Yaacov Agam" label="Yaacov Agam" />
+      <node id="Anatol Petrytsky" label="Anatol Petrytsky" />
+      <node id="Edgar Negret" label="Edgar Negret" />
+      <node id="El Lissitzky" label="El Lissitzky" />
+      <node id="Erich Buchholz" label="Erich Buchholz" />
+      <node id="Henryk Berlewi" label="Henryk Berlewi" />
+      <node id="Katarzyna Kobro" label="Katarzyna Kobro" />
+      <node id="Le Corbusier" label="Le Corbusier" />
+      <node id="Ludwig Mies van der Rohe" label="Ludwig Mies van der Rohe" />
+      <node id="Margit Selska" label="Margit Selska" />
+      <node id="Naum Gabo" label="Naum Gabo" />
+      <node id="Oskar Schlemmer" label="Oskar Schlemmer" />
+      <node id="Peter Laszlo Peri" label="Peter Laszlo Peri" />
+      <node id="Ramirez Villamizar" label="Ramirez Villamizar" />
+      <node id="Sandor Bortnyik" label="Sandor Bortnyik" />
+      <node id="Saul Steinberg" label="Saul Steinberg" />
+      <node id="Vadym Meller" label="Vadym Meller" />
+      <node id="Vasyl Yermylov" label="Vasyl Yermylov" />
+      <node id="Victor Brauner" label="Victor Brauner" />
+      <node id="Vytautas Kairiukstis" label="Vytautas Kairiukstis" />
+      <node id="Ellen Gallagher" label="Ellen Gallagher" />
+      <node id="Eva Janina Wieczorek" label="Eva Janina Wieczorek" />
+      <node id="Nan Goldin" label="Nan Goldin" />
+      <node id="Shadi Ghadirian" label="Shadi Ghadirian" />
+      <node id="Yinka Shonibare" label="Yinka Shonibare" />
+      <node id="Alex Colville" label="Alex Colville" />
+      <node id="Andrew Wyeth" label="Andrew Wyeth" />
+      <node id="Aydin Aghdashloo" label="Aydin Aghdashloo" />
+      <node id="Donald Sultan" label="Donald Sultan" />
+      <node id="Eric Fischl" label="Eric Fischl" />
+      <node id="Erro" label="Erro" />
+      <node id="Fairfield Porter" label="Fairfield Porter" />
+      <node id="Gilles Aillaud" label="Gilles Aillaud" />
+      <node id="Haroutiun Galentz" label="Haroutiun Galentz" />
+      <node id="Ian Bent" label="Ian Bent" />
+      <node id="Jamie Wyeth" label="Jamie Wyeth" />
+      <node id="Jane Wilson" label="Jane Wilson" />
+      <node id="Janet Fish" label="Janet Fish" />
+      <node id="Jeffrey Smart" label="Jeffrey Smart" />
+      <node id="John Miller" label="John Miller" />
+      <node id="John Stuart Ingle" label="John Stuart Ingle" />
+      <node id="Kent Bellows" label="Kent Bellows" />
+      <node id="Lucian Freud" label="Lucian Freud" />
+      <node id="Marlene Dumas" label="Marlene Dumas" />
+      <node id="Morteza Katouzian" label="Morteza Katouzian" />
+      <node id="Nelson Shanks" label="Nelson Shanks" />
+      <node id="Norman Ackroyd" label="Norman Ackroyd" />
+      <node id="Odd Nerdrum" label="Odd Nerdrum" />
+      <node id="Peter Dreher" label="Peter Dreher" />
+      <node id="Philip Pearlstein" label="Philip Pearlstein" />
+      <node id="Richard Whitney" label="Richard Whitney" />
+      <node id="Teddy Cobeña" label="Teddy Cobeña" />
+      <node id="Joaquin Manuel Fernandez Cruzado" label="Joaquin Manuel Fernandez Cruzado" />
+      <node id="Joaquín Domínguez Bécquer" label="Joaquín Domínguez Bécquer" />
+      <node id="Leonardo Alenza" label="Leonardo Alenza" />
+      <node id="Aaron Douglas" label="Aaron Douglas" />
+      <node id="Abraham Manievich" label="Abraham Manievich" />
+      <node id="Alice Bailly" label="Alice Bailly" />
+      <node id="Andre Derain" label="Andre Derain" />
+      <node id="Anita Malfatti" label="Anita Malfatti" />
+      <node id="Aristarkh Lentulov" label="Aristarkh Lentulov" />
+      <node id="Bela Kadar" label="Bela Kadar" />
+      <node id="Bertalan Por" label="Bertalan Por" />
+      <node id="Candido Portinari" label="Candido Portinari" />
+      <node id="Carlo Carra" label="Carlo Carra" />
+      <node id="Carlos Merida" label="Carlos Merida" />
+      <node id="Charles Lapicque" label="Charles Lapicque" />
+      <node id="Christian Schad" label="Christian Schad" />
+      <node id="Corneliu Michailescu" label="Corneliu Michailescu" />
+      <node id="Dorrit Black" label="Dorrit Black" />
+      <node id="Eduardo Viana" label="Eduardo Viana" />
+      <node id="Emil Filla" label="Emil Filla" />
+      <node id="Ernst Ludwig Kirchner" label="Ernst Ludwig Kirchner" />
+      <node id="Filippo De Pisis" label="Filippo De Pisis" />
+      <node id="George Grosz" label="George Grosz" />
+      <node id="Georges Valmier" label="Georges Valmier" />
+      <node id="Georgy Yakulov" label="Georgy Yakulov" />
+      <node id="Giacomo Manzu" label="Giacomo Manzu" />
+      <node id="Gino Severini" label="Gino Severini" />
+      <node id="Giorgio Morandi" label="Giorgio Morandi" />
+      <node id="Guity Novin" label="Guity Novin" />
+      <node id="Gustave Buchet" label="Gustave Buchet" />
+      <node id="Harry Phelan Gibb" label="Harry Phelan Gibb" />
+      <node id="Heinrich Campendonk" label="Heinrich Campendonk" />
+      <node id="Henri Laurens" label="Henri Laurens" />
+      <node id="Henri Le Fauconnier" label="Henri Le Fauconnier" />
+      <node id="Jacob Epstein" label="Jacob Epstein" />
+      <node id="Jacob Lawrence" label="Jacob Lawrence" />
+      <node id="Jacques Lipchitz" label="Jacques Lipchitz" />
+      <node id="Jankel Adler" label="Jankel Adler" />
+      <node id="Johannes Sveinsson Kjarval" label="Johannes Sveinsson Kjarval" />
+      <node id="Jules Pascin" label="Jules Pascin" />
+      <node id="Julio Gonzalez" label="Julio Gonzalez" />
+      <node id="Karl Knaths" label="Karl Knaths" />
+      <node id="Lajos Tihanyi" label="Lajos Tihanyi" />
+      <node id="Lasar Segall" label="Lasar Segall" />
+      <node id="Leopold Survage" label="Leopold Survage" />
+      <node id="Lin Fengmian" label="Lin Fengmian" />
+      <node id="Louis Marcoussis" label="Louis Marcoussis" />
+      <node id="Lyonel Feininger" label="Lyonel Feininger" />
+      <node id="Mahmoud Saiid" label="Mahmoud Saiid" />
+      <node id="Mario Comensoli" label="Mario Comensoli" />
+      <node id="Mario Sironi" label="Mario Sironi" />
+      <node id="Maurice de Vlaminck" label="Maurice de Vlaminck" />
+      <node id="Max Beckmann" label="Max Beckmann" />
+      <node id="Max Ernst" label="Max Ernst" />
+      <node id="Max Jacob" label="Max Jacob" />
+      <node id="Max Oppenheimer" label="Max Oppenheimer" />
+      <node id="Max Weber" label="Max Weber" />
+      <node id="Mikhail Larionov" label="Mikhail Larionov" />
+      <node id="Morton Schamberg" label="Morton Schamberg" />
+      <node id="Nikolai Kulbin" label="Nikolai Kulbin" />
+      <node id="Nikos Hadjikyriakos-Ghikas" label="Nikos Hadjikyriakos-Ghikas" />
+      <node id="Nuri Iyem" label="Nuri Iyem" />
+      <node id="Nzante Spee" label="Nzante Spee" />
+      <node id="Olexandr Archipenko" label="Olexandr Archipenko" />
+      <node id="Olga Rozanova" label="Olga Rozanova" />
+      <node id="Oscar Dominguez" label="Oscar Dominguez" />
+      <node id="Patrick Henry Bruce" label="Patrick Henry Bruce" />
+      <node id="Paul Ackerman" label="Paul Ackerman" />
+      <node id="Paul Cezanne" label="Paul Cezanne" />
+      <node id="Piet Mondrian" label="Piet Mondrian" />
+      <node id="Rafael Zabaleta" label="Rafael Zabaleta" />
+      <node id="Raoul Dufy" label="Raoul Dufy" />
+      <node id="Robert Falk" label="Robert Falk" />
+      <node id="Roger de La Fresnaye" label="Roger de La Fresnaye" />
+      <node id="Rufino Tamayo" label="Rufino Tamayo" />
+      <node id="Sa Nogueira" label="Sa Nogueira" />
+      <node id="Stanley Pinker" label="Stanley Pinker" />
+      <node id="Tarsila do Amaral" label="Tarsila do Amaral" />
+      <node id="Umberto Boccioni" label="Umberto Boccioni" />
+      <node id="Vajda Lajos" label="Vajda Lajos" />
+      <node id="Vasyl Sedlyar" label="Vasyl Sedlyar" />
+      <node id="Vicente Manansala" label="Vicente Manansala" />
+      <node id="Vilhelm Lundstrom" label="Vilhelm Lundstrom" />
+      <node id="Wifredo Lam" label="Wifredo Lam" />
+      <node id="Wojciech Fangor" label="Wojciech Fangor" />
+      <node id="Wyndham Lewis" label="Wyndham Lewis" />
+      <node id="Yasuo Kuniyoshi" label="Yasuo Kuniyoshi" />
+      <node id="George Pemba" label="George Pemba" />
+      <node id="Iosif Iser" label="Iosif Iser" />
+      <node id="Renato Guttuso" label="Renato Guttuso" />
+      <node id="Oleksandr Bogomazov" label="Oleksandr Bogomazov" />
+      <node id="Vladimir Bonacic" label="Vladimir Bonacic" />
+      <node id="Georges Hugnet" label="Georges Hugnet" />
+      <node id="Hannah Hoch" label="Hannah Hoch" />
+      <node id="Kurt Schwitters" label="Kurt Schwitters" />
+      <node id="Suzanne Duchamp" label="Suzanne Duchamp" />
+      <node id="Francisc Sirato" label="Francisc Sirato" />
+      <node id="Giovanni Segantini" label="Giovanni Segantini" />
+      <node id="Henri Martin" label="Henri Martin" />
+      <node id="Tranquillo Cremona" label="Tranquillo Cremona" />
+      <node id="Willy Schlobach" label="Willy Schlobach" />
+      <node id="Eugène Atget" label="Eugène Atget" />
+      <node id="Gherasim Luca" label="Gherasim Luca" />
+      <node id="Karl Blossfeldt" label="Karl Blossfeldt" />
+      <node id="Edward Burne-Jones" label="Edward Burne-Jones" />
+      <node id="Ambrogio Bergognone" label="Ambrogio Bergognone" />
+      <node id="Andrea Mantegna" label="Andrea Mantegna" />
+      <node id="Andrea del Castagno" label="Andrea del Castagno" />
+      <node id="Andrea del Verrocchio" label="Andrea del Verrocchio" />
+      <node id="Antonello da Messina" label="Antonello da Messina" />
+      <node id="Antoniazzo Romano" label="Antoniazzo Romano" />
+      <node id="Antonio del Pollaiolo" label="Antonio del Pollaiolo" />
+      <node id="Benozzo Gozzoli" label="Benozzo Gozzoli" />
+      <node id="Carlo Crivelli" label="Carlo Crivelli" />
+      <node id="Desiderio da Settignano" label="Desiderio da Settignano" />
+      <node id="Domenico Ghirlandaio" label="Domenico Ghirlandaio" />
+      <node id="Domenico Veneziano" label="Domenico Veneziano" />
+      <node id="Donatello" label="Donatello" />
+      <node id="Filippino Lippi" label="Filippino Lippi" />
+      <node id="Filippo Brunelleschi" label="Filippo Brunelleschi" />
+      <node id="Filippo Lippi" label="Filippo Lippi" />
+      <node id="Fra Angelico" label="Fra Angelico" />
+      <node id="Francesco Botticini" label="Francesco Botticini" />
+      <node id="Francesco del Cossa" label="Francesco del Cossa" />
+      <node id="Gentile Bellini" label="Gentile Bellini" />
+      <node id="Giovanni Bellini" label="Giovanni Bellini" />
+      <node id="Jacopo Bellini" label="Jacopo Bellini" />
+      <node id="Leonardo da Vinci" label="Leonardo da Vinci" />
+      <node id="Lorenzo Ghiberti" label="Lorenzo Ghiberti" />
+      <node id="Lorenzo Monaco" label="Lorenzo Monaco" />
+      <node id="Luca Signorelli" label="Luca Signorelli" />
+      <node id="Masaccio" label="Masaccio" />
+      <node id="Paolo Uccello" label="Paolo Uccello" />
+      <node id="Piero della Francesca" label="Piero della Francesca" />
+      <node id="Piero di Cosimo" label="Piero di Cosimo" />
+      <node id="Pietro Perugino" label="Pietro Perugino" />
+      <node id="Pinturicchio" label="Pinturicchio" />
+      <node id="Pisanello" label="Pisanello" />
+      <node id="Sandro Botticelli" label="Sandro Botticelli" />
+      <node id="Alberto Carneiro" label="Alberto Carneiro" />
+      <node id="Alice Aycock" label="Alice Aycock" />
+      <node id="Franz Erhard Walther" label="Franz Erhard Walther" />
+      <node id="George Segal" label="George Segal" />
+      <node id="James Turrell" label="James Turrell" />
+      <node id="Karl Prantl" label="Karl Prantl" />
+      <node id="Michael Heizer" label="Michael Heizer" />
+      <node id="Nancy Holt" label="Nancy Holt" />
+      <node id="Nobuo Sekine" label="Nobuo Sekine" />
+      <node id="Richard Long" label="Richard Long" />
+      <node id="Robert Smithson" label="Robert Smithson" />
+      <node id="Bram Bogart" label="Bram Bogart" />
+      <node id="Francis Bacon" label="Francis Bacon" />
+      <node id="Frank Auerbach" label="Frank Auerbach" />
+      <node id="Germaine Richier" label="Germaine Richier" />
+      <node id="Albert Bloch" label="Albert Bloch" />
+      <node id="Albert Huie" label="Albert Huie" />
+      <node id="Albert Tucker" label="Albert Tucker" />
+      <node id="Alberto Giacometti" label="Alberto Giacometti" />
+      <node id="Alberto da Veiga Guignard" label="Alberto da Veiga Guignard" />
+      <node id="Aldo Locatelli" label="Aldo Locatelli" />
+      <node id="Aldo Mondino" label="Aldo Mondino" />
+      <node id="Alexandre Jacovleff" label="Alexandre Jacovleff" />
+      <node id="Alfredo Volpi" label="Alfredo Volpi" />
+      <node id="Alice Neel" label="Alice Neel" />
+      <node id="Alina Szapocznikow" label="Alina Szapocznikow" />
+      <node id="Amedeo Modigliani" label="Amedeo Modigliani" />
+      <node id="Anatoli Papian" label="Anatoli Papian" />
+      <node id="Andrzej Wróblewski" label="Andrzej Wróblewski" />
+      <node id="Antonietta Raphael" label="Antonietta Raphael" />
+      <node id="Antonio Carneiro" label="Antonio Carneiro" />
+      <node id="Ara Bekaryan" label="Ara Bekaryan" />
+      <node id="Armand Henrion" label="Armand Henrion" />
+      <node id="Arno Breker" label="Arno Breker" />
+      <node id="Arturo Souto" label="Arturo Souto" />
+      <node id="August Macke" label="August Macke" />
+      <node id="Babken Kolozyan" label="Babken Kolozyan" />
+      <node id="Bahman Mohasses" label="Bahman Mohasses" />
+      <node id="Balthus" label="Balthus" />
+      <node id="Barrington Watson" label="Barrington Watson" />
+      <node id="Bela Czobel" label="Bela Czobel" />
+      <node id="Ben Shahn" label="Ben Shahn" />
+      <node id="Benny Andrews" label="Benny Andrews" />
+      <node id="Bernard Buffet" label="Bernard Buffet" />
+      <node id="Boris Grigoriev" label="Boris Grigoriev" />
+      <node id="Botong Francisco" label="Botong Francisco" />
+      <node id="Bruno Schulz" label="Bruno Schulz" />
+      <node id="Carlos Alonso" label="Carlos Alonso" />
+      <node id="Carlos Botelho" label="Carlos Botelho" />
+      <node id="Carlos Orozco Romero" label="Carlos Orozco Romero" />
+      <node id="Chaim Soutine" label="Chaim Soutine" />
+      <node id="Charles Cottet" label="Charles Cottet" />
+      <node id="Charles Demuth" label="Charles Demuth" />
+      <node id="Charles Maurin" label="Charles Maurin" />
+      <node id="Christian Rohlfs" label="Christian Rohlfs" />
+      <node id="Chronis Botsoglou" label="Chronis Botsoglou" />
+      <node id="Constant Permeke" label="Constant Permeke" />
+      <node id="Corneliu Baba" label="Corneliu Baba" />
+      <node id="Costas Niarchos" label="Costas Niarchos" />
+      <node id="Ding Yanyong" label="Ding Yanyong" />
+      <node id="Dora Boneva" label="Dora Boneva" />
+      <node id="Dr. Atl" label="Dr. Atl" />
+      <node id="Eduardo Arroyo" label="Eduardo Arroyo" />
+      <node id="Edvard Munch" label="Edvard Munch" />
+      <node id="Edwin Dickinson" label="Edwin Dickinson" />
+      <node id="Emil Nolde" label="Emil Nolde" />
+      <node id="Erich Heckel" label="Erich Heckel" />
+      <node id="Fikret Mualla Saygi" label="Fikret Mualla Saygi" />
+      <node id="Florine Stettheimer" label="Florine Stettheimer" />
+      <node id="Forrest Bess" label="Forrest Bess" />
+      <node id="Francis Gruber" label="Francis Gruber" />
+      <node id="Fred Williams" label="Fred Williams" />
+      <node id="George Bouzianis" label="George Bouzianis" />
+      <node id="George Mavroides" label="George Mavroides" />
+      <node id="Georges Rouault" label="Georges Rouault" />
+      <node id="Gerard Sekoto" label="Gerard Sekoto" />
+      <node id="Graham Sutherland" label="Graham Sutherland" />
+      <node id="Gregoire Boonzaier" label="Gregoire Boonzaier" />
+      <node id="Grigor Khanjyan" label="Grigor Khanjyan" />
+      <node id="Hans Bellmer" label="Hans Bellmer" />
+      <node id="Helen Dahm" label="Helen Dahm" />
+      <node id="Helene Schjerfbeck" label="Helene Schjerfbeck" />
+      <node id="Horace Pippin" label="Horace Pippin" />
+      <node id="Hovhannes Zardaryan" label="Hovhannes Zardaryan" />
+      <node id="Ilka Gedo" label="Ilka Gedo" />
+      <node id="Ion Tuculescu" label="Ion Tuculescu" />
+      <node id="Irma Stern" label="Irma Stern" />
+      <node id="Istvan Farkas" label="Istvan Farkas" />
+      <node id="Istvan Ilosvai Varga" label="Istvan Ilosvai Varga" />
+      <node id="Ivan Albright" label="Ivan Albright" />
+      <node id="Jacqueline Hick" label="Jacqueline Hick" />
+      <node id="James Ensor" label="James Ensor" />
+      <node id="Jan Cox" label="Jan Cox" />
+      <node id="Jean Cocteau" label="Jean Cocteau" />
+      <node id="Jean Jansem" label="Jean Jansem" />
+      <node id="Jean Paul Lemieux" label="Jean Paul Lemieux" />
+      <node id="Jeremy Henderson" label="Jeremy Henderson" />
+      <node id="John Brack" label="John Brack" />
+      <node id="Jose Clemente Orozco" label="Jose Clemente Orozco" />
+      <node id="Jose Escada" label="Jose Escada" />
+      <node id="Jose Gutierrez Solana" label="Jose Gutierrez Solana" />
+      <node id="Jose Pancetti" label="Jose Pancetti" />
+      <node id="Josef Herman" label="Josef Herman" />
+      <node id="Julio Resende" label="Julio Resende" />
+      <node id="Karl Schrag" label="Karl Schrag" />
+      <node id="Kathe Kollwitz" label="Kathe Kollwitz" />
+      <node id="Kerry James Marshall" label="Kerry James Marshall" />
+      <node id="Lajos Gulacsy" label="Lajos Gulacsy" />
+      <node id="Laszlo Mednyanszky" label="Laszlo Mednyanszky" />
+      <node id="Leon Underwood" label="Leon Underwood" />
+      <node id="Ligia Macovei" label="Ligia Macovei" />
+      <node id="Louay Kayyali" label="Louay Kayyali" />
+      <node id="Louisa Matthiasdottir" label="Louisa Matthiasdottir" />
+      <node id="Lovis Corinth" label="Lovis Corinth" />
+      <node id="Luigi Russolo" label="Luigi Russolo" />
+      <node id="Luis Dourdil" label="Luis Dourdil" />
+      <node id="Lynd Ward" label="Lynd Ward" />
+      <node id="Magnus Enckell" label="Magnus Enckell" />
+      <node id="Margareta Sterian" label="Margareta Sterian" />
+      <node id="Marie Laurencin" label="Marie Laurencin" />
+      <node id="Marin Gherasim" label="Marin Gherasim" />
+      <node id="Marino Marini" label="Marino Marini" />
+      <node id="Mario Eloy" label="Mario Eloy" />
+      <node id="Mario Zanini" label="Mario Zanini" />
+      <node id="Martin Benka" label="Martin Benka" />
+      <node id="Matthew Smith" label="Matthew Smith" />
+      <node id="Max Gubler" label="Max Gubler" />
+      <node id="Max Pechstein" label="Max Pechstein" />
+      <node id="Menez" label="Menez" />
+      <node id="Michel Kikoine" label="Michel Kikoine" />
+      <node id="Mily Possoz" label="Mily Possoz" />
+      <node id="Moise Kisling" label="Moise Kisling" />
+      <node id="Mykhailo Boychuk" label="Mykhailo Boychuk" />
+      <node id="Nassos Daphnis" label="Nassos Daphnis" />
+      <node id="Nicolae Tonitza" label="Nicolae Tonitza" />
+      <node id="Nikias Skapinakis" label="Nikias Skapinakis" />
+      <node id="Nikolaos Lytras" label="Nikolaos Lytras" />
+      <node id="Oskar Kokoschka" label="Oskar Kokoschka" />
+      <node id="Oswaldo Guayasamin" label="Oswaldo Guayasamin" />
+      <node id="Otto Mueller" label="Otto Mueller" />
+      <node id="Ottone Rosai" label="Ottone Rosai" />
+      <node id="Patrick Procktor" label="Patrick Procktor" />
+      <node id="Paul Delvaux" label="Paul Delvaux" />
+      <node id="Paul Werner" label="Paul Werner" />
+      <node id="Paula Modersohn-Becker" label="Paula Modersohn-Becker" />
+      <node id="Paula Rego" label="Paula Rego" />
+      <node id="Periklis Vyzantios" label="Periklis Vyzantios" />
+      <node id="Petre Abrudan" label="Petre Abrudan" />
+      <node id="Pierre Alechinsky" label="Pierre Alechinsky" />
+      <node id="Pietro Lazzari" label="Pietro Lazzari" />
+      <node id="Pinchus Kremegne" label="Pinchus Kremegne" />
+      <node id="Piroska Szanto" label="Piroska Szanto" />
+      <node id="Prudence Heward" label="Prudence Heward" />
+      <node id="Ramon Oviedo" label="Ramon Oviedo" />
+      <node id="Remedios Varo" label="Remedios Varo" />
+      <node id="Roberto Montenegro" label="Roberto Montenegro" />
+      <node id="Sattar Bahlulzade" label="Sattar Bahlulzade" />
+      <node id="Sidney Nolan" label="Sidney Nolan" />
+      <node id="Sorin Ilfoveanu" label="Sorin Ilfoveanu" />
+      <node id="Spyros Papaloukas" label="Spyros Papaloukas" />
+      <node id="Theophrastos Triantafyllidis" label="Theophrastos Triantafyllidis" />
+      <node id="Tia Peltz" label="Tia Peltz" />
+      <node id="Tivadar Kosztka Csontvary" label="Tivadar Kosztka Csontvary" />
+      <node id="Tsuguharu Foujita" label="Tsuguharu Foujita" />
+      <node id="Varlin" label="Varlin" />
+      <node id="Vasile Kazar" label="Vasile Kazar" />
+      <node id="Vela Zanetti" label="Vela Zanetti" />
+      <node id="Vilho Lampi" label="Vilho Lampi" />
+      <node id="Viorel Marginean" label="Viorel Marginean" />
+      <node id="Vlady" label="Vlady" />
+      <node id="Vytautas Kasiulis" label="Vytautas Kasiulis" />
+      <node id="Walter Gramatté" label="Walter Gramatté" />
+      <node id="Will Barnet" label="Will Barnet" />
+      <node id="Wolf Kahn" label="Wolf Kahn" />
+      <node id="Xu Beihong" label="Xu Beihong" />
+      <node id="Xul Solar" label="Xul Solar" />
+      <node id="Ernst Fuchs" label="Ernst Fuchs" />
+      <node id="H.R. Giger" label="H.R. Giger" />
+      <node id="Jahar Dasgupta" label="Jahar Dasgupta" />
+      <node id="Paul Wunderlich" label="Paul Wunderlich" />
+      <node id="Sorin Dumitrescu" label="Sorin Dumitrescu" />
+      <node id="Wojciech Siudmak" label="Wojciech Siudmak" />
+      <node id="Brian Froud" label="Brian Froud" />
+      <node id="Albert Marquet" label="Albert Marquet" />
+      <node id="Armand Guillaumin" label="Armand Guillaumin" />
+      <node id="Carlos Nadal" label="Carlos Nadal" />
+      <node id="Emilio Grau Sala" label="Emilio Grau Sala" />
+      <node id="Frances Hodgkins" label="Frances Hodgkins" />
+      <node id="Guan Zilan" label="Guan Zilan" />
+      <node id="Ilya Mashkov" label="Ilya Mashkov" />
+      <node id="John Duncan Fergusson" label="John Duncan Fergusson" />
+      <node id="Louis Valtat" label="Louis Valtat" />
+      <node id="Othon Friesz" label="Othon Friesz" />
+      <node id="Rik Wouters" label="Rik Wouters" />
+      <node id="Ana Mendieta" label="Ana Mendieta" />
+      <node id="Cindy Sherman" label="Cindy Sherman" />
+      <node id="Faith Ringgold" label="Faith Ringgold" />
+      <node id="Kara Walker" label="Kara Walker" />
+      <node id="Kiki Smith" label="Kiki Smith" />
+      <node id="Linder" label="Linder" />
+      <node id="May Wilson" label="May Wilson" />
+      <node id="Nalini Malani" label="Nalini Malani" />
+      <node id="Senga Nengudi" label="Senga Nengudi" />
+      <node id="Shirin Neshat" label="Shirin Neshat" />
+      <node id="Wangechi Mutu" label="Wangechi Mutu" />
+      <node id="Carles Delclaux Is" label="Carles Delclaux Is" />
+      <node id="Michael Hafftka" label="Michael Hafftka" />
+      <node id="Nabil Kanso" label="Nabil Kanso" />
+      <node id="Sliman Mansour" label="Sliman Mansour" />
+      <node id="Joseph Stella" label="Joseph Stella" />
+      <node id="Victor Palmov" label="Victor Palmov" />
+      <node id="Emperor Huizong" label="Emperor Huizong" />
+      <node id="Qiu Ying" label="Qiu Ying" />
+      <node id="Bartolome Bermejo" label="Bartolome Bermejo" />
+      <node id="Limbourg brothers" label="Limbourg brothers" />
+      <node id="Master Francke" label="Master Francke" />
+      <node id="Charles Hinman" label="Charles Hinman" />
+      <node id="Gunther Gerzso" label="Gunther Gerzso" />
+      <node id="Leon Polk Smith" label="Leon Polk Smith" />
+      <node id="Robert Indiana" label="Robert Indiana" />
+      <node id="Roberto Aizenberg" label="Roberto Aizenberg" />
+      <node id="Stefan Sevastre" label="Stefan Sevastre" />
+      <node id="Ward Jackson" label="Ward Jackson" />
+      <node id="Andrea Solario" label="Andrea Solario" />
+      <node id="Andrea del Sarto" label="Andrea del Sarto" />
+      <node id="Bartolomeo Veneto" label="Bartolomeo Veneto" />
+      <node id="Bernardino Luini" label="Bernardino Luini" />
+      <node id="Cima da Conegliano" label="Cima da Conegliano" />
+      <node id="Correggio" label="Correggio" />
+      <node id="Defendente Ferrari" label="Defendente Ferrari" />
+      <node id="Domenico Beccafumi" label="Domenico Beccafumi" />
+      <node id="Donato Bramante" label="Donato Bramante" />
+      <node id="Dosso Dossi" label="Dosso Dossi" />
+      <node id="Fra Bartolomeo" label="Fra Bartolomeo" />
+      <node id="Francesco Melzi" label="Francesco Melzi" />
+      <node id="Giorgione" label="Giorgione" />
+      <node id="Giovanni Antonio Boltraffio" label="Giovanni Antonio Boltraffio" />
+      <node id="Giulio Clovio" label="Giulio Clovio" />
+      <node id="Giulio Romano" label="Giulio Romano" />
+      <node id="Il Sodoma" label="Il Sodoma" />
+      <node id="Lorenzo Lotto" label="Lorenzo Lotto" />
+      <node id="Mariotto Albertinelli" label="Mariotto Albertinelli" />
+      <node id="Michelangelo" label="Michelangelo" />
+      <node id="Palma Vecchio" label="Palma Vecchio" />
+      <node id="Raphael" label="Raphael" />
+      <node id="Sebastiano del Piombo" label="Sebastiano del Piombo" />
+      <node id="Titian" label="Titian" />
+      <node id="Vittore Carpaccio" label="Vittore Carpaccio" />
+      <node id="Carlo Maria Mariani" label="Carlo Maria Mariani" />
+      <node id="Dan Witz" label="Dan Witz" />
+      <node id="Adalbert Erdeli" label="Adalbert Erdeli" />
+      <node id="Adam Baltatu" label="Adam Baltatu" />
+      <node id="Albert Dubois-Pillet" label="Albert Dubois-Pillet" />
+      <node id="Albert Julius Olsson" label="Albert Julius Olsson" />
+      <node id="Aleksander Gierymski" label="Aleksander Gierymski" />
+      <node id="Alfred Sisley" label="Alfred Sisley" />
+      <node id="Alfred Stevens" label="Alfred Stevens" />
+      <node id="Alfredo Andersen" label="Alfredo Andersen" />
+      <node id="Algernon Talmage" label="Algernon Talmage" />
+      <node id="Anna Ancher" label="Anna Ancher" />
+      <node id="Antoine Blanchard" label="Antoine Blanchard" />
+      <node id="Aristide Maillol" label="Aristide Maillol" />
+      <node id="Armando Reveron" label="Armando Reveron" />
+      <node id="Arthur Lowe" label="Arthur Lowe" />
+      <node id="Arthur Streeton" label="Arthur Streeton" />
+      <node id="Arthur Verona" label="Arthur Verona" />
+      <node id="Asgrimur Jonsson" label="Asgrimur Jonsson" />
+      <node id="Auguste Rodin" label="Auguste Rodin" />
+      <node id="Benito Quinquela Martin" label="Benito Quinquela Martin" />
+      <node id="Benjamin Brown" label="Benjamin Brown" />
+      <node id="Berthe Morisot" label="Berthe Morisot" />
+      <node id="Boris Schatz" label="Boris Schatz" />
+      <node id="Camil Ressu" label="Camil Ressu" />
+      <node id="Camille Claudel" label="Camille Claudel" />
+      <node id="Camille Pissarro" label="Camille Pissarro" />
+      <node id="Carolus-Duran" label="Carolus-Duran" />
+      <node id="Charles Conder" label="Charles Conder" />
+      <node id="Charles Courtney Curran" label="Charles Courtney Curran" />
+      <node id="Charles Reiffel" label="Charles Reiffel" />
+      <node id="Childe Hassam" label="Childe Hassam" />
+      <node id="Constantin Artachino" label="Constantin Artachino" />
+      <node id="Cornelis Vreedenburgh" label="Cornelis Vreedenburgh" />
+      <node id="David Davies" label="David Davies" />
+      <node id="Dimitrie Paciurea" label="Dimitrie Paciurea" />
+      <node id="Edgar Degas" label="Edgar Degas" />
+      <node id="Edmund Charles Tarbell" label="Edmund Charles Tarbell" />
+      <node id="Edouard Manet" label="Edouard Manet" />
+      <node id="Edward Henry Potthast" label="Edward Henry Potthast" />
+      <node id="Emil Carlsen" label="Emil Carlsen" />
+      <node id="Ernest Lawson" label="Ernest Lawson" />
+      <node id="Ethel Carrick" label="Ethel Carrick" />
+      <node id="Eugene Boudin" label="Eugene Boudin" />
+      <node id="Eva Gonzales" label="Eva Gonzales" />
+      <node id="Federico Zandomeneghi" label="Federico Zandomeneghi" />
+      <node id="Ferdynand Ruszczyc" label="Ferdynand Ruszczyc" />
+      <node id="Fern Coppedge" label="Fern Coppedge" />
+      <node id="Firmin Baes" label="Firmin Baes" />
+      <node id="Frederic Bazille" label="Frederic Bazille" />
+      <node id="Frederic Remington" label="Frederic Remington" />
+      <node id="Frits Thaulow" label="Frits Thaulow" />
+      <node id="George Henry" label="George Henry" />
+      <node id="Georges Seurat" label="Georges Seurat" />
+      <node id="Georgina de Albuquerque" label="Georgina de Albuquerque" />
+      <node id="Georgios Jakobides" label="Georgios Jakobides" />
+      <node id="Giovanni Boldini" label="Giovanni Boldini" />
+      <node id="Giovanni Fattori" label="Giovanni Fattori" />
+      <node id="Grant Wood" label="Grant Wood" />
+      <node id="Gustave Caillebotte" label="Gustave Caillebotte" />
+      <node id="Guy Rose" label="Guy Rose" />
+      <node id="Hans Gude" label="Hans Gude" />
+      <node id="Harriet Backer" label="Harriet Backer" />
+      <node id="Henri Catargi" label="Henri Catargi" />
+      <node id="Henri Gervex" label="Henri Gervex" />
+      <node id="Henri-Edmond Cross" label="Henri-Edmond Cross" />
+      <node id="Henrique Pousao" label="Henrique Pousao" />
+      <node id="Henry Herbert La Thangue" label="Henry Herbert La Thangue" />
+      <node id="Henry Ossawa Tanner" label="Henry Ossawa Tanner" />
+      <node id="Henry Scott Tuke" label="Henry Scott Tuke" />
+      <node id="Henry Tonks" label="Henry Tonks" />
+      <node id="Hoca Ali Riza" label="Hoca Ali Riza" />
+      <node id="Homer Watson" label="Homer Watson" />
+      <node id="Honore Daumier" label="Honore Daumier" />
+      <node id="Horace Trenerry" label="Horace Trenerry" />
+      <node id="Howard Pyle" label="Howard Pyle" />
+      <node id="Ibrahim Calli" label="Ibrahim Calli" />
+      <node id="Ilya Repin" label="Ilya Repin" />
+      <node id="Ioannis Altamouras" label="Ioannis Altamouras" />
+      <node id="Ion Andreescu" label="Ion Andreescu" />
+      <node id="Ipolit Strambu" label="Ipolit Strambu" />
+      <node id="Isaac Levitan" label="Isaac Levitan" />
+      <node id="Istvan Nagy" label="Istvan Nagy" />
+      <node id="Ivan Grohar" label="Ivan Grohar" />
+      <node id="Ivan Vladimirov" label="Ivan Vladimirov" />
+      <node id="Jacques-Émile Blanche" label="Jacques-Émile Blanche" />
+      <node id="James Campbell Noble" label="James Campbell Noble" />
+      <node id="James Charles" label="James Charles" />
+      <node id="James McNeill Whistler" label="James McNeill Whistler" />
+      <node id="James Tissot" label="James Tissot" />
+      <node id="Janos Tornyai" label="Janos Tornyai" />
+      <node id="Jean Alexandru Steriadi" label="Jean Alexandru Steriadi" />
+      <node id="Joaquín Sorolla" label="Joaquín Sorolla" />
+      <node id="Johan Jongkind" label="Johan Jongkind" />
+      <node id="John Atkinson Grimshaw" label="John Atkinson Grimshaw" />
+      <node id="John Henry Twachtman" label="John Henry Twachtman" />
+      <node id="John Lavery" label="John Lavery" />
+      <node id="John Peter Russell" label="John Peter Russell" />
+      <node id="John Singer Sargent" label="John Singer Sargent" />
+      <node id="Jose Malhoa" label="Jose Malhoa" />
+      <node id="Jose Maria Velasco" label="Jose Maria Velasco" />
+      <node id="Jules Dupre" label="Jules Dupre" />
+      <node id="Julian Alden Weir" label="Julian Alden Weir" />
+      <node id="Julian Ashton" label="Julian Ashton" />
+      <node id="Julian Fałat" label="Julian Fałat" />
+      <node id="Józef Pankiewicz" label="Józef Pankiewicz" />
+      <node id="Karl Edvard Diriks" label="Karl Edvard Diriks" />
+      <node id="Karoly Ferenczy" label="Karoly Ferenczy" />
+      <node id="Kimon Loghi" label="Kimon Loghi" />
+      <node id="Konstantinos Maleas" label="Konstantinos Maleas" />
+      <node id="Konstantinos Volanakis" label="Konstantinos Volanakis" />
+      <node id="Laura Knight" label="Laura Knight" />
+      <node id="Leon Dabo" label="Leon Dabo" />
+      <node id="Lesser Ury" label="Lesser Ury" />
+      <node id="Lilla Cabot Perry" label="Lilla Cabot Perry" />
+      <node id="Lucian Grigorescu" label="Lucian Grigorescu" />
+      <node id="Marianne North" label="Marianne North" />
+      <node id="Mariano Benlliure" label="Mariano Benlliure" />
+      <node id="Marjorie Acker Phillips" label="Marjorie Acker Phillips" />
+      <node id="Mary Cassatt" label="Mary Cassatt" />
+      <node id="Matej Sternen" label="Matej Sternen" />
+      <node id="Maurice Boitel" label="Maurice Boitel" />
+      <node id="Maurice Braun" label="Maurice Braun" />
+      <node id="Maurice Prendergast" label="Maurice Prendergast" />
+      <node id="Max Liebermann" label="Max Liebermann" />
+      <node id="Maxime Maufra" label="Maxime Maufra" />
+      <node id="Maximilien Luce" label="Maximilien Luce" />
+      <node id="Maynard Dixon" label="Maynard Dixon" />
+      <node id="Medi Wechsler Dinu" label="Medi Wechsler Dinu" />
+      <node id="Micaela Eleutheriade" label="Micaela Eleutheriade" />
+      <node id="Mildred Anne Butler" label="Mildred Anne Butler" />
+      <node id="Niccolo Cannicci" label="Niccolo Cannicci" />
+      <node id="Nicolae Darascu" label="Nicolae Darascu" />
+      <node id="Nicolae Grigorescu" label="Nicolae Grigorescu" />
+      <node id="Nicolae Vermont" label="Nicolae Vermont" />
+      <node id="Nutzi Acontz" label="Nutzi Acontz" />
+      <node id="Octav Angheluta" label="Octav Angheluta" />
+      <node id="Octav Bancila" label="Octav Bancila" />
+      <node id="Oleksandr Murashko" label="Oleksandr Murashko" />
+      <node id="Panayiotis Tetsis" label="Panayiotis Tetsis" />
+      <node id="Paul Signac" label="Paul Signac" />
+      <node id="Peder Severin Kroyer" label="Peder Severin Kroyer" />
+      <node id="Pericles Pantazis" label="Pericles Pantazis" />
+      <node id="Philip Wilson Steer" label="Philip Wilson Steer" />
+      <node id="Pierre Emmanuel Damoye" label="Pierre Emmanuel Damoye" />
+      <node id="Pierre-Auguste Renoir" label="Pierre-Auguste Renoir" />
+      <node id="Pieter Wenning" label="Pieter Wenning" />
+      <node id="Pino Daeni" label="Pino Daeni" />
+      <node id="Richard Jack" label="Richard Jack" />
+      <node id="Robert Brackman" label="Robert Brackman" />
+      <node id="Robert Harris" label="Robert Harris" />
+      <node id="Robert Julian Onderdonk" label="Robert Julian Onderdonk" />
+      <node id="Robert Lewis Reid" label="Robert Lewis Reid" />
+      <node id="Robert Spencer" label="Robert Spencer" />
+      <node id="Roderic O'Conor" label="Roderic O'Conor" />
+      <node id="Samuel Mutzner" label="Samuel Mutzner" />
+      <node id="Santiago Rusinol" label="Santiago Rusinol" />
+      <node id="Sarah Purser" label="Sarah Purser" />
+      <node id="Sergiy Grigoriev" label="Sergiy Grigoriev" />
+      <node id="Sever Burada" label="Sever Burada" />
+      <node id="Silvestro Lega" label="Silvestro Lega" />
+      <node id="Stefan Dimitrescu" label="Stefan Dimitrescu" />
+      <node id="Stefan Popescu" label="Stefan Popescu" />
+      <node id="T. C. Steele" label="T. C. Steele" />
+      <node id="Telemaco Signorini" label="Telemaco Signorini" />
+      <node id="Tetyana Yablonska" label="Tetyana Yablonska" />
+      <node id="Theodor Pallady" label="Theodor Pallady" />
+      <node id="Theodor Philipsen" label="Theodor Philipsen" />
+      <node id="Theodore Robinson" label="Theodore Robinson" />
+      <node id="Thomas Eakins" label="Thomas Eakins" />
+      <node id="Thomas Pollock Anshutz" label="Thomas Pollock Anshutz" />
+      <node id="Tom Roberts" label="Tom Roberts" />
+      <node id="Tom Scott" label="Tom Scott" />
+      <node id="Vasile Popescu" label="Vasile Popescu" />
+      <node id="Vilhelm Hammershoi" label="Vilhelm Hammershoi" />
+      <node id="Vilhelms Purvitis" label="Vilhelms Purvitis" />
+      <node id="Vincenzo Migliaro" label="Vincenzo Migliaro" />
+      <node id="Walter Sickert" label="Walter Sickert" />
+      <node id="Wilhelm Leibl" label="Wilhelm Leibl" />
+      <node id="Willard Metcalf" label="Willard Metcalf" />
+      <node id="William James Glackens" label="William James Glackens" />
+      <node id="William Logsdail" label="William Logsdail" />
+      <node id="William Merritt Chase" label="William Merritt Chase" />
+      <node id="Winston Churchill" label="Winston Churchill" />
+      <node id="Yeghishe Tadevosyan" label="Yeghishe Tadevosyan" />
+      <node id="Steve Wheeler" label="Steve Wheeler" />
+      <node id="Alexandre-Gabriel Decamps" label="Alexandre-Gabriel Decamps" />
+      <node id="Bada Shanren" label="Bada Shanren" />
+      <node id="Chen Hong" label="Chen Hong" />
+      <node id="Chen Hongshou" label="Chen Hongshou" />
+      <node id="Fu Baoshi" label="Fu Baoshi" />
+      <node id="Guan Daosheng" label="Guan Daosheng" />
+      <node id="Guanxiu" label="Guanxiu" />
+      <node id="Guo Xi" label="Guo Xi" />
+      <node id="Han Gan" label="Han Gan" />
+      <node id="Huang Shen" label="Huang Shen" />
+      <node id="Lan Ying" label="Lan Ying" />
+      <node id="Li Cheng" label="Li Cheng" />
+      <node id="Li Huasheng" label="Li Huasheng" />
+      <node id="Li Tang" label="Li Tang" />
+      <node id="Ma Yuan" label="Ma Yuan" />
+      <node id="Ni Zan" label="Ni Zan" />
+      <node id="Qi Baishi" label="Qi Baishi" />
+      <node id="Qian Xuan" label="Qian Xuan" />
+      <node id="Shen Zhou" label="Shen Zhou" />
+      <node id="Shitao" label="Shitao" />
+      <node id="Tang Yin" label="Tang Yin" />
+      <node id="Wang Wei" label="Wang Wei" />
+      <node id="Wu Guanzhong" label="Wu Guanzhong" />
+      <node id="Xu Wei" label="Xu Wei" />
+      <node id="Ambrogio Lorenzetti" label="Ambrogio Lorenzetti" />
+      <node id="Gentile da Fabriano" label="Gentile da Fabriano" />
+      <node id="Hans Holbein the Elder" label="Hans Holbein the Elder" />
+      <node id="Melchior Broederlam" label="Melchior Broederlam" />
+      <node id="Pietro Lorenzetti" label="Pietro Lorenzetti" />
+      <node id="Simone Martini" label="Simone Martini" />
+      <node id="Stefan Lochner" label="Stefan Lochner" />
+      <node id="Pierre Bonnard" label="Pierre Bonnard" />
+      <node id="Vasily Vereshchagin" label="Vasily Vereshchagin" />
+      <node id="Owon" label="Owon" />
+      <node id="Antonio Berni" label="Antonio Berni" />
+      <node id="El Anatsui" label="El Anatsui" />
+      <node id="John Chamberlain" label="John Chamberlain" />
+      <node id="Abraham Palatnik" label="Abraham Palatnik" />
+      <node id="Antonio Asis" label="Antonio Asis" />
+      <node id="Carlos Cruz-Diez" label="Carlos Cruz-Diez" />
+      <node id="George Rickey" label="George Rickey" />
+      <node id="Grazia Varisco" label="Grazia Varisco" />
+      <node id="Heinz Mack" label="Heinz Mack" />
+      <node id="Jean Tinguely" label="Jean Tinguely" />
+      <node id="Jesus Rafael Soto" label="Jesus Rafael Soto" />
+      <node id="Julio Le Parc" label="Julio Le Parc" />
+      <node id="Takis" label="Takis" />
+      <node id="Harrison Fisher" label="Harrison Fisher" />
+      <node id="John Kacere" label="John Kacere" />
+      <node id="Luis Ricardo Falero" label="Luis Ricardo Falero" />
+      <node id="Mahmoud Farshchian" label="Mahmoud Farshchian" />
+      <node id="Rolf Ohst" label="Rolf Ohst" />
+      <node id="Émile Friant" label="Émile Friant" />
+      <node id="Isidore Isou" label="Isidore Isou" />
+      <node id="Jacques Villeglé" label="Jacques Villeglé" />
+      <node id="Jo Baer" label="Jo Baer" />
+      <node id="De Wain Valentine" label="De Wain Valentine" />
+      <node id="Doug Wheeler" label="Doug Wheeler" />
+      <node id="Fred Eversley" label="Fred Eversley" />
+      <node id="Gregg Renfrow" label="Gregg Renfrow" />
+      <node id="Helen Pashgian" label="Helen Pashgian" />
+      <node id="Laddie John Dill" label="Laddie John Dill" />
+      <node id="Marc Vaux" label="Marc Vaux" />
+      <node id="Mary Corse" label="Mary Corse" />
+      <node id="Nanda Vigo" label="Nanda Vigo" />
+      <node id="Norman Zammitt" label="Norman Zammitt" />
+      <node id="Olafur Eliasson" label="Olafur Eliasson" />
+      <node id="Peter Alexander" label="Peter Alexander" />
+      <node id="Robert Irwin" label="Robert Irwin" />
+      <node id="Ron Cooper" label="Ron Cooper" />
+      <node id="Kenny Scharf" label="Kenny Scharf" />
+      <node id="Robert Williams" label="Robert Williams" />
+      <node id="Asher Brown Durand" label="Asher Brown Durand" />
+      <node id="David Johnson" label="David Johnson" />
+      <node id="Emile Claus" label="Emile Claus" />
+      <node id="Frederic Edwin Church" label="Frederic Edwin Church" />
+      <node id="Jasper Francis Cropsey" label="Jasper Francis Cropsey" />
+      <node id="John Frederick Kensett" label="John Frederick Kensett" />
+      <node id="Martin Johnson Heade" label="Martin Johnson Heade" />
+      <node id="Albert Bitran" label="Albert Bitran" />
+      <node id="Ali Omar Ermes" label="Ali Omar Ermes" />
+      <node id="Genevieve Asse" label="Genevieve Asse" />
+      <node id="Gillian Ayres" label="Gillian Ayres" />
+      <node id="Gustave Singier" label="Gustave Singier" />
+      <node id="Kazuaki Tanahashi" label="Kazuaki Tanahashi" />
+      <node id="Olga Albizu" label="Olga Albizu" />
+      <node id="Otto Piene" label="Otto Piene" />
+      <node id="Stanley Boxer" label="Stanley Boxer" />
+      <node id="Antonio Donghi" label="Antonio Donghi" />
+      <node id="Arturo Rivera" label="Arturo Rivera" />
+      <node id="Cagnaccio di San Pietro" label="Cagnaccio di San Pietro" />
+      <node id="Carel Willink" label="Carel Willink" />
+      <node id="Eric Ravilious" label="Eric Ravilious" />
+      <node id="Eyvind Earle" label="Eyvind Earle" />
+      <node id="George Tooker" label="George Tooker" />
+      <node id="Leonor Fini" label="Leonor Fini" />
+      <node id="Nicolae Maniu" label="Nicolae Maniu" />
+      <node id="Peter Doig" label="Peter Doig" />
+      <node id="Pierre Roy" label="Pierre Roy" />
+      <node id="Stefan Caltia" label="Stefan Caltia" />
+      <node id="Zhang Xiaogang" label="Zhang Xiaogang" />
+      <node id="Hans von Aachen" label="Hans von Aachen" />
+      <node id="Tobias Verhaecht" label="Tobias Verhaecht" />
+      <node id="Yu Youhan" label="Yu Youhan" />
+      <node id="Richard Lindner" label="Richard Lindner" />
+      <node id="Toros Roslin" label="Toros Roslin" />
+      <node id="Giorgio de Chirico" label="Giorgio de Chirico" />
+      <node id="Mario Tozzi" label="Mario Tozzi" />
+      <node id="Alan Charlton" label="Alan Charlton" />
+      <node id="Alex Hay" label="Alex Hay" />
+      <node id="Andre Cadere" label="Andre Cadere" />
+      <node id="Antonio Calderara" label="Antonio Calderara" />
+      <node id="Bruce Nauman" label="Bruce Nauman" />
+      <node id="Christopher Wilmarth" label="Christopher Wilmarth" />
+      <node id="Dadamaino" label="Dadamaino" />
+      <node id="Derek Boshier" label="Derek Boshier" />
+      <node id="Edward Krasinski" label="Edward Krasinski" />
+      <node id="Ettore Spalletti" label="Ettore Spalletti" />
+      <node id="Fred Sandback" label="Fred Sandback" />
+      <node id="Gego" label="Gego" />
+      <node id="Gianni Piacentino" label="Gianni Piacentino" />
+      <node id="Gunter Umberg" label="Gunter Umberg" />
+      <node id="James Bishop" label="James Bishop" />
+      <node id="James Licini" label="James Licini" />
+      <node id="Jan Groth" label="Jan Groth" />
+      <node id="Jeremy Moon" label="Jeremy Moon" />
+      <node id="Joachim Bandau" label="Joachim Bandau" />
+      <node id="Johannes Jan Schoonhoven" label="Johannes Jan Schoonhoven" />
+      <node id="Katsuhito Nishikawa" label="Katsuhito Nishikawa" />
+      <node id="Keith Sonnier" label="Keith Sonnier" />
+      <node id="Kishio Suga" label="Kishio Suga" />
+      <node id="Kuno Gonschior" label="Kuno Gonschior" />
+      <node id="Lyman Kipp" label="Lyman Kipp" />
+      <node id="Lynda Benglis" label="Lynda Benglis" />
+      <node id="Martial Raysse" label="Martial Raysse" />
+      <node id="Martin Barre" label="Martin Barre" />
+      <node id="Michel Parmentier" label="Michel Parmentier" />
+      <node id="Niele Toroni" label="Niele Toroni" />
+      <node id="Paul Brach" label="Paul Brach" />
+      <node id="Peter Downsbrough" label="Peter Downsbrough" />
+      <node id="Phil Sims" label="Phil Sims" />
+      <node id="Pierre Soulages" label="Pierre Soulages" />
+      <node id="Pino Pinelli" label="Pino Pinelli" />
+      <node id="Richard Serra" label="Richard Serra" />
+      <node id="Robert Grosvenor" label="Robert Grosvenor" />
+      <node id="Robert Mangold" label="Robert Mangold" />
+      <node id="Robert Ryman" label="Robert Ryman" />
+      <node id="Roman Cotosman" label="Roman Cotosman" />
+      <node id="Ronald Bladen" label="Ronald Bladen" />
+      <node id="Ruth Vollmer" label="Ruth Vollmer" />
+      <node id="Sheila Hicks" label="Sheila Hicks" />
+      <node id="Stephen Antonakos" label="Stephen Antonakos" />
+      <node id="Tess Jaray" label="Tess Jaray" />
+      <node id="Tony Smith" label="Tony Smith" />
+      <node id="Victor Bonato" label="Victor Bonato" />
+      <node id="Emiliano Di Cavalcanti" label="Emiliano Di Cavalcanti" />
+      <node id="Jesus Helguera" label="Jesus Helguera" />
+      <node id="Jose Guadalupe Posada" label="Jose Guadalupe Posada" />
+      <node id="Pedro Figari" label="Pedro Figari" />
+      <node id="Rene Portocarrero" label="Rene Portocarrero" />
+      <node id="Victor Brecheret" label="Victor Brecheret" />
+      <node id="Andrei Rublev" label="Andrei Rublev" />
+      <node id="Ende" label="Ende" />
+      <node id="Facundus" label="Facundus" />
+      <node id="Carlos Almaraz" label="Carlos Almaraz" />
+      <node id="Manuel Rodríguez Lozano" label="Manuel Rodríguez Lozano" />
+      <node id="Emily Kame Kngwarreye" label="Emily Kame Kngwarreye" />
+      <node id="John Muafangejo" label="John Muafangejo" />
+      <node id="Johnny Warangkula Tjupurrula" label="Johnny Warangkula Tjupurrula" />
+      <node id="Stephen Mopope" label="Stephen Mopope" />
+      <node id="Alfred Parsons" label="Alfred Parsons" />
+      <node id="Archibald Thorburn" label="Archibald Thorburn" />
+      <node id="August Friedrich Schenck" label="August Friedrich Schenck" />
+      <node id="Carl Rungius" label="Carl Rungius" />
+      <node id="Charles Tunnicliffe" label="Charles Tunnicliffe" />
+      <node id="Edward Lear" label="Edward Lear" />
+      <node id="John James Audubon" label="John James Audubon" />
+      <node id="Maria Sibylla Merian" label="Maria Sibylla Merian" />
+      <node id="Marie Bashkirtseff" label="Marie Bashkirtseff" />
+      <node id="Richard Friese" label="Richard Friese" />
+      <node id="William Henry Hunt" label="William Henry Hunt" />
+      <node id="Aldemir Martins" label="Aldemir Martins" />
+      <node id="Aleksandr Deyneka" label="Aleksandr Deyneka" />
+      <node id="Christopher Wood" label="Christopher Wood" />
+      <node id="Fernando Botero" label="Fernando Botero" />
+      <node id="Frida Kahlo" label="Frida Kahlo" />
+      <node id="George Caleb Bingham" label="George Caleb Bingham" />
+      <node id="Jean-Michel Basquiat" label="Jean-Michel Basquiat" />
+      <node id="Niko Pirosmani" label="Niko Pirosmani" />
+      <node id="Norval Morrisseau" label="Norval Morrisseau" />
+      <node id="Sergei Parajanov" label="Sergei Parajanov" />
+      <node id="Vangel Naumovski" label="Vangel Naumovski" />
+      <node id="Amilcar de Castro" label="Amilcar de Castro" />
+      <node id="Alison Knowles" label="Alison Knowles" />
+      <node id="Claes Oldenburg" label="Claes Oldenburg" />
+      <node id="Daniel Spoerri" label="Daniel Spoerri" />
+      <node id="Gianfranco Baruchello" label="Gianfranco Baruchello" />
+      <node id="Jim Dine" label="Jim Dine" />
+      <node id="Jimmie Durham" label="Jimmie Durham" />
+      <node id="John Armleder" label="John Armleder" />
+      <node id="Marisol Escobar" label="Marisol Escobar" />
+      <node id="Mark Dion" label="Mark Dion" />
+      <node id="Nam June Paik" label="Nam June Paik" />
+      <node id="Adrian Ghenie" label="Adrian Ghenie" />
+      <node id="Adriana Varejão" label="Adriana Varejão" />
+      <node id="Anish Kapoor" label="Anish Kapoor" />
+      <node id="Betty Goodwin" label="Betty Goodwin" />
+      <node id="Chris Ofili" label="Chris Ofili" />
+      <node id="Dana Schutz" label="Dana Schutz" />
+      <node id="David Park" label="David Park" />
+      <node id="Denise Green" label="Denise Green" />
+      <node id="Enzo Cucchi" label="Enzo Cucchi" />
+      <node id="Georg Baselitz" label="Georg Baselitz" />
+      <node id="Graca Morais" label="Graca Morais" />
+      <node id="Henry Villierme" label="Henry Villierme" />
+      <node id="Jenny Saville" label="Jenny Saville" />
+      <node id="Jorg Immendorff" label="Jorg Immendorff" />
+      <node id="Julian Schnabel" label="Julian Schnabel" />
+      <node id="Keith Haring" label="Keith Haring" />
+      <node id="Landon Mackenzie" label="Landon Mackenzie" />
+      <node id="Martha Diamond" label="Martha Diamond" />
+      <node id="Martin Disler" label="Martin Disler" />
+      <node id="Michel Majerus" label="Michel Majerus" />
+      <node id="Rainer Fetting" label="Rainer Fetting" />
+      <node id="Roger Raveel" label="Roger Raveel" />
+      <node id="Roland Petersen" label="Roland Petersen" />
+      <node id="Susan Rothenberg" label="Susan Rothenberg" />
+      <node id="Tony Scherman" label="Tony Scherman" />
+      <node id="Wilhelm Sasnal" label="Wilhelm Sasnal" />
+      <node id="Benjamin Canas" label="Benjamin Canas" />
+      <node id="Enrique Grau" label="Enrique Grau" />
+      <node id="José Luis Cuevas" label="José Luis Cuevas" />
+      <node id="Charles Angrand" label="Charles Angrand" />
+      <node id="Gaylen Gerber" label="Gaylen Gerber" />
+      <node id="Silviu Oravitzan" label="Silviu Oravitzan" />
+      <node id="Ashley Bickerton" label="Ashley Bickerton" />
+      <node id="Beatriz Milhazes" label="Beatriz Milhazes" />
+      <node id="Bill Woodrow" label="Bill Woodrow" />
+      <node id="Gary Hume" label="Gary Hume" />
+      <node id="Jeff Koons" label="Jeff Koons" />
+      <node id="Julian Opie" label="Julian Opie" />
+      <node id="Romero Britto" label="Romero Britto" />
+      <node id="Takashi Murakami" label="Takashi Murakami" />
+      <node id="Wang Guangyi" label="Wang Guangyi" />
+      <node id="Gilbert Stuart" label="Gilbert Stuart" />
+      <node id="Graham Bell" label="Graham Bell" />
+      <node id="Harald Sohlberg" label="Harald Sohlberg" />
+      <node id="Stanley Spencer" label="Stanley Spencer" />
+      <node id="Walter Crane" label="Walter Crane" />
+      <node id="Abraham van Strij" label="Abraham van Strij" />
+      <node id="Angelica Kauffman" label="Angelica Kauffman" />
+      <node id="Antoine-Jean Gros" label="Antoine-Jean Gros" />
+      <node id="Antonio Canova" label="Antonio Canova" />
+      <node id="Bartolomeo Pinelli" label="Bartolomeo Pinelli" />
+      <node id="Benjamin West" label="Benjamin West" />
+      <node id="Camille Corot" label="Camille Corot" />
+      <node id="Carle Vernet" label="Carle Vernet" />
+      <node id="Charles Despiau" label="Charles Despiau" />
+      <node id="Charles Willson Peale" label="Charles Willson Peale" />
+      <node id="Christian August Lorentzen" label="Christian August Lorentzen" />
+      <node id="Christoffer Wilhelm Eckersberg" label="Christoffer Wilhelm Eckersberg" />
+      <node id="Claude-Joseph Vernet" label="Claude-Joseph Vernet" />
+      <node id="David Allan" label="David Allan" />
+      <node id="Dmitry Levitzky" label="Dmitry Levitzky" />
+      <node id="Domingos Sequeira" label="Domingos Sequeira" />
+      <node id="Edmonia Lewis" label="Edmonia Lewis" />
+      <node id="Francisco Bayeu y Subias" label="Francisco Bayeu y Subias" />
+      <node id="Francisco Goya" label="Francisco Goya" />
+      <node id="François Gérard" label="François Gérard" />
+      <node id="Fyodor Alekseyev" label="Fyodor Alekseyev" />
+      <node id="George Dawe" label="George Dawe" />
+      <node id="Gheorghe Tattarescu" label="Gheorghe Tattarescu" />
+      <node id="Giacomo Quarenghi" label="Giacomo Quarenghi" />
+      <node id="Giovanni Battista Piranesi" label="Giovanni Battista Piranesi" />
+      <node id="Jacob van Strij" label="Jacob van Strij" />
+      <node id="Jacques-Louis David" label="Jacques-Louis David" />
+      <node id="Jean Auguste Dominique Ingres" label="Jean Auguste Dominique Ingres" />
+      <node id="Jean-Antoine Houdon" label="Jean-Antoine Houdon" />
+      <node id="Jean-Baptiste Pigalle" label="Jean-Baptiste Pigalle" />
+      <node id="John Flaxman" label="John Flaxman" />
+      <node id="John Gibson" label="John Gibson" />
+      <node id="John Lewis Krimmel" label="John Lewis Krimmel" />
+      <node id="John Simpson" label="John Simpson" />
+      <node id="John Singleton Copley" label="John Singleton Copley" />
+      <node id="John Trumbull" label="John Trumbull" />
+      <node id="John William Godward" label="John William Godward" />
+      <node id="Joseph Anton Koch" label="Joseph Anton Koch" />
+      <node id="Joseph Duplessis" label="Joseph Duplessis" />
+      <node id="Jérôme-Martin Langlois" label="Jérôme-Martin Langlois" />
+      <node id="Karl Bryullov" label="Karl Bryullov" />
+      <node id="Marie-Denise Villers" label="Marie-Denise Villers" />
+      <node id="Marie-Gabrielle Capet" label="Marie-Gabrielle Capet" />
+      <node id="Marie-Guillemine Benoist" label="Marie-Guillemine Benoist" />
+      <node id="Mikhail Shibanov" label="Mikhail Shibanov" />
+      <node id="Nicolas Antoine Taunay" label="Nicolas Antoine Taunay" />
+      <node id="Pierre-Paul Prud'hon" label="Pierre-Paul Prud'hon" />
+      <node id="Pompeo Batoni" label="Pompeo Batoni" />
+      <node id="Rembrandt Peale" label="Rembrandt Peale" />
+      <node id="Simplício Rodrigues de Sá" label="Simplício Rodrigues de Sá" />
+      <node id="Sylvester Shchedrin" label="Sylvester Shchedrin" />
+      <node id="Theodore Chasseriau" label="Theodore Chasseriau" />
+      <node id="Vieira Portuense" label="Vieira Portuense" />
+      <node id="Vladimir Borovikovsky" label="Vladimir Borovikovsky" />
+      <node id="William Hamilton" label="William Hamilton" />
+      <node id="Yannoulis Chalepas" label="Yannoulis Chalepas" />
+      <node id="Fritz Glarner" label="Fritz Glarner" />
+      <node id="Albert Oehlen" label="Albert Oehlen" />
+      <node id="Luc Tuymans" label="Luc Tuymans" />
+      <node id="Rosemarie Trockel" label="Rosemarie Trockel" />
+      <node id="Charles Sheeler" label="Charles Sheeler" />
+      <node id="Albrecht Altdorfer" label="Albrecht Altdorfer" />
+      <node id="Albrecht Durer" label="Albrecht Durer" />
+      <node id="Bernhard Strigel" label="Bernhard Strigel" />
+      <node id="Dirk Bouts" label="Dirk Bouts" />
+      <node id="Geertgen tot Sint Jans" label="Geertgen tot Sint Jans" />
+      <node id="Gerard David" label="Gerard David" />
+      <node id="Gregorio Lopes" label="Gregorio Lopes" />
+      <node id="Hans Baldung" label="Hans Baldung" />
+      <node id="Hans Hoffmann" label="Hans Hoffmann" />
+      <node id="Hans Holbein the Younger" label="Hans Holbein the Younger" />
+      <node id="Hans Memling" label="Hans Memling" />
+      <node id="Hieronymus Bosch" label="Hieronymus Bosch" />
+      <node id="Hugo van der Goes" label="Hugo van der Goes" />
+      <node id="Jacques Daret" label="Jacques Daret" />
+      <node id="Jan Provoost" label="Jan Provoost" />
+      <node id="Jan van Eyck" label="Jan van Eyck" />
+      <node id="Jean Fouquet" label="Jean Fouquet" />
+      <node id="Jean Hey" label="Jean Hey" />
+      <node id="Jerg Ratgeb" label="Jerg Ratgeb" />
+      <node id="Joachim Patinir" label="Joachim Patinir" />
+      <node id="Justus van Gent" label="Justus van Gent" />
+      <node id="Konrad Witz" label="Konrad Witz" />
+      <node id="Lucas Cranach the Elder" label="Lucas Cranach the Elder" />
+      <node id="Mabuse" label="Mabuse" />
+      <node id="Marinus van Reymerswaele" label="Marinus van Reymerswaele" />
+      <node id="Martin Schongauer" label="Martin Schongauer" />
+      <node id="Matthias Grünewald" label="Matthias Grünewald" />
+      <node id="Nicholas Hilliard" label="Nicholas Hilliard" />
+      <node id="Petrus Christus" label="Petrus Christus" />
+      <node id="Pieter Aertsen" label="Pieter Aertsen" />
+      <node id="Pieter Bruegel the Elder" label="Pieter Bruegel the Elder" />
+      <node id="Pieter Brueghel the Younger" label="Pieter Brueghel the Younger" />
+      <node id="Quentin Matsys" label="Quentin Matsys" />
+      <node id="Robert Campin" label="Robert Campin" />
+      <node id="Rogier van der Weyden" label="Rogier van der Weyden" />
+      <node id="Mimmo Rotella" label="Mimmo Rotella" />
+      <node id="Alberto Biasi" label="Alberto Biasi" />
+      <node id="Almir Mavignier" label="Almir Mavignier" />
+      <node id="Edna Andrade" label="Edna Andrade" />
+      <node id="Francois Rouan" label="Francois Rouan" />
+      <node id="Hans Hinterreiter" label="Hans Hinterreiter" />
+      <node id="Julian Stanczak" label="Julian Stanczak" />
+      <node id="Luis Tomasello" label="Luis Tomasello" />
+      <node id="Mario Nigro" label="Mario Nigro" />
+      <node id="Omar Rayo" label="Omar Rayo" />
+      <node id="Tadasky" label="Tadasky" />
+      <node id="Walter Leblanc" label="Walter Leblanc" />
+      <node id="Alfred Dehodencq" label="Alfred Dehodencq" />
+      <node id="Benjamin Constant" label="Benjamin Constant" />
+      <node id="Carl Haag" label="Carl Haag" />
+      <node id="David Roberts" label="David Roberts" />
+      <node id="David Wilkie" label="David Wilkie" />
+      <node id="Edwin Lord Weeks" label="Edwin Lord Weeks" />
+      <node id="Elizabeth Thompson" label="Elizabeth Thompson" />
+      <node id="Eugene Delacroix" label="Eugene Delacroix" />
+      <node id="Gerolamo Induno" label="Gerolamo Induno" />
+      <node id="Henri Regnault" label="Henri Regnault" />
+      <node id="Horace Vernet" label="Horace Vernet" />
+      <node id="Ippolito Caffi" label="Ippolito Caffi" />
+      <node id="Jean-Étienne Liotard" label="Jean-Étienne Liotard" />
+      <node id="John Frederick Lewis" label="John Frederick Lewis" />
+      <node id="John William Waterhouse" label="John William Waterhouse" />
+      <node id="Oswald Achenbach" label="Oswald Achenbach" />
+      <node id="Richard Parkes Bonington" label="Richard Parkes Bonington" />
+      <node id="Théodore Géricault" label="Théodore Géricault" />
+      <node id="William Holman Hunt" label="William Holman Hunt" />
+      <node id="Clementine Hunter" label="Clementine Hunter" />
+      <node id="Valerie Jaudon" label="Valerie Jaudon" />
+      <node id="Marina Abramović" label="Marina Abramović" />
+      <node id="Adolph de Meyer" label="Adolph de Meyer" />
+      <node id="Alfred Stieglitz" label="Alfred Stieglitz" />
+      <node id="Alvin Langdon Coburn" label="Alvin Langdon Coburn" />
+      <node id="Clarence White" label="Clarence White" />
+      <node id="Frank Eugene" label="Frank Eugene" />
+      <node id="George Seeley" label="George Seeley" />
+      <node id="Gertrude Kasebier" label="Gertrude Kasebier" />
+      <node id="Heinrich Kuhn" label="Heinrich Kuhn" />
+      <node id="Lewis Carroll" label="Lewis Carroll" />
+      <node id="Alex Katz" label="Alex Katz" />
+      <node id="Allen Jones" label="Allen Jones" />
+      <node id="Claudio Tozzi" label="Claudio Tozzi" />
+      <node id="Corita Kent" label="Corita Kent" />
+      <node id="Dale Hickey" label="Dale Hickey" />
+      <node id="Dieter Asmus" label="Dieter Asmus" />
+      <node id="Evelyne Axell" label="Evelyne Axell" />
+      <node id="Herve Telemaque" label="Herve Telemaque" />
+      <node id="Hiro Yamagata" label="Hiro Yamagata" />
+      <node id="Howard Arkley" label="Howard Arkley" />
+      <node id="James Rosenquist" label="James Rosenquist" />
+      <node id="Jim Lambie" label="Jim Lambie" />
+      <node id="Kazimierz Mikulski" label="Kazimierz Mikulski" />
+      <node id="Kenneth Price" label="Kenneth Price" />
+      <node id="Konrad Klapheck" label="Konrad Klapheck" />
+      <node id="Marjorie Strider" label="Marjorie Strider" />
+      <node id="Nicholas Krushenick" label="Nicholas Krushenick" />
+      <node id="Patrick Caulfield" label="Patrick Caulfield" />
+      <node id="Pauline Boty" label="Pauline Boty" />
+      <node id="Peter Blake" label="Peter Blake" />
+      <node id="Peter Max" label="Peter Max" />
+      <node id="Peter Phillips" label="Peter Phillips" />
+      <node id="Philippe Halsman" label="Philippe Halsman" />
+      <node id="R. B. Kitaj" label="R. B. Kitaj" />
+      <node id="Red Grooms" label="Red Grooms" />
+      <node id="Rene Bertholo" label="Rene Bertholo" />
+      <node id="Richard Hamilton" label="Richard Hamilton" />
+      <node id="Rosalyn Drexler" label="Rosalyn Drexler" />
+      <node id="Tadanori Yokoo" label="Tadanori Yokoo" />
+      <node id="Valerio Adami" label="Valerio Adami" />
+      <node id="Agnes Lawrence Pelton" label="Agnes Lawrence Pelton" />
+      <node id="Amrita Sher-Gil" label="Amrita Sher-Gil" />
+      <node id="Augustus John" label="Augustus John" />
+      <node id="Constantin Piliuta" label="Constantin Piliuta" />
+      <node id="Dumitru Ghiatza" label="Dumitru Ghiatza" />
+      <node id="Edgar Chahine" label="Edgar Chahine" />
+      <node id="Edouard Cortes" label="Edouard Cortes" />
+      <node id="Edvard Weie" label="Edvard Weie" />
+      <node id="George Washington Lambert" label="George Washington Lambert" />
+      <node id="Grace Cossington Smith" label="Grace Cossington Smith" />
+      <node id="Gustave Loiseau" label="Gustave Loiseau" />
+      <node id="Gwen John" label="Gwen John" />
+      <node id="Kuzma Petrov-Vodkin" label="Kuzma Petrov-Vodkin" />
+      <node id="Le Pho" label="Le Pho" />
+      <node id="Leon Kroll" label="Leon Kroll" />
+      <node id="Lucia Demetriade Balacescu" label="Lucia Demetriade Balacescu" />
+      <node id="Maurice Denis" label="Maurice Denis" />
+      <node id="Maurice Utrillo" label="Maurice Utrillo" />
+      <node id="Medardo Rosso" label="Medardo Rosso" />
+      <node id="Nikola Tanev" label="Nikola Tanev" />
+      <node id="Paul Henry" label="Paul Henry" />
+      <node id="Pekka Halonen" label="Pekka Halonen" />
+      <node id="Roger Fry" label="Roger Fry" />
+      <node id="Samuel Peploe" label="Samuel Peploe" />
+      <node id="Sedrak Arakelyan" label="Sedrak Arakelyan" />
+      <node id="Suzanne Valadon" label="Suzanne Valadon" />
+      <node id="Tran Van Can" label="Tran Van Can" />
+      <node id="Vladimir Dimitrov" label="Vladimir Dimitrov" />
+      <node id="William Orpen" label="William Orpen" />
+      <node id="Alison Wilding" label="Alison Wilding" />
+      <node id="Antony Gormley" label="Antony Gormley" />
+      <node id="Bill Bollinger" label="Bill Bollinger" />
+      <node id="David Annesley" label="David Annesley" />
+      <node id="David Hammons" label="David Hammons" />
+      <node id="Dorothea Rockburne" label="Dorothea Rockburne" />
+      <node id="Ernesto Neto" label="Ernesto Neto" />
+      <node id="Gary Kuehn" label="Gary Kuehn" />
+      <node id="Giorgio Griffa" label="Giorgio Griffa" />
+      <node id="Guy Mees" label="Guy Mees" />
+      <node id="Harmony Hammond" label="Harmony Hammond" />
+      <node id="Ion Pantilie" label="Ion Pantilie" />
+      <node id="Jacqueline Winsor" label="Jacqueline Winsor" />
+      <node id="Jannis Kounellis" label="Jannis Kounellis" />
+      <node id="Lenore Tawney" label="Lenore Tawney" />
+      <node id="Lita Albuquerque" label="Lita Albuquerque" />
+      <node id="Michael Bolus" label="Michael Bolus" />
+      <node id="Nancy Graves" label="Nancy Graves" />
+      <node id="Phyllida Barlow" label="Phyllida Barlow" />
+      <node id="Piero Gilardi" label="Piero Gilardi" />
+      <node id="Rachel Whiteread" label="Rachel Whiteread" />
+      <node id="Richard Deacon" label="Richard Deacon" />
+      <node id="Richard Van Buren" label="Richard Van Buren" />
+      <node id="Tim Scott" label="Tim Scott" />
+      <node id="Jack Youngerman" label="Jack Youngerman" />
+      <node id="Jef Verheyen" label="Jef Verheyen" />
+      <node id="Pat Steir" label="Pat Steir" />
+      <node id="Robert Swain" label="Robert Swain" />
+      <node id="Njideka Akunyili Crosby" label="Njideka Akunyili Crosby" />
+      <node id="Rolf Amstrong" label="Rolf Amstrong" />
+      <node id="George Ault" label="George Ault" />
+      <node id="Ralston Crawford" label="Ralston Crawford" />
+      <node id="Cennino Cennini" label="Cennino Cennini" />
+      <node id="Duccio" label="Duccio" />
+      <node id="Giotto" label="Giotto" />
+      <node id="Paolo Veneziano" label="Paolo Veneziano" />
+      <node id="Amedee Ozenfant" label="Amedee Ozenfant" />
+      <node id="Abbott Handerson Thayer" label="Abbott Handerson Thayer" />
+      <node id="Abdullah Suriosubroto" label="Abdullah Suriosubroto" />
+      <node id="Achille Pinelli" label="Achille Pinelli" />
+      <node id="Aleksey Savrasov" label="Aleksey Savrasov" />
+      <node id="Alexey Venetsianov" label="Alexey Venetsianov" />
+      <node id="Anton Azbe" label="Anton Azbe" />
+      <node id="Anton Mauve" label="Anton Mauve" />
+      <node id="Anton Melbye" label="Anton Melbye" />
+      <node id="Anton Mitov" label="Anton Mitov" />
+      <node id="Antonio Jacobsen" label="Antonio Jacobsen" />
+      <node id="Antonio Mancini" label="Antonio Mancini" />
+      <node id="Arshak Fetvadjian" label="Arshak Fetvadjian" />
+      <node id="Augusta Savage" label="Augusta Savage" />
+      <node id="Charles Atamian" label="Charles Atamian" />
+      <node id="Charles Hermans" label="Charles Hermans" />
+      <node id="Charles Jacque" label="Charles Jacque" />
+      <node id="Charles Meryon" label="Charles Meryon" />
+      <node id="Charles-Francois Daubigny" label="Charles-Francois Daubigny" />
+      <node id="Columbano Bordalo Pinheiro" label="Columbano Bordalo Pinheiro" />
+      <node id="Constant Troyon" label="Constant Troyon" />
+      <node id="Constantin Guys" label="Constantin Guys" />
+      <node id="Constantin Stahi" label="Constantin Stahi" />
+      <node id="Daniel Ridgway Knight" label="Daniel Ridgway Knight" />
+      <node id="David Bates" label="David Bates" />
+      <node id="David Cox" label="David Cox" />
+      <node id="Eastman Johnson" label="Eastman Johnson" />
+      <node id="Eduard von Gebhardt" label="Eduard von Gebhardt" />
+      <node id="Efim Volkov" label="Efim Volkov" />
+      <node id="Elin Danielson-Gambogi" label="Elin Danielson-Gambogi" />
+      <node id="Eugène Jansson" label="Eugène Jansson" />
+      <node id="Filippo Cifariello" label="Filippo Cifariello" />
+      <node id="Frank Holl" label="Frank Holl" />
+      <node id="Fyodor Vasilyev" label="Fyodor Vasilyev" />
+      <node id="George Catlin" label="George Catlin" />
+      <node id="Gevorg Bashindzhagian" label="Gevorg Bashindzhagian" />
+      <node id="Grigoriy Myasoyedov" label="Grigoriy Myasoyedov" />
+      <node id="Gustave Dore" label="Gustave Dore" />
+      <node id="Hans Heysen" label="Hans Heysen" />
+      <node id="Henri Fantin-Latour" label="Henri Fantin-Latour" />
+      <node id="Henry William Banks Davis" label="Henry William Banks Davis" />
+      <node id="Hugo Simberg" label="Hugo Simberg" />
+      <node id="Ivan Kramskoy" label="Ivan Kramskoy" />
+      <node id="Ivan Shishkin" label="Ivan Shishkin" />
+      <node id="Jakub Schikaneder" label="Jakub Schikaneder" />
+      <node id="James Webb" label="James Webb" />
+      <node id="Jean-Francois Millet" label="Jean-Francois Millet" />
+      <node id="Johan Hendrik Weissenbruch" label="Johan Hendrik Weissenbruch" />
+      <node id="John Collier" label="John Collier" />
+      <node id="John Everett Millais" label="John Everett Millais" />
+      <node id="John Henderson" label="John Henderson" />
+      <node id="John Leech" label="John Leech" />
+      <node id="Joseph Farquharson" label="Joseph Farquharson" />
+      <node id="Joseph Urbania" label="Joseph Urbania" />
+      <node id="Józef Chełmoński" label="Józef Chełmoński" />
+      <node id="Klavdy Lebedev" label="Klavdy Lebedev" />
+      <node id="Maxime Lalanne" label="Maxime Lalanne" />
+      <node id="Mihri Musfik" label="Mihri Musfik" />
+      <node id="Mikhail Lebedev" label="Mikhail Lebedev" />
+      <node id="Mykola Murashko" label="Mykola Murashko" />
+      <node id="Mykola Yaroshenko" label="Mykola Yaroshenko" />
+      <node id="Paja Jovanovic" label="Paja Jovanovic" />
+      <node id="Panos Terlemezian" label="Panos Terlemezian" />
+      <node id="Paul Kane" label="Paul Kane" />
+      <node id="Pavel Fedotov" label="Pavel Fedotov" />
+      <node id="Ralph Hedley" label="Ralph Hedley" />
+      <node id="Taras Shevchenko" label="Taras Shevchenko" />
+      <node id="Theodore Rousseau" label="Theodore Rousseau" />
+      <node id="Theodule Ribot" label="Theodule Ribot" />
+      <node id="Thomas Dewing" label="Thomas Dewing" />
+      <node id="Vardges Sureniants" label="Vardges Sureniants" />
+      <node id="Vartan Mahokian" label="Vartan Mahokian" />
+      <node id="Vasily Perov" label="Vasily Perov" />
+      <node id="Vasily Sadovnikov" label="Vasily Sadovnikov" />
+      <node id="Vasily Tropinin" label="Vasily Tropinin" />
+      <node id="Veniamin Kremer" label="Veniamin Kremer" />
+      <node id="Viktor Vasnetsov" label="Viktor Vasnetsov" />
+      <node id="Vladimir Makovsky" label="Vladimir Makovsky" />
+      <node id="Volodymyr Orlovsky" label="Volodymyr Orlovsky" />
+      <node id="Walter Gay" label="Walter Gay" />
+      <node id="William Michael Harnett" label="William Michael Harnett" />
+      <node id="William Simpson" label="William Simpson" />
+      <node id="Winslow Homer" label="Winslow Homer" />
+      <node id="Zakar Zakarian" label="Zakar Zakarian" />
+      <node id="Alfred Heber Hutty" label="Alfred Heber Hutty" />
+      <node id="Grace Albee" label="Grace Albee" />
+      <node id="John Steuart Curry" label="John Steuart Curry" />
+      <node id="Norman Rockwell" label="Norman Rockwell" />
+      <node id="Allan Ramsay" label="Allan Ramsay" />
+      <node id="Anne Vallayer-Coster" label="Anne Vallayer-Coster" />
+      <node id="Antoine Watteau" label="Antoine Watteau" />
+      <node id="Bernardo Bellotto" label="Bernardo Bellotto" />
+      <node id="David Morier" label="David Morier" />
+      <node id="Francois Boucher" label="Francois Boucher" />
+      <node id="François Lemoyne" label="François Lemoyne" />
+      <node id="Fyodor Rokotov" label="Fyodor Rokotov" />
+      <node id="George Lambert" label="George Lambert" />
+      <node id="George Morland" label="George Morland" />
+      <node id="George Romney" label="George Romney" />
+      <node id="Giovanni Battista Tiepolo" label="Giovanni Battista Tiepolo" />
+      <node id="Giovanni Domenico Tiepolo" label="Giovanni Domenico Tiepolo" />
+      <node id="Hendrik Voogd" label="Hendrik Voogd" />
+      <node id="Hubert Robert" label="Hubert Robert" />
+      <node id="Jean-Baptiste Greuze" label="Jean-Baptiste Greuze" />
+      <node id="Jean-Baptiste Oudry" label="Jean-Baptiste Oudry" />
+      <node id="Jean-Baptiste van Loo" label="Jean-Baptiste van Loo" />
+      <node id="Jean-Marc Nattier" label="Jean-Marc Nattier" />
+      <node id="Johann Georg Pinzel" label="Johann Georg Pinzel" />
+      <node id="John Jackson" label="John Jackson" />
+      <node id="John Russell" label="John Russell" />
+      <node id="José Campeche" label="José Campeche" />
+      <node id="Louise Elisabeth Vigee Le Brun" label="Louise Elisabeth Vigee Le Brun" />
+      <node id="Luis Paret y Alcazar" label="Luis Paret y Alcazar" />
+      <node id="Maurice Quentin de La Tour" label="Maurice Quentin de La Tour" />
+      <node id="Paul Revere" label="Paul Revere" />
+      <node id="Pietro Longhi" label="Pietro Longhi" />
+      <node id="Ralph Earl" label="Ralph Earl" />
+      <node id="Richard Wilson" label="Richard Wilson" />
+      <node id="Rosalba Carriera" label="Rosalba Carriera" />
+      <node id="Thomas Gainsborough" label="Thomas Gainsborough" />
+      <node id="Thomas Lawrence" label="Thomas Lawrence" />
+      <node id="William Williams" label="William Williams" />
+      <node id="Alberto Sotio" label="Alberto Sotio" />
+      <node id="Claricia" label="Claricia" />
+      <node id="Adolphe Joseph Thomas Monticelli" label="Adolphe Joseph Thomas Monticelli" />
+      <node id="Albrecht Adam" label="Albrecht Adam" />
+      <node id="Alexander Orlowski" label="Alexander Orlowski" />
+      <node id="Alexander Pope" label="Alexander Pope" />
+      <node id="Alexander Shilov" label="Alexander Shilov" />
+      <node id="Alonzo Chappel" label="Alonzo Chappel" />
+      <node id="Andreas Achenbach" label="Andreas Achenbach" />
+      <node id="Arnold Böcklin" label="Arnold Böcklin" />
+      <node id="Arthur Hughes" label="Arthur Hughes" />
+      <node id="Ary Scheffer" label="Ary Scheffer" />
+      <node id="Auguste Edouart" label="Auguste Edouart" />
+      <node id="Caspar David Friedrich" label="Caspar David Friedrich" />
+      <node id="Charles M. Russell" label="Charles M. Russell" />
+      <node id="Charles Turner" label="Charles Turner" />
+      <node id="Christen Kobke" label="Christen Kobke" />
+      <node id="Constantin Daniel Rosenthal" label="Constantin Daniel Rosenthal" />
+      <node id="Cornelis Springer" label="Cornelis Springer" />
+      <node id="Dante Gabriel Rossetti" label="Dante Gabriel Rossetti" />
+      <node id="David Scott" label="David Scott" />
+      <node id="Edouard Riou" label="Edouard Riou" />
+      <node id="Edwin Austin Abbey" label="Edwin Austin Abbey" />
+      <node id="Edwin Henry Landseer" label="Edwin Henry Landseer" />
+      <node id="Emanuel Leutze" label="Emanuel Leutze" />
+      <node id="Eugene von Guerard" label="Eugene von Guerard" />
+      <node id="Ford Madox Brown" label="Ford Madox Brown" />
+      <node id="Frank Dicksee" label="Frank Dicksee" />
+      <node id="Franz Richard Unterberger" label="Franz Richard Unterberger" />
+      <node id="Frederick George Cotman" label="Frederick George Cotman" />
+      <node id="Frederick Morgan" label="Frederick Morgan" />
+      <node id="Frederick Sandys" label="Frederick Sandys" />
+      <node id="Frederick William Burton" label="Frederick William Burton" />
+      <node id="Fyodor Solntsev" label="Fyodor Solntsev" />
+      <node id="George Harvey" label="George Harvey" />
+      <node id="George Hemming Mason" label="George Hemming Mason" />
+      <node id="George Stubbs" label="George Stubbs" />
+      <node id="Giovanni Battista Torriglia" label="Giovanni Battista Torriglia" />
+      <node id="Gustaf Wappers" label="Gustaf Wappers" />
+      <node id="Gustave Moreau" label="Gustave Moreau" />
+      <node id="Heinrich Reinhold" label="Heinrich Reinhold" />
+      <node id="Henry Fuseli" label="Henry Fuseli" />
+      <node id="Henry Raeburn" label="Henry Raeburn" />
+      <node id="Henryk Rodakowski" label="Henryk Rodakowski" />
+      <node id="Hermann Ottomar Herzog" label="Hermann Ottomar Herzog" />
+      <node id="Ivan Aivazovsky" label="Ivan Aivazovsky" />
+      <node id="James Archer" label="James Archer" />
+      <node id="James Campbell" label="James Campbell" />
+      <node id="James Hamilton" label="James Hamilton" />
+      <node id="James Ward" label="James Ward" />
+      <node id="Jan Matejko" label="Jan Matejko" />
+      <node id="Jean-Baptiste Carpeaux" label="Jean-Baptiste Carpeaux" />
+      <node id="Jenaro Pérez Villaamil" label="Jenaro Pérez Villaamil" />
+      <node id="Johan Christian Dahl" label="Johan Christian Dahl" />
+      <node id="Johann Koler" label="Johann Koler" />
+      <node id="John Absolon" label="John Absolon" />
+      <node id="John Constable" label="John Constable" />
+      <node id="John Crome" label="John Crome" />
+      <node id="John Glover" label="John Glover" />
+      <node id="John Hoppner" label="John Hoppner" />
+      <node id="John Lee" label="John Lee" />
+      <node id="John Martin" label="John Martin" />
+      <node id="John Pettie" label="John Pettie" />
+      <node id="John Quidor" label="John Quidor" />
+      <node id="John Roddam Spencer Stanhope" label="John Roddam Spencer Stanhope" />
+      <node id="John Ruskin" label="John Ruskin" />
+      <node id="John Varley" label="John Varley" />
+      <node id="John Wilson Carmichael" label="John Wilson Carmichael" />
+      <node id="Julia Margaret Cameron" label="Julia Margaret Cameron" />
+      <node id="Karl Bodmer" label="Karl Bodmer" />
+      <node id="Karl Lessing" label="Karl Lessing" />
+      <node id="Knud Baade" label="Knud Baade" />
+      <node id="Lev Lagorio" label="Lev Lagorio" />
+      <node id="Louis Janmot" label="Louis Janmot" />
+      <node id="Luc-Olivier Merson" label="Luc-Olivier Merson" />
+      <node id="Marcus Larson" label="Marcus Larson" />
+      <node id="Marcus Stone" label="Marcus Stone" />
+      <node id="Mary Josephine Walters" label="Mary Josephine Walters" />
+      <node id="Maurycy Gottlieb" label="Maurycy Gottlieb" />
+      <node id="Maxim Vorobiev" label="Maxim Vorobiev" />
+      <node id="Mårten Eskil Winge" label="Mårten Eskil Winge" />
+      <node id="Nicolas Toussaint Charlet" label="Nicolas Toussaint Charlet" />
+      <node id="Orest Kiprensky" label="Orest Kiprensky" />
+      <node id="Osman Hamdi" label="Osman Hamdi" />
+      <node id="Paul Gavarni" label="Paul Gavarni" />
+      <node id="Pavel Svinyin" label="Pavel Svinyin" />
+      <node id="Peder Balke" label="Peder Balke" />
+      <node id="Peter Fendi" label="Peter Fendi" />
+      <node id="Peter Nicolai Arbo" label="Peter Nicolai Arbo" />
+      <node id="Philipp Otto Runge" label="Philipp Otto Runge" />
+      <node id="Piotr Michałowski" label="Piotr Michałowski" />
+      <node id="Polychronis Lembesis" label="Polychronis Lembesis" />
+      <node id="Raden Saleh" label="Raden Saleh" />
+      <node id="Richard Dadd" label="Richard Dadd" />
+      <node id="Robert Bateman" label="Robert Bateman" />
+      <node id="Rudolf von Alt" label="Rudolf von Alt" />
+      <node id="Samuel Morse" label="Samuel Morse" />
+      <node id="Samuel Palmer" label="Samuel Palmer" />
+      <node id="Simeon Solomon" label="Simeon Solomon" />
+      <node id="Sydney Laurence" label="Sydney Laurence" />
+      <node id="Thomas Cole" label="Thomas Cole" />
+      <node id="Thomas Girtin" label="Thomas Girtin" />
+      <node id="Thomas Hill" label="Thomas Hill" />
+      <node id="Thomas Jones" label="Thomas Jones" />
+      <node id="Thomas Jones Barker" label="Thomas Jones Barker" />
+      <node id="Thomas Moran" label="Thomas Moran" />
+      <node id="Thomas Sully" label="Thomas Sully" />
+      <node id="Wilhelm von Kaulbach" label="Wilhelm von Kaulbach" />
+      <node id="William Bradford" label="William Bradford" />
+      <node id="William Collins" label="William Collins" />
+      <node id="William Gilbert Foster" label="William Gilbert Foster" />
+      <node id="William Hart" label="William Hart" />
+      <node id="William Holbrook Beard" label="William Holbrook Beard" />
+      <node id="William Leighton Leitch" label="William Leighton Leitch" />
+      <node id="William Morris" label="William Morris" />
+      <node id="William Shayer" label="William Shayer" />
+      <node id="Mirza Agha Emami" label="Mirza Agha Emami" />
+      <node id="Christo and Jeanne-Claude" label="Christo and Jeanne-Claude" />
+      <node id="Charles Wilbert White" label="Charles Wilbert White" />
+      <node id="Dorothea Lange" label="Dorothea Lange" />
+      <node id="Lewis Hine" label="Lewis Hine" />
+      <node id="Maria Stolarova" label="Maria Stolarova" />
+      <node id="Oliver Kilbourn" label="Oliver Kilbourn" />
+      <node id="Philip Evergood" label="Philip Evergood" />
+      <node id="Sue Coe" label="Sue Coe" />
+      <node id="Boyukagha Mirzazade" label="Boyukagha Mirzazade" />
+      <node id="Dmitry Nalbandyan" label="Dmitry Nalbandyan" />
+      <node id="Jules Perahim" label="Jules Perahim" />
+      <node id="Karpo Trokhymenko" label="Karpo Trokhymenko" />
+      <node id="Sergey Ryabchenko" label="Sergey Ryabchenko" />
+      <node id="Victor Puzyrkov" label="Victor Puzyrkov" />
+      <node id="Viktor Shatalin" label="Viktor Shatalin" />
+      <node id="Agostino Bonalumi" label="Agostino Bonalumi" />
+      <node id="Lucio Fontana" label="Lucio Fontana" />
+      <node id="Turi Simeti" label="Turi Simeti" />
+      <node id="Blek le Rat" label="Blek le Rat" />
+      <node id="Cope2" label="Cope2" />
+      <node id="Cornbread" label="Cornbread" />
+      <node id="Epsylon Point" label="Epsylon Point" />
+      <node id="Futura 2000" label="Futura 2000" />
+      <node id="Jef Aerosol" label="Jef Aerosol" />
+      <node id="JonOne" label="JonOne" />
+      <node id="Miss.Tic" label="Miss.Tic" />
+      <node id="Seen" label="Seen" />
+      <node id="Speedy Graphito" label="Speedy Graphito" />
+      <node id="Stay High 149" label="Stay High 149" />
+      <node id="TAKI 183" label="TAKI 183" />
+      <node id="Godfrey Blow" label="Godfrey Blow" />
+      <node id="Agustin Cardenas" label="Agustin Cardenas" />
+      <node id="Albin Brunovsky" label="Albin Brunovsky" />
+      <node id="Alejandro Obregon" label="Alejandro Obregon" />
+      <node id="Alexander Boghossian" label="Alexander Boghossian" />
+      <node id="Ali Akbar Sadeghi" label="Ali Akbar Sadeghi" />
+      <node id="Angel Planells" label="Angel Planells" />
+      <node id="Antonio Dacosta" label="Antonio Dacosta" />
+      <node id="Boris Margo" label="Boris Margo" />
+      <node id="Brassai" label="Brassai" />
+      <node id="Conroy Maddox" label="Conroy Maddox" />
+      <node id="Dado" label="Dado" />
+      <node id="Desmond Morris" label="Desmond Morris" />
+      <node id="Domenico Gnoli" label="Domenico Gnoli" />
+      <node id="Dora Maar" label="Dora Maar" />
+      <node id="Dorothea Tanning" label="Dorothea Tanning" />
+      <node id="Edward Weston" label="Edward Weston" />
+      <node id="Enrico Donati" label="Enrico Donati" />
+      <node id="Esteban Frances" label="Esteban Frances" />
+      <node id="Felix Labisse" label="Felix Labisse" />
+      <node id="Fornasetti" label="Fornasetti" />
+      <node id="Francisco Toledo" label="Francisco Toledo" />
+      <node id="Frederick Sommer" label="Frederick Sommer" />
+      <node id="Friedensreich Hundertwasser" label="Friedensreich Hundertwasser" />
+      <node id="Georges Papazoff" label="Georges Papazoff" />
+      <node id="Gustavo Foppiani" label="Gustavo Foppiani" />
+      <node id="Ibrahim Salahi" label="Ibrahim Salahi" />
+      <node id="Ivan Tovar" label="Ivan Tovar" />
+      <node id="Jacek Yerka" label="Jacek Yerka" />
+      <node id="Jacques Le Marechal" label="Jacques Le Marechal" />
+      <node id="Jean Benoit" label="Jean Benoit" />
+      <node id="Jorge Camacho" label="Jorge Camacho" />
+      <node id="Jorge Castillo" label="Jorge Castillo" />
+      <node id="Jose Manuel Capuletti" label="Jose Manuel Capuletti" />
+      <node id="Joseph Cornell" label="Joseph Cornell" />
+      <node id="Kansuke Yamamoto" label="Kansuke Yamamoto" />
+      <node id="Kay Sage" label="Kay Sage" />
+      <node id="Kit Williams" label="Kit Williams" />
+      <node id="Leonora Carrington" label="Leonora Carrington" />
+      <node id="Luigi Serafini" label="Luigi Serafini" />
+      <node id="Marcel Marien" label="Marcel Marien" />
+      <node id="Marcelino Vespeira" label="Marcelino Vespeira" />
+      <node id="Mark Tansey" label="Mark Tansey" />
+      <node id="Max Walter Svanberg" label="Max Walter Svanberg" />
+      <node id="Meret Oppenheim" label="Meret Oppenheim" />
+      <node id="Michael Sowa" label="Michael Sowa" />
+      <node id="Mimi Parent" label="Mimi Parent" />
+      <node id="Octavio Ocampo" label="Octavio Ocampo" />
+      <node id="Pierre Molinier" label="Pierre Molinier" />
+      <node id="Richard Oelze" label="Richard Oelze" />
+      <node id="Sabin Balasa" label="Sabin Balasa" />
+      <node id="Samuel Bak" label="Samuel Bak" />
+      <node id="Serge Brignoni" label="Serge Brignoni" />
+      <node id="Sven Jonson" label="Sven Jonson" />
+      <node id="Taro Okamoto" label="Taro Okamoto" />
+      <node id="Tetsuya Ishida" label="Tetsuya Ishida" />
+      <node id="Yves Laloy" label="Yves Laloy" />
+      <node id="Yves Tanguy" label="Yves Tanguy" />
+      <node id="Albert Pinkham Ryder" label="Albert Pinkham Ryder" />
+      <node id="Alfred Kubin" label="Alfred Kubin" />
+      <node id="Eduard Isabekyan" label="Eduard Isabekyan" />
+      <node id="Eugene Carriere" label="Eugene Carriere" />
+      <node id="Felicien Rops" label="Felicien Rops" />
+      <node id="Gustav Adolf Mossa" label="Gustav Adolf Mossa" />
+      <node id="Hovsep Pushman" label="Hovsep Pushman" />
+      <node id="Leon Spilliaert" label="Leon Spilliaert" />
+      <node id="Max Klinger" label="Max Klinger" />
+      <node id="Pierre Puvis de Chavannes" label="Pierre Puvis de Chavannes" />
+      <node id="William Blake" label="William Blake" />
+      <node id="Morgan Russell" label="Morgan Russell" />
+      <node id="Charles Laval" label="Charles Laval" />
+      <node id="Alexandre Istrati" label="Alexandre Istrati" />
+      <node id="Camille Bryen" label="Camille Bryen" />
+      <node id="Emil Schumacher" label="Emil Schumacher" />
+      <node id="Georges Mathieu" label="Georges Mathieu" />
+      <node id="Gerard Schneider" label="Gerard Schneider" />
+      <node id="Hans Hartung" label="Hans Hartung" />
+      <node id="Jean Bertholle" label="Jean Bertholle" />
+      <node id="Louis Van Lint" label="Louis Van Lint" />
+      <node id="Serge Poliakoff" label="Serge Poliakoff" />
+      <node id="Alexander Helwig Wyant" label="Alexander Helwig Wyant" />
+      <node id="Edward Mitchell Bannister" label="Edward Mitchell Bannister" />
+      <node id="George Inness" label="George Inness" />
+      <node id="Max Meldrum" label="Max Meldrum" />
+      <node id="Xavier Martinez" label="Xavier Martinez" />
+      <node id="Francesco Clemente" label="Francesco Clemente" />
+      <node id="Paul Jacoulet" label="Paul Jacoulet" />
+      <node id="Abdul Qader Al Raes" label="Abdul Qader Al Raes" />
+      <node id="Andreas Gursky" label="Andreas Gursky" />
+      <node id="Ferenc Pinter" label="Ferenc Pinter" />
+      <node id="Franco Fontana" label="Franco Fontana" />
+      <node id="Gheorghe Petrascu" label="Gheorghe Petrascu" />
+      <node id="Giuliana Lazzerini" label="Giuliana Lazzerini" />
+      <node id="Guido Viaro" label="Guido Viaro" />
+      <node id="Igor Grabar" label="Igor Grabar" />
+      <node id="Jennifer Bartlett" label="Jennifer Bartlett" />
+      <node id="Julie Mehretu" label="Julie Mehretu" />
+      <node id="Manuel Alvarez Bravo" label="Manuel Alvarez Bravo" />
+      <node id="Marianne von Werefkin" label="Marianne von Werefkin" />
+      <node id="Robert Demachy" label="Robert Demachy" />
+      <node id="Wolfgang Tillmans" label="Wolfgang Tillmans" />
+      <node id="Wu Daozi" label="Wu Daozi" />
+      <node id="Olowe of Ise" label="Olowe of Ise" />
+    </nodes>
+    <edges>
+      <edge source="Ad Reinhardt" target="Jackson Pollock" id="0" />
+      <edge source="Alexej von Jawlensky" target="Wassily Kandinsky" id="1" />
+      <edge source="Anthony Caro" target="Henry Moore" id="2" />
+      <edge source="Arthur Dove" target="Georgia O'Keeffe" id="3" />
+      <edge source="Arthur Dove" target="Charles Demuth" id="4" />
+      <edge source="Ben Nicholson" target="Christopher Wood" id="5" />
+      <edge source="David Burliuk" target="Aleksandra Ekster" id="6" />
+      <edge source="David Burliuk" target="Vadym Meller" id="7" />
+      <edge source="David Burliuk" target="Vasyl Yermylov" id="8" />
+      <edge source="David Burliuk" target="Oleksandr Bogomazov" id="9" />
+      <edge source="David Burliuk" target="Victor Palmov" id="10" />
+      <edge source="Erik Bulatov" target="Ilya Kabakov" id="11" />
+      <edge source="Fernand Leger" target="Roman Selsky" id="12" />
+      <edge source="Fernand Leger" target="Le Corbusier" id="13" />
+      <edge source="Fernand Leger" target="Alice Bailly" id="14" />
+      <edge source="Fernand Leger" target="Piet Mondrian" id="15" />
+      <edge source="Francis Picabia" target="Man Ray" id="16" />
+      <edge source="Francis Picabia" target="Alice Bailly" id="17" />
+      <edge source="Franz Marc" target="Wassily Kandinsky" id="18" />
+      <edge source="Franz Marc" target="August Macke" id="19" />
+      <edge source="Franz Marc" target="Edvard Munch" id="20" />
+      <edge source="Georgia O'Keeffe" target="Charles Demuth" id="21" />
+      <edge source="Georgia O'Keeffe" target="Alfred Stieglitz" id="22" />
+      <edge source="Henri Matisse" target="Xavier Martinez" id="23" />
+      <edge source="Josef Albers" target="Paul Klee" id="24" />
+      <edge source="Lee Krasner" target="Jackson Pollock" id="25" />
+      <edge source="Lyubov Popova" target="Kazimir Malevich" id="26" />
+      <edge source="Man Ray" target="Salvador Dali" id="27" />
+      <edge source="Man Ray" target="Pablo Picasso" id="28" />
+      <edge source="Man Ray" target="Marcel Duchamp" id="29" />
+      <edge source="Man Ray" target="Alfred Stieglitz" id="30" />
+      <edge source="Mark Rothko" target="Jackson Pollock" id="31" />
+      <edge source="Paul Klee" target="Wassily Kandinsky" id="32" />
+      <edge source="Paul Klee" target="Vadym Meller" id="33" />
+      <edge source="Paul Klee" target="August Macke" id="34" />
+      <edge source="Roman Selsky" target="Sonia Delaunay" id="35" />
+      <edge source="Roman Selsky" target="Aleksandra Ekster" id="36" />
+      <edge source="Roman Selsky" target="Piet Mondrian" id="37" />
+      <edge source="Roy Lichtenstein" target="Allan Kaprow" id="38" />
+      <edge source="Roy Lichtenstein" target="Ellsworth Kelly" id="39" />
+      <edge source="Salvador Dali" target="Andy Warhol" id="40" />
+      <edge source="Sonia Delaunay" target="Margit Selska" id="41" />
+      <edge source="Sonia Delaunay" target="Vadym Meller" id="42" />
+      <edge source="Theo van Doesburg" target="Piet Mondrian" id="43" />
+      <edge source="Vladimir Tatlin" target="Vadym Meller" id="44" />
+      <edge source="Vladimir Tatlin" target="Victor Palmov" id="45" />
+      <edge source="Wassily Kandinsky" target="Vadym Meller" id="46" />
+      <edge source="Winifred Nicholson" target="Christopher Wood" id="47" />
+      <edge source="Allan Kaprow" target="George Segal" id="48" />
+      <edge source="Allan Kaprow" target="Wolf Kahn" id="49" />
+      <edge source="Andy Warhol" target="Philip Pearlstein" id="50" />
+      <edge source="Andy Warhol" target="Jean-Michel Basquiat" id="51" />
+      <edge source="Andy Warhol" target="Francesco Clemente" id="52" />
+      <edge source="Arshile Gorky" target="Giorgio Cavallon" id="53" />
+      <edge source="Arshile Gorky" target="Morris Louis" id="54" />
+      <edge source="Barnett Newman" target="Jackson Pollock" id="55" />
+      <edge source="Blinky Palermo" target="Gerhard Richter" id="56" />
+      <edge source="Cy Twombly" target="Robert Rauschenberg" id="57" />
+      <edge source="Gerhard Richter" target="Joseph Beuys" id="58" />
+      <edge source="Gerhard Richter" target="Sigmar Polke" id="59" />
+      <edge source="Gerhard Richter" target="Georg Baselitz" id="60" />
+      <edge source="Jack Tworkov" target="Morris Louis" id="61" />
+      <edge source="Jackson Pollock" target="Philip Guston" id="62" />
+      <edge source="Jackson Pollock" target="Robert Motherwell" id="63" />
+      <edge source="Joan Miro" target="Yves Tanguy" id="64" />
+      <edge source="Morris Louis" target="David Alfaro Siqueiros" id="65" />
+      <edge source="Pedro Coronel" target="Victor Brauner" id="66" />
+      <edge source="Charles Gleyre" target="Horace Vernet" id="67" />
+      <edge source="Claude Monet" target="Alfred Sisley" id="68" />
+      <edge source="Claude Monet" target="Camille Pissarro" id="69" />
+      <edge source="Claude Monet" target="Edouard Manet" id="70" />
+      <edge source="Claude Monet" target="Frederic Bazille" id="71" />
+      <edge source="Claude Monet" target="Pierre-Auguste Renoir" id="72" />
+      <edge source="Edward Poynter" target="James McNeill Whistler" id="73" />
+      <edge source="Jules Bastien-Lepage" target="Marie Bashkirtseff" id="74" />
+      <edge source="Mikhail Vrubel" target="Konstantin Korovin" id="75" />
+      <edge source="Mikhail Vrubel" target="Valentin Serov" id="76" />
+      <edge source="Mikhail Vrubel" target="Mykola Murashko" id="77" />
+      <edge source="Nikolai Ge" target="Mykola Murashko" id="78" />
+      <edge source="Pablo Picasso" target="Georges Braque" id="79" />
+      <edge source="Pablo Picasso" target="Max Jacob" id="80" />
+      <edge source="Pablo Picasso" target="Amedeo Modigliani" id="81" />
+      <edge source="Pablo Picasso" target="Mykhailo Boychuk" id="82" />
+      <edge source="Pablo Picasso" target="Christopher Wood" id="83" />
+      <edge source="Paul Delaroche" target="Jean-Francois Millet" id="84" />
+      <edge source="Albert Gleizes" target="Alice Bailly" id="85" />
+      <edge source="Georges Braque" target="Max Jacob" id="86" />
+      <edge source="Jean Metzinger" target="Alice Bailly" id="87" />
+      <edge source="Juan Gris" target="Alice Bailly" id="88" />
+      <edge source="Juan Gris" target="Amedeo Modigliani" id="89" />
+      <edge source="Pavel Filonov" target="Kazimir Malevich" id="90" />
+      <edge source="Aleksandra Ekster" target="Kazimir Malevich" id="91" />
+      <edge source="Aleksandra Ekster" target="Margit Selska" id="92" />
+      <edge source="Aleksandra Ekster" target="Vadym Meller" id="93" />
+      <edge source="Aleksandra Ekster" target="Oleksandr Bogomazov" id="94" />
+      <edge source="David Alfaro Siqueiros" target="Diego Rivera" id="95" />
+      <edge source="David Alfaro Siqueiros" target="Jose Clemente Orozco" id="96" />
+      <edge source="Diego Rivera" target="Saturnino Herran" id="97" />
+      <edge source="Diego Rivera" target="Amedeo Modigliani" id="98" />
+      <edge source="Diego Rivera" target="Jose Clemente Orozco" id="99" />
+      <edge source="Diego Rivera" target="Mykhailo Boychuk" id="100" />
+      <edge source="Diego Rivera" target="Roberto Montenegro" id="101" />
+      <edge source="Eric Gill" target="Jacob Epstein" id="102" />
+      <edge source="Alexandre Benois" target="Ilya Repin" id="103" />
+      <edge source="Boris Kustodiev" target="Oleksandr Murashko" id="104" />
+      <edge source="Egon Schiele" target="Gustav Klimt" id="105" />
+      <edge source="Egon Schiele" target="Oskar Kokoschka" id="106" />
+      <edge source="Emily Carr" target="Albert Julius Olsson" id="107" />
+      <edge source="Filipp Malyavin" target="Oleksandr Murashko" id="108" />
+      <edge source="Gustav Klimt" target="Koloman Moser" id="109" />
+      <edge source="Heorhiy Narbut" target="Oleksandr Murashko" id="110" />
+      <edge source="Jan Toorop" target="Piet Mondrian" id="111" />
+      <edge source="Józef Mehoffer" target="Jan Matejko" id="112" />
+      <edge source="Kazimir Malevich" target="Vadym Meller" id="113" />
+      <edge source="Kazimir Malevich" target="Olga Rozanova" id="114" />
+      <edge source="Saturnino Herran" target="Roberto Montenegro" id="115" />
+      <edge source="Stanisław Wyspiański" target="Paul Gauguin" id="116" />
+      <edge source="Vasily Polenov" target="Ilya Repin" id="117" />
+      <edge source="Vsevolod Maksymovych" target="Mikhail Larionov" id="118" />
+      <edge source="Carel Fabritius" target="Samuel Dirksz van Hoogstraten" id="119" />
+      <edge source="Claude Lorrain" target="Nicolas Poussin" id="120" />
+      <edge source="Claude Lorrain" target="Salvator Rosa" id="121" />
+      <edge source="Diego Velazquez" target="Peter Paul Rubens" id="122" />
+      <edge source="Gabriel Metsu" target="Jan Steen" id="123" />
+      <edge source="Gian Lorenzo Bernini" target="Salvator Rosa" id="124" />
+      <edge source="Jacob Ochtervelt" target="Pieter de Hooch" id="125" />
+      <edge source="Jacques Stella" target="Nicolas Poussin" id="126" />
+      <edge source="Paul Gauguin" target="Vincent van Gogh" id="127" />
+      <edge source="Paul Gauguin" target="Paul Cezanne" id="128" />
+      <edge source="Ellsworth Kelly" target="James Rosenquist" id="129" />
+      <edge source="Damien Hirst" target="Jeff Koons" id="130" />
+      <edge source="Dennis Oppenheim" target="Vito Acconci" id="131" />
+      <edge source="Joseph Beuys" target="Nam June Paik" id="132" />
+      <edge source="Joseph Beuys" target="Georg Baselitz" id="133" />
+      <edge source="Marcel Duchamp" target="Florine Stettheimer" id="134" />
+      <edge source="Dieter Roth" target="Richard Hamilton" id="135" />
+      <edge source="Anatol Petrytsky" target="Vadym Meller" id="136" />
+      <edge source="Anatol Petrytsky" target="Victor Palmov" id="137" />
+      <edge source="El Lissitzky" target="Vadym Meller" id="138" />
+      <edge source="El Lissitzky" target="Vasyl Yermylov" id="139" />
+      <edge source="Margit Selska" target="Piet Mondrian" id="140" />
+      <edge source="Vadym Meller" target="Vasyl Yermylov" id="141" />
+      <edge source="Vadym Meller" target="Olexandr Archipenko" id="142" />
+      <edge source="Vadym Meller" target="Oleksandr Bogomazov" id="143" />
+      <edge source="Vadym Meller" target="Victor Palmov" id="144" />
+      <edge source="Vasyl Yermylov" target="Oleksandr Bogomazov" id="145" />
+      <edge source="Vasyl Yermylov" target="Mykhailo Boychuk" id="146" />
+      <edge source="Vasyl Yermylov" target="Victor Palmov" id="147" />
+      <edge source="Ian Bent" target="Jeffrey Smart" id="148" />
+      <edge source="Jeffrey Smart" target="Dorrit Black" id="149" />
+      <edge source="Jeffrey Smart" target="Jacqueline Hick" id="150" />
+      <edge source="Jeffrey Smart" target="Horace Trenerry" id="151" />
+      <edge source="Lucian Freud" target="Francis Bacon" id="152" />
+      <edge source="Andre Derain" target="Amedeo Modigliani" id="153" />
+      <edge source="Gino Severini" target="Mario Sironi" id="154" />
+      <edge source="Gino Severini" target="Amedeo Modigliani" id="155" />
+      <edge source="Jacob Epstein" target="Amedeo Modigliani" id="156" />
+      <edge source="Jacques Lipchitz" target="Amedeo Modigliani" id="157" />
+      <edge source="Jules Pascin" target="Moise Kisling" id="158" />
+      <edge source="Mario Sironi" target="Umberto Boccioni" id="159" />
+      <edge source="Max Ernst" target="Yves Tanguy" id="160" />
+      <edge source="Max Jacob" target="Amedeo Modigliani" id="161" />
+      <edge source="Max Jacob" target="Christopher Wood" id="162" />
+      <edge source="Olexandr Archipenko" target="Oleksandr Bogomazov" id="163" />
+      <edge source="Olexandr Archipenko" target="Florine Stettheimer" id="164" />
+      <edge source="Oleksandr Bogomazov" target="Mykhailo Boychuk" id="165" />
+      <edge source="Oleksandr Bogomazov" target="Victor Palmov" id="166" />
+      <edge source="Oleksandr Bogomazov" target="Oleksandr Murashko" id="167" />
+      <edge source="Edward Burne-Jones" target="Ford Madox Brown" id="168" />
+      <edge source="Edward Burne-Jones" target="Simeon Solomon" id="169" />
+      <edge source="Domenico Ghirlandaio" target="Leonardo da Vinci" id="170" />
+      <edge source="Domenico Ghirlandaio" target="Sandro Botticelli" id="171" />
+      <edge source="Giovanni Bellini" target="Albrecht Durer" id="172" />
+      <edge source="Leonardo da Vinci" target="Pietro Perugino" id="173" />
+      <edge source="Leonardo da Vinci" target="Sandro Botticelli" id="174" />
+      <edge source="Leonardo da Vinci" target="Albrecht Durer" id="175" />
+      <edge source="Luca Signorelli" target="Il Sodoma" id="176" />
+      <edge source="Pietro Perugino" target="Sandro Botticelli" id="177" />
+      <edge source="Amedeo Modigliani" target="Chaim Soutine" id="178" />
+      <edge source="Amedeo Modigliani" target="Moise Kisling" id="179" />
+      <edge source="Amedeo Modigliani" target="Tsuguharu Foujita" id="180" />
+      <edge source="Amedeo Modigliani" target="Pierre-Auguste Renoir" id="181" />
+      <edge source="Amedeo Modigliani" target="Giorgio de Chirico" id="182" />
+      <edge source="Amedeo Modigliani" target="Maurice Utrillo" id="183" />
+      <edge source="Chaim Soutine" target="Michel Kikoine" id="184" />
+      <edge source="Chaim Soutine" target="Pinchus Kremegne" id="185" />
+      <edge source="Charles Demuth" target="George Ault" id="186" />
+      <edge source="Jean Cocteau" target="Christopher Wood" id="187" />
+      <edge source="Michel Kikoine" target="Pinchus Kremegne" id="188" />
+      <edge source="Mykhailo Boychuk" target="Victor Palmov" id="189" />
+      <edge source="Mykhailo Boychuk" target="Oleksandr Murashko" id="190" />
+      <edge source="Fra Bartolomeo" target="Mariotto Albertinelli" id="191" />
+      <edge source="Giorgione" target="Titian" id="192" />
+      <edge source="Giulio Clovio" target="Pieter Bruegel the Elder" id="193" />
+      <edge source="Lorenzo Lotto" target="Titian" id="194" />
+      <edge source="Raphael" target="Albrecht Durer" id="195" />
+      <edge source="Alfred Sisley" target="Frederic Bazille" id="196" />
+      <edge source="Alfred Sisley" target="Gustave Caillebotte" id="197" />
+      <edge source="Alfred Sisley" target="Pierre-Auguste Renoir" id="198" />
+      <edge source="Alfred Stevens" target="Henri Gervex" id="199" />
+      <edge source="Berthe Morisot" target="Edouard Manet" id="200" />
+      <edge source="Berthe Morisot" target="Camille Corot" id="201" />
+      <edge source="Camille Pissarro" target="Pierre-Auguste Renoir" id="202" />
+      <edge source="Carolus-Duran" target="Edouard Manet" id="203" />
+      <edge source="Edgar Degas" target="Edouard Manet" id="204" />
+      <edge source="Edgar Degas" target="Mary Cassatt" id="205" />
+      <edge source="Edouard Manet" target="Henri Fantin-Latour" id="206" />
+      <edge source="Frederic Bazille" target="Pierre-Auguste Renoir" id="207" />
+      <edge source="Gustave Caillebotte" target="Pierre-Auguste Renoir" id="208" />
+      <edge source="Ilya Repin" target="Mykola Murashko" id="209" />
+      <edge source="John Singer Sargent" target="Julian Alden Weir" id="210" />
+      <edge source="Pierre-Auguste Renoir" target="Suzanne Valadon" id="211" />
+      <edge source="Sergiy Grigoriev" target="Victor Puzyrkov" id="212" />
+      <edge source="Asher Brown Durand" target="Thomas Cole" id="213" />
+      <edge source="Frederic Edwin Church" target="Thomas Cole" id="214" />
+      <edge source="Camille Corot" target="Charles-Francois Daubigny" id="215" />
+      <edge source="Camille Corot" target="Constant Troyon" id="216" />
+      <edge source="Camille Corot" target="Jean-Francois Millet" id="217" />
+      <edge source="Camille Corot" target="Theodore Rousseau" id="218" />
+      <edge source="John Trumbull" target="Thomas Cole" id="219" />
+      <edge source="Charles Sheeler" target="George Ault" id="220" />
+      <edge source="Albrecht Durer" target="Jan Provoost" id="221" />
+      <edge source="Albrecht Durer" target="Joachim Patinir" id="222" />
+      <edge source="Jacques Daret" target="Rogier van der Weyden" id="223" />
+      <edge source="Eugene Delacroix" target="Théodore Géricault" id="224" />
+      <edge source="William Holman Hunt" target="John Everett Millais" id="225" />
+      <edge source="William Holman Hunt" target="Dante Gabriel Rossetti" id="226" />
+      <edge source="George Ault" target="Ralston Crawford" id="227" />
+      <edge source="Charles Jacque" target="Jean-Francois Millet" id="228" />
+      <edge source="Constant Troyon" target="Jean-Francois Millet" id="229" />
+      <edge source="Grigoriy Myasoyedov" target="Mykola Murashko" id="230" />
+      <edge source="Ivan Kramskoy" target="Mykola Murashko" id="231" />
+      <edge source="Jean-Francois Millet" target="Theodore Rousseau" id="232" />
+      <edge source="Mykola Murashko" target="Taras Shevchenko" id="233" />
+      <edge source="Mykola Murashko" target="Vladimir Makovsky" id="234" />
+      <edge source="Grace Albee" target="Norman Rockwell" id="235" />
+      <edge source="Caspar David Friedrich" target="Johan Christian Dahl" id="236" />
+      <edge source="Caspar David Friedrich" target="Philipp Otto Runge" id="237" />
+      <edge source="Dante Gabriel Rossetti" target="John Ruskin" id="238" />
+      <edge source="Dante Gabriel Rossetti" target="Simeon Solomon" id="239" />
+      <edge source="Ford Madox Brown" target="William Morris" id="240" />
+    </edges>
+  </graph>
+</gexf>
