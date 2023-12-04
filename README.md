@@ -34,7 +34,9 @@ network of painters<br> -Analyze the network<br>
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/9eb4be59-245d-4cdb-a210-7c6c5ada3c5b)
 
 
-# The main datasets used (paintings datasets):
+# Datasets:
+
+We created our own dataset called Painter Palette: a dataset with 3000+ painters (so far), data on their styles, movements, nationality, birthyear, first and last year of painting in the Art500k dataset, birthplace, places of their paintings, influences, friends and coworkers, teachers. It's created by assembling data from paintings from the Art500k dataset, and data from paintings from the WikiArt dataset, with some manual additions.
 
 </div>
 
