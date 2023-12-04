@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-12-01">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Abstract Art" label="Abstract Art" />
+      <node id="Abstract Expressionism" label="Abstract Expressionism" />
+      <node id="Academicism" label="Academicism" />
+      <node id="Action painting" label="Action painting" />
+      <node id="American Realism" label="American Realism" />
+      <node id="Analytical Cubism" label="Analytical Cubism" />
+      <node id="Analytical Realism" label="Analytical Realism" />
+      <node id="Art Brut" label="Art Brut" />
+      <node id="Art Deco" label="Art Deco" />
+      <node id="Art Informel" label="Art Informel" />
+      <node id="Art Nouveau (Modern)" label="Art Nouveau (Modern)" />
+      <node id="Art Singulier" label="Art Singulier" />
+      <node id="Automatic Painting" label="Automatic Painting" />
+      <node id="Baroque" label="Baroque" />
+      <node id="Biedermeier" label="Biedermeier" />
+      <node id="Byzantine" label="Byzantine" />
+      <node id="Cartographic Art" label="Cartographic Art" />
+      <node id="Classical Realism" label="Classical Realism" />
+      <node id="Classicism" label="Classicism" />
+      <node id="Cloisonnism" label="Cloisonnism" />
+      <node id="Color Field Painting" label="Color Field Painting" />
+      <node id="Conceptual Art" label="Conceptual Art" />
+      <node id="Concretism" label="Concretism" />
+      <node id="Confessional Art" label="Confessional Art" />
+      <node id="Constructivism" label="Constructivism" />
+      <node id="Contemporary" label="Contemporary" />
+      <node id="Contemporary Realism" label="Contemporary Realism" />
+      <node id="Costumbrismo" label="Costumbrismo" />
+      <node id="Cubism" label="Cubism" />
+      <node id="Cubo-Expressionism" label="Cubo-Expressionism" />
+      <node id="Cubo-Futurism" label="Cubo-Futurism" />
+      <node id="Cyber Art" label="Cyber Art" />
+      <node id="Dada" label="Dada" />
+      <node id="Digital Art" label="Digital Art" />
+      <node id="Divisionism" label="Divisionism" />
+      <node id="Documentary photography" label="Documentary photography" />
+      <node id="Early Christian" label="Early Christian" />
+      <node id="Early Renaissance" label="Early Renaissance" />
+      <node id="Environmental (Land) Art" label="Environmental (Land) Art" />
+      <node id="Ero guro" label="Ero guro" />
+      <node id="Excessivism" label="Excessivism" />
+      <node id="Existential Art" label="Existential Art" />
+      <node id="Expressionism" label="Expressionism" />
+      <node id="Fantastic Realism" label="Fantastic Realism" />
+      <node id="Fantasy Art" label="Fantasy Art" />
+      <node id="Fauvism" label="Fauvism" />
+      <node id="Feminist Art" label="Feminist Art" />
+      <node id="Fiber art" label="Fiber art" />
+      <node id="Figurative Expressionism" label="Figurative Expressionism" />
+      <node id="Futurism" label="Futurism" />
+      <node id="Geometric" label="Geometric" />
+      <node id="Gongbi" label="Gongbi" />
+      <node id="Gothic" label="Gothic" />
+      <node id="Graffiti Art" label="Graffiti Art" />
+      <node id="Hard Edge Painting" label="Hard Edge Painting" />
+      <node id="High Renaissance" label="High Renaissance" />
+      <node id="Hyper-Mannerism (Anachronism)" label="Hyper-Mannerism (Anachronism)" />
+      <node id="Hyper-Realism" label="Hyper-Realism" />
+      <node id="Impressionism" label="Impressionism" />
+      <node id="Indian Space painting" label="Indian Space painting" />
+      <node id="Ink and wash painting" label="Ink and wash painting" />
+      <node id="International Gothic" label="International Gothic" />
+      <node id="Intimism" label="Intimism" />
+      <node id="Japonism" label="Japonism" />
+      <node id="Joseon Dynasty" label="Joseon Dynasty" />
+      <node id="Junk Art" label="Junk Art" />
+      <node id="Kinetic Art" label="Kinetic Art" />
+      <node id="Kitsch" label="Kitsch" />
+      <node id="Lettrism" label="Lettrism" />
+      <node id="Light and Space" label="Light and Space" />
+      <node id="Lowbrow Art" label="Lowbrow Art" />
+      <node id="Luminism" label="Luminism" />
+      <node id="Lyrical Abstraction" label="Lyrical Abstraction" />
+      <node id="Magic Realism" label="Magic Realism" />
+      <node id="Mail Art" label="Mail Art" />
+      <node id="Mannerism (Late Renaissance)" label="Mannerism (Late Renaissance)" />
+      <node id="Maximalism" label="Maximalism" />
+      <node id="Mechanistic Cubism" label="Mechanistic Cubism" />
+      <node id="Medieval Art" label="Medieval Art" />
+      <node id="Metaphysical art" label="Metaphysical art" />
+      <node id="Minimalism" label="Minimalism" />
+      <node id="Miserablism" label="Miserablism" />
+      <node id="Modernism" label="Modernism" />
+      <node id="Modernismo" label="Modernismo" />
+      <node id="Mosan art" label="Mosan art" />
+      <node id="Moscow school of icon painting" label="Moscow school of icon painting" />
+      <node id="Mozarabic" label="Mozarabic" />
+      <node id="Muralism" label="Muralism" />
+      <node id="Native Art" label="Native Art" />
+      <node id="Naturalism" label="Naturalism" />
+      <node id="Naïve Art (Primitivism)" label="Naïve Art (Primitivism)" />
+      <node id="Neo-Byzantine" label="Neo-Byzantine" />
+      <node id="Neo-Concretism" label="Neo-Concretism" />
+      <node id="Neo-Dada" label="Neo-Dada" />
+      <node id="Neo-Expressionism" label="Neo-Expressionism" />
+      <node id="Neo-Figurative Art" label="Neo-Figurative Art" />
+      <node id="Neo-Geo" label="Neo-Geo" />
+      <node id="Neo-Impressionism" label="Neo-Impressionism" />
+      <node id="Neo-Minimalism" label="Neo-Minimalism" />
+      <node id="Neo-Orthodoxism" label="Neo-Orthodoxism" />
+      <node id="Neo-Pop Art" label="Neo-Pop Art" />
+      <node id="Neo-Rococo" label="Neo-Rococo" />
+      <node id="Neo-Romanticism" label="Neo-Romanticism" />
+      <node id="Neo-Suprematism" label="Neo-Suprematism" />
+      <node id="Neo-baroque" label="Neo-baroque" />
+      <node id="Neoclassicism" label="Neoclassicism" />
+      <node id="Neoplasticism" label="Neoplasticism" />
+      <node id="New Casualism" label="New Casualism" />
+      <node id="New European Painting" label="New European Painting" />
+      <node id="New Ink Painting" label="New Ink Painting" />
+      <node id="New Medievialism" label="New Medievialism" />
+      <node id="New Realism" label="New Realism" />
+      <node id="New media art" label="New media art" />
+      <node id="Northern Renaissance" label="Northern Renaissance" />
+      <node id="Nouveau Réalisme" label="Nouveau Réalisme" />
+      <node id="Op Art" label="Op Art" />
+      <node id="Orientalism" label="Orientalism" />
+      <node id="Orphism" label="Orphism" />
+      <node id="Outsider art" label="Outsider art" />
+      <node id="P&amp;D (Pattern and Decoration)" label="P&amp;D (Pattern and Decoration)" />
+      <node id="Performance Art" label="Performance Art" />
+      <node id="Photorealism" label="Photorealism" />
+      <node id="Pictorialism" label="Pictorialism" />
+      <node id="Pointillism" label="Pointillism" />
+      <node id="Pop Art" label="Pop Art" />
+      <node id="Post-Impressionism" label="Post-Impressionism" />
+      <node id="Post-Minimalism" label="Post-Minimalism" />
+      <node id="Post-Painterly Abstraction" label="Post-Painterly Abstraction" />
+      <node id="Postcolonial art" label="Postcolonial art" />
+      <node id="Poster Art Realism" label="Poster Art Realism" />
+      <node id="Precisionism" label="Precisionism" />
+      <node id="Proto Renaissance" label="Proto Renaissance" />
+      <node id="Purism" label="Purism" />
+      <node id="Queer art" label="Queer art" />
+      <node id="Rayonism" label="Rayonism" />
+      <node id="Realism" label="Realism" />
+      <node id="Regionalism" label="Regionalism" />
+      <node id="Renaissance" label="Renaissance" />
+      <node id="Rococo" label="Rococo" />
+      <node id="Romanesque" label="Romanesque" />
+      <node id="Romanticism" label="Romanticism" />
+      <node id="Safavid Period" label="Safavid Period" />
+      <node id="Severe Style" label="Severe Style" />
+      <node id="Shin-hanga" label="Shin-hanga" />
+      <node id="Site-specific art" label="Site-specific art" />
+      <node id="Sky Art" label="Sky Art" />
+      <node id="Social Realism" label="Social Realism" />
+      <node id="Socialist Realism" label="Socialist Realism" />
+      <node id="Sots Art" label="Sots Art" />
+      <node id="Spatialism" label="Spatialism" />
+      <node id="Spectralism" label="Spectralism" />
+      <node id="Street Photography" label="Street Photography" />
+      <node id="Street art" label="Street art" />
+      <node id="Stuckism" label="Stuckism" />
+      <node id="Sumi-e (Suiboku-ga)" label="Sumi-e (Suiboku-ga)" />
+      <node id="Superflat" label="Superflat" />
+      <node id="Suprematism" label="Suprematism" />
+      <node id="Surrealism" label="Surrealism" />
+      <node id="Symbolism" label="Symbolism" />
+      <node id="Synchromism" label="Synchromism" />
+      <node id="Synthetic Cubism" label="Synthetic Cubism" />
+      <node id="Synthetism" label="Synthetism" />
+      <node id="Tachisme" label="Tachisme" />
+      <node id="Tenebrism" label="Tenebrism" />
+      <node id="Tonalism" label="Tonalism" />
+      <node id="Transautomatism" label="Transautomatism" />
+      <node id="Transavantgarde" label="Transavantgarde" />
+      <node id="Tubism" label="Tubism" />
+      <node id="Ukiyo-e" label="Ukiyo-e" />
+      <node id="Unknown" label="Unknown" />
+      <node id="Verism" label="Verism" />
+      <node id="Yoruba" label="Yoruba" />
+      <node id="Zen" label="Zen" />
+    </nodes>
+    <edges>
+      <edge source="Abstract Art" target="Abstract Expressionism" id="0" weight="144" />
+      <edge source="Abstract Art" target="Expressionism" id="1" weight="503" />
+      <edge source="Abstract Art" target="Cubism" id="2" weight="290" />
+      <edge source="Abstract Art" target="Post-Impressionism" id="3" weight="143" />
+      <edge source="Abstract Art" target="Surrealism" id="4" weight="227" />
+      <edge source="Abstract Expressionism" target="Color Field Painting" id="5" weight="446" />
+      <edge source="Abstract Expressionism" target="Expressionism" id="6" weight="487" />
+      <edge source="Abstract Expressionism" target="Hard Edge Painting" id="7" weight="129" />
+      <edge source="Abstract Expressionism" target="Surrealism" id="8" weight="205" />
+      <edge source="Abstract Expressionism" target="Unknown" id="9" weight="281" />
+      <edge source="Abstract Expressionism" target="Minimalism" id="10" weight="261" />
+      <edge source="Abstract Expressionism" target="Neo-Expressionism" id="11" weight="110" />
+      <edge source="Abstract Expressionism" target="Pop Art" id="12" weight="115" />
+      <edge source="Abstract Expressionism" target="Post-Impressionism" id="13" weight="151" />
+      <edge source="Abstract Expressionism" target="Lyrical Abstraction" id="14" weight="216" />
+      <edge source="Academicism" target="Realism" id="15" weight="311" />
+      <edge source="Academicism" target="Unknown" id="16" weight="105" />
+      <edge source="Academicism" target="Orientalism" id="17" weight="232" />
+      <edge source="Academicism" target="Romanticism" id="18" weight="479" />
+      <edge source="Analytical Cubism" target="Cubism" id="19" weight="117" />
+      <edge source="Analytical Cubism" target="Expressionism" id="20" weight="124" />
+      <edge source="Analytical Cubism" target="Synthetic Cubism" id="21" weight="115" />
+      <edge source="Art Deco" target="Art Nouveau (Modern)" id="22" weight="191" />
+      <edge source="Art Deco" target="Expressionism" id="23" weight="144" />
+      <edge source="Art Informel" target="Surrealism" id="24" weight="111" />
+      <edge source="Art Informel" target="Lyrical Abstraction" id="25" weight="153" />
+      <edge source="Art Informel" target="Tachisme" id="26" weight="113" />
+      <edge source="Art Nouveau (Modern)" target="Expressionism" id="27" weight="417" />
+      <edge source="Art Nouveau (Modern)" target="Impressionism" id="28" weight="502" />
+      <edge source="Art Nouveau (Modern)" target="Symbolism" id="29" weight="1134" />
+      <edge source="Art Nouveau (Modern)" target="Post-Impressionism" id="30" weight="527" />
+      <edge source="Art Nouveau (Modern)" target="Unknown" id="31" weight="222" />
+      <edge source="Art Nouveau (Modern)" target="Realism" id="32" weight="1211" />
+      <edge source="Art Nouveau (Modern)" target="Socialist Realism" id="33" weight="119" />
+      <edge source="Art Nouveau (Modern)" target="Romanticism" id="34" weight="135" />
+      <edge source="Art Nouveau (Modern)" target="Magic Realism" id="35" weight="160" />
+      <edge source="Baroque" target="Unknown" id="36" weight="400" />
+      <edge source="Baroque" target="Rococo" id="37" weight="210" />
+      <edge source="Baroque" target="Tenebrism" id="38" weight="331" />
+      <edge source="Baroque" target="Classicism" id="39" weight="107" />
+      <edge source="Biedermeier" target="Romanticism" id="40" weight="140" />
+      <edge source="Cloisonnism" target="Impressionism" id="41" weight="112" />
+      <edge source="Cloisonnism" target="Post-Impressionism" id="42" weight="169" />
+      <edge source="Color Field Painting" target="Hard Edge Painting" id="43" weight="144" />
+      <edge source="Color Field Painting" target="Minimalism" id="44" weight="178" />
+      <edge source="Color Field Painting" target="Lyrical Abstraction" id="45" weight="156" />
+      <edge source="Conceptual Art" target="Minimalism" id="46" weight="154" />
+      <edge source="Constructivism" target="Cubism" id="47" weight="135" />
+      <edge source="Contemporary Realism" target="Expressionism" id="48" weight="139" />
+      <edge source="Contemporary Realism" target="Neo-Expressionism" id="49" weight="103" />
+      <edge source="Contemporary Realism" target="Street Photography" id="50" weight="136" />
+      <edge source="Contemporary Realism" target="Sumi-e (Suiboku-ga)" id="51" weight="136" />
+      <edge source="Contemporary Realism" target="Hyper-Realism" id="52" weight="118" />
+      <edge source="Cubism" target="Expressionism" id="53" weight="1034" />
+      <edge source="Cubism" target="Fauvism" id="54" weight="251" />
+      <edge source="Cubism" target="Post-Impressionism" id="55" weight="540" />
+      <edge source="Cubism" target="Realism" id="56" weight="181" />
+      <edge source="Cubism" target="Surrealism" id="57" weight="524" />
+      <edge source="Cubism" target="Naïve Art (Primitivism)" id="58" weight="328" />
+      <edge source="Cubism" target="Impressionism" id="59" weight="275" />
+      <edge source="Cubism" target="Unknown" id="60" weight="232" />
+      <edge source="Cubism" target="Purism" id="61" weight="137" />
+      <edge source="Cubism" target="Neoclassicism" id="62" weight="139" />
+      <edge source="Cubism" target="Synthetic Cubism" id="63" weight="182" />
+      <edge source="Cubism" target="Romanticism" id="64" weight="104" />
+      <edge source="Dada" target="Surrealism" id="65" weight="120" />
+      <edge source="Early Renaissance" target="High Renaissance" id="66" weight="291" />
+      <edge source="Early Renaissance" target="Unknown" id="67" weight="215" />
+      <edge source="Expressionism" target="Synthetic Cubism" id="68" weight="114" />
+      <edge source="Expressionism" target="Fauvism" id="69" weight="660" />
+      <edge source="Expressionism" target="Post-Impressionism" id="70" weight="1071" />
+      <edge source="Expressionism" target="Realism" id="71" weight="551" />
+      <edge source="Expressionism" target="Social Realism" id="72" weight="196" />
+      <edge source="Expressionism" target="Surrealism" id="73" weight="1059" />
+      <edge source="Expressionism" target="Unknown" id="74" weight="607" />
+      <edge source="Expressionism" target="Impressionism" id="75" weight="492" />
+      <edge source="Expressionism" target="Figurative Expressionism" id="76" weight="110" />
+      <edge source="Expressionism" target="Ink and wash painting" id="77" weight="103" />
+      <edge source="Expressionism" target="Neo-Expressionism" id="78" weight="160" />
+      <edge source="Expressionism" target="Pop Art" id="79" weight="137" />
+      <edge source="Expressionism" target="Symbolism" id="80" weight="420" />
+      <edge source="Expressionism" target="Naïve Art (Primitivism)" id="81" weight="346" />
+      <edge source="Expressionism" target="Op Art" id="82" weight="152" />
+      <edge source="Expressionism" target="Magic Realism" id="83" weight="114" />
+      <edge source="Expressionism" target="Neoclassicism" id="84" weight="149" />
+      <edge source="Fauvism" target="Impressionism" id="85" weight="187" />
+      <edge source="Fauvism" target="Unknown" id="86" weight="197" />
+      <edge source="Fauvism" target="Post-Impressionism" id="87" weight="546" />
+      <edge source="Fauvism" target="Realism" id="88" weight="208" />
+      <edge source="High Renaissance" target="Unknown" id="89" weight="276" />
+      <edge source="High Renaissance" target="Mannerism (Late Renaissance)" id="90" weight="367" />
+      <edge source="Impressionism" target="Pointillism" id="91" weight="106" />
+      <edge source="Impressionism" target="Unknown" id="92" weight="484" />
+      <edge source="Impressionism" target="Neo-Impressionism" id="93" weight="256" />
+      <edge source="Impressionism" target="Post-Impressionism" id="94" weight="1360" />
+      <edge source="Impressionism" target="Realism" id="95" weight="2151" />
+      <edge source="Impressionism" target="Symbolism" id="96" weight="391" />
+      <edge source="Impressionism" target="Orientalism" id="97" weight="102" />
+      <edge source="Impressionism" target="Naïve Art (Primitivism)" id="98" weight="130" />
+      <edge source="Impressionism" target="Romanticism" id="99" weight="249" />
+      <edge source="Impressionism" target="Socialist Realism" id="100" weight="144" />
+      <edge source="Impressionism" target="Tonalism" id="101" weight="143" />
+      <edge source="Indian Space painting" target="Pop Art" id="102" weight="106" />
+      <edge source="Intimism" target="Post-Impressionism" id="103" weight="168" />
+      <edge source="Luminism" target="Romanticism" id="104" weight="165" />
+      <edge source="Mannerism (Late Renaissance)" target="Unknown" id="105" weight="159" />
+      <edge source="Metaphysical art" target="Neo-baroque" id="106" weight="192" />
+      <edge source="Naïve Art (Primitivism)" target="Post-Impressionism" id="107" weight="388" />
+      <edge source="Naïve Art (Primitivism)" target="Realism" id="108" weight="133" />
+      <edge source="Naïve Art (Primitivism)" target="Surrealism" id="109" weight="187" />
+      <edge source="Naïve Art (Primitivism)" target="Purism" id="110" weight="228" />
+      <edge source="Neo-Dada" target="Pop Art" id="111" weight="102" />
+      <edge source="Neo-Expressionism" target="Pop Art" id="112" weight="115" />
+      <edge source="Neo-Expressionism" target="Street Photography" id="113" weight="106" />
+      <edge source="Neo-Expressionism" target="Sumi-e (Suiboku-ga)" id="114" weight="106" />
+      <edge source="Neo-Expressionism" target="Surrealism" id="115" weight="106" />
+      <edge source="Neo-Expressionism" target="Tachisme" id="116" weight="113" />
+      <edge source="Neo-Impressionism" target="Post-Impressionism" id="117" weight="294" />
+      <edge source="Neo-Impressionism" target="Realism" id="118" weight="177" />
+      <edge source="Neo-Rococo" target="Neoclassicism" id="119" weight="118" />
+      <edge source="Neo-Romanticism" target="Realism" id="120" weight="160" />
+      <edge source="Neo-Suprematism" target="Suprematism" id="121" weight="108" />
+      <edge source="Neoclassicism" target="Post-Impressionism" id="122" weight="121" />
+      <edge source="Neoclassicism" target="Unknown" id="123" weight="178" />
+      <edge source="Neoclassicism" target="Romanticism" id="124" weight="203" />
+      <edge source="Neoclassicism" target="Rococo" id="125" weight="249" />
+      <edge source="Northern Renaissance" target="Unknown" id="126" weight="193" />
+      <edge source="Op Art" target="Realism" id="127" weight="109" />
+      <edge source="Op Art" target="Surrealism" id="128" weight="148" />
+      <edge source="Orientalism" target="Realism" id="129" weight="271" />
+      <edge source="Orientalism" target="Unknown" id="130" weight="127" />
+      <edge source="Orientalism" target="Romanticism" id="131" weight="435" />
+      <edge source="Pointillism" target="Post-Impressionism" id="132" weight="120" />
+      <edge source="Pop Art" target="Unknown" id="133" weight="118" />
+      <edge source="Post-Impressionism" target="Realism" id="134" weight="1747" />
+      <edge source="Post-Impressionism" target="Surrealism" id="135" weight="288" />
+      <edge source="Post-Impressionism" target="Symbolism" id="136" weight="420" />
+      <edge source="Post-Impressionism" target="Unknown" id="137" weight="338" />
+      <edge source="Post-Impressionism" target="Romanticism" id="138" weight="135" />
+      <edge source="Realism" target="Surrealism" id="139" weight="164" />
+      <edge source="Realism" target="Symbolism" id="140" weight="877" />
+      <edge source="Realism" target="Unknown" id="141" weight="576" />
+      <edge source="Realism" target="Romanticism" id="142" weight="692" />
+      <edge source="Rococo" target="Romanticism" id="143" weight="160" />
+      <edge source="Romanticism" target="Unknown" id="144" weight="447" />
+      <edge source="Romanticism" target="Symbolism" id="145" weight="325" />
+      <edge source="Street Photography" target="Sumi-e (Suiboku-ga)" id="146" weight="136" />
+      <edge source="Surrealism" target="Unknown" id="147" weight="206" />
+      <edge source="Surrealism" target="Symbolism" id="148" weight="178" />
+      <edge source="Symbolism" target="Unknown" id="149" weight="215" />
+      <edge source="Transavantgarde" target="Unknown" id="150" weight="136" />
+    </edges>
+  </graph>
+</gexf>
