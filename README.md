@@ -18,16 +18,22 @@ eras of painters in their substructure, and inside them the paintings).
 Then we could use this to create a network of art movements, artists,
 and paintings.
 
-NEXT STEPS:<br> -Add "Places" for Art500k datasets (+change
-datasets_notebook save.csv loads)<br> -Add aliases for painters in
-Art500k datasets<br> -Combine the datasets on authors<br>
+NEXT STEPS:<br> -Add aliases for painters in
+Art500k datasets<br> -Combine the datasets in a broader way (with more artists, and aliases well handled)<br>
 
-FURTHER STEPS: <br> -Define connections between painters<br> -Create a
-network of painters<br> -Analyze the network<br>
+There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
+
+Some visualizations:
+
+![image](https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5)
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b)
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9)
+
+
+![image](https://github.com/me9hanics/ArtProject/assets/82604073/e56890d3-95f0-4b34-899f-60d9d7500cc8)
+
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/585fd608-79c3-4313-8eaf-5c6cc1ebb082)
 
