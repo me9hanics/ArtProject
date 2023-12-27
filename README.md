@@ -1,7 +1,7 @@
 
 <div class="cell markdown">
 
-# Network of Painters: building a dataset from paintings datasets, then creating links
+# Networks of Painters: Creating links between painters, styles, and art movements based on the PainterPalette dataset
 
 The aim of this project is to create a dataset of painters from datasets
 such as WikiArt and Art500k, combining features, extending missing data
