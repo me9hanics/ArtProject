@@ -3,23 +3,7 @@
 
 # Networks of Painters: Creating links between painters, styles, and art movements based on the PainterPalette dataset
 
-The aim of this project is to create a dataset of painters from datasets
-such as WikiArt and Art500k, combining features, extending missing data
-of painters with web scraping through Google and Wiki API, and then
-creating links between painters based on similarity of style,
-geographical and social interaction.
-
-Note: One long-term goal would be to create a JSON file that contains
-all combined hierarchically. For example, a level in the structure could
-be art movement, inside it, are artists with some base data like
-birthplace, year of birth and death and other geographical data, inside
-it are paintings with all contained data (even better would be including
-eras of painters in their substructure, and inside them the paintings).
-Then we could use this to create a network of art movements, artists,
-and paintings.
-
-NEXT STEPS:<br> -Add aliases for painters in
-Art500k datasets<br> -Combine the datasets in a broader way (with more artists, and aliases well handled)<br>
+This project aims to understand the connections between painters and art styles. Originally, this included creating a painter dataset, but this evolved into a seperate project called [PainterPalette](https://github.com/me9hanics/PainterPalette). These notebooks use the PainterPalette dataset, creating links between painters based on similarity of style, geographical and social interaction, and also connections between styles and movements.
 
 There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
 
@@ -31,18 +15,16 @@ Some visualizations:
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9)
 
-
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/e56890d3-95f0-4b34-899f-60d9d7500cc8)
-
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/585fd608-79c3-4313-8eaf-5c6cc1ebb082)
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/9eb4be59-245d-4cdb-a210-7c6c5ada3c5b)
 
 
-# Datasets:
+# Dataset:
 
-We created our own dataset called Painter Palette: a dataset with 3000+ painters (so far), data on their styles, movements, nationality, birthyear, first and last year of painting in the Art500k dataset, birthplace, places of their paintings, influences, friends and coworkers, teachers. It's created by assembling data from paintings from the Art500k dataset, and data from paintings from the WikiArt dataset, with some manual additions.
+We created our own dataset called Painter Palette: a dataset with ~2500 painters (so far), data on their styles, movements, nationality, birthyear, first and last year of painting in the Art500k dataset, birthplace, places of their paintings, influences, friends and coworkers, teachers. It's created by assembling data from paintings from the Art500k dataset, and data from paintings from the WikiArt dataset, with some manual additions.
 
 </div>
 
