@@ -7,24 +7,39 @@ This project aims to understand the connections between painters and art styles.
 
 There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
 
-Some visualizations:
+Some visualizations of the resulting networks:
+
+* Time-and-place network:<br>
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5)
 
+This was turned into a dynamic network and time passes along the horizontal axis, painters are aligned according to their birth year. This network was built by creating connections between painters if they painted at the same places roughly at the same time, filtering just for strong connections.
+
+* Movement network:<br>
+
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b)
+
+* InfluencedOn network:<br>
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9)
 
+* A map of most common styles in the dataset in different countries:<br>
+
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/e56890d3-95f0-4b34-899f-60d9d7500cc8)
+
+* 3D plot of painters-styles-movements:<br>
 
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/585fd608-79c3-4313-8eaf-5c6cc1ebb082)
 
+* Time-and-place network without reordering nodes based on time:<br>
+
 ![image](https://github.com/me9hanics/ArtProject/assets/82604073/9eb4be59-245d-4cdb-a210-7c6c5ada3c5b)
 
+(One can see the clusters of movements despite not connecting painters based on style similarities.)
 
 # Dataset:
 
-We created our own dataset called Painter Palette: a dataset with ~2500 painters (so far), data on their styles, movements, nationality, birthyear, first and last year of painting in the Art500k dataset, birthplace, places of their paintings, influences, friends and coworkers, teachers. It's created by assembling data from paintings from the Art500k dataset, and data from paintings from the WikiArt dataset, with some manual additions.
+We created our own dataset called Painter Palette: a dataset with ~2500 painters (so far), data on their styles, movements, nationality, birthyear, first and last year of painting in the Art500k dataset, birthplace, places of their paintings, influences, friends and coworkers, teachers. It's created by assembling data from paintings from the Art500k dataset, and data from paintings from the WikiArt dataset, with some manual additions. This dataset is available in the [PainterPalette](https://github.com/me9hanics/PainterPalette) repository.
 
 </div>
 
