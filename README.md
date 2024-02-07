@@ -3,37 +3,49 @@
 
 # Networks of Painters: Creating links between painters, styles, and art movements based on the PainterPalette dataset
 
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=70% alt="Painter Network">
+</div>
+<hr>
 This project aims to understand the connections between painters and art styles. Originally, this included creating a painter dataset, but this evolved into a seperate project called [PainterPalette](https://github.com/me9hanics/PainterPalette). These notebooks use the PainterPalette dataset, creating links between painters based on similarity of style, geographical and social interaction, and also connections between styles and movements.
 
 There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
 
 Some visualizations of the resulting networks:
 
-* Time-and-place network:<br>
 
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5)
 
 This was turned into a dynamic network and time passes along the horizontal axis, painters are aligned according to their birth year. This network was built by creating connections between painters if they painted at the same places roughly at the same time, filtering just for strong connections.
 
 * Movement network:<br>
-
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b)
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b" width=80% alt="Movements network" >
+</div>
 
 * InfluencedOn network:<br>
-
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9)
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9" width=55% alt="Painter influence network" >
+</div>
 
 * A map of most common styles in the dataset in different countries:<br>
-
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/e56890d3-95f0-4b34-899f-60d9d7500cc8)
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/e56890d3-95f0-4b34-899f-60d9d7500cc8" width=60% alt="Countries with their most common artistic style (in the WikiArt dataset)" >
+</div>
 
 * 3D plot of painters-styles-movements:<br>
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/585fd608-79c3-4313-8eaf-5c6cc1ebb082" width=50% alt="Painters-styles-movements 3D plot" >
+</div>
 
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/585fd608-79c3-4313-8eaf-5c6cc1ebb082)
+* Time-and-place network:<br>
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=80% alt="Time-and-place network" >
+</div>
 
-* Time-and-place network without reordering nodes based on time:<br>
-
-![image](https://github.com/me9hanics/ArtProject/assets/82604073/9eb4be59-245d-4cdb-a210-7c6c5ada3c5b)
+* Time-and-place network without reordering nodes based on time (older version):<br>
+<div align="center">
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/9eb4be59-245d-4cdb-a210-7c6c5ada3c5b" width=80% alt="Time-and-place network of painters (old version)" >
+</div>
 
 (One can see the clusters of movements despite not connecting painters based on style similarities.)
 
