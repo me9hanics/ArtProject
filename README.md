@@ -1,333 +1,150 @@
-
-<div class="cell markdown">
-
-# Networks of Painters: Creating links between painters, styles, and art movements based on the PainterPalette dataset
+```markdown
+# PainterPalette dataset: The (not so) soon-to-be richest public dataset of painters
 
 <div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=70% alt="Painter Network">
-</div>
-<hr>
-This project aims to understand the connections between painters and art styles. Originally, this included creating a painter dataset, but this evolved into a seperate project called [PainterPalette](https://github.com/me9hanics/PainterPalette). These notebooks use the PainterPalette dataset, creating links between painters based on similarity of style, geographical and social interaction, and also connections between styles and movements.
-
-There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
-
-Some visualizations of the resulting networks:
-
-
-
-This was turned into a dynamic network and time passes along the horizontal axis, painters are aligned according to their birth year. This network was built by creating connections between painters if they painted at the same places roughly at the same time, filtering just for strong connections.
-
-* Movement network:<br>
-<div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b" width=80% alt="Movements network" >
+  <a href="https://github.com/me9hanics/PainterPalette?tab=MIT-1-ov-file">
+    <img alt="MIT License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53">
+  </a>
 </div>
 
-* InfluencedOn network:<br>
-<div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9" width=55% alt="Painter influence network" >
+## Introduction
+
+The aim of this project is to create a dataset of painters from sources such as WikiArt and Art500k, combining features, substituting missing data of painters via the Wikipedia API and make corrections/additions both automated and manually.
+
+This includes:
+- Bio data of a painter
+- Artistic style data
+- Locations of activity (sometimes with years)
+- Influences (painters on other painters)
+- Quantities of paintings, styles, etc.
+
+The dataset is intended to be used for various purposes, including data analysis, machine learning, and visualization projects.<br>
+One long-term goal would be to create a JSON file that contains all combined hierarchically. A level in the structure could be art movement, inside it, are artists with some base bio data, an even lower layer could be the paintings of the painter (even better could be eras of painters in their substructure, and inside them the paintings).
+
+We have created multiple networks of painters (based on being at the same places at the same time + nationality, additionally style similarity, or who influenced whom networks) in another project (see: [ArtProject](https://github.com/me9hanics/ArtProject/)). A network of styles and movements were also created.
+
+### Final Result
+The final file is stored in the *artists.csv* file.
+
+**<u>Final result: </u>** The final file is stored in the _artists.csv_ file.
+
+### Next Steps
+- Find the aliases of painters in Art500k dataset (one painter, multiple instances with different names e.g., Rembrandt and Rembrandt van Rijn); currently the methods are being developed and discussed (the two highest candidate methods are finding aliases through Wikipedia and Wikidata, and using a word embedding to find the very similar names).
+- Broader combination of datasets (handle aliases, add more painters to the final dataset)
+
+
+## Some visualizations using the dataset
+
+![image](https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5)<br> **Figure 1:** Painters connected based on time and place (roughly if they painted at the same places at the same time), arranged in birth year order.
+
+![image](https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b) <br> **Figure 2:** Network of movements: two movements are connected if it's common enough that painters painted in both styles.
+
+![image](https://github.com/me9hanics/ArtProject/assets/82604073/fe2c11b3-0386-4655-857e-37e0632aa6d9) <br> **Figure 3:** Network based on the "InfluencedOn" attribute.
+
+## Quick Start
+
+You can use the dataset by importing it in your Python environment:
+
+```python
+import pandas as pd
+
+url = "https://raw.githubusercontent.com/me9hanics/PainterPalette/main/datasets/artists.csv"
+artists = pd.read_csv(url)
+artists
+```
+
+The artists.csv file contains all information about painters, each row representing a painter, columns representing an attribute. An example of a few painters from the dataset:
+
+<div class="output execute_result">
+
+| artist | Nationality | birth_place | birth_year | styles | styles_extended | StylesYears | StylesCount | PlacesCount | Contemporary | FirstYear | LastYear | Places | PlacesYears | PaintingSchool | Influencedby | Influencedon | Pupils | Teachers | FriendsandCoworkers |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bracha L. Ettinger | French,Jewish,Israeli | Tel Aviv | 1948.0 | New European Painting | {New European Painting:21} | New European Painting:1991-2009 | {New European Painting:21} | NaN | Yes | 1991.0 | 2009.0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| William H. Johnson | American | Florence | 1901.0 | Cubism, Expressionism, Futurism, Naïve Art (Primitivism) | {Cubism:1},{Expressionism:24},{Futurism:1},{Naïve Art (Primitivism):74} | Naïve Art (Primitivism):1938-1946,Expressionism:1923-1946 | {Naïve Art (Primitivism):74}, {Expressionism:4} | NaN | No | 1923.0 | 1946.0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Alexey  Bogolyubov | Russian | NaN | NaN | Realism, Romanticism | {Realism:25},{Romanticism:19} | Realism:1860-1889,Romanticism:1845-1860 | {Realism:25}, {Romanticism:19} | {Rybinsk:2},{Russia:9},{Saint Petersburg:6},{Moscow:4} | No | 1845.0 | 1889.0 | Saint Petersburg, Rybinsk, Russia, Moscow | Rybinsk:1879-1889,Russia:1850-1889,Saint Petersburg:1850-1889,Moscow:1850-1889 | Peredvizhniki (Society for Traveling Art Exhibitions) | NaN | NaN | NaN | NaN |
+| O. Louis Guglielmi | American,Egyptian | Cairo | 1906.0 | Cubism, Expressionism, Magic Realism | {Cubism:3},{Expressionism:6},{Magic Realism:25} | Magic Realism:1931-1946,Cubism:1946-1954,Expressionism:1931-1946 | {Magic Realism:25}, {Cubism:8}, {Expressionism:6} | NaN | No | 1931.0 | 1955.0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Mikalojus Konstantinas Ciurlionis | NaN | Varėna | 1875.0 | Symbolism | {Symbolism:168} | NaN | NaN | NaN | No | 1905.0 | 1905.0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Edward E. Simmons | American | Concord | 1852.0 | Art Nouveau (Modern), Impressionism, Realism, Social Realism | {Art Nouveau (Modern):2},{Impressionism:7},{Realism:10},{Social Realism:2} | Impressionism:1884-1930,Realism:1887-1906,Social Realism:1930-1930 | {Impressionism:23}, {Realism:19}, {Social Realism:2} | NaN | No | 1884.0 | 1930.0 | NaN | NaN | Ten (Ten American Painters),St Ives School | NaN | NaN | NaN | Jules Joseph Lefebvre,Gustave Boulanger, | Childe Hassam, |
+| Robert G. Harris | American | Kansas City | 1911.0 | Poster Art Realism | {Poster Art Realism:17} | Poster Art Realism:1935-1961 | {Poster Art Realism:17} | NaN | No | 1935.0 | 1961.0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
+| Friedrich Vordemberge-Gildewart | German | Osnabrück | 1899.0 | Concretism | {Concretism:21} | Concretism:1925-1968 | {Concretism:21} | NaN | No | 1925.0 | 1968.0 | NaN | NaN | Abstraction-Création,Cercle et Carré,Degenerate Art | NaN | NaN | NaN | NaN |
+
 </div>
 
-* A map of most common styles in the dataset in different countries:<br>
-<div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/e56890d3-95f0-4b34-899f-60d9d7500cc8" width=60% alt="Countries with their most common artistic style (in the WikiArt dataset)" >
-</div>
 
-* 3D plot of painters-styles-movements:<br>
-<div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/585fd608-79c3-4313-8eaf-5c6cc1ebb082" width=50% alt="Painters-styles-movements 3D plot" >
-</div>
+Capital first letter means the attribute is collected from Art500k paintings data, non-capital means the attribute is collected from WikiArt or Wikidata.
 
-* Time-and-place network:<br>
-<div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=80% alt="Time-and-place network" >
-</div>
+## Examples of Using the Code
+Here are some examples of using the code to work with the dataset:
 
-* Time-and-place network without reordering nodes based on time (older version):<br>
-<div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/9eb4be59-245d-4cdb-a210-7c6c5ada3c5b" width=80% alt="Time-and-place network of painters (old version)" >
-</div>
+- Filter Renaissance painters:
+```python
+display(artists[artists['styles'].str.contains('Renaissance')])
+```
+<div class="output execute_result">
 
-(One can see the clusters of movements despite not connecting painters based on style similarities.)
-
-# Dataset:
-
-We created our own dataset called Painter Palette: a dataset with ~2500 painters (so far), data on their styles, movements, nationality, birthyear, first and last year of painting in the Art500k dataset, birthplace, places of their paintings, influences, friends and coworkers, teachers. It's created by assembling data from paintings from the Art500k dataset, and data from paintings from the WikiArt dataset, with some manual additions. This dataset is available in the [PainterPalette](https://github.com/me9hanics/PainterPalette) repository.
+| artist | Nationality | birth_place | birth_year | styles | styles_extended | StylesYears | StylesCount | PlacesCount | Contemporary | FirstYear | LastYear | Places | PlacesYears | PaintingSchool | Influencedby | Influencedon | Pupils | Teachers | FriendsandCoworkers |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Titian | Italian | Pieve di Cadore | 1490.0 | High Renaissance, Mannerism (Late Renaissance)... | {High Renaissance:109},{Mannerism (Late Renaissance... | Mannerism (Late Renaissance):1540-1576,High Renaissance:1500-1540 | {Renaissance / Mythological painting:1}, {Renaissance / Portrait:1} | {Italy:62},{Bologna:2},{Budapest:2},{Hungary:2... | No | 1500.0 | 1576.0 | Kroměříž, London, Romania, CA, Rotterdam, Frar... | Italy:1506-1576,Bologna:1533-1533,Budapest:154... | Venetian School | Albrecht Durer,Giorgione,Raphael,Michelangelo, | Jacopo Bassano,Peter Paul Rubens,Diego Velazqu... | El Greco,Annibale Carracci, | Giovanni Bellini, | Giorgione,Lorenzo Lotto, |
+| Vittore Carpaccio | Italian | Venice | 1465.0 | High Renaissance, Unknown | {High Renaissance:46},{Unknown:7} | High Renaissance:1501-1502 | {XV Century Italian Painting:1}, {Italian:1}, ... | {Venice:7},{Italy:12},{Veneto:1},{Stuttgart:4}... | No | 1487.0 | 1516.0 | Galleria, Bergamo, Spain, Lisbon, Rome, San Gi... | Venice:1495-1502,Italy:1493-1505,Veneto:1495-1... | Venetian School | Christianity,saints-and-apostles,Virgin-and-Ch... | Norton Simon Museum, Pasadena, CA, US,Uffizi G... | Legend of St. Ursula for the Scola di Sant'Ors... | NaN | Artists2/Vittore Carpaccio/The Glory Of St Vid... |
+| Ambrogio Lorenzetti | Italian | Siena | 1290.0 | International Gothic, Proto Renaissance, Unknown | {International Gothic:9},{Proto Renaissance:9}... | International Gothic:1319-1345,Proto Renaissance:1342-1345 | {Gotic/ Altarpiece:2}, {International Gothic:1... | {Bologna:1},{Italy:2},{Florence:1},{Paris:1},{... | No | 1319.0 | 1345.0 | Italy, Paris, France, Florence, Bologna | Bologna:1344-1344,Italy:1342-1344,Florence:134... | Sienese School | Simone Martini,Duccio,Giotto,Byzantine Art,Flo... | Dante Gabriel Rossetti,William Holman Hunt,Joh... | NaN | NaN | NaN |
+| Hans Holbein the Elder | NaN | Augsburg | 1465.0 | International Gothic, Northern Renaissance | {International Gothic:4},{Northern Renaissance... | NaN | NaN | NaN | No | 1495.0 | 1513.0 | NaN | NaN | NaN | NaN | NaN | NaN | NaN | NaN |
 
 </div>
 
-<div class="cell markdown">
+<div class="output execute_result">
 
-## WikiArt data
+artist              Nationality  birth_place      birth_year  styles                                          styles_extended                                      StylesYears                                          StylesCount                                      PlacesCount                                      Contemporary  FirstYear  LastYear  Places                                          PlacesYears                                      PaintingSchool  Influencedby                                      Influencedon                                      Pupils                                          Teachers  FriendsandCoworkers
+Titian              Italian      Pieve di Cadore  1490.0      High Renaissance, Mannerism (Late Renaissance)...  {High Renaissance:109},{Mannerism (Late Renaissance...  Mannerism (Late Renaissance):1540-1576,High Renaissance:1500-1540  {Renaissance / Mythological painting:1}, {Renaissance / Portrait:1}  {Italy:62},{Bologna:2},{Budapest:2},{Hungary:2...  No            1500.0      1576.0    Kroměříž, London, Romania, CA, Rotterdam, Frar...  Italy:1506-1576,Bologna:1533-1533,Budapest:154...  Venetian School  Albrecht Durer,Giorgione,Raphael,Michelangelo,  Jacopo Bassano,Peter Paul Rubens,Diego Velazqu...  El Greco,Annibale Carracci,  Giovanni Bellini,  Giorgione,Lorenzo Lotto,
+Vittore Carpaccio  Italian      Venice           1465.0      High Renaissance, Unknown                          {High Renaissance:46},{Unknown:7}                      High Renaissance:1501-1502                          {XV Century Italian Painting:1}, {Italian:1}, ...  {Venice:7},{Italy:12},{Veneto:1},{Stuttgart:4}...  No            1487.0      1516.0    Galleria, Bergamo, Spain, Lisbon, Rome, San Gi...  Venice:1495-1502,Italy:1493-1505,Veneto:1495-1...  Venetian School  Christianity,saints-and-apostles,Virgin-and-Ch...  Norton Simon Museum, Pasadena, CA, US,Uffizi G...  Legend of St. Ursula for the Scola di Sant'Ors...  NaN  Artists2/Vittore Carpaccio/The Glory Of St Vid...
+Ambrogio Lorenzetti  Italian    Siena            1290.0      International Gothic, Proto Renaissance, Unknown  {International Gothic:9},{Proto Renaissance:9}...  International Gothic:1319-1345,Proto Renaissance:1342-1345  {Gotic/ Altarpiece:2}, {International Gothic:1...  {Bologna:1},{Italy:2},{Florence:1},{Paris:1},{...  No            1319.0      1345.0    Italy, Paris, France, Florence, Bologna           Bologna:1344-1344,Italy:1342-1344,Florence:134...  Sienese School  Simone Martini,Duccio,Giotto,Byzantine Art,Flo...  Dante Gabriel Rossetti,William Holman Hunt,Joh...  NaN  NaN  NaN
+Hans Holbein the Elder  NaN      Augsburg        1465.0      International Gothic, Northern Renaissance        {International Gothic:4},{Northern Renaissance...  NaN                                                NaN                                                NaN                                                No            1495.0      1513.0    NaN                                                NaN                                                NaN              NaN                                                NaN                                                NaN  NaN  NaN
+
+</div>
 
 
-<div class="cell code" execution_count="21">
+- List painters who lived in Paris:
+```python
+
+```
+
+<div class="output execute_result">
+
+artist                  Nationality  birth_place  birth_year  styles                                          styles_extended                                      StylesYears                                          StylesCount                                      PlacesCount                                      Contemporary  FirstYear  LastYear  Places                                          PlacesYears                                      PaintingSchool  Influencedby  Influencedon                                      Pupils                                          Teachers  FriendsandCoworkers
+Pierre-Narcisse Guerin  French       Paris        1774.0      Neoclassicism, Unknown                           {Neoclassicism:49},{Unknown:1}                      Neoclassicism:1793-1819                          {Neoclassicism:50}                                      {Saint Petersburg:2},{Russia:2},{France:12},{R...  No            1793.0      1819.0    Russia, Saint Petersburg, Orleans, Versailles,...  Saint Petersburg:1811-1811,Russia:1811-1811,Fr...  NaN              NaN          NaN                                                Théodore Géricault,Eugene Delacroix,      NaN  NaN
+Theo van Rysselberghe  Belgian      Ghent        1862.0      Impressionism, Neo-Impressionism, Pointillism,...  {Impressionism:19},{Neo-Impressionism:112},{Po...  Post-Impressionism:1900-1926,Impressionism:188...  {Post-Impressionism:65}, {Impressionism:34}, {...  {Otterlo:2},{Netherlands:6},{Amsterdam:1},{Utr...  NaN           1880.0      1926.0    Belgium, Brussels, Netherlands, Otterlo, Hague...  Otterlo:1890-1890,Netherlands:1890-1920,Amster...  Les XX           NaN          NaN                                                NaN                                                NaN  NaN
+...                     ...          ...          ...         ...                                             ...                                                  ...                                                ...                                                ...                                                ...           ...         ...         ...                                                ...                                                ...              ...          ...                                                ...                                                ...  ...
+
+</div>
+
+
+- Get Monet's number of paintings per style (those available on WikiArt), sorted by number of paintings:
+
+<div class="cell code">
 
 ``` python
 import pandas as pd
-import numpy as np
+
+style_counts = pd.read_csv('https://raw.githubusercontent.com/me9hanics/PainterPalette/main/datasets/wikiart_artists_styles_grouped.csv')
+display(style_counts[style_counts['artist']=="Claude Monet"].sort_values(by='count', ascending=False))
 ```
 
 </div>
 
-</div>
 
-<div class="cell markdown">
+<div class="output execute_result">
 
-Load the cleaned paintings data
-
-</div>
-
-<div class="cell code" execution_count="3">
-
-</div>
-
-<div class="output execute_result" execution_count="11">
-
-                  style        artist       movement  count
-    2963  Impressionism  Claude Monet  Impressionism   1341
-    5468        Realism  Claude Monet  Impressionism     12
-    7042        Unknown  Claude Monet  Impressionism     12
-    462     Academicism  Claude Monet  Impressionism      1
-    3339       Japonism  Claude Monet  Impressionism      1
+              style        artist       movement  count
+      Impressionism  Claude Monet  Impressionism   1341
+            Realism  Claude Monet  Impressionism     12
+            Unknown  Claude Monet  Impressionism     12
+        Academicism  Claude Monet  Impressionism      1
+           Japonism  Claude Monet  Impressionism      1
 
 </div>
+or alternatively, you could use the artists.csv file and group painters and styles together.
 
-</div>
 
-<div class="cell markdown">
+A lot more functionalities of the dataset are used in [ArtProject](https://github.com/me9hanics/ArtProject/).
 
-## Art500K
-
-</div>
-
-<div class="cell markdown">
-
-First dataset (from official website)
-
-</div>
-
-<div class="cell code" execution_count="23">
-
-``` python
-art500k = pd.read_csv('datasets/art500k_cleaned.csv')
-art500k[0:6]
-```
-
-<div class="output stream stderr">
-
-      art500k = pd.read_csv('datasets/art500k_cleaned.csv')
-
-</div>
-
-<div class="output execute_result" execution_count="23">
-
-           author_name                                      painting_name Genre      Style Nationality PaintingSchool ArtMovement           Date Influencedby        Influencedon  Tag Pupils                                         Location        Teachers FriendsandCoworkers      Teachers FriendsandCoworkers 
-    0  Gustave Courbet                Woman With A Parrot##AAHozJAL0gqXcA   NaN      NaN         NaN            NaN         NaN            NaN          NaN                   NaN  NaN    NaN                    in a settlement in Palestine in the middle east                     NaN              NaN            NaN
-    1    Auguste Rodin         La Tentation Saint Antoine##WAGC82imJTDyIg   NaN      NaN         NaN            NaN         NaN            NaN          NaN      
-    2      Frida Kahlo   Retrato De Alejandro Gómez Arias##0QFuguLe4xyN_A   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
-    3           Banksy           The Wall Banksy Balloons##FgHoVE-hmt6DBQ   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
-    4         El Greco                     The Visitation##HQEQ_qXDtRrzkA   NaN      NaN         NaN            NaN         NaN  ca. 1610-1614          NaN 
-    5         El Greco  Madonna And Child With Saint Martina And Saint...   NaN      NaN         NaN            NaN         NaN            NaN          NaN 
-
-
-</div>
-
-</div>
-
-<div class="cell code" execution_count="30">
-
-``` python
-art500k_artists = pd.read_csv('save.csv')
-art500k_artists[0:10]
-```
-
-<div class="output execute_result" execution_count="30">
-
-                artist    Nationality                      PaintingSchool                                               ArtMovement                                              Influencedby                                              Influencedon                Pupils                                Teachers                                       FriendsandCoworkers  FirstYear  LastYear         Places  
-    0  Gustave Courbet         French                                 NaN                                            {Realism:272},         Rembrandt,Caravaggio,Diego Velazquez,Peter Pau...         Edouard Manet,Claude Monet,Pierre-Auguste Reno...                   NaN                                     NaN                                                       NaN     1830.0    1877.0            NaN  
-    1    Auguste Rodin         French                                 NaN                        {Modern art:3},{Impressionism:91},                                   Michelangelo,Donatello,         Georgia O'Keeffe,Man Ray,Aristide Maillol,Olex...  Constantin Brancusi,                                     NaN                                                       NaN     1865.0    1985.0            NaN  
-    2      Frida Kahlo        Mexican                                 NaN                  {Naïve Art (Primitivism),Surrealism:99},         Amedeo Modigliani,Diego Rivera,Jose Clemente O...               Judy Chicago,Georgia O'Keeffe,Feminist Art,                   NaN                                     NaN                                                       NaN     1922.0    1954.0            NaN  
-    3           Banksy            NaN                                 NaN                                                       NaN                                                       NaN                                                       NaN                   NaN                                     NaN                                                       NaN     2011.0    2011.0            NaN  
-    4         El Greco  Spanish,Greek                       Cretan School         {Spanish Renaissance:1},{Renaissance:2},{Manne...                                            Byzantine Art,         Expressionism,Cubism,Eugene Delacroix,Edouard ...                   NaN                                 Titian,                                            Giulio Clovio,     1568.0    1614.0            NaN  
-    5     Diego Rivera        Mexican  Mexican Mural Renaissance,La Ruche                            {Social Realism,Muralism:146},                             Marc Chagall,Robert Delaunay,                          Frida Kahlo,Pedro Coronel,Vlady,                   NaN                                     NaN         Amedeo Modigliani,Saturnino Herran,Roberto Mon...     1904.0    1956.0            NaN  
-    6     Claude Monet         French                                 NaN                      {Modern art:3},{Impressionism:1340},         Gustave Courbet,Charles-Francois Daubigny,John...         Childe Hassam,Robert Delaunay,Wassily Kandinsk...                   NaN           Eugene Boudin,Charles Gleyre,         Alfred Sisley,Pierre-Auguste Renoir,Camille Pi...     1858.0    1926.0            NaN  
-    7   Francisco Goya        Spanish                                 NaN                                        {Romanticism:391},                           Albrecht Durer,Diego Velazquez,         Pablo Picasso,Chaim Soutine,Roberto Montenegro...                   NaN         José Luzán,Anton Raphael Mengs,                                                       NaN     1760.0    1828.0            NaN  
-    8     Edvard Munch      Norwegian     Berlin Secession,Degenerate art                            {Symbolism,Expressionism:188},         Paul Gauguin,Vincent van Gogh,Henri de Toulous...         Egon Schiele,Wassily Kandinsky,Ernst Ludwig Ki...                   NaN                            Leon Bonnat,                                               Franz Marc,     1881.0    1944.0            NaN  
-    9    Édouard Manet            NaN                                 NaN                                                       NaN                                                       NaN                                                       NaN                   NaN                                     NaN                                                       NaN     1858.0    1882.0            NaN  
-
-
-</div>
-
-</div>
-
-
-<div class="cell markdown">
-
-Every painting either has East or West origin (or not given).
-
-</div>
-
-<div class="cell code" execution_count="32">
-
-``` python
-rasta_artists = pd.read_csv("save2.csv")
-rasta_artists[0:10]
-```
-
-<div class="output execute_result" execution_count="32">
-
-                                   artist origin school  art_movement  FirstYear         LastYear  Places  
-    0                     Piero di Cosimo   West    NaN           NaN        NaN              NaN     NaN  
-    1        Rembrandt Harmensz. van Rijn   West    NaN           NaN        NaN              NaN     NaN  
-    2        Jacob Isaacksz. van Ruisdael   West    NaN           NaN        NaN              NaN     NaN  
-    3  Francisco José de Goya y Lucientes   West    NaN           NaN        NaN              NaN     NaN  
-    4                    Lucas van Leyden   West    NaN           NaN        NaN              NaN     NaN  
-    5                    Abraham Roentgen   West    NaN           NaN        NaN              NaN     NaN  
-    6                   Hendrick Avercamp   West    NaN           NaN        NaN              NaN     NaN  
-    7                     Hans Bollongier   West    NaN           NaN        NaN              NaN     NaN  
-    8                   Adriaen van Wesel   West    NaN           NaN        NaN              NaN     NaN  
-    9       Jacob Cornelisz van Oostsanen   West    NaN           NaN        NaN              NaN     NaN  
-
-</div>
-
-</div>
-
-<div class="cell markdown">
-
-From this, we could create a network possibly.
-
-<details><summary><u>Something further:</u></summary>
-<p>
-
-https://en.wikipedia.org/wiki/Renaissance (at the bottom)
-https://en.wikipedia.org/wiki/Periods_in_Western_art_history
-    
-</p>
-</details>
-
-</div>
-
-<div class="cell markdown">
-
-### PageRank / Wiki Connections:
-
-Pagerank and WikiLinks are good examples
-
-Wiki Connections: full dataset
-<http://www.iesl.cs.umass.edu/data/data-wiki-links>
-
-smaller dataset: <https://snap.stanford.edu/data/wikispeedia.html>
-
-</div>
-
-<div class="cell markdown">
-
-# Philosophy, Politics
-
-<details><summary><u>Philosophy</u></summary>
-<p>
-
-## Philosopher's web: 
-
-Only available after paying 10$ for pro user
-
-## Philosophy data
-https://philosophydata.com/phil_nlp.zip
-Downloaded, but not used yet, as I see it is NLP data 
-</p>
-</details>
-
-</div>
-
-<div class="cell markdown">
-
-## Network connection example: Six Degrees of Francis Bacon
-
-Network of the people connected to Francis Bacon, sadly the people in
-the set are mostly all born in the 16th century and are English so most
-philosophers in this list are not super relevant, there is no Kant,
-Nietzsche, etc. But good example of a network
-
-<http://www.sixdegreesoffrancisbacon.com/?ids=10000473&min_confidence=60&type=network>
-
-<details><summary><u>Code for obtaining graph</u></summary>
-<p>
-    
-```python
-import igraph as ig #To install: conda install -c conda-forge python-igraph  
-people = pd.read_csv('datasets/SDFB_people_.csv')
-relationships = pd.read_csv('datasets/SDFB_relationships_.csv')
-
-#I used igraph, because it's faster than networkx, and graph-tool sucks on Windows
-network = relationships.rename(columns={'id': 'relationship_id', }).drop(columns=['created_by', 'approved_by', 'citation'])
-print(network.head(), '\n')
-cols = network.columns.tolist()
-cols = cols[1:3] + cols[0:1] + cols[3:]
-network = network[cols]
-network = network[network['person1_index'] != 10050190] #for some reason, there is no person with this id, I did a loop
-# I used the documentation here: https://python.igraph.org/en/stable/generation.html#from-pandas-dataframe-s  this I followed
-# this is important too: https://python.igraph.org/en/stable/api/igraph.Graph.html#DataFrame  
-g = ig.Graph.DataFrame(network, directed=False, vertices=people[['id', 'display_name','historical_significance','birth_year','death_year']], use_vids=False)
-print(g.summary().replace(',', '\n'))
-```
-    
-</p>
-</details>
-<details><summary><u>Code for filtering</u></summary>
-<p>
-    
-```python
-filtered = g.vs.select(_degree = 0) #https://python.igraph.org/en/stable/tutorial.html#selecting-vertices-and-edges
-g.delete_vertices(filtered)
-
-import cairo #Needed for plotting #import cairocffi as cairo  # can do matplotlib too
-#layout = g.layout(layout='auto')
-#ig.plot(g, layout = layout) #ig.plot(g) #looks even worse
-
-```
-    
-</p>
-</details>
-<details><summary><u>Code for obtaining graph</u></summary>
-<p>
-    
-```python
-layout = g.layout(layout='reingold_tilford_circular') #kamada_kawai requires too much computing, 'fruchterman_reingold' is too dense
-visual_style = {}
-visual_style["vertex_size"] = 5
-visual_style["vertex_color"] = "blue"
-visual_style['bbox'] = (900, 900)
-visual_style["layout"] = layout
-#ig.plot(g, **visual_style) #Commented out because it takes big memory
-# Needs improvement, but it's a start
-```
-    
-</p>
-</details>
-
-</div>
-
-<div class="cell markdown">
-
-# Other opportunities for networks:
-
-<https://global.health/> they got nice data on diseases, probably
-time-variant too
-
-<details><summary><u>Monkeypox, ebola</u></summary>
-<p>
-    
-```python
-df3 = pd.read_csv('datasets/monkeypox.csv')
-df4 = pd.read_csv('datasets/ebola.csv')
-df4
-```
-    
-</p>
-</details>
-
-## Modeling of Biological + Socio-tech systems (MOBS) Lab
-
-<https://www.mobs-lab.org/>
-
-</div>
+## License
+This project is licensed under the MIT License, corresponding author: Mihaly Hanics (CEU Vienna, Austria).
