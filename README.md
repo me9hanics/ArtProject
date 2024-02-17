@@ -1,5 +1,4 @@
-```markdown
-# PainterPalette dataset: The (not so) soon-to-be richest public dataset of painters
+# Art Project
 
 <div align="center">
   <a href="https://github.com/me9hanics/PainterPalette?tab=MIT-1-ov-file">
