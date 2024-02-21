@@ -39,7 +39,7 @@ This was turned into a dynamic network and time passes along the horizontal axis
 
 * Time-and-place network:<br>
 <div align="center">
-  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=80% alt="Time-and-place network" >
+  <img src="https://github.com/me9hanics/ArtProject/assets/82604073/63fb8fec-20e0-43db-b974-b7f020028df8" width=80% alt="Time-and-place network" >
 </div>
 
 * Time-and-place network without reordering nodes based on time (older version):<br>
