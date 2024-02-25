@@ -18,10 +18,6 @@ Some visualizations of the resulting networks:
 
 
 
-This was turned into a dynamic network and time passes along the horizontal axis, painters are aligned according to their birth year. This network was built by creating connections between painters if they painted at the same places roughly at the same time, filtering just for strong connections.
-
-
-
 * Movement network:<br>
 <div align="center">
   <img src="https://github.com/me9hanics/ArtProject/assets/82604073/039688be-16f0-4432-bae2-acba9688914b" width=80% alt="Movements network" >
@@ -44,6 +40,8 @@ This was turned into a dynamic network and time passes along the horizontal axis
 <div align="center">
   <img src="https://github.com/me9hanics/ArtProject/assets/82604073/63fb8fec-20e0-43db-b974-b7f020028df8" width=80% alt="Time-and-place network" >
 </div>
+This was turned into a dynamic network and time passes along the horizontal axis, painters are aligned according to their birth year. This network was built by creating connections between painters if they painted at the same places roughly at the same time, filtering just for strong connections.
+
 
 * Time-and-place network without reordering nodes based on time (older version):<br>
 <div align="center">
