@@ -10,14 +10,15 @@ year_index_threshold = 0
 places_threshold = 1.5
 time_place_threshold = 0.4
 
-def plot_network(G, pos, node_size=60, node_color='lightblue', edge_color='gray', width=1, edge_alpha=0.5, labels=False, label_font_size=10):
+def plot_network(G, pos, node_size=60, node_color='lightblue', edge_color='gray', width=1, edge_alpha=0.5, labels=False, label_font_size=10, show=True):
     plt.figure(figsize=(10,10))
     nx.draw_networkx_nodes(G, pos, node_size=node_size, node_color=node_color)
     nx.draw_networkx_edges(G, pos, width=width,alpha=edge_alpha, edge_color=edge_color)
     if labels:
         nx.draw_networkx_labels(G, pos, font_size=label_font_size, font_family='sans-serif')
     plt.axis('off')
-    plt.show()
+    if show:
+        plt.show()
 
 def plot_4_networks_2d_subplots(graphs, titles, layout_params_list=None):
     fig, axes = plt.subplots(2, 2, figsize=(10,10))
