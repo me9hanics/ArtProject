@@ -4,11 +4,10 @@ import matplotlib.pyplot as plt
 from collections import Counter 
 
 birthplace_weight = 0.5; places_weight = 0.4; nationality_weight = 0.8
-weights = [birthplace_weight,places_weight,nationality_weight]
+place_weights = [birthplace_weight,places_weight,nationality_weight]
 
-year_index_threshold = 0
-places_threshold = 1.5
-time_place_threshold = 0.4
+year_index_threshold = 0; places_threshold = 1.5; time_place_threshold = 0.4
+index_thresholds = [year_index_threshold,places_threshold,time_place_threshold]
 
 def plot_network(G, pos, node_size=60, node_color='lightblue', edge_color='gray', width=1, edge_alpha=0.5, labels=False, label_font_size=10, show=True):
     plt.figure(figsize=(10,10))
@@ -66,8 +65,13 @@ def year_index(years1, years2):
     year_index = year_index/(np.min([years1[2]-years1[0],years2[2]-years2[0]])+1)
     return year_index
 
-def place_index(placescount1, placescount2, birthplace1, birthplace2, nationality1, nationality2):
+def place_index(placescount1, placescount2, birthplace1, birthplace2, nationality1, nationality2, weights = None, thresholds = None):
     #Places index
+    if weights is None:
+        weights = place_weights
+    if thresholds is None:
+        thresholds = index_thresholds
+        
     i1 = 0; i2 = 0
     if placescount1 is not np.nan and placescount2 is not np.nan:
         places1_count_tuple = [(x.split(":")[0], int(x.split(":")[1])) if ":" in x else (x, 0) for x in placescount1]
