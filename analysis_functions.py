@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from collections import Counter 
 
-birthplace_weight = 0.5; places_weight = 0.4; nationality_weight = 0.8
-place_weights = [birthplace_weight,places_weight,nationality_weight]
+birthplace_weight = 0.8; places_weight = 1; nationality_weight = 0.3; citizenship_weight = 0.4 #A bit more, as it is more specific
+place_weights = [birthplace_weight,places_weight,nationality_weight, citizenship_weight]
 
 year_index_threshold = 0; places_threshold = 1.5; time_place_threshold = 0.4
 index_thresholds = [year_index_threshold,places_threshold,time_place_threshold]
@@ -47,10 +47,10 @@ def year_index(years1, years2):
     #Year_index: years between first and last year are accounted with weight 1, years between birth and first year are accounted with weight 0.1.
     #For each overlapping year, we add 1 times the weights. Lastly, we divide by the total number of years of the younger artist.
     year_index = 0
-    if(years1[0] > years2[0]):
+    if(years1[0] > years2[0]): #Make sure the second year is the larger
         yearst = years1;years1 = years2;years2 = yearst
     #No overlap
-    if(years1[2] < years2[0]):  #Not needed, but better for computation
+    if(years1[2] < years2[0]): #Not necessary (we'd return 0 anyways) but better for computation
         return 0
     for year in range((years1)[0], np.min([years1[2],years2[2]])+1):
         c = 1
@@ -62,27 +62,25 @@ def year_index(years1, years2):
         if(year<years2[1]):
             c = c*0.2
         year_index += c
-    year_index = year_index/(np.min([years1[2]-years1[0],years2[2]-years2[0]])+1)
+    year_index = year_index/(np.min([years1[2]-years1[0], (years2[2]-years2[0])])+1) #Theoretically, the denominator cannot be 0 or negative 
     return year_index
 
-def place_index(placescount1, placescount2, birthplace1, birthplace2, nationality1, nationality2, weights = None, thresholds = None):
+def place_index_biased(places1, places2, birthplace1, birthplace2, nationality1, nationality2, citizenship1, citizenship2, weights = None, thresholds = None):
     #Places index
     if weights is None:
         weights = place_weights
     if thresholds is None:
         thresholds = index_thresholds
         
-    i1 = 0; i2 = 0
-    if placescount1 is not np.nan and placescount2 is not np.nan:
-        places1_count_tuple = [(x.split(":")[0], int(x.split(":")[1])) if ":" in x else (x, 0) for x in placescount1]
-        places2_count_tuple = [(x.split(":")[0], int(x.split(":")[1])) if ":" in x else (x, 0) for x in placescount2]
-        for tuple1 in places1_count_tuple:
-            for tuple2 in places2_count_tuple:
-                if(tuple1[0] == tuple2[0]):
-                    i1 += tuple1[1]; i2 += tuple2[1]
-        sum1 = np.sum([x[1] for x in places1_count_tuple]); sum2 = np.sum([x[1] for x in places2_count_tuple])
-        i1 = i1/np.min([sum1,25]); i2 = i2/np.min([sum2,25]) #This allows the places to go over 1, as many paintings in one place suggests a strong connection
-        i = np.max([i1,i2])
+    i = 0
+    if places1 and places2:
+        for place1 in places1.split(','):
+            for place2 in places2.split(','):
+                if place1 == place2:
+                    i += 1
+        num_places1 = len(places1); num_places2 = len(places2)
+        block = max(num_places1, num_places2) // 5 #Go in blocks of 5
+        i = i * (0.8**block) #The more places, the less important it is
     else:
         i = 0
     n1 = 0; n2 = 0
@@ -95,7 +93,7 @@ def place_index(placescount1, placescount2, birthplace1, birthplace2, nationalit
                     n1 += 1; n2 += 1
         n = n1*n2/len(nationality1.split(','))/len(nationality2.split(','))
     b = 1 if birthplace1 == birthplace2 else 0
-        
+
     """
         #Note: this codes almost always times out.
         else:
@@ -106,7 +104,69 @@ def place_index(placescount1, placescount2, birthplace1, birthplace2, nationalit
             b = 0; print("Error with birthplaces: ", birthplace1, birthplace2)
     """
 
-    return weights[0]*b + weights[1]*i + weights[2]*n
+    if type(citizenship1) == float or type(citizenship2) == float:
+        c = 0
+    else:
+        if citizenship1 == citizenship2:
+            c = 1
+
+    return weights[0]*b + weights[1]*i + weights[2]*n + weights[3]*c
+
+def index_simple(places1, places2, years1, years2, birthplace1, birthplace2, nationality1, nationality2, citizenship1, citizenship2, active_years_only = False):
+    p = 0
+    if (not places1) or (not places2):
+        return 0
+    #Assuming otherwise
+    for place1 in places1:
+        for place2 in places2:
+            if place1 == place2:
+                p += 1
+    if not type(birthplace1) == float and not type(birthplace2) == float:
+        if birthplace1 == birthplace2:
+            p += 1
+    if not type(nationality1) == float and not type(nationality2) == float:
+        for nat1 in nationality1:
+            for nat2 in nationality2:
+                if nat1 == nat2:
+                    p += 0.3/(len(nationality1)*len(nationality2))
+    if not type(citizenship1) == float and not type(citizenship2) == float:
+        if citizenship1 == citizenship2:
+            p += 0.3
+
+    #Years: Birthyear, first year, last year, death year
+    common_years = 0
+    common_active_years = 0
+    if years1[1] > years2[1]:
+        years_min, years_max = years2, years1
+    else:
+        years_min, years_max = years1, years2
+
+    for i in range(int(years_min[1]), int(years_min[2])+1):
+        if i >= years_max[1] and i <= years_max[2]:
+            common_active_years += 1
+    
+    if years1[0]>years2[0]:
+        years_min, years_max = years2, years1
+    else:
+        years_min, years_max = years1, years2
+
+    for i in range(int(years_min[0]), int(years_min[3])+1):
+        if i >= years_max[0] and i <= years_max[3]:
+            common_years += 1
+
+
+    #Formula: average_common_years / places  *  common_places  -> Dimension: time (which is good, because more time means more connections)
+    if active_years_only:
+        average_common_years_per_place1 = common_active_years/(len(places1))
+        average_common_years_per_place2 = common_active_years/(len(places2))
+    else:
+        average_common_years_per_place1 = common_years/(len(places1))
+        average_common_years_per_place2 = common_years/(len(places2))
+    
+    return (average_common_years_per_place1 + average_common_years_per_place2) * p
+
+
+    
 
 
 
