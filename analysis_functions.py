@@ -114,13 +114,14 @@ def place_index_biased(places1, places2, birthplace1, birthplace2, nationality1,
 
 def index_simple(places1, places2, years1, years2, birthplace1, birthplace2, nationality1, nationality2, citizenship1, citizenship2, active_years_only = False):
     p = 0
-    if (not places1) or (not places2):
-        return 0
-    #Assuming otherwise
-    for place1 in places1:
-        for place2 in places2:
-            if place1 == place2:
-                p += 1
+ 
+    if (type(places1) != float and type(places2) != float):
+        #Assuming not np.nan, but list
+        for place1 in places1:
+            for place2 in places2:
+                if place1 == place2:
+                    p += 1
+
     if not type(birthplace1) == float and not type(birthplace2) == float:
         if birthplace1 == birthplace2:
             p += 1
@@ -133,7 +134,7 @@ def index_simple(places1, places2, years1, years2, birthplace1, birthplace2, nat
         if citizenship1 == citizenship2:
             p += 0.3
 
-    #Years: Birthyear, first year, last year, death year
+    #Years: Birthyear, first year, last year, death year. Assumed all four are given
     common_years = 0
     common_active_years = 0
     if years1[1] > years2[1]:
