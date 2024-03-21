@@ -158,11 +158,11 @@ def index_simple(places1, places2, years1, years2, birthplace1, birthplace2, nat
 
     #Formula: average_common_years / places  *  common_places  -> Dimension: time (which is good, because more time means more connections)
     if active_years_only:
-        average_common_years_per_place1 = common_active_years/(len(places1))
-        average_common_years_per_place2 = common_active_years/(len(places2))
+        average_common_years_per_place1 = common_active_years/(len(places1)) if len(places1) > 0 else 0
+        average_common_years_per_place2 = common_active_years/(len(places2)) if len(places2) > 0 else 0
     else:
-        average_common_years_per_place1 = common_years/(len(places1))
-        average_common_years_per_place2 = common_years/(len(places2))
+        average_common_years_per_place1 = common_years/(len(places1)) if len(places1) > 0 else 0
+        average_common_years_per_place2 = common_years/(len(places2)) if len(places2) > 0 else 0
     
     return (average_common_years_per_place1 + average_common_years_per_place2) * p
 
