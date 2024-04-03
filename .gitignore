@@ -3,5 +3,6 @@
 /*.gif
 /__pycache__/
 /Dockerfile
-/devcontainer*
+/.devcontainer*
+/.github
 /dataviz
