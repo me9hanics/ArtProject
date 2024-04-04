@@ -122,6 +122,8 @@ def get_female_percentage(artists_df):
                 return None
     return 100*values['female'] / values_known
 
+########## Plot functions
+
 def plot_deg_distr_lin(degrees, ax=None, label_turnoff = False, ticks_list = None):
     import powerlaw as pwl
 
