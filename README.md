@@ -1,7 +1,5 @@
 
-<div class="cell markdown">
-
-# Networks of Painters: Creating links between painters, styles, and art movements based on the PainterPalette dataset
+# ArtProject - painter networks: Creating links and analyzing networks of painters, styles, and art movements based on the PainterPalette dataset
 
 <div align="center">
   <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=70% alt="Painter Network">
@@ -11,7 +9,7 @@
   <img src="https://raw.githubusercontent.com/me9hanics/ArtProject/main/analysis/images/3000_painters_connected_by_locations_communities_2.png" width=70% alt="Painter connections by locations - 3000 painters">
 </div>
 
-<hr>
+
 This project aims to understand the connections between painters and art styles. Originally, this included creating a painter dataset, but this evolved into a seperate project called [PainterPalette](https://github.com/me9hanics/PainterPalette). These notebooks use the PainterPalette dataset, creating links between painters based on similarity of style, geographical and social interaction, and also connections between styles and movements.
 
 There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
@@ -19,7 +17,7 @@ There have been multiple networks created by us of painters (based on being at t
 **REDO PLAN**: From 2024.03.02 the analyses will be repeated. This is because PainterPalette now has more painters, data and cleaner attributes, taking more painters from Art500k, the analyses shall be re-done too). It will be better organized and simplified.
 
 
-Some visualizations of the resulting networks:
+Some old analysis (2023)/visualizations of the resulting networks:
 
 
 
@@ -118,8 +116,12 @@ I used Pandas+Numpy for storing and manipulating the data, NetworkX for creating
 
 ## Results:
 
+Updated analysis: *coming soon*
+
+Old analysis:
+
 <div align='center'>
-  <img src="visualizations/connections_stat.png" width=49% alt="Connections analysis" > <img src="visualizations/triangles_stat.png" width=49% alt="Triangles analysis" >  <img src="visualizations/degree_distributions.png" width=56.62% alt="Degree distribution" >  <img src="visualizations/power_law_fits.png" width=42.38% alt="Power law fits" > <img src="visualizations/graphs_stat.png" width=100% alt="Networks statistics" > <img src="visualizations/tt_framework_slide1.png" width=70% alt="Dynamic framework TT slide 1" > <img src="visualizations/tt_framework_slide2.png" width=70% alt="Dynamic framework TT slide 2" >
+  <img src="old analysis (2023)/visualizations/connections_stat.png" width=49% alt="Connections analysis" > <img src="old analysis (2023)/visualizations/triangles_stat.png" width=49% alt="Triangles analysis" >  <img src="old analysis (2023)/visualizations/degree_distributions.png" width=56.62% alt="Degree distribution" >  <img src="old analysis (2023)/visualizations/power_law_fits.png" width=42.38% alt="Power law fits" > <img src="old analysis (2023)/visualizations/graphs_stat.png" width=100% alt="Networks statistics" > <img src="old analysis (2023)/visualizations/tt_framework_slide1.png" width=70% alt="Dynamic framework TT slide 1" > <img src="old analysis (2023)/visualizations/tt_framework_slide2.png" width=70% alt="Dynamic framework TT slide 2" >
 </div>
 
 **<u>*TL;DR:*</u>**<br>
