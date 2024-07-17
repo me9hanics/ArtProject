@@ -14,11 +14,11 @@ This project aims to understand the connections between painters and art styles.
 
 There have been multiple networks created by us of painters (based on being at the same places at the same time+nationality, additionally style similarity, or who influenced whom networks). We also created a network of styles and movements.
 
-**REDO PLAN**: From 2024.03.02 the analyses will be repeated. This is because PainterPalette now has more painters, data and cleaner attributes, taking more painters from Art500k, the analyses shall be re-done too). It will be better organized and simplified.
+**REDO**: From 2024.03.02 the analyses were repeated, because PainterPalette now has more painters, data and cleaner attributes, taking more painters from Art500k. Now organized a bit better and simplified.<br>
+More fresh analysis coming soon (summer-autumn 2024).
 
 
 Some old analysis (2023)/visualizations of the resulting networks:
-
 
 
 * Movement network:<br>
