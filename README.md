@@ -120,23 +120,23 @@ The artists.csv file contains all information about painters, each row represent
 
 More description: *coming soon*
 
-**Analysis from the *painter * repository**:
+<br>**Analysis from the *painter-network-exploration* repository**:
 
 The network is highly assortative, and omits to rich-club behaviour at high degrees.<br>
-![Assortativity, rich club behaviour](images/knn_rich_club.png)
+![Assortativity, rich club behaviour](painter-network-exploration/images/knn_rich_club.png)
 
 Alpha values for power-law fits are rather high: these two plots are for the thresholds at 5 and 20, having alpha values 12 and 5, respectively, much higher than the typical [2,3] range:<br>
-![Degree distribution](images/degree_distributions.png)
+![Degree distribution](painter-network-exploration/images/degree_distributions.png)
 
 When taking a snapshot of this longitudinal network, the power-law fit picks up a more realistic $\alpha=3.6$ value:<br>
-![1850-1950 snapshot degree and closeness centrality distributions](images/snapshot_centralities.png)
+![1850-1950 snapshot degree and closeness centrality distributions](painter-network-exploration/images/snapshot_centralities.png)
 
 
 *Communities*:
 
 <div align='center'>
-  <img src="painter-network-exploration/images/female_artists_in_communities.png" width=48% alt="Female representation per community (3000 artists)" >
-  <img src="painter-network-exploration/images/distribution_of_gender_per_century_boxplot.png" width=48% alt="Distribution of females in communities per century (3000 artists), boxplot" ><br>
+  <img src="painter-network-exploration/images/communities_females_percentage.png" width=48% alt="Female representation per community (3000 artists)" >
+  <img src="painter-network-exploration/images/communities_females_time_boxplot.png" width=48% alt="Distribution of females in communities per century (3000 artists), boxplot" ><br>
   Distribution of females per community (3000 artists), and distribution of females per century (3000 artists)<br>
 </div>
 
