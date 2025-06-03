@@ -35,6 +35,11 @@ Construction of networks can be found usually in the same notebooks.
 
 If you are looking for a relational dataset of paintings and painters instead, with institutions, styles, and movements, I wrote an SQL script to build a relational database: [Paintings-Painters-SQL](https://github.com/me9hanics/DataEngineering-SQL/blob/main/Term1/operational_layer_data_processing.sql) (change the file paths and download the data in the datasets folder). A KNIME pipeline for creating a coexhibition network and seemlessly periodically loading it into a Neo4j database is also available [in this subrepo](https://github.com/me9hanics/DataEngineering-SQL/tree/main/Term2#painter-coexhibition-network-creation-and-analytics-using-neo4j-and-knime) along with data and presentation slides.
 
+### Edge strength measure
+
+$$ TLSI = \frac{{\text{{common years (in their lifetime)}}}}{{\text{{amount of places}}}} \times \text{{amount of common places}} $$
+
+
 ### *Networks*
 
 Multiple painters networks were created:
