@@ -2,19 +2,36 @@
 **Large scale painter network analysis:<br>Creating and analyzing networks of painters, styles, and art movements, based on the PainterPalette dataset**
 
 <div align="center">
-  <img src="analysis/images/poster.png" width=90% alt="Poster of the project">
+  <img src="analysis/images/poster.jpg" width=90% alt="Poster of the project">
   <img src="https://github.com/me9hanics/ArtProject/assets/82604073/7690b7fc-b46e-4e27-ae98-7aa8bc046dc5" width=45% alt="Painter Network">
   <img src="https://raw.githubusercontent.com/me9hanics/ArtProject/main/analysis/images/3000_painters_connected_by_locations_communities_2.png" width=45% alt="Painter connections by locations - 3000 painters">
 </div>
 
+## NetSci 2025
+
+If you've come here from the NetSci 2025 conference slides, thank you for attending! Here are links to the works:
+
+- [PainterPalette](https://github.com/me9hanics/PainterPalette?tab=readme-ov-file#painterpalette) dataset of 10000 painters (.csv file), download `csv/Excel/SQL` [here](https://github.com/me9hanics/PainterPalette/releases/tag/v1.0.3)
+- Network of 3000 painters: Download `graphml` file from the same [link](https://github.com/me9hanics/PainterPalette/releases/tag/v1.0.3).
+  - The implementation of creating the network based on approximating which pair of artists likely lived at the same place at the same time (for long enough), is available in the [painter-network-exploration](https://github.com/me9hanics/painter-network-exploration?tab=readme-ov-file#painter-network-exploration) repository.
+- [Using Wikidata to gather extensive information](https://github.com/me9hanics/wikidata-SparQL-data-collection) about historical people
+- [NetSci 2025 presentation](https://me9hanics.github.io/projects/NetSci2025_PainterNetwork.pptx)
+- [Coexhibition network of artists](https://github.com/me9hanics/e-flux_scraping_coexhibition_networks?tab=readme-ov-file#coexhibition-network) from web scraped e-flux.com data and PainterPalette - explainging the solution in great depth
+- Collection of art analyses I was involved in [ArtProject](https://github.com/me9hanics/ArtProject)
+- A [SQL script](https://github.com/me9hanics/paintings-SQL-data-warehouse?tab=readme-ov-file#painters-paintings-institutions-and-styles-an-sql-database-with-an-etl-pipeline-and-analytics) creating a database of painters, paintings, styles, movements and institutions (outdated)
+- Graph database: [Neo4j painter coexhibition network storing](https://github.com/me9hanics/Neo4j-KNIME-coexhibition-network-pipeline?tab=readme-ov-file#painter-coexhibition-network-creation-and-analytics-using-neo4j-and-knime) and analysis, based on a pipeline designed in KNIME
+- [Website](https://me9hanics.github.io/projects/painterpalette.html) under construction 
+
+For any questions on how you could take ideas and use them in your project, just contact me on my personal e-mail.
+
 ## Description
 
-<br> This project studies the connections between painters on large networks, and between art styles. As of 2025, it is a collection of different works (across multiple repositories of mine), each analyzing painter networks, alongside this repository with analysis of movements and styles; and outdated painter network analysis (for an updated version, see the )<br>
-Originally, this included creating the painter dataset for the analysis, but this evolved into a seperate project called [PainterPalette](https://github.com/me9hanics/PainterPalette) that has already collected extensive data of 10000 painters with ~30 attributes of various categories: <br>
-biography data such as nationality, citizenship, gender, birth and death places and dates,<br>
-artistic style data (e.g. number of paintings per style for a painter) with quantities,<br>
-locations of activity with years, list of occupations,<br>
-social network (teachers and pupils, some friends and coworkers, influences), painting school affiliations.
+<br> This project studies the connections between painters on large networks, and between art styles. As of 2025, it is a collection of different works (across multiple repositories of mine), each analyzing painter networks, alongside this repository with analysis of movements and styles; and outdated painter network analysis (for an updated version, see the [painter-network-exploration](https://github.com/me9hanics/painter-network-exploration?tab=readme-ov-file#painter-network-exploration) repository.)<br>
+Originally, this work included creating the painter dataset for the analysis, but that evolved into a seperate project called [PainterPalette](https://github.com/me9hanics/PainterPalette) that has already collected extensive data of 10000 painters with ~30 attributes of various categories: <br>
+- biography data such as nationality, citizenship, gender, birth and death places and dates,<br>
+- artistic style data (e.g. number of paintings per style for a painter) with quantities,<br>
+- locations of activity with years, list of occupations,<br>
+- social network (teachers and pupils, some friends and coworkers, influences), painting school affiliations.
 
 This work uses the above mentioned PainterPalette dataset.
 
