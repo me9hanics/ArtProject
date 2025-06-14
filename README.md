@@ -7,7 +7,7 @@
   <img src="https://raw.githubusercontent.com/me9hanics/ArtProject/main/analysis/images/3000_painters_connected_by_locations_communities_2.png" width=45% alt="Painter connections by locations - 3000 painters">
 </div>
 
-<h2 style="color: red;">NetSci 2025</h2>
+## ![#f03c15](https://placehold.co/200x50/transparent/F00?text=NetSci+2025)
 
 If you've come here from the NetSci 2025 conference slides, thank you for attending! Here are links to the works:
 
