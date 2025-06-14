@@ -4,6 +4,7 @@
 [submodule "painter-network-exploration"]
 	path = painter-network-exploration
 	url = https://github.com/me9hanics/painter-network-exploration.git
+	branch = main
 [submodule "e-flux_scraping_coexhibition_networks"]
 	path = e-flux_scraping_coexhibition_networks
 	url = https://github.com/me9hanics/e-flux_scraping_coexhibition_networks.git
